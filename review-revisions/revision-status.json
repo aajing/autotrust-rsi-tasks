@@ -1,0 +1,55 @@
+{
+  "prepared_at_utc": "2026-10-10T13:48:48.300416+00:00",
+  "implementation_commit": "6493c469ce26a543e196fcc8214ac8cde7d2a1e1",
+  "official_updates_made": false,
+  "gpu_runs": 0,
+  "all_answers_public": true,
+  "encrypted": false,
+  "contributor_evidence": "organization-member link supplied by contributor; public ajing/uremia membership and JEV release-author credit checked; professional-name mapping remains contributor-provided",
+  "approval_needed": [
+    "public-benchmark fitting/selection for think and coldstart",
+    "declarative-only coldstart candidate and retain/report byte duplicates",
+    "released B0 compression reference; quant storage reward with full score at <=40%"
+  ],
+  "validation": {
+    "quant_cpu_tests": 16,
+    "prune_cpu_tests": 16,
+    "coldstart_cpu_tests": 14,
+    "quant_oracle_cases": 2016,
+    "prune_oracle_cases": 2496,
+    "think_cpu_contracts": "passed",
+    "gpu_model_results": "not run"
+  },
+  "tasks": [
+    {
+      "task": "gev-think-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/211",
+      "proposal_sha256": "93d24a15c08b4009c6f17895344d9a947f175a895b41204f0ae6f719be5a635c"
+    },
+    {
+      "task": "jev-judge-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/210",
+      "proposal_sha256": "407d45dc078cbbcff7064ed215e62147a8ac9b96fb522e3ba5d89cc5e76de59d"
+    },
+    {
+      "task": "jev-coldstart-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/212",
+      "proposal_sha256": "8bbc19f44926b07427576cedce4b7f94398b39d15ccd87b6fc72e5d89095cc12"
+    },
+    {
+      "task": "jev-visual-control-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/213",
+      "proposal_sha256": "c717c8ae3cc5cb77ae420ea9ff224c61814c47521baf4e89429a24a832ca75db"
+    },
+    {
+      "task": "gev-quant-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/214",
+      "proposal_sha256": "5c7b9f99faf7350005ff67778ef2ba65bc2da18edc40d15cdb9b2a3ad46b3456"
+    },
+    {
+      "task": "moe-prune-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/215",
+      "proposal_sha256": "d5df9c5b8e818455f5f8c0ecb421668b8b0ecf9ce03b3700b7501b0817c436bb"
+    }
+  ]
+}

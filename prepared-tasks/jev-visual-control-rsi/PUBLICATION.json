@@ -1,9 +1,11 @@
 {
   "repository": "https://github.com/aajing/autotrust-rsi-tasks",
-  "implementation_commit": "2a7512d966938d4618dec533c1851f8b561c6a0d",
+  "implementation_commit": "6493c469ce26a543e196fcc8214ac8cde7d2a1e1",
   "path": "prepared-tasks/jev-visual-control-rsi",
-  "source_url": "https://github.com/aajing/autotrust-rsi-tasks/tree/2a7512d966938d4618dec533c1851f8b561c6a0d/prepared-tasks/jev-visual-control-rsi",
+  "source_url": "https://github.com/aajing/autotrust-rsi-tasks/tree/6493c469ce26a543e196fcc8214ac8cde7d2a1e1/prepared-tasks/jev-visual-control-rsi",
   "evaluation_answers_public": true,
   "encrypted": false,
-  "official_submission_status": "not submitted to official review"
+  "official_submission_status": "initial review Reject; revision draft published for contributor review, not resubmitted",
+  "prior_implementation_commit": "2a7512d966938d4618dec533c1851f8b561c6a0d",
+  "official_discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/213"
 }

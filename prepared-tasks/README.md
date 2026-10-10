@@ -1,6 +1,6 @@
 # AutoTrust RSI research proposals
 
-Six English task proposals and complete public preparation materials for **Jing Qiu**, **ajing@autotrust.ai**, GitHub `aajing`. Prepared 10 October 2026. These six proposals have been **submitted to official review**; [current receipt](../official-submissions/README.md) records their links and the latest observed results. This repository is a proposal handoff, not a claim that official tasks or GPU experiments have already run.
+Six English task proposals and complete public preparation materials for **Jing Qiu**, **ajing@autotrust.ai**, GitHub `aajing`. Prepared 10 October 2026. The first versions were **submitted to official review and rejected**. The current copies are revision drafts awaiting confirmation of changed scientific contracts; [current receipt](../official-submissions/README.md) records their links and the latest observed results. This repository is a proposal handoff, not a claim that official tasks or GPU experiments have already run.
 
 | Task | Learning / development / evaluation | Research target |
 | --- | --- | --- |
@@ -11,7 +11,7 @@ Six English task proposals and complete public preparation materials for **Jing 
 | [gev-quant-rsi](gev-quant-rsi/proposal.md) | 1,152 / 288 / 576 | Allocate quantization precision while preserving generative and decision behavior |
 | [moe-prune-rsi](moe-prune-rsi/proposal.md) | 1,536 / 384 / 576 | Prune experts and recover mixed-task quality under fixed compute and quality gates |
 
-Every evaluation input, answer, seed, generated scene, reference certificate and scoring function prepared for these tasks is public. There is **no encrypted archive, password, secret answer pack or withheld evaluation seed**. Work exports expose the complete public assets. Fitting remains limited to the specified learning split; development supports method selection. Submitted methods must follow their input interfaces and may not embed answer tables or read labels at inference. Those are audit rules, not guarantees that public data cannot be memorized. Results are optimization findings on disclosed fixed benchmarks, not secret-test generalization evidence.
+Every evaluation input, answer, seed, generated scene, reference certificate and scoring function prepared for these tasks is public. There is **no encrypted archive, password, secret answer pack or withheld evaluation seed**. Work exports expose the complete public assets. The think and coldstart revisions explicitly allow fitting and selection on all disclosed splits; other tasks retain their stated data-use boundaries. Submitted methods must follow their input interfaces and may not embed answer tables or read labels at inference. Those are audit rules, not guarantees that public data cannot be memorized. Results are optimization findings on disclosed fixed benchmarks, not secret-test generalization evidence.
 
 Each package includes the official 28-field proposal, source pins, baseline materializer, modification bounds, score/full-mark rules, budget, data construction, scoring code, CPU contract checks and execution instructions. Native decision models motivate the methods; evaluation includes general Python, SQL, numerical reasoning, workflows, visual tasks and recommendation, rather than only decision-model benchmarks.
 

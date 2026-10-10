@@ -1,67 +1,105 @@
 {
-  "reviewed_at_utc": "2026-10-10T12:55:11.908425+00:00",
-  "scope": "28-field format, English text, contributor identity, plain GitHub URLs and package-copy consistency; CPU checks recorded separately",
-  "submission_status": "not submitted to official review; public publication tracked separately",
+  "reviewed_at_utc": "2026-10-10T13:48:48.338554+00:00",
+  "scope": "28-field format, English text, contributor metadata, plain GitHub URLs and package-copy consistency only; not verification of identity, expertise, scientific validity or acceptance",
+  "submission_status": "Local proposal copies may be revisions not yet posted. Exact submitted bodies and official decisions are in official-submissions/.",
+  "observed_official_reviews": [
+    {
+      "task": "gev-think-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/211",
+      "official_decision": "Reject",
+      "review_status": "review completed"
+    },
+    {
+      "task": "jev-judge-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/210",
+      "official_decision": "Reject",
+      "review_status": "review completed"
+    },
+    {
+      "task": "jev-coldstart-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/212",
+      "official_decision": "Reject",
+      "review_status": "review completed"
+    },
+    {
+      "task": "jev-visual-control-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/213",
+      "official_decision": "Reject",
+      "review_status": "review completed"
+    },
+    {
+      "task": "gev-quant-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/214",
+      "official_decision": "Reject",
+      "review_status": "review completed"
+    },
+    {
+      "task": "moe-prune-rsi",
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/215",
+      "official_decision": "Reject",
+      "review_status": "review completed"
+    }
+  ],
   "current_official_template_blob": "0f8d6537a413156eb286a0ca66e09b6491291a5f",
   "files": [
     {
       "file": "gev-think-rsi.md",
-      "sha256": "2a3e29eb7248073c29b45d7694b87e42180b9f1d3a566f59908f56e8cca8b3d2",
-      "word_count": 2493,
+      "sha256": "93d24a15c08b4009c6f17895344d9a947f175a895b41204f0ae6f719be5a635c",
+      "word_count": 2470,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
-      "marked_not_submitted": true,
+      "contributor_metadata_present": true,
       "package_copy_identical": true
     },
     {
       "file": "jev-judge-rsi.md",
-      "sha256": "637cc36ecdc0a890b993fea89533e7c8ba3db7200520a6892242719f8dedca0a",
-      "word_count": 2517,
+      "sha256": "407d45dc078cbbcff7064ed215e62147a8ac9b96fb522e3ba5d89cc5e76de59d",
+      "word_count": 2568,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
-      "marked_not_submitted": true,
+      "contributor_metadata_present": true,
       "package_copy_identical": true
     },
     {
       "file": "jev-coldstart-rsi.md",
-      "sha256": "a58c445f069bfd5fb1c2c59ebe40e5c9a7321b374e4c8f461e7f57440e62596f",
-      "word_count": 2421,
+      "sha256": "8bbc19f44926b07427576cedce4b7f94398b39d15ccd87b6fc72e5d89095cc12",
+      "word_count": 2580,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
-      "marked_not_submitted": true,
+      "contributor_metadata_present": true,
       "package_copy_identical": true
     },
     {
       "file": "jev-visual-control-rsi.md",
-      "sha256": "7a45f6b5a4d6d7250c998c8e49edfbd190a42a04240d8dbd6439ef3b6f8ffa63",
-      "word_count": 3091,
+      "sha256": "c717c8ae3cc5cb77ae420ea9ff224c61814c47521baf4e89429a24a832ca75db",
+      "word_count": 3137,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
-      "marked_not_submitted": true,
+      "contributor_metadata_present": true,
       "package_copy_identical": true
     },
     {
       "file": "gev-quant-rsi.md",
-      "sha256": "cdea71ae19e573e660cae66d6ce18e9573a87666ee76cd38717690507760e31a",
-      "word_count": 2466,
+      "sha256": "5c7b9f99faf7350005ff67778ef2ba65bc2da18edc40d15cdb9b2a3ad46b3456",
+      "word_count": 2788,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
-      "marked_not_submitted": true,
+      "contributor_metadata_present": true,
       "package_copy_identical": true
     },
     {
       "file": "moe-prune-rsi.md",
-      "sha256": "b3977bda13695b05d8d4ffe17bbd48ce3446f128c94394037d66a286219dd69d",
-      "word_count": 2380,
+      "sha256": "d5df9c5b8e818455f5f8c0ecb421668b8b0ecf9ce03b3700b7501b0817c436bb",
+      "word_count": 2617,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
-      "marked_not_submitted": true,
+      "contributor_metadata_present": true,
       "package_copy_identical": true
     }
   ],
@@ -75,7 +113,7 @@
     "Source pins, baseline materializers, scoring contracts and runbooks prepared"
   ],
   "not_performed": [
-    "Official proposal submission",
+    "Submission of these local revisions",
     "GPU/model inference or training",
     "Full Simulacra image archive download",
     "H100 runtime/latency measurements",
