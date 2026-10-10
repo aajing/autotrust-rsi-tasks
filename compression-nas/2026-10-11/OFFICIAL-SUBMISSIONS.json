@@ -57,9 +57,12 @@
       "number": 221,
       "url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/221",
       "actual_title": "Calibrated Static FP8 Activations for Multimodal Inference",
-      "review_status": "queued_or_in_progress",
-      "task_preparation_status": "not_started",
-      "remote_body_sha256": "c11dcf6819601eb4b493b37ec63e8ba2ae5af0b8b35ab1ff559665897ef91832"
+      "review_status": "pass",
+      "task_preparation_status": "building",
+      "remote_body_sha256": "c11dcf6819601eb4b493b37ec63e8ba2ae5af0b8b35ab1ff559665897ef91832",
+      "current_proposal_review_sha256": "185cdd82a29149007c5ca0a4aaa9984bdcf9ce47450f9dd803f1362d3f389255"
     }
-  ]
+  ],
+  "last_review_status_checked_at_utc": "2026-10-10T17:43:26.803943+00:00",
+  "official_proposal_review_pass_count": 6
 }
