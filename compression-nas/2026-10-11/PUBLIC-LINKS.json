@@ -1,320 +1,341 @@
 {
   "repository": "https://github.com/aajing/autotrust-rsi-tasks",
-  "support_commit": "965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa",
+  "support_commit": "7cd34aef7e2e17ef45f240be9dd53934c5571d6b",
   "official_submission": false,
   "tasks": [
     {
       "task": "kv-cache-rsi",
-      "support_commit": "965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa",
-      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/kv-cache-rsi",
+      "support_commit": "7cd34aef7e2e17ef45f240be9dd53934c5571d6b",
+      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi",
       "files": [
         {
           "path": "task.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/kv-cache-rsi/task.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi/task.json",
           "sha256": "a24ebece9b7a8d105f3f1b698b87e758d442aa4ee74aed8b7cc6c121fe366e3c"
         },
         {
           "path": "DATA.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/kv-cache-rsi/DATA.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi/DATA.md",
           "sha256": "12558bfdc15ac4dfe5708ef552e85bc9f91a62cb85b27a9e9324de4b9a9aa70b"
         },
         {
           "path": "INTEGRATION.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/kv-cache-rsi/INTEGRATION.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi/INTEGRATION.md",
           "sha256": "0b1524d8564f7da4ceeefefbe6dea4ea1c993704fb9beb3131f51e60926ae236"
         },
         {
           "path": "SOURCES.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/kv-cache-rsi/SOURCES.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi/SOURCES.md",
           "sha256": "51154ab112654176ee86ff91cdf32a6b4bf08b167c61513dfc24e0f2a6c6b06a"
         },
         {
           "path": "scoring.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/kv-cache-rsi/scoring.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi/scoring.py",
           "sha256": "4e2e85f769998a91b6dece579c84cbc2d8ad329693beb68085ee42b7561bb6a0"
         },
         {
           "path": "data-manifest.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/kv-cache-rsi/data-manifest.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi/data-manifest.json",
           "sha256": "1a4fa53eb61225bbb14f7c0c31b3660412cd8509dc420a5374c8ea12f180e65f"
         },
         {
           "path": "materialize_data.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/kv-cache-rsi/materialize_data.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi/materialize_data.py",
           "sha256": "118b5506fe00e5d9110cd1d9dc6b9d4a9bec8b0d723396cfbff24d5488a5bb36"
         },
         {
           "path": "SOURCE-NOTICES.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/kv-cache-rsi/SOURCE-NOTICES.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi/SOURCE-NOTICES.md",
           "sha256": "8d6a2fcafe7990b023f9324b4a8ab98f646276daf77fc72f55474e0bdd55d6f3"
+        },
+        {
+          "path": "EXPERTISE.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/kv-cache-rsi/EXPERTISE.md",
+          "sha256": "7ec54fa4745e3307059c9dee994b902f37dc03de2958f905354923272c514896"
         }
       ],
-      "proposal_sha256": "ecb59de0b6173f279707107bf5d6fdaf2b9837167dede734b14f864f8c0a5749"
+      "proposal_sha256": "1c1bf9ea0b84a2d909882f1f0fdd487e68980346469c640cc86cdc74c7db3410"
     },
     {
       "task": "vl-activation-quant-rsi",
-      "support_commit": "965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa",
-      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi",
+      "support_commit": "7cd34aef7e2e17ef45f240be9dd53934c5571d6b",
+      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi",
       "files": [
         {
           "path": "task.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/task.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/task.json",
           "sha256": "8d0e35b05334eae345c04b5e581fa20404c44987496e1a5d48d5580bc32428d4"
         },
         {
           "path": "DATA.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/DATA.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/DATA.md",
           "sha256": "f85c4cd6d7ddc92e327f8e6741c25ddd5966af06edd6c1a7b8c5df8b4f9c9918"
         },
         {
           "path": "INTEGRATION.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/INTEGRATION.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/INTEGRATION.md",
           "sha256": "15d28694b7b6869fb448aa3d26e9567893afc30d2bdd240a1a4108acc897bbe7"
         },
         {
           "path": "SOURCES.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/SOURCES.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/SOURCES.md",
           "sha256": "0d9ab9b7e8b338cb27fac6fb0664b41055b49ad97e6d0a0aac640af559dd6e6f"
         },
         {
           "path": "scoring.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/scoring.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/scoring.py",
           "sha256": "4e2e85f769998a91b6dece579c84cbc2d8ad329693beb68085ee42b7561bb6a0"
         },
         {
           "path": "data-manifest.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/data-manifest.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/data-manifest.json",
           "sha256": "6bab72141003915116ae4136a88d171dc5aebcdfa21475fbe5598982dac33647"
         },
         {
           "path": "data/chartqa-selected.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/data/chartqa-selected.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/data/chartqa-selected.json",
           "sha256": "f6660b8e676eb21394cc7144cdd388adad9e4c9f68370a447722b7a86e42649b"
         },
         {
           "path": "data/screenspot-selected.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/data/screenspot-selected.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/data/screenspot-selected.json",
           "sha256": "e11349ed9133b9971e78d77baebbec667a6c2a57a08cec89ad9a509f293015f6"
         },
         {
           "path": "data/chartqa-image-hashes.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/data/chartqa-image-hashes.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/data/chartqa-image-hashes.json",
           "sha256": "ffa617cacc4479f894ec0c557f1f37aed73d209bd69798fc2767ef2bf1262eae"
         },
         {
           "path": "prepare_images.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/vl-activation-quant-rsi/prepare_images.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/prepare_images.py",
           "sha256": "0f241db553cc2f18e109ea0063ce0011c35027fa6ab70b82d327e795ed4e9490"
+        },
+        {
+          "path": "EXPERTISE.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/vl-activation-quant-rsi/EXPERTISE.md",
+          "sha256": "1b642142f9a2133b3505ef44e1ae7b67cd30d7f4b06fb50ef685a17f0b736321"
         }
       ],
-      "proposal_sha256": "432c69ac52c9698f0df9f2e07f433c664d54a895abf6ce8ae4ca74b778e0f52e"
+      "proposal_sha256": "09192c2d76a145941b00133e59f70ee8cc3bfebda2b963cd69fb7abe2dfc9b94"
     },
     {
       "task": "lowrank-compress-rsi",
-      "support_commit": "965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa",
-      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi",
+      "support_commit": "7cd34aef7e2e17ef45f240be9dd53934c5571d6b",
+      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi",
       "files": [
         {
           "path": "task.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi/task.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi/task.json",
           "sha256": "0f06f2d7206b4d2e385562290915cad7bed8fb2ed0499bb66861f8d4b071fb85"
         },
         {
           "path": "DATA.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi/DATA.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi/DATA.md",
           "sha256": "689affdbeec8056c7d9eca078ae3d43012070ae9e68493ed1ef59c2788cd8777"
         },
         {
           "path": "INTEGRATION.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi/INTEGRATION.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi/INTEGRATION.md",
           "sha256": "cbc5e9c3ed105c4785e75112e36a5c8b3a8851362d0ce580875ae7026618aac2"
         },
         {
           "path": "SOURCES.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi/SOURCES.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi/SOURCES.md",
           "sha256": "3ee879b89aa96ec0a65b9cadf797723715db915c2531f0ac8feb1fbd001946cb"
         },
         {
           "path": "scoring.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi/scoring.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi/scoring.py",
           "sha256": "441dbcb02c594aca9eb39f1dc0a2a8d644f91e46f427dfd42f605e430f15838f"
         },
         {
           "path": "data/manifest.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi/data/manifest.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi/data/manifest.json",
           "sha256": "e1d4c6a289600f9597e71c6dfd9d75c1b366518bd50487397abe4d2322bddd11"
         },
         {
           "path": "prepare_data.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi/prepare_data.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi/prepare_data.py",
           "sha256": "a7dc1cfc7fa30726c7c3eb0522976a276f6aaadc50f09ab6b4fe23797fd08c85"
         },
         {
           "path": "evidence/cardinality.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi/evidence/cardinality.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi/evidence/cardinality.json",
           "sha256": "944f30636c2cc79ed86843422634ee323d4075083be0c3d762f4b909f485454e"
         },
         {
           "path": "evidence/source-lock.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/lowrank-compress-rsi/evidence/source-lock.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/lowrank-compress-rsi/evidence/source-lock.json",
           "sha256": "5a3fefa3ac406ac82403bbd9b2494a74ce4465597fb8b36a5b0a56b9516037ea"
         }
       ],
-      "proposal_sha256": "8f8ed8f93ea8aede18bc1d61d19c9bef19375d7c20c457bd766be760b7724a6e"
+      "proposal_sha256": "19479ed81e94f8fd85c8f3e0b0a63ff4858c1fa403ed2193f06a25d1bb108507"
     },
     {
       "task": "sparse24-rsi",
-      "support_commit": "965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa",
-      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi",
+      "support_commit": "7cd34aef7e2e17ef45f240be9dd53934c5571d6b",
+      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi",
       "files": [
         {
           "path": "task.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi/task.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi/task.json",
           "sha256": "50d53888d6db51f117cf730ed56bd34cf43ab4f02ac76b85468a05178653bff8"
         },
         {
           "path": "DATA.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi/DATA.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi/DATA.md",
           "sha256": "689affdbeec8056c7d9eca078ae3d43012070ae9e68493ed1ef59c2788cd8777"
         },
         {
           "path": "INTEGRATION.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi/INTEGRATION.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi/INTEGRATION.md",
           "sha256": "7650c33cfdf676d22e852333c2f6ed89c6a3d630183870658330bb6ce6847b4b"
         },
         {
           "path": "SOURCES.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi/SOURCES.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi/SOURCES.md",
           "sha256": "a9c8ac8b02b2454cff33d0b41e1f87eb2b6a84860edccbf25839511bb0ee808b"
         },
         {
           "path": "scoring.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi/scoring.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi/scoring.py",
           "sha256": "441dbcb02c594aca9eb39f1dc0a2a8d644f91e46f427dfd42f605e430f15838f"
         },
         {
           "path": "data/manifest.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi/data/manifest.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi/data/manifest.json",
           "sha256": "e1d4c6a289600f9597e71c6dfd9d75c1b366518bd50487397abe4d2322bddd11"
         },
         {
           "path": "prepare_data.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi/prepare_data.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi/prepare_data.py",
           "sha256": "a7dc1cfc7fa30726c7c3eb0522976a276f6aaadc50f09ab6b4fe23797fd08c85"
         },
         {
           "path": "evidence/cardinality.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi/evidence/cardinality.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi/evidence/cardinality.json",
           "sha256": "944f30636c2cc79ed86843422634ee323d4075083be0c3d762f4b909f485454e"
         },
         {
           "path": "evidence/source-lock.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/sparse24-rsi/evidence/source-lock.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/sparse24-rsi/evidence/source-lock.json",
           "sha256": "8c7b055095719c6d9ed97e9771008da8dd54dc0cf3c6b86e3ef390063ef71601"
         }
       ],
-      "proposal_sha256": "aeffe6ed8b28e3e0f535748ba544c832260a13df4f9138189e9f85a2ededa4b1"
+      "proposal_sha256": "f40b23489455d6001d4f3a31a04b9ea7f91dc1b2db79137d39cc27615c471ae2"
     },
     {
       "task": "jev-block-nas-rsi",
-      "support_commit": "965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa",
-      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi",
+      "support_commit": "7cd34aef7e2e17ef45f240be9dd53934c5571d6b",
+      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi",
       "files": [
         {
           "path": "task.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi/task.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/task.json",
           "sha256": "84bdd1cba7c5b237fae048d9fbfe1a205e51d1d7806ead52dfd94d1f520f8461"
         },
         {
           "path": "DATA.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi/DATA.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/DATA.md",
           "sha256": "760d7b240e7ef8338a1b9fc0790b0c32a879074117a58a127b82b1ca81dc5543"
         },
         {
           "path": "INTEGRATION.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi/INTEGRATION.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/INTEGRATION.md",
           "sha256": "eecc144d850847ed5c421f208ab06956dca0fb5a4a8676636e01b1cb0067fa52"
         },
         {
           "path": "SOURCES.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi/SOURCES.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/SOURCES.md",
           "sha256": "5eb8a61163715e8215e6a8e8d62795020e33f913eed3732cf11636002b2964cb"
         },
         {
           "path": "scoring.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi/scoring.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/scoring.py",
           "sha256": "c34c07aaf75d8f65649795cb2bbdc1cee3f313a950def54162d7aa5fd235b0cc"
         },
         {
           "path": "evaluation-manifest.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi/evaluation-manifest.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/evaluation-manifest.json",
           "sha256": "d0683aa0ea1b9169ab5642ae878779d2840932d4460ed9b0e5c4f463b009cd38"
         },
         {
           "path": "materialize_selection.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi/materialize_selection.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/materialize_selection.py",
           "sha256": "57fb2cd8289289a3de2c0baf5cfd615ed1f58834f2299b2d8a9ed282bbb09faf"
         },
         {
           "path": "evidence/data-cardinality.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi/evidence/data-cardinality.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/evidence/data-cardinality.json",
           "sha256": "23efab50d10ac6dd3abf34ffc42eef1b06a35a231af5090ff50ce196e94192b6"
         },
         {
           "path": "evidence/baseline-shapes.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/jev-block-nas-rsi/evidence/baseline-shapes.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/evidence/baseline-shapes.json",
           "sha256": "97ca1cf4b7128ea09e60830b362c7eb29a0f46341dd59e5d21690d96f9a6aa59"
+        },
+        {
+          "path": "EXPERTISE.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/EXPERTISE.md",
+          "sha256": "20f62e0a6b96ee741800067f2a48435794c7a146fa45c86382f031151d071cf2"
         }
       ],
-      "proposal_sha256": "2bc9ac5fb4096a9a556fd80312968ebf548ba5b77320f9c92f57619b290838cb"
+      "proposal_sha256": "2a7cac901afbb73d259367a2a922586ab51229b186b55457345ec0908000128f"
     },
     {
       "task": "gpt-subnet-nas-rsi",
-      "support_commit": "965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa",
-      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/gpt-subnet-nas-rsi",
+      "support_commit": "7cd34aef7e2e17ef45f240be9dd53934c5571d6b",
+      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi",
       "files": [
         {
           "path": "task.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/gpt-subnet-nas-rsi/task.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi/task.json",
           "sha256": "a2417e02e8c8573afa58c89f22a4d9212b0b9600514d30a0c7bb1eae3e5433e3"
         },
         {
           "path": "DATA.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/gpt-subnet-nas-rsi/DATA.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi/DATA.md",
           "sha256": "cd9664d43df688a2340156d4f19737264f2f7fb6fcbaf2c312e8e117cb156bf9"
         },
         {
           "path": "INTEGRATION.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/gpt-subnet-nas-rsi/INTEGRATION.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi/INTEGRATION.md",
           "sha256": "465f1de898f79ca601088f50e027aae77ed967e2808ed449200abee4900d3a17"
         },
         {
           "path": "SOURCES.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/gpt-subnet-nas-rsi/SOURCES.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi/SOURCES.md",
           "sha256": "efdfa22b27bc93d60fe0f6b195399e1972c42bb642f5114ce18c3128e0acdcba"
         },
         {
           "path": "scoring.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/gpt-subnet-nas-rsi/scoring.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi/scoring.py",
           "sha256": "b43d3ae0ba2beb1f314dc142c37b41882bb46ee97a388fc8f9b4b18de213fc2b"
         },
         {
           "path": "evidence/tiny-cardinality.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/gpt-subnet-nas-rsi/evidence/tiny-cardinality.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi/evidence/tiny-cardinality.json",
           "sha256": "0cc23dd48a33cc136f97c483a9bc3f9bfada27153c465fdbea317d7931e9c1d8"
         },
         {
           "path": "evidence/wiki_card.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/gpt-subnet-nas-rsi/evidence/wiki_card.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi/evidence/wiki_card.md",
           "sha256": "d5aabf145d341366745ac703b5844c442c143943b6c77929481395c822b1c28c"
         },
         {
           "path": "evidence-manifest.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/965ca74d5ee673b8c2fc044a6ffd8a8d3213d8aa/compression-nas/2026-10-11/gpt-subnet-nas-rsi/evidence-manifest.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi/evidence-manifest.json",
           "sha256": "d527e4c4619bbc150497227db8722a22d05a29c03541e3c19573686e0aa73daa"
+        },
+        {
+          "path": "EXPERTISE.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/gpt-subnet-nas-rsi/EXPERTISE.md",
+          "sha256": "17f44c8376efd5dcfd5349fc707e2bfb936e8c33e56847d30c7ba910b05d3741"
         }
       ],
-      "proposal_sha256": "f8e35afb9aead6742b87c9049d530cd94363a0bac801bdbbce1bb74d8e6aef5b"
+      "proposal_sha256": "4e04f3db7097812ad453132fc8345ad1b61c7c9d2c6bb8d2266dff882a12beb9"
     }
-  ]
+  ],
+  "contributor_confirmation": "Familiarity with all five external source projects explicitly confirmed on October 11, 2026."
 }

@@ -24,6 +24,8 @@ def source_files():
                     for part in p.relative_to(ROOT).parts)
         and p.suffix not in {".pyc", ".pyo"}
         and p.name != "MANIFEST.files.json"
+        and not (p.relative_to(ROOT).parts[:2] == ("kv-cache-rsi", "data")
+                 and p.suffix == ".jsonl")
     )
 
 
