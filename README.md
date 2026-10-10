@@ -23,7 +23,7 @@ The release includes six individual task ZIPs, the combined ZIP, `SHA256SUMS` an
 
 ## Scope and status
 
-These are **public proposal packages, not submitted to official review**. Publication is not official acceptance. Each proposal uses the 28 official fields and supplies concrete data, baseline, modification bounds, budgets and full-score rules. See [package index](prepared-tasks/README.md), [execution status](prepared-tasks/STATUS.md) and [delivery record](delivery.json).
+All six proposals were **submitted to official review on 10 October 2026**. See [official discussions and status](official-submissions/README.md). Submission is not official acceptance. Each proposal uses the 28 official fields and supplies concrete data, baseline, modification bounds, budgets and full-score rules. See [package index](prepared-tasks/README.md), [execution status](prepared-tasks/STATUS.md) and [delivery record](delivery.json).
 
 The disclosed evaluation sets support reproducible, auditable fixed-benchmark research. Researchers can inspect the answers; submitted methods must obey train-only fitting and input-interface rules and cannot hard-code per-item answers. No unseen-test or memorization-proof guarantee is made.
 

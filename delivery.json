@@ -3,7 +3,7 @@
   "repository": "https://github.com/aajing/autotrust-rsi-tasks",
   "release_tag": "public-proposals-2026-10-10",
   "publication_status": "published and verified",
-  "official_submission_status": "not submitted to official review",
+  "official_submission_status": "all six submitted to official review",
   "tasks": [
     "gev-think-rsi",
     "jev-judge-rsi",
@@ -111,6 +111,63 @@
       "anonymous": true,
       "bytes": 665,
       "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/SHA256SUMS"
+    }
+  ],
+  "official_submission_verified_at_utc": "2026-10-10T13:11:05.070350+00:00",
+  "official_submissions": [
+    {
+      "task": "gev-think-rsi",
+      "discussion_number": 211,
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/211",
+      "created_at": "2026-10-10T13:06:42Z",
+      "review_status": "review completed",
+      "official_decision": "Reject",
+      "submitted_proposal_sha256": "a20756b2181f11d7d74d70fbc37690e45d40c750fb7c868683f85d3a56c16967"
+    },
+    {
+      "task": "jev-judge-rsi",
+      "discussion_number": 210,
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/210",
+      "created_at": "2026-10-10T13:06:40Z",
+      "review_status": "review running",
+      "official_decision": null,
+      "submitted_proposal_sha256": "1ba0238a56b97c2c1f7b32f9f07e060e7e750c30ca0a629a7f038c0a22d3a4e1"
+    },
+    {
+      "task": "jev-coldstart-rsi",
+      "discussion_number": 212,
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/212",
+      "created_at": "2026-10-10T13:07:42Z",
+      "review_status": "review completed",
+      "official_decision": "Reject",
+      "submitted_proposal_sha256": "31e31849934b1b066b705a956806c12836999b67ee3614337c7fc00c075da3c5"
+    },
+    {
+      "task": "jev-visual-control-rsi",
+      "discussion_number": 213,
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/213",
+      "created_at": "2026-10-10T13:08:31Z",
+      "review_status": "review running",
+      "official_decision": null,
+      "submitted_proposal_sha256": "5d0fa9633121b78d05f664888b732289c7a22fcae389dd25e6edb68bb54d071c"
+    },
+    {
+      "task": "gev-quant-rsi",
+      "discussion_number": 214,
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/214",
+      "created_at": "2026-10-10T13:08:48Z",
+      "review_status": "review running",
+      "official_decision": null,
+      "submitted_proposal_sha256": "c727c7792ffce293b3e1a1bdf1a2985f563a1a994517f53b9a02ef0cbc1f91ca"
+    },
+    {
+      "task": "moe-prune-rsi",
+      "discussion_number": 215,
+      "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/215",
+      "created_at": "2026-10-10T13:09:33Z",
+      "review_status": "review running",
+      "official_decision": null,
+      "submitted_proposal_sha256": "4fae9deefcd9c9733e24e3e2c75d9bac2cba1dce672b3a6fbdbd57c137e319a4"
     }
   ]
 }

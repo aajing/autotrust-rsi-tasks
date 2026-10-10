@@ -1,6 +1,6 @@
 # Delivery and execution status
 
-The six public proposal packages are prepared for handoff. Publication is authorized. They have not been submitted to official review; publication and official submission are separate states, tracked in the root delivery record.
+The six public proposal packages are prepared for handoff. Publication is authorized. All six have been submitted to official review. The exact submitted proposals and observed review outcomes are recorded in `../official-submissions/`; root `delivery.json` lists their links. Publication, proposal review, and execution validation remain separate stages.
 
 Completed: English 28-field proposals; contributor identity and public evidence; fixed source revisions; concrete data construction and access interfaces; public inputs, answers and seeds; baseline materializers; modification bounds; exact scoring/full-mark rules; declared budgets; CPU contract checks; and ordinary unencrypted archives with SHA256 checksums.
 

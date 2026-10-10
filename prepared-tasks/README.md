@@ -1,6 +1,6 @@
 # AutoTrust RSI research proposals
 
-Six English task proposals and complete public preparation materials for **Jing Qiu**, **ajing@autotrust.ai**, GitHub `aajing`. Prepared 10 October 2026. Public release is authorized; these six proposals are **not submitted to official review**. This repository is a proposal handoff, not a claim that official tasks or GPU experiments have already run.
+Six English task proposals and complete public preparation materials for **Jing Qiu**, **ajing@autotrust.ai**, GitHub `aajing`. Prepared 10 October 2026. These six proposals have been **submitted to official review**; [current receipt](../official-submissions/README.md) records their links and the latest observed results. This repository is a proposal handoff, not a claim that official tasks or GPU experiments have already run.
 
 | Task | Learning / development / evaluation | Research target |
 | --- | --- | --- |
