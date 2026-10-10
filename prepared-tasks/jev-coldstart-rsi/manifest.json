@@ -5,6 +5,7 @@
   "files": {
     "DATA_CARD.md": "4a25f041a109545dd0bc98e47bb45eb8dae12208d9fed9d4fabdaed59f4713f2",
     "LICENSE": "0de4b10e086e5e673198c76b10a553dc94277e00d9a9ce5601f92a38ab30d90d",
+    "PUBLICATION.json": "c022cd387797cda5c65d418923629b024b44bda601bff45d6626898199e78724",
     "README.md": "968544e99164a24f48bdb283bfc227b2e33ab3d06923aa6a952ad380818a3c11",
     "RUNBOOK.md": "d09de8e5f363e76c5892db961dbaa867c2c5e94502f2ac43df0b9e7ca7dc0692",
     "baseline/policy.json": "aa07bb295759b33c8165f9a8299d3c7a688a060ecbeecaea0843995ea3ee6260",
@@ -26,7 +27,7 @@
     "evidence/split-report.json": "62f6faa9b150c752591cae2a336a3ac232c427739395e3d9add782e87a7770a2",
     "evidence/upstream/recommendation-source-evidence.json": "c985d974c92e409747fc432aa4311cb08e236d83919bd8f865d8d2d6fa4893a2",
     "evidence/upstream/simulacra-source-evidence.json": "9c6d97e6cca10392cfd0151c3ec11a583b2975b610dedc7e7c143068308ae794",
-    "proposal.md": "ef239d3325556ef2fcecd1a35d3401f6df31b91aec483695f733af0650f5bd0d",
+    "proposal.md": "a58c445f069bfd5fb1c2c59ebe40e5c9a7321b374e4c8f461e7f57440e62596f",
     "requirements.txt": "ffbca14dd060bd4ab86cc8d9451c0eba0f90681f8b360c73db56ea7da3fdc32d",
     "scripts/check_package.py": "c4bd9b6e3f239ad096f38964d8cace1bb918da9bd606e1d6bebdd2cfec078fef",
     "scripts/export_work.py": "afe6b31680486d3acd8dd915afd72a7b1a6c881aa9a98f587a6b6f99b8a80429",

@@ -1,0 +1,9 @@
+{
+  "repository": "https://github.com/aajing/autotrust-rsi-tasks",
+  "implementation_commit": "2a7512d966938d4618dec533c1851f8b561c6a0d",
+  "path": "prepared-tasks/moe-prune-rsi",
+  "source_url": "https://github.com/aajing/autotrust-rsi-tasks/tree/2a7512d966938d4618dec533c1851f8b561c6a0d/prepared-tasks/moe-prune-rsi",
+  "evaluation_answers_public": true,
+  "encrypted": false,
+  "official_submission_status": "not submitted to official review"
+}

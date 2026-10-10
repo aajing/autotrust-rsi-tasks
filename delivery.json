@@ -2,7 +2,7 @@
   "prepared_at_utc": "2026-10-10T12:52:24.843859+00:00",
   "repository": "https://github.com/aajing/autotrust-rsi-tasks",
   "release_tag": "public-proposals-2026-10-10",
-  "publication_status": "preparing",
+  "publication_status": "source ready for upload",
   "official_submission_status": "not submitted to official review",
   "tasks": [
     "gev-think-rsi",
@@ -20,5 +20,6 @@
     "Pinned model weights from Hugging Face",
     "Simulacra image archive (86569533440 bytes); exact3560-image list and importer included"
   ],
-  "scope": "All locally prepared six-task proposal material; unrelated tasks, credentials and session logs excluded"
+  "scope": "All locally prepared six-task proposal material; unrelated tasks, credentials and session logs excluded",
+  "implementation_commit": "2a7512d966938d4618dec533c1851f8b561c6a0d"
 }

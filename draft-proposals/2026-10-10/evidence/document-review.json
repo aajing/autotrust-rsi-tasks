@@ -1,13 +1,13 @@
 {
-  "reviewed_at_utc": "2026-10-10T12:54:09.378088+00:00",
+  "reviewed_at_utc": "2026-10-10T12:55:11.908425+00:00",
   "scope": "28-field format, English text, contributor identity, plain GitHub URLs and package-copy consistency; CPU checks recorded separately",
   "submission_status": "not submitted to official review; public publication tracked separately",
   "current_official_template_blob": "0f8d6537a413156eb286a0ca66e09b6491291a5f",
   "files": [
     {
       "file": "gev-think-rsi.md",
-      "sha256": "9bc619a03f184782fa28b520415691b3b30b0dbf7a264895ca67b483866fe559",
-      "word_count": 2476,
+      "sha256": "2a3e29eb7248073c29b45d7694b87e42180b9f1d3a566f59908f56e8cca8b3d2",
+      "word_count": 2493,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
@@ -16,8 +16,8 @@
     },
     {
       "file": "jev-judge-rsi.md",
-      "sha256": "dd1f087fb922c596a7043edbb8f4f2eb71c5870d00ffbccea1fe619dd0f03660",
-      "word_count": 2500,
+      "sha256": "637cc36ecdc0a890b993fea89533e7c8ba3db7200520a6892242719f8dedca0a",
+      "word_count": 2517,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
@@ -26,8 +26,8 @@
     },
     {
       "file": "jev-coldstart-rsi.md",
-      "sha256": "ef239d3325556ef2fcecd1a35d3401f6df31b91aec483695f733af0650f5bd0d",
-      "word_count": 2404,
+      "sha256": "a58c445f069bfd5fb1c2c59ebe40e5c9a7321b374e4c8f461e7f57440e62596f",
+      "word_count": 2421,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
@@ -36,8 +36,8 @@
     },
     {
       "file": "jev-visual-control-rsi.md",
-      "sha256": "be32ed4f711cdb9cb9c1d1374173cccf5f45cfe4b5d749e8a1fe0454f4757359",
-      "word_count": 3074,
+      "sha256": "7a45f6b5a4d6d7250c998c8e49edfbd190a42a04240d8dbd6439ef3b6f8ffa63",
+      "word_count": 3091,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
@@ -46,8 +46,8 @@
     },
     {
       "file": "gev-quant-rsi.md",
-      "sha256": "8df4d46d58cb605ef8067b5491e01eb15f171697a89844065cbdc0507ce424a8",
-      "word_count": 2458,
+      "sha256": "cdea71ae19e573e660cae66d6ce18e9573a87666ee76cd38717690507760e31a",
+      "word_count": 2466,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
@@ -56,8 +56,8 @@
     },
     {
       "file": "moe-prune-rsi.md",
-      "sha256": "8422d864fc57d620de8e0bd20e4776d69a4dbaffb63c88e562ca8c998759feb5",
-      "word_count": 2372,
+      "sha256": "b3977bda13695b05d8d4ffe17bbd48ce3446f128c94394037d66a286219dd69d",
+      "word_count": 2380,
       "official_fields": 28,
       "english_only": true,
       "explicit_full_score": true,
