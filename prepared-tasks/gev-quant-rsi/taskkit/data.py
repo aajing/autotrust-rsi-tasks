@@ -144,8 +144,8 @@ def build(root):
                 profile_ids.extend(sorted(r["id"] for r in all_inputs["practice"] if r["family"]==family and r["difficulty"]==difficulty)[:32])
         if len(profile_ids)!=384:
             raise ContractError("B96 profiling plan coverage mismatch")
-        write_json(root/"public-authoring/b96_profile_plan.json",{"schema":"b96-profile-plan-v1","split":"practice","ids":profile_ids,"count":384,"selection":"first 32 lexicographically sorted IDs per family and difficulty","status":"configuration-only-routing-counts-not-measured"})
-    template={"schema":"reference-cache-v1","status":"unmaterialized","source_revision":config["source_revision"],"dataset_manifest_sha256":file_hash(root/"data/manifest.json"),"B0":None,"BQ":None,"B96":None,"reason":"No model/GPU measurements exist. Completed operator measurements will be published; never replace nulls with estimates."}
+        write_json(root/"public-authoring/b96_profile_plan.json",{"schema":"b96-profile-plan-v1","split":"practice","ids":profile_ids,"count":384,"selection":"first 32 lexicographically sorted IDs per family and difficulty","status":"configuration-only-routing-counts-not-measured","role":"optional-work-produced-control","required_for_activation":False})
+    template={"schema":"reference-cache-v1","status":"unmaterialized","source_revision":config["source_revision"],"dataset_manifest_sha256":file_hash(root/"data/manifest.json"),"B0":None,"reference_baseline":"B0","optional_work_controls_required":False,"reason":"Pinned B0 model artifact already exists upstream. Its task-specific measurements are not yet reproduced; only real task-author measurements after acceptance may replace nulls. No BQ/B96 artifact or measurement is required."}
     ref=root/"public-authoring/reference_cache.json"
     if not ref.exists() or read_json(ref).get("status")=="unmaterialized":
         write_json(ref,template)

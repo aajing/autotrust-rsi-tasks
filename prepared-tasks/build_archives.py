@@ -39,7 +39,8 @@ def build(destination):
     combined=destination/'autotrust-six-task-proposals-public.zip'
     draft=ROOT.parent/'draft-proposals/2026-10-10'
     common=[ROOT/n for n in ('README.md','STATUS.md','build_archives.py','review_documents.py')]
-    all_files=common+[f for name in TASKS for f in (ROOT/name).rglob('*') if allowed(f)]+[f for f in draft.rglob('*') if allowed(f)]
+    revision_dir=ROOT.parent/'review-revisions'
+    all_files=common+[ROOT.parent/'README.md']+[f for name in TASKS for f in (ROOT/name).rglob('*') if allowed(f)]+[f for f in draft.rglob('*') if allowed(f)]+[f for f in revision_dir.rglob('*') if allowed(f)]
     with zipfile.ZipFile(combined,'w',compression=zipfile.ZIP_DEFLATED,compresslevel=6) as z:
         for f in sorted(all_files):
             rel=Path('autotrust-rsi-prepared')/f.relative_to(ROOT.parent)
@@ -50,7 +51,7 @@ def build(destination):
     bundle={'file':combined.name,'bytes':combined.stat().st_size,'sha256':sha(combined),'files':len(all_files),
             'encrypted':False,'kind':'public_proposal_package','evaluation_answers_public':True,'all_prepared_task_assets_included':True}
     with (destination/'SHA256SUMS').open('a') as f:f.write(f"{bundle['sha256']}  {bundle['file']}\n")
-    (destination/'archives.json').write_text(json.dumps({'official_submission_status':'not submitted to official review','archives':records,'combined_bundle':bundle},indent=2)+'\n')
+    (destination/'archives.json').write_text(json.dumps({'official_submission_status':'Initial proposals submitted and rejected; local revision drafts are not a new official submission. See official-submissions/ for exact posted bodies and decisions.','archives':records,'combined_bundle':bundle},indent=2)+'\n')
     records.append(bundle)
     return records
 

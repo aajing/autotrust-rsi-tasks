@@ -1,8 +1,13 @@
 {
   "B0": {
     "type": "original_bf16",
-    "status": "configuration-only",
-    "execution_backend": "native_bf16"
+    "status": "existing-public-upstream-artifact-not-downloaded-locally",
+    "execution_backend": "native_bf16",
+    "role": "sole-reference-baseline",
+    "repo_id": "autotrust/GEV-26B-Decide",
+    "revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
+    "materializer": "solution/materialize_baseline.py --source-snapshot SNAPSHOT --output NEW_PATH",
+    "artifact_kind": "original_bf16"
   },
   "BQ": {
     "type": "symmetric_weight_only_integer",
@@ -14,6 +19,11 @@
     "activation_dtype": "bfloat16",
     "status": "configuration-only-no-materialized-weights",
     "execution_backend": "cpu_dequantize_to_bf16_then_native_bf16",
-    "reconstruction_function": "taskkit.tensors.dequantize"
+    "reconstruction_function": "taskkit.tensors.dequantize",
+    "role": "optional-work-produced-control",
+    "required_for_activation": false,
+    "required_for_score": false,
+    "production_phase": "Work",
+    "accounting": "all profiling, quantization/export, evaluation, retries and resampling consume the ordinary Work budget; any Judge submission consumes an attempt"
   }
 }

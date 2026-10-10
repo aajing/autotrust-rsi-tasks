@@ -1,36 +1,49 @@
 # Reproduction and public evaluation
 
-This is a public benchmark with fully released data, seeds, answers and evaluators. It is not a secret-test package. CPU preparation is implemented; real H100 execution, baseline measurement and official OpenRSI integration are not yet implemented or claimed.
+All data, answers, seeds and evaluator code are public. No model weights were downloaded and no GPU experiment was run in this preparation.
 
-1. Use Python 3.10+ and the NumPy version in `requirements-cpu.lock.txt`. These are CPU requirements; they do not specify a GPU serving environment.
-2. Run `python3 -m taskkit.cli audit --root .`, then `python3 -m unittest discover -s tests -v`. Tests validate counts, semantic group separation, golden oracles, packed arithmetic, scope/admission rules and scoring formulas using explicitly synthetic fixtures.
-3. `python3 -m taskkit.cli build --root .` reproduces all three splits from the published seed. It preserves the existing seed. Any dataset change requires a manifest/version change and invalidates measured reference bindings; never reuse a reference cache with a different data hash.
-4. `python3 scripts/stage_work.py /absolute/new/work-directory` copies the public task, including evaluation gold, images, seed and reference declarations. No encrypted or excluded answer bank exists.
-5. Public output diagnostics: `python3 -m taskkit.cli public-assess --split development --predictions results.jsonl`. The same command accepts practice and evaluation for public inspection. It assesses captured outputs, not a model execution or official research reward.
-6. Baseline materialization: `python3 solution/materialize_baseline.py --prepared PATH --output NEW_PATH`. The source must already contain a real materialized checkpoint and complete per-file hashes. This command only verifies/copies. It refuses missing baselines; it never trains, infers or invents tensors.
-7. Once actual operator references exist, use `python3 -m taskkit.cli assess --predictions PREDICTIONS.jsonl --resources RESOURCES.json --references public-authoring/reference_cache.json`, with `--probe-dir DIR` for quantization or `--expert-map MAP.json` for pruning. Current null references intentionally produce unscored. Files alone cannot mint an official reward: the operator must connect trusted inference, admission and accounting.
-8. `scripts/gpu_entrypoint.py` explicitly stops because the adapter has not been activated. Follow INTEGRATION.md rather than mistaking CPU pack/dequant functions for a tested H100 engine.
+## CPU package checks
 
-## Published layout and protocol
+Use Python 3.10+ and the NumPy version in `requirements-cpu.lock.txt`.
 
-All practice/development/evaluation inputs, gold and PNGs live under `data/public/`. `public-authoring/` holds the published evaluation seed, probe specification, any B96 profiling plan and reference-cache declaration. Completed baseline/output/measurement records will be added here as public reproducibility evidence. Only the operator may modify frozen references in a scored run; access to their contents is unrestricted.
+```sh
+python3 -m taskkit.cli audit --root .
+python3 -m unittest discover -s tests -v
+python3 scripts/check_package.py
+```
 
-The six families are exact arithmetic, restricted single-return Python, SQLite SELECT, tool-call JSON, visual numerical/spatial output and binary confidence. Gold includes every Python test, SQL database, answer and canonical output. A bounded AST interpreter evaluates Python without host execution; SQLite uses an authorizer and operation cap. Malformed completed answers are wrong. Missing, duplicated or additional prediction IDs invalidate the complete assessment.
+Checks cover exact split counts, gold oracles, scenario separation, arithmetic/admission, revised scoring and baseline hash/copy behavior. Synthetic tiny model/cache fixtures are only file-contract tests, never GEV artifacts or scores. Rebuilding via `python3 -m taskkit.cli build --root .` preserves the released seed and exact manifest. Any changed data invalidates measured cache bindings.
 
-Concrete canonical scenarios are grouped before split assignment. Practice/development/evaluation share grammar and difficulty support but do not share scenario groups. This separation supports reproducibility and a fit-only-practice protocol; with published evaluation labels it does not establish unseen-data generalization. Models and candidate artifacts must still produce answers by inference rather than looking up released gold.
+`python3 scripts/stage_work.py /absolute/new/work-directory` includes evaluation gold/PNGs/seeds. Public captured-output diagnostics use `python3 -m taskkit.cli public-assess --split development --predictions results.jsonl`; practice/evaluation are also accepted for inspection. This is not trusted model execution or an official reward.
 
-Model scores and resource receipts remain absent. A future measured reference must bind the source revision, dataset hash, runtime/container fingerprint, tensor inventory, numerical settings, B0 quality/calibration/bytes/latency, and task-control measurements. Quantization requires eighty published reference vectors and fixed tokenizer probe positions; neither exists yet. The reference vectors have a planned total size of 80 MiB. No vector is synthesized from gold.
+## Existing B0 materialization
 
-The fixed quantization execution path reconstructs every packed expert to BF16 on CPU using the supplied arithmetic, then loads the same ordinary BF16 backbone runtime for BQ and every candidate. There is no backend selection or packed-kernel dependency. Count all delivered model weights/scales/adapters and frozen dependencies once. Deterministically reconstructed runtime BF16 tensors are ephemeral derivatives, not additional submitted weights or independently fitted parameters; exclude them from delivered-storage bytes but charge reconstruction/loading to Judge wall time and measure actual memory. No native four-bit execution, GPU memory reduction or speedup is claimed.
+During author setup on the execution machine, install the normal Hugging Face CLI and download the existing pinned release. This command is documented here and was not executed during proposal repair:
 
-Each resource receipt covers delivered-artifact bytes, actual peak GPU allocation, three warmed-inference timing passes and full Judge duration. The scorer checks formulas but cannot authenticate a candidate's self-reported GPU measurements. Only an operator-owned runtime may issue the official evidence.
+```sh
+hf download autotrust/GEV-26B-Decide --revision 7c89590ead085bf77630b4bf68264ea30b6ddc78
+```
 
-## Pruning endpoint and unchanged quality gates
+The command prints the standard cache `snapshots/7c89590ead085bf77630b4bf68264ea30b6ddc78` directory. Keep that cache and its blob symlinks. Do not use `--local-dir`, because this materializer deliberately checks the standard cache content-addressed blobs.
 
-For pruning, the fixed control is B96: 96 experts per layer, 2,880 overall. Its maximum structural score is 66.6667, subject to every gate. The formula is `100*clip((3840-E)/1440,0,1)`; full marks require E≤2,400 (80 experts per layer on average, 37.5% removed), every layer retaining 64–128 experts and all quality/resource gates. This endpoint was chosen before any model run; attainability is unverified. Quantization retains its original distortion-reduction formula. Neither task's 1-percentage-point overall accuracy loss, 3-point family loss or Brier +0.01 limits were loosened.
+```sh
+python3 solution/materialize_baseline.py --source-snapshot /absolute/cache/models--autotrust--GEV-26B-Decide/snapshots/7c89590ead085bf77630b4bf68264ea30b6ddc78 --output /absolute/new/b0-artifact
+```
 
-## Budgets and evidence
+Solution verifies SHA256/Git blob hashes, pinned metadata and complete safetensors/index payload coverage, then copies B0 and writes `prepared-artifact.json`. It does not need that wrapper in advance and performs no download, model loading, profiling, pruning, quantization, fitting or evaluation. Missing or corrupted real source files fail closed. Ordinary file copying uses zero GPUs. Required weights already exist upstream; task-specific score measurements are separate post-acceptance work. For additional exact remote per-file membership binding, author setup can run `python3 scripts/fetch_source_inventory.py --output source/upstream-inventory.json` (metadata only) and pass `--inventory source/upstream-inventory.json` to Solution. This API could not be reached during repair; current checks establish cache integrity plus pinned config/index binding, not a claim that every remote weight hash has already been retrieved.
 
-One H100 80 GB and 256 GB host RAM are specified; the user confirmed RAM availability. Work is two hours and Judge sixty minutes. The trajectory is 24 hours, up to twelve attempted Judge calls including failures; a recorded 48-hour extension retains the call cap. All model invocation input/output tokens count, including profiling, teacher generation, development evaluation, repeats and discarded attempts. Pruning recovery exposures and optimizer updates have separate ceilings.
+## Evaluation and controls
 
-`cpu-validation.json` records CPU checks only. No reported perfect oracle fixture is a model baseline. No runtime feasibility, full-score attainability or official acceptance is implied. Public release does not resolve inherited model licenses, runtime compatibility or the official shared-snapshot trust boundary; see LICENSES.md and INTEGRATION.md.
+After implementing trusted H100 inference and measuring B0, call `python3 -m taskkit.cli assess --predictions PREDICTIONS.jsonl --resources RESOURCES.json --references public-authoring/reference_cache.json` with `--probe-dir DIR`. Only a task-owned runtime may create official outputs/resource receipts; candidate-created JSON is not trusted evidence. Null B0 measurements deliberately yield unscored. `scripts/gpu_entrypoint.py` still stops until ordinary GPU integration is completed.
+
+`100 * clip((1 - delivered_bytes / B0_bytes) / 0.60, 0, 1)`. Full score requires at most 40% of B0 delivered inference weight bytes and every quality/resource gate. The unchanged B0 has zero score. The 40% ratio is now the full-score target rather than an eligibility gate; intermediate reductions receive graded credit. B0 distribution distortion is reported, not BQ-normalized.
+
+BQ is an optional Work-produced ablation. Its absent checkpoint or measurements never block baseline materialization, activation or the primary score. All optional-control profiling, fitting/export, repeated/discarded invocations and evaluation consume the same Work budgets; submitting it consumes a Judge attempt. Preserve provenance and report optional control results only if actually generated.
+
+All complete gate failures get zero; invalid, crashed, timed-out or incomplete attempts are unscored. Real outputs/reference measurements will remain public. B0 calibration/quality/bytes/latency are frozen against data/source/runtime hashes. No frozen cache may be changed by a candidate.
+
+## Budgets and limits
+
+One node, one H100 80 GB, 24 CPU cores, 256 GB host RAM and 300 GB free SSD; Work and Judge are sequential. Two-hour Work, one-hour Judge and fifteen-minute overhead imply 3.25 hours/cycle: at most seven worst-case cycles in 24 hours or fourteen in 48 hours before the twelve-attempt cap. Actual model feasibility remains unmeasured. Pruning recovery has separate exposure/update caps; every repeated exposure and invocation counts. See `task.json` and INTEGRATION.md.
+
+Published scenario groups separate practice/development/evaluation, but do not establish answer secrecy. Only practice is for fitting and development for selection; public benchmark overfitting remains a stated limitation. No encrypted assets or withheld answer bank exists.

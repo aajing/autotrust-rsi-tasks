@@ -34,5 +34,8 @@
   "independence_unit": "synthetic survey user ID",
   "public_data_secrecy_claim": false,
   "image_payload_status": "pending_import",
-  "complete_model_evaluation": false
+  "complete_model_evaluation": false,
+  "image_byte_duplicates": "retained and reported at import; no pixel-dependent filtering or count change",
+  "data_use": "all published inputs and ratings may inform fitting and selection",
+  "objective": "benchmark-conditioned ranking; coldstart describes history length, not heldout access"
 }

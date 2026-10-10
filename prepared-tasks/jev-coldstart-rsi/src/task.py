@@ -75,8 +75,8 @@ def build(root=ROOT):
             user_items[sid]=items; eligible[split_for(sid)].append(sid)
     source_map=[]; image_requests={}; all_gold={}; counts={}; collisions={}
     for split,n in COUNTS.items():
-        if len(eligible[split]) < n:
-            raise ValueError(f'{split}: need {n} eligible users, only {len(eligible[split])}; no silent relaxation')
+        if len(eligible[split]) != n:
+            raise ValueError(f'{split}: expected all {n} pinned-source eligible users, found {len(eligible[split])}; no silent filtering')
         selected = sorted(eligible[split],key=lambda sid:digest(f'sac-select-v1:{split}:{sid}'))[:n]
         queries=[]; gold=[]; split_prompt_hashes=set()
         for sid in selected:
@@ -118,7 +118,10 @@ def build(root=ROOT):
             'selected':counts,'requested_images':len(image_requests),'source_rating_scale':[1,10],
             'history_order':'frozen hash order; no temporal claim','independence_unit':'synthetic survey user ID',
             'public_data_secrecy_claim':False,'image_payload_status':'pending_import',
-            'complete_model_evaluation':False}
+            'complete_model_evaluation':False,
+            'image_byte_duplicates':'retained and reported at import; no pixel-dependent filtering or count change',
+            'data_use':'all published inputs and ratings may inform fitting and selection',
+            'objective':'benchmark-conditioned ranking; coldstart describes history length, not heldout access'}
     write_json(root/'evidence/split-report.json',report)
     return report
 

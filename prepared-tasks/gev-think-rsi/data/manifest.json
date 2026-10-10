@@ -1,7 +1,9 @@
 {
   "version": 2,
   "visibility": "fully_public",
-  "evaluation_reserved_from_fitting_by_protocol": true,
+  "evaluation_reserved_from_fitting_by_protocol": false,
+  "evaluation_informed_fitting_and_selection_allowed": true,
+  "objective": "benchmark-conditioned compute allocation on a fully disclosed fixed workload",
   "generators": {
     "task.py": "a9479f98f11f7ab4731fcabf4118c19405aa20935cb4412d29fcf95b7e8ed387"
   },

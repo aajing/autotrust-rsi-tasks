@@ -43,12 +43,6 @@ def validate_reference(ref,mode):
         raise ContractError("B0 macro mismatch")
     finite_number(b0.get("model_bytes"),"B0.model_bytes",1)
     finite_number(b0.get("latency_seconds"),"B0.latency",0.000001)
-    if mode=="quant":
-        bq=ref.get("BQ")
-        if not isinstance(bq,dict):
-            raise ContractError("BQ reference missing")
-        finite_number(bq.get("distortion"),"BQ distortion",0.000001,1)
-        finite_number(bq.get("latency_seconds"),"BQ latency",0.000001)
     return ref
 
 def compose(mode,metrics,resources,ref,distortion=None,expert_map=None):
@@ -68,18 +62,18 @@ def compose(mode,metrics,resources,ref,distortion=None,expert_map=None):
     gates={"macro_quality":metrics["accuracy"]+1e-12>=b0["accuracy"]-0.01,
            "family_quality":all(metrics["family_accuracy"][f]+1e-12>=b0["family_accuracy"][f]-0.03 for f in FAMILIES),
            "calibration":metrics["brier"]<=b0["brier"]+0.01+1e-12,
-           "storage":byte_count<=b0["model_bytes"]*(0.40 if mode=="quant" else 0.85),
+           "storage":byte_count<=b0["model_bytes"]*(1.0 if mode=="quant" else 0.85),
            "peak_memory":memory<=64*(1024**3),
-           "latency":latency<=(ref["BQ"] if mode=="quant" else b0)["latency_seconds"]*1.10}
+           "latency":latency<=b0["latency_seconds"]*1.10}
     if mode=="quant":
-        d=finite_number(distortion,"candidate distortion",0,1);dq=ref["BQ"]["distortion"]
-        raw=100*max(0,min(1,(dq-d)/(0.5*dq)))
+        d=finite_number(distortion,"candidate distortion",0,1)
+        raw=100*max(0,min(1,(1-byte_count/b0["model_bytes"])/0.60))
     elif mode=="prune":
         retained=validate_expert_map(expert_map)
         raw=100*max(0,min(1,(3840-retained)/1440))
     else:
         raise ContractError("unknown task mode")
-    return {"status":"scored_assessment","official_reward":False,"score":raw if all(gates.values()) else 0.0,"gates":gates,"metrics":metrics,"latency_seconds":latency}
+    return {"status":"scored_assessment","official_reward":False,"score":raw if all(gates.values()) else 0.0,"gates":gates,"metrics":metrics,"latency_seconds":latency,"distortion_vs_B0":distortion,"storage_ratio_vs_B0":byte_count/b0["model_bytes"]}
 
 def total_variation(p,q):
     p=np.asarray(p);q=np.asarray(q)

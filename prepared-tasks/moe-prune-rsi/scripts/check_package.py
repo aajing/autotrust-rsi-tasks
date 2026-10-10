@@ -45,12 +45,12 @@ def main():
         missing=run(["-m","taskkit.cli","assess","--predictions",str(predictions),"--resources",str(tmp/"absent-resources.json"),"--references","public-authoring/reference_cache.json"],2)
         missing_result=json.loads(missing.stdout)
         assert missing_result["status"]=="unscored"
-        run(["solution/materialize_baseline.py","--prepared",str(tmp/"absent-baseline"),"--output",str(tmp/"candidate")],1)
+        run(["solution/materialize_baseline.py","--source-snapshot",str(tmp/"absent-baseline"),"--output",str(tmp/"candidate")],1)
         run(["scripts/gpu_entrypoint.py"],1)
     fields=[tuple(part.strip() for part in line.split("|")[1:3]) for line in (ROOT/"proposal.md").read_text().splitlines() if line.startswith("| ")][2:]
     assert len(fields)==28 and len(set(fields))==28
-    write_json(ROOT/"cpu-validation.json",{"schema":"cpu-validation-v2","scope":"CPU data/oracle/arithmetic contracts only; fixtures are not model scores","benchmark_visibility":"public","dataset_counts":cfg["counts"],"data_manifest_sha256":before,"test_count":15,"test_status":"passed","gold_oracle_cases_checked":sum(cfg["counts"].values()),"deterministic_rebuild":"passed","work_public_evaluation_included":"passed","staged_file_count":staged_count,"missing_reference_assessment":missing_result,"missing_baseline_materializer":"refused","gpu_entrypoint":"refused-unimplemented","model_weights_downloaded":False,"gpu_runs":0,"python":platform.python_version(),"numpy":np.__version__,"elapsed_cpu_check_seconds":round(time.monotonic()-start,3)})
+    write_json(ROOT/"cpu-validation.json",{"schema":"cpu-validation-v2","scope":"CPU data/oracle/arithmetic contracts only; fixtures are not model scores","benchmark_visibility":"public","dataset_counts":cfg["counts"],"data_manifest_sha256":before,"test_count":16,"test_status":"passed","gold_oracle_cases_checked":sum(cfg["counts"].values()),"deterministic_rebuild":"passed","work_public_evaluation_included":"passed","staged_file_count":staged_count,"missing_reference_assessment":missing_result,"missing_baseline_materializer":"refused","gpu_entrypoint":"refused-unimplemented","model_weights_downloaded":False,"gpu_runs":0,"python":platform.python_version(),"numpy":np.__version__,"elapsed_cpu_check_seconds":round(time.monotonic()-start,3)})
     (ROOT/"cpu-checks.log").write_text("CPU-only validation. Golden-answer fixtures are not model results.\n\n"+"\n".join(logs))
-    print(json.dumps({"status":"passed","slug":cfg["slug"],"tests":15,"public_cases":sum(cfg["counts"].values()),"data_manifest_sha256":before},indent=2))
+    print(json.dumps({"status":"passed","slug":cfg["slug"],"tests":16,"public_cases":sum(cfg["counts"].values()),"data_manifest_sha256":before},indent=2))
 
 if __name__=="__main__":main()

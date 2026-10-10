@@ -2,6 +2,7 @@ CPU-only validation. Golden-answer fixtures are not model results.
 
 $ python -m unittest discover -s tests -v
 test_all_oracles (test_contracts.Contracts.test_all_oracles) ... ok
+test_b0_materializer_verifies_existing_snapshot_without_model_compute (test_contracts.Contracts.test_b0_materializer_verifies_existing_snapshot_without_model_compute) ... ok
 test_bad_outputs_stay_in_denominator (test_contracts.Contracts.test_bad_outputs_stay_in_denominator) ... ok
 test_bf16_passthrough_and_quantization (test_contracts.Contracts.test_bf16_passthrough_and_quantization) ... ok
 test_counts_groups_and_hashes (test_contracts.Contracts.test_counts_groups_and_hashes) ... ok
@@ -18,14 +19,14 @@ test_sql_rejects_writes (test_contracts.Contracts.test_sql_rejects_writes) ... o
 test_tv_and_budget (test_contracts.Contracts.test_tv_and_budget) ... ok
 
 ----------------------------------------------------------------------
-Ran 15 tests in 0.399s
+Ran 16 tests in 0.349s
 
 OK
 
-$ python scripts/stage_work.py /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-szr4c4az/work
-/private/var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-szr4c4az/work
+$ python scripts/stage_work.py /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-s5ulri5i/work
+/private/var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-s5ulri5i/work
 
-$ python -m taskkit.cli public-assess --split evaluation --predictions /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-szr4c4az/fixture-predictions.jsonl
+$ python -m taskkit.cli public-assess --split evaluation --predictions /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-s5ulri5i/fixture-predictions.jsonl
 {
   "metrics": {
     "accuracy": 1.0,
@@ -44,15 +45,15 @@ $ python -m taskkit.cli public-assess --split evaluation --predictions /var/fold
   "status": "public_assessment"
 }
 
-$ python -m taskkit.cli assess --predictions /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-szr4c4az/fixture-predictions.jsonl --resources /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-szr4c4az/absent-resources.json --references public-authoring/reference_cache.json
+$ python -m taskkit.cli assess --predictions /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-s5ulri5i/fixture-predictions.jsonl --resources /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-s5ulri5i/absent-resources.json --references public-authoring/reference_cache.json
 {
   "official_reward": false,
   "reason": "reference cache is unmaterialized or incompatible",
   "status": "unscored"
 }
 
-$ python solution/materialize_baseline.py --prepared /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-szr4c4az/absent-baseline --output /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-szr4c4az/candidate
-Baseline not materialized: prepared-artifact.json is missing.
+$ python solution/materialize_baseline.py --source-snapshot /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-s5ulri5i/absent-baseline --output /var/folders/3g/rjx6q91n5bz_p9x4b0dr868r0000gn/T/gev-quant-rsi-cpu-s5ulri5i/candidate
+Pinned upstream snapshot is absent. Run the exact hf download command in RUNBOOK.md during author setup.
 
 $ python scripts/gpu_entrypoint.py
 UNAVAILABLE: no integrated ordinary BF16 model loading after fixed CPU reconstruction, model weights, measured reference cache, or official OpenRSI harness binding has been prepared. CPU contracts/data are available; this entrypoint cannot produce a reward.

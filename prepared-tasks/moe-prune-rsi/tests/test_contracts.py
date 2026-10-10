@@ -151,11 +151,53 @@ class Contracts(unittest.TestCase):
         with self.assertRaises(ContractError):admit_pruned_layer(source,cand,keep)
         self.assertTrue(admit_pruned_layer(source,cand,keep,{"experts.gate_up_proj":{0:{"a":a,"b":b}}}))
 
+    def test_b0_materializer_verifies_existing_snapshot_without_model_compute(self):
+        import hashlib
+        import importlib.util
+        import json
+        module_spec=importlib.util.spec_from_file_location("b0_materializer",ROOT/"solution/materialize_baseline.py")
+        module=importlib.util.module_from_spec(module_spec);module_spec.loader.exec_module(module)
+        with tempfile.TemporaryDirectory() as temporary:
+            temporary=Path(temporary);snapshot=temporary/"cache/snapshots"/SOURCE_REVISION
+            blobs=temporary/"cache/blobs";snapshot.mkdir(parents=True);blobs.mkdir()
+            # Deliberately tiny fixture: validates file-copy and hash contracts,
+            # never a GEV checkpoint or an evidence artifact for publication.
+            header=json.dumps({"example":{"dtype":"BF16","shape":[1],"data_offsets":[0,2]}}).encode()
+            shard=len(header).to_bytes(8,"little")+header+b"\x00\x00"
+            index={"metadata":{"total_size":2},"weight_map":{"example":"model-00001.safetensors"}}
+            payloads={name:b"{}" for name in ("config.json","tokenizer.json","tokenizer_config.json","processor_config.json","head.safetensors","calibration.json","calibration_gold.json","judge_config.json","adapter/adapter_model.safetensors")}
+            payloads.update({"chat_template.jinja":b"template","model.safetensors.index.json":json.dumps(index).encode(),"model-00001.safetensors":shard})
+            for name,data in payloads.items():
+                blob=blobs/hashlib.sha256(data).hexdigest();blob.write_bytes(data)
+                path=snapshot/name;path.parent.mkdir(parents=True,exist_ok=True);path.symlink_to(blob)
+            metadata=temporary/"fixture/source";metadata.mkdir(parents=True)
+            (metadata/"metadata-receipts.json").write_text(json.dumps({"files":{name:{"sha256":hashlib.sha256(payloads[name]).hexdigest()} for name in ("config.json","model.safetensors.index.json")}}))
+            module.ROOT=temporary/"fixture"
+            output=module.materialize(snapshot,temporary/"output")
+            receipt=json.loads((output/"prepared-artifact.json").read_text())
+            self.assertEqual(receipt["baseline_id"],"B0")
+            self.assertFalse(receipt["model_computation_performed"])
+            self.assertFalse(receipt["measurements_available"])
+            self.assertFalse((output/"model-00001.safetensors").is_symlink())
+            self.assertFalse(receipt["upstream_inventory_verified"])
+            inventory={"schema":"upstream-blob-inventory-v1","repo_id":module.REPO_ID,"revision":SOURCE_REVISION,"files":{name:{"content_address":hashlib.sha256(data).hexdigest(),"bytes":len(data)} for name,data in payloads.items()}}
+            inventory_path=temporary/"inventory.json";inventory_path.write_text(json.dumps(inventory))
+            checked=module.materialize(snapshot,temporary/"inventory-checked-output",inventory_path)
+            self.assertTrue(json.loads((checked/"prepared-artifact.json").read_text())["upstream_inventory_verified"])
+            inventory["files"]["head.safetensors"]["content_address"]="0"*64
+            inventory_path.write_text(json.dumps(inventory))
+            with self.assertRaisesRegex(ValueError,"exact upstream revision member"):
+                module.materialize(snapshot,temporary/"wrong-member-output",inventory_path)
+            # Hash corruption cannot create a materialized baseline.
+            (snapshot/"model-00001.safetensors").resolve().write_bytes(b"corrupt")
+            with self.assertRaisesRegex(ValueError,"content hash mismatch"):
+                module.materialize(snapshot,temporary/"corrupt-output")
+            self.assertFalse((temporary/"corrupt-output").exists())
+
     def fixtures(self):
         # Deliberately synthetic arithmetic fixtures. Never written as reference caches.
         ref={"schema":"reference-cache-v1","status":"measured","source_revision":SOURCE_REVISION,
-             "B0":{"accuracy":1.0,"family_accuracy":{f:1.0 for f in FAMILIES},"brier":0,"model_bytes":1000,"latency_seconds":10},
-             "BQ":{"distortion":0.1,"latency_seconds":10}}
+             "B0":{"accuracy":1.0,"family_accuracy":{f:1.0 for f in FAMILIES},"brier":0,"model_bytes":1000,"latency_seconds":10}}
         metrics={"accuracy":1.0,"family_accuracy":{f:1.0 for f in FAMILIES},"brier":0,"count":576}
         resources={"status":"complete","model_bytes":400,"peak_gpu_bytes":1024,"latency_pass_seconds":[10,10,10],"judge_wall_seconds":30,"artifact_admission":"passed"}
         return ref,metrics,resources
@@ -163,7 +205,15 @@ class Contracts(unittest.TestCase):
     def test_score_full_marks_quality_zero_missing_reference(self):
         ref,metrics,res=self.fixtures()
         self.assertEqual(compose("quant",metrics,res,ref,0.05)["score"],100)
-        self.assertEqual(compose("quant",metrics,res,ref,0.1)["score"],0)
+        self.assertEqual(compose("quant",metrics,res,ref,0.1)["score"],100)
+        res["model_bytes"]=700
+        self.assertAlmostEqual(compose("quant",metrics,res,ref,0.1)["score"],50)
+        res["model_bytes"]=1000
+        self.assertEqual(compose("quant",metrics,res,ref,0.0)["score"],0)
+        res["model_bytes"]=400
+        # Optional control measurements must not affect score or latency gates.
+        altered=copy.deepcopy(ref);altered["BQ"]={"distortion":0,"latency_seconds":0.001}
+        self.assertEqual(compose("quant",metrics,res,altered,0.1)["score"],100)
         plan=frequency_map({str(i):[1]*128 for i in range(30)})
         self.assertAlmostEqual(compose("prune",metrics,res,ref,expert_map=plan)["score"],100*2/3)
         full={**plan,"layers":{str(i):list(range(80)) for i in range(30)}}

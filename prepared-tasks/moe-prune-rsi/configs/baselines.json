@@ -1,7 +1,12 @@
 {
   "B0": {
     "type": "original_bf16",
-    "status": "configuration-only"
+    "status": "existing-public-upstream-artifact-not-downloaded-locally",
+    "role": "sole-reference-baseline",
+    "repo_id": "autotrust/GEV-26B-Decide",
+    "revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
+    "materializer": "solution/materialize_baseline.py --source-snapshot SNAPSHOT --output NEW_PATH",
+    "artifact_kind": "original_bf16"
   },
   "B96": {
     "type": "routing_frequency",
@@ -11,6 +16,11 @@
     "tie_break": "ascending_original_expert_id",
     "recovery": false,
     "scale_policy": "preserve_surviving_per_expert_and_global_values",
-    "status": "configuration-only-routing-counts-not-measured"
+    "status": "configuration-only-routing-counts-not-measured",
+    "role": "optional-work-produced-control",
+    "required_for_activation": false,
+    "required_for_score": false,
+    "production_phase": "Work",
+    "accounting": "all profiling, quantization/export, evaluation, retries and resampling consume the ordinary Work budget; any Judge submission consumes an attempt"
   }
 }

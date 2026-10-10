@@ -1,8 +1,8 @@
 {
-  "version": 2,
+  "version": 3,
   "date": "2026-10-10",
   "task": "gev-think-rsi",
-  "protocol": "fully public evaluation inputs/answers/seeds, reserved from fitting by declared protocol",
+  "protocol": "fully public benchmark-conditioned evaluation; all inputs, answers, seeds and model traces may guide fitting and selection",
   "preparation": {
     "prepared": {
       "train": 500,
@@ -45,9 +45,10 @@
     "export_manifest_bytes_match": true,
     "export_cpu_checks_passed": true,
     "repeat_preparation_byte_identical": true,
-    "proposal_rows": 28
+    "proposal_rows": 28,
+    "evaluation_informed_fitting_and_selection_allowed": true
   },
-  "manifest_sha256": "581732fa3091d8e065a8cb206f8b961ef96af13a71ae07e25619734bbbefbf29",
+  "manifest_sha256": "f829716e9716af88b163d4cd7c28cffa34f5f9a7cb860c41ffc764f32c828d2a",
   "model_or_gpu_run": false,
   "official_runtime_validated": false,
   "model_baseline_measured": false

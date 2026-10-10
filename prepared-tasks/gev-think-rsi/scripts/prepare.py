@@ -24,7 +24,9 @@ for path in sorted((task.ROOT / "data/public").rglob("*")):
     f = {"path": str(path.relative_to(task.ROOT)), "bytes": len(raw), "sha256": hashlib.sha256(raw).hexdigest()}
     if path.suffix == ".jsonl": f["records"] = len(raw.splitlines())
     files.append(f)
-manifest = {"version": 2, "visibility": "fully_public", "evaluation_reserved_from_fitting_by_protocol": True,
+manifest = {"version": 2, "visibility": "fully_public", "evaluation_reserved_from_fitting_by_protocol": False,
+            "evaluation_informed_fitting_and_selection_allowed": True,
+            "objective": "benchmark-conditioned compute allocation on a fully disclosed fixed workload",
             "generators": {name: hashlib.sha256((task.ROOT/name).read_bytes()).hexdigest() for name in ("task.py",)},
             "families": list(task.FAMILIES), "counts": {s: len(v[0]) for s, v in outputs.items()},
             "semantic_groups": len(groups), "seed_file": "data/public/seeds.json",

@@ -7,7 +7,7 @@
     "practice": 1152
   },
   "deterministic_rebuild": "passed",
-  "elapsed_cpu_check_seconds": 9.166,
+  "elapsed_cpu_check_seconds": 9.932,
   "gold_oracle_cases_checked": 2016,
   "gpu_entrypoint": "refused-unimplemented",
   "gpu_runs": 0,
@@ -22,8 +22,8 @@
   "python": "3.12.3",
   "schema": "cpu-validation-v2",
   "scope": "CPU data/oracle/arithmetic contracts only; fixtures are not model scores",
-  "staged_file_count": 377,
-  "test_count": 15,
+  "staged_file_count": 379,
+  "test_count": 16,
   "test_status": "passed",
   "work_public_evaluation_included": "passed"
 }

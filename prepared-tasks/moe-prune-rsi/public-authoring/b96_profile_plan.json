@@ -386,6 +386,8 @@
     "moe-prune-rsi:practice:confidence:33e2aae0ed94bc195a10",
     "moe-prune-rsi:practice:confidence:3715489283c2a6218b20"
   ],
+  "required_for_activation": false,
+  "role": "optional-work-produced-control",
   "schema": "b96-profile-plan-v1",
   "selection": "first 32 lexicographically sorted IDs per family and difficulty",
   "split": "practice",

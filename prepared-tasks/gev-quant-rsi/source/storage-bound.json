@@ -1,0 +1,20 @@
+{
+  "schema": "source-derived-storage-arithmetic-v1",
+  "source_revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
+  "evidence": [
+    "source/metadata/config.json",
+    "source/metadata/model.safetensors.index.json"
+  ],
+  "basis": "30 layers, 128 experts, three expert matrices per layer/expert, hidden 2816, intermediate 704; grouped along last dimension; float32 scales; BF16 frozen backbone",
+  "backbone_bf16_tensor_bytes": 51611872412,
+  "expert_bf16_tensor_bytes": 45675970560,
+  "frozen_backbone_tensor_bytes": 5935901852,
+  "uniform_int4_group128_padded_bytes": 11765022720,
+  "float32_scale_bytes": 735313920,
+  "estimated_backbone_tensor_and_scale_bytes": 18436238492,
+  "backbone_only_ratio": 0.35720925497199146,
+  "full_score_ratio": 0.4,
+  "exclusions": "Original S1 adapter/head, serialization headers and every other delivered inference dependency must be added to numerator and denominator when actually packaged. This is arithmetic support, not measured compression quality, exact complete-artifact storage or speed.",
+  "model_weights_downloaded": false,
+  "gpu_runs": 0
+}

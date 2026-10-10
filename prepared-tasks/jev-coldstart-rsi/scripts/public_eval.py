@@ -12,16 +12,19 @@ p=argparse.ArgumentParser();p.add_argument('--split',choices=['train','dev','eva
 mode=p.add_mutually_exclusive_group(required=True)
 mode.add_argument('--predictions',help='CPU-only score of already produced diagnostic outputs')
 mode.add_argument('--model-dir',help='Explicitly run B0 against a real local JEV server')
+p.add_argument('--policy',help='Admitted candidate JSON for real inference; default is B0')
 p.add_argument('--output');p.add_argument('--base-url',default='http://127.0.0.1:8000');a=p.parse_args()
 qs=read(ROOT/f'data/public/{a.split}.jsonl');ys=read(ROOT/f'data/public/{a.split}-labels.jsonl')
 if a.predictions:
+    if a.policy:raise SystemExit('--policy applies only to real model inference')
     predictions=read(a.predictions)
 else:
     if not a.output or Path(a.output).exists():raise SystemExit('Real inference requires a new --output file')
     from src.native_client import LocalJEV
-    from baseline.policy import rank
+    from src.policy import load,rank
+    policy=load(a.policy or ROOT/'baseline/policy.json')
     broker=LocalJEV(a.model_dir,ROOT/'data/public/images',a.base_url,max_calls=20000,seconds=7200)
-    predictions=[{'id':q['id'],'scores':rank(q,broker)} for q in qs]
+    predictions=[{'id':q['id'],'scores':rank(q,broker,policy)} for q in qs]
     Path(a.output).write_text(''.join(json.dumps(r)+'\n' for r in predictions))
 result=score_predictions(qs,ys,predictions)
 print(json.dumps(result,indent=2));sys.exit(0 if result['status']=='complete' else 2)

@@ -27,13 +27,13 @@
   },
   "benchmark_visibility": "public",
   "protocol": "Fit on practice only; development selects; evaluation answers and seeds are inspectable and cannot support a secret-test generalization claim.",
-  "official_submission_status": "not-submitted",
+  "official_submission_status": "first-review-rejected-revision-prepared-not-resubmitted",
   "intended_public_repository": "https://github.com/aajing/autotrust-rsi-tasks",
   "repository_path": "prepared-tasks/gev-quant-rsi",
   "execution": {
     "backend": "cpu_dequantize_to_bf16_then_native_bf16",
     "reconstruction_function": "taskkit.tensors.dequantize",
-    "same_path_for": "BQ and every candidate",
+    "same_path_for": "B0 uses original BF16 tensors; every quantized candidate and optional BQ use CPU reconstruction and the same native BF16 inference runtime",
     "native_packed_gpu_execution": false,
     "runtime_status": "ordinary pinned-backbone BF16 loader not integrated or measured",
     "artifact_byte_policy": "all delivered model weights/scales/adapters and frozen dependencies once; deterministic ephemeral BF16 reconstruction excluded",
@@ -46,5 +46,30 @@
       "timing_repeats",
       "finalization"
     ]
+  },
+  "baseline_contract": {
+    "reference_baseline": "B0",
+    "artifact": "existing pinned upstream BF16 release",
+    "repo_id": "autotrust/GEV-26B-Decide",
+    "revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
+    "solution": "verify and copy the pinned upstream snapshot; no model computation",
+    "optional_work_controls": [
+      "BQ"
+    ],
+    "optional_control_required_for_scoring": false,
+    "reference_measurement": "Task-author Judge preparation after acceptance; B0 only; measurements are not claimed available"
+  },
+  "score_contract": {
+    "reference_baseline": "B0",
+    "baseline_score": 0,
+    "optional_work_control": "BQ",
+    "optional_control_required_for_score": false,
+    "threshold_choice": "ex ante, no quality attainability claimed",
+    "metric": "delivered storage reduction subject to quality and resource gates",
+    "formula": "100*clip((1-model_bytes/B0_model_bytes)/0.60,0,1)",
+    "full_score_bytes_ratio_max": 0.4,
+    "storage_gate_bytes_ratio_max": 1.0,
+    "latency_reference": "B0",
+    "distortion": "B0 total-variation diagnostic only; not reward normalization"
   }
 }

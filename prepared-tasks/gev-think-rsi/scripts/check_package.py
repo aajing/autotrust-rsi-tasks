@@ -19,6 +19,8 @@ for f in manifest["files"]:
     assert len(raw) == f["bytes"] and hashlib.sha256(raw).hexdigest() == f["sha256"]
 seeds = json.loads((task.ROOT / "data/public/seeds.json").read_text())
 assert manifest["visibility"] == "fully_public"
+assert manifest["evaluation_reserved_from_fitting_by_protocol"] is False
+assert manifest["evaluation_informed_fitting_and_selection_allowed"] is True
 assert not (task.ROOT/"data/private").exists()
 regenerated, groups = task.construct(seeds)
 seen = set()

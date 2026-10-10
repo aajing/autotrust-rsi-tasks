@@ -23,7 +23,7 @@
       "construction seeds",
       "semantic group assignments"
     ],
-    "evaluation_protocol": "Reserved from fitting/selection by declared protocol; publicly inspectable, included in Work; no secret-test generalization claim."
+    "evaluation_protocol": "Fully public benchmark-conditioned optimization: fitting and adaptive selection may use every published input, answer and trace; no heldout-generalization claim."
   },
   "runtime": {
     "dependency_lock": null,

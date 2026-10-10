@@ -1,9 +1,10 @@
 {
-  "name": "B0",
-  "history_selection": "first five available in frozen presented order",
+  "version": 1,
   "max_history": 5,
+  "intro": "Previously rated generated images, in a fixed non-temporal presentation order:",
   "question": "Is this scenario one where: this user would rate the candidate image at least 7 out of 10?",
-  "returned_score": "P(true) from frozen native System 1 head",
-  "fit_parameters": 0,
-  "model_calls_per_item": 1
+  "selector": {
+    "kind": "linear",
+    "weights": [0, -1, 0, 0, 0, 0]
+  }
 }

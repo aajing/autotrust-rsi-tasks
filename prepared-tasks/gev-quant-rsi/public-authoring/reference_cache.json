@@ -1,9 +1,9 @@
 {
   "B0": null,
-  "B96": null,
-  "BQ": null,
   "dataset_manifest_sha256": "ecddd22948b5a0404219f2c06a9d0669f8695bf416cb40ee0cd1eb6d7323227f",
-  "reason": "No model/GPU measurements exist. Completed operator measurements will be published; never replace nulls with estimates.",
+  "optional_work_controls_required": false,
+  "reason": "Pinned B0 model artifact already exists upstream. Its task-specific measurements are not yet reproduced; only real task-author measurements after acceptance may replace nulls. No BQ/B96 artifact or measurement is required.",
+  "reference_baseline": "B0",
   "schema": "reference-cache-v1",
   "source_revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
   "status": "unmaterialized"

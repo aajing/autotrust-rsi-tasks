@@ -27,16 +27,31 @@
   },
   "benchmark_visibility": "public",
   "protocol": "Fit on practice only; development selects; evaluation answers and seeds are inspectable and cannot support a secret-test generalization claim.",
-  "official_submission_status": "not-submitted",
+  "official_submission_status": "first-review-rejected-revision-prepared-not-resubmitted",
   "intended_public_repository": "https://github.com/aajing/autotrust-rsi-tasks",
   "repository_path": "prepared-tasks/moe-prune-rsi",
   "score_contract": {
+    "reference_baseline": "B0",
+    "baseline_score": 0,
+    "optional_work_control": "B96",
+    "optional_control_required_for_score": false,
+    "threshold_choice": "ex ante, no quality attainability claimed",
     "original_experts": 3840,
     "full_score_removal": 1440,
     "full_score_retained_max": 2400,
-    "reference_baseline": "B96",
     "B96_retained": 2880,
-    "B96_structural_score_max": 66.66666666666667,
-    "threshold_choice": "ex ante, no attainability claimed"
+    "B96_structural_score_max": 66.66666666666667
+  },
+  "baseline_contract": {
+    "reference_baseline": "B0",
+    "artifact": "existing pinned upstream BF16 release",
+    "repo_id": "autotrust/GEV-26B-Decide",
+    "revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
+    "solution": "verify and copy the pinned upstream snapshot; no model computation",
+    "optional_work_controls": [
+      "B96"
+    ],
+    "optional_control_required_for_scoring": false,
+    "reference_measurement": "Task-author Judge preparation after acceptance; B0 only; measurements are not claimed available"
   }
 }

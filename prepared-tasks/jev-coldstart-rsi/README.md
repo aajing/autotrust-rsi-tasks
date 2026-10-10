@@ -1,28 +1,26 @@
 # jev-coldstart-rsi
 
-Public proposal package, not submitted to official review. Prepared 10 October 2026 for Jing Qiu, ajing@autotrust.ai, GitHub `aajing`.
+Revision addressing official discussion #212 for Jing Qiu, ajing@autotrust.ai, GitHub `aajing`. No model/GPU execution or measured model score is claimed.
 
-Improve personalized ranking of new generated images using frozen `autotrust/JEV-27B-VL`. Optimize evidence selection, image composition, prompts and bounded numerical calibration. Return one real-valued score for each of 20 candidate images.
+Improve the ranking produced by frozen `autotrust/JEV-27B-VL` through compact evidence-selection policies and global prompts. This is **benchmark-conditioned optimization**: all inputs, human ratings, seeds, source maps and model feedback from **all three published partitions may guide fitting and selection**. There is no fit-excluded partition and no unseen-item, heldout-user or population-generalization claim. Coldstart describes the limited 3/20-history view supplied to the model at inference.
 
-AutoTrust's JEV recommendation demonstration motivates the use of native S1 decision probabilities for ranking. This task uses **Simulacra Aesthetic Captions v1.0 (CC0)** and genuine recorded human ratings. It measures offline aesthetic preference, not next-watch prediction, click uplift or chronological upload novelty. Source-demo numbers are not this task's baseline.
+The final artifact is strict, code-free `policy.json`. `src/policy.py` owns its admission and execution. The policy selects up to seven histories using linear coefficients or a small two-hidden-layer MLP over six fixed evidence features, plus two global prompt strings. The selector has at most 4,096 finite numeric parameters; each hidden layer has at most 32 units. Prompt strings are at most 512 characters each and have no interpolation or conditional execution. Every candidate's score equals the unmodified probability from one fresh native JEV S1 call. No prediction maps, answer tables, file paths, callback hooks or candidate executable rankers are accepted. Public-label specialization within this admitted interface is allowed and does not demonstrate generalization.
 
-The complete SQLite metadata and all derived inputs, answers, source maps and seeds are public. There are **342 / 96 / 96** learning / development / evaluation queries from **57 / 16 / 16** disjoint synthetic survey-user groups. Each group contributes six cells: text/image/both crossed with 3/20 history items. The evaluation split has only 16 independent groups and is a pilot benchmark.
+This preserves several research hypotheses: content relevance versus rating diversity, linear versus nonlinear history selection, prompt framing and how these mechanisms behave across modalities/history lengths. The model weights, feature definitions, scorer and resource limits stay fixed. B0 uses the first five histories (all three for short cells), the original fixed question and the same one-call score extraction. `scripts/materialize.py` copies/admit-checks its existing JSON without inference or fitting.
 
-This is a disclosed fixed benchmark: researchers may inspect all material. Fit learned numerical parameters on learning data only; select methods on development data. A submitted policy must rank from its supplied history and candidate evidence, not retrieve per-item answers or contain an answer table. Those are auditable method rules, not a secrecy guarantee. Scores do not establish unseen-test generalization.
+Data is **Simulacra Aesthetic Captions v1.0 (CC0)**. The included checksum-verified 44,748,800-byte SQLite and deterministic constructor produce **342 / 96 / 96** query rows from **57 / 16 / 16** disjoint survey-user groups, six views per user. These are reported in `evidence/split-report.json`. Human ratings measure generated-image aesthetics, not clicks or online engagement. The independent scoring workload contains only 16 user groups.
 
-| Path | Contents |
-| --- | --- |
-| `proposal.md` | English proposal in the 28 official fields |
-| `configs/` | Task bounds, schemas and pinned source revisions |
-| `data/source/` | Complete 44,748,800-byte CC0 SQLite snapshot |
-| `data/public/` | Every split, every label, source map and exact 3,560-image request list |
-| `baseline/` | Materializable B0 policy; one native JEV S1 request per candidate |
-| `src/` | Deterministic construction, tie-aware NDCG and real local JEV client |
-| `scripts/` | Acquisition, safe image import, public export and diagnostics |
-| `tests/`, `evidence/` | CPU contracts, provenance and truthful acquisition status |
+The exact selection contains 3,560 item records. All metadata and answers are delivered. Pixels use a concrete public 86,569,533,440-byte archive plus the exact `data/public/image-requests.jsonl` selection. The importer verifies selected PNGs, writes SHA256 hashes and **reports but retains identical-byte groups**, including cross-partition matches. Pixel duplication never reduces the fixed cohort, changes the metric denominator or activates a fallback. Missing/corrupt assets are unscored infrastructure failures; no replacements or partial cohort scores are allowed.
 
-Full score is 100 when every query reaches ideal DCG@10 and all runtime/integrity gates pass. A perfect-label CPU fixture verifies this arithmetic; it is not a measured model result.
+Full score is 100 when all 96 queries reach ideal DCG@10 and all resource/integrity gates pass. Expected discount handles ties; all six cells have equal weight. CPU oracle fixtures verify arithmetic and are not model results. User-group bootstrap may describe workload sensitivity, not unseen-population confidence after adaptive public-label selection.
 
-One H100 80 GB, 16 CPU cores, 96 GB RAM and 200 GB free storage are specified. Host RAM availability was confirmed. GPU inference, baseline quality and latency have not been measured. The official runtime entry point fails closed until integration is completed.
+CPU-only checks:
 
-The public upstream image archive is 86,569,533,440 bytes and is not mirrored in this package. The exact selected-image list, public download URL and safe extractor are included. Image import/hash validation, model materialization and trusted runtime integration are execution requirements; they are not represented as completed. No placeholder images, secret answer archive or encryption is used. See `RUNBOOK.md` and `DATA_CARD.md`.
+```sh
+python3 scripts/prepare.py
+python3 scripts/check_package.py
+python3 scripts/materialize.py --output /absolute/new-baseline-directory
+python3 scripts/export_work.py --metadata-only --output /absolute/new-review-directory
+```
+
+One H100 80 GB, 16 CPU cores, 96 GB RAM and 200 GB disk are specified. Work: 2 hours/20,000 native calls. Judge: 90 minutes/1,920 calls across all 96 queries. The actual GPU/runtime envelope remains unmeasured. Native serving/token accounting and official Harness integration remain task-generation work; `official_judge.py` fails closed until then. Current shared Work/Judge snapshots do not guarantee privileged-root isolation. See `RUNBOOK.md`, `DATA_CARD.md` and `proposal.md` for the full contract.

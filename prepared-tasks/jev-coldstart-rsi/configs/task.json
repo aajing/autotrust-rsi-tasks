@@ -1,6 +1,6 @@
 {
   "task": "jev-coldstart-rsi",
-  "version": 3,
+  "version": 4,
   "status": "public_proposal_release_preparation",
   "contributor": {
     "name": "Jing Qiu",
@@ -18,7 +18,7 @@
   "work": {
     "seconds": 7200,
     "model_calls": 20000,
-    "max_fitted_numeric_parameters": 100000
+    "max_fitted_numeric_parameters": 4096
   },
   "judge": {
     "seconds": 5400,
@@ -54,10 +54,30 @@
     "all_inputs_answers_seeds_public": true,
     "encrypted": false,
     "evaluation_confidential": false,
-    "fit_split": "train",
-    "selection_split": "dev",
+    "fit_split": "all published splits",
+    "selection_split": "all published splits",
     "evaluation_inspection_permitted": true,
-    "prohibited": "Embedding per-query answers or fitting on evaluation labels",
-    "claim": "Optimization on a disclosed fixed benchmark; no secret-test generalization claim"
-  }
+    "prohibited": "Candidate code, direct predictions, answer lookup fields, evaluator modification",
+    "claim": "Benchmark-conditioned model-mediated ranking on a fully disclosed fixed workload; no unseen-item or heldout-user generalization claim",
+    "evaluation_informed_fitting_and_selection_allowed": true
+  },
+  "candidate_artifact": {
+    "format": "strict declarative policy.json",
+    "executor": "src/policy.py",
+    "history_features": [
+      "rating",
+      "position",
+      "text_length",
+      "lexical_overlap",
+      "centered_rating",
+      "rating_extremity"
+    ],
+    "max_hidden_width": 32,
+    "max_numeric_parameters": 4096,
+    "max_history": 7,
+    "max_intro_chars": 512,
+    "max_question_chars": 512,
+    "final_score": "unaltered probability returned by the single native JEV S1 request"
+  },
+  "image_duplicate_policy": "Report all identical-byte groups, retain all selected records without exclusions; public benchmark optimization permits cross-partition exposure."
 }

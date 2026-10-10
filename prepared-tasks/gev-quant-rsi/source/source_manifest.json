@@ -27,5 +27,11 @@
     "container_digest": null,
     "dependency_lock": null,
     "execution_contract": "CPU reconstruction through taskkit.tensors.dequantize followed by ordinary pinned-backbone BF16 inference; no native packed GPU kernel"
-  }
+  },
+  "baseline_id": "B0",
+  "artifact_availability": "existing-public-upstream-release",
+  "local_status": "metadata-only-no-weights",
+  "setup_command": "hf download autotrust/GEV-26B-Decide --revision 7c89590ead085bf77630b4bf68264ea30b6ddc78",
+  "solution_input": "standard content-addressed Hugging Face cache snapshot at the exact revision",
+  "optional_compressed_control_required": false
 }

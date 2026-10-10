@@ -20,4 +20,4 @@ for name in allow:
 for name in ("evaluation.jsonl", "evaluation_gold.jsonl", "seeds.json", "groups.jsonl"):
     assert (out/"data/public"/name).is_file()
 print(json.dumps({"work_export":str(out),"all_evaluation_inputs_answers_seeds_included":True,
-                  "evaluation_reserved_from_fitting_by_protocol":True,"runtime_validated":False}))
+                  "evaluation_reserved_from_fitting_by_protocol":False,"evaluation_informed_fitting_and_selection_allowed":True,"runtime_validated":False}))

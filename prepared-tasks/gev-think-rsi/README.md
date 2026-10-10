@@ -1,12 +1,14 @@
 # gev-think-rsi
 
-Prepared proposal package. No official submission or model/GPU run is claimed. The main model, autotrust/GEV-26B-Decide, stays frozen. The research agent may fit a small **external compute-allocation router**; this is not weight self-improvement of GEV. Host RAM availability is contributor-confirmed.
+Revision of the publicly submitted proposal. No model/GPU run is claimed. The main model, autotrust/GEV-26B-Decide, stays frozen. The research agent may fit a small **external compute-allocation router**; this is not weight self-improvement of GEV. Host RAM availability is contributor-confirmed.
 
 ## Fully public benchmark protocol
 
 All 500 training, 100 development and 200 evaluation inputs, answers, executable oracles, construction seeds and group assignments are published without encryption under `data/public/`. The evaluation files are `evaluation.jsonl` and `evaluation_gold.jsonl`; seeds and groups are `seeds.json` and `groups.jsonl`. Work exports include all of them. There is no secret test set and no secret-test generalization claim.
 
-By the declared research protocol, fit only on training data, select on development, and freeze the chosen router before evaluation. Do not fit prompts/router weights, choose policies, or build lookups from evaluation inputs, answers or traces. Public availability makes this a conduct rule, not an enforceable secrecy guarantee. Inspection for dataset auditing is permitted; disclose evaluation-informed changes and treat their scores as benchmark-conditioned exploratory results. A scored runtime passes only the current ordinary task to GEV and only admitted features to the router, even though researchers can inspect every answer.
+The objective is **benchmark-conditioned compute allocation**. Fitting router weights, selecting policies, generating action-value targets and studying model traces may use **every published split, including evaluation answers**. Split names describe fixed workload partitions, not reserved or held-out information. The scored artifact is frozen for one Judge call and may be revised using that result for the next call. Report all exposure and charged inference; no statistical generalization claim follows from this adaptively optimized public score.
+
+The finite router still cannot emit answers, prompts or tool arguments. Judge executes fresh frozen-model calls and accepts only the five admitted compute actions. Learning instance-specific *compute choices* inside the admitted finite router is allowed; directly replaying an answer is outside its interface. Fixed prompts and a code-free artifact restrict the measured intervention to computation allocation. They do not establish that the learned policy generalizes to new instances.
 
 ## Data and implemented components
 

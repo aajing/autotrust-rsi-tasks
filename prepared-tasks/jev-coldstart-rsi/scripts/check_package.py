@@ -23,7 +23,7 @@ if image_manifest.is_file():
             if not path.is_file() or sha_file(path)!=r['sha256']:images_complete=False
 result={'cpu_contracts_passed':p.returncode==0,'source_metadata_sha256_verified':source_ok,
         'oracle_fixture_score':oracle['score'],'oracle_is_model_result':False,'images_complete':images_complete,
-        'gpu_inference_run':False,'official_judge_active':False,'submitted':False}
+        'gpu_inference_run':False,'official_judge_active':False,'revision_submitted':False}
 write_json(ROOT/'evidence/cpu-checks.json',result)
 files={str(f.relative_to(ROOT)):sha_file(f) for f in sorted(ROOT.rglob('*')) if f.is_file() and '__pycache__' not in f.parts and f.name!='manifest.json'}
 write_json(ROOT/'manifest.json',{'kind':'public_proposal_package','evaluation_answers_public':True,'encrypted':False,'files':files})
