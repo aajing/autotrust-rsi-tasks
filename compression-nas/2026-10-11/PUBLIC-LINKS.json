@@ -227,61 +227,61 @@
     },
     {
       "task": "jev-block-nas-rsi",
-      "support_commit": "7cd34aef7e2e17ef45f240be9dd53934c5571d6b",
-      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi",
+      "support_commit": "c0f4b0f30c0100a939735424a5f6ec301a0a2175",
+      "support_root": "https://github.com/aajing/autotrust-rsi-tasks/tree/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi",
       "files": [
         {
           "path": "task.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/task.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/task.json",
           "sha256": "84bdd1cba7c5b237fae048d9fbfe1a205e51d1d7806ead52dfd94d1f520f8461"
         },
         {
           "path": "DATA.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/DATA.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/DATA.md",
           "sha256": "760d7b240e7ef8338a1b9fc0790b0c32a879074117a58a127b82b1ca81dc5543"
         },
         {
           "path": "INTEGRATION.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/INTEGRATION.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/INTEGRATION.md",
           "sha256": "eecc144d850847ed5c421f208ab06956dca0fb5a4a8676636e01b1cb0067fa52"
         },
         {
           "path": "SOURCES.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/SOURCES.md",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/SOURCES.md",
           "sha256": "5eb8a61163715e8215e6a8e8d62795020e33f913eed3732cf11636002b2964cb"
         },
         {
           "path": "scoring.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/scoring.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/scoring.py",
           "sha256": "c34c07aaf75d8f65649795cb2bbdc1cee3f313a950def54162d7aa5fd235b0cc"
         },
         {
           "path": "evaluation-manifest.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/evaluation-manifest.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/evaluation-manifest.json",
           "sha256": "d0683aa0ea1b9169ab5642ae878779d2840932d4460ed9b0e5c4f463b009cd38"
         },
         {
           "path": "materialize_selection.py",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/materialize_selection.py",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/materialize_selection.py",
           "sha256": "57fb2cd8289289a3de2c0baf5cfd615ed1f58834f2299b2d8a9ed282bbb09faf"
         },
         {
           "path": "evidence/data-cardinality.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/evidence/data-cardinality.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/evidence/data-cardinality.json",
           "sha256": "23efab50d10ac6dd3abf34ffc42eef1b06a35a231af5090ff50ce196e94192b6"
         },
         {
           "path": "evidence/baseline-shapes.json",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/evidence/baseline-shapes.json",
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/evidence/baseline-shapes.json",
           "sha256": "97ca1cf4b7128ea09e60830b362c7eb29a0f46341dd59e5d21690d96f9a6aa59"
         },
         {
           "path": "EXPERTISE.md",
-          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/7cd34aef7e2e17ef45f240be9dd53934c5571d6b/compression-nas/2026-10-11/jev-block-nas-rsi/EXPERTISE.md",
-          "sha256": "20f62e0a6b96ee741800067f2a48435794c7a146fa45c86382f031151d071cf2"
+          "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/c0f4b0f30c0100a939735424a5f6ec301a0a2175/compression-nas/2026-10-11/jev-block-nas-rsi/EXPERTISE.md",
+          "sha256": "33d985492e2376a050e5b5ab9df9cc6a19af5879170f8729f71e491cc4c29b34"
         }
       ],
-      "proposal_sha256": "2a7cac901afbb73d259367a2a922586ab51229b186b55457345ec0908000128f"
+      "proposal_sha256": "38cd4f444aae72544a15003a7a32166e159aafdb3afa7de1a9c5240b5488b523"
     },
     {
       "task": "gpt-subnet-nas-rsi",
@@ -337,5 +337,6 @@
       "proposal_sha256": "4e04f3db7097812ad453132fc8345ad1b61c7c9d2c6bb8d2266dff882a12beb9"
     }
   ],
-  "contributor_confirmation": "Familiarity with all five external source projects explicitly confirmed on October 11, 2026."
+  "contributor_confirmation": "Familiarity with all five external projects and personal participation in JEV-9B explicitly confirmed on October 11, 2026.",
+  "contributor_relationship_update_commit": "c0f4b0f30c0100a939735424a5f6ec301a0a2175"
 }

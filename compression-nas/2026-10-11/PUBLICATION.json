@@ -18,7 +18,8 @@
   "input_and_gold_visibility": "All inputs and answers remain obtainable from the exact public upstream sources. Raw LongBench text is fetched at setup rather than mirrored here.",
   "selected_project_familiarity": "Contributor explicitly confirmed familiarity with all five external codebases on October 11, 2026.",
   "gpu_experiments": 0,
-  "release_tag": "compression-nas-2026-10-11",
+  "release_tag": "compression-nas-2026-10-11-v2",
   "fresh_longbench_archive_verification": "not completed: network failure; local selected-record hashes and unit tests passed",
-  "jev_project_participation": "Jing Qiu explicitly confirmed personal participation in JEV-9B on October 11, 2026."
+  "jev_project_participation": "Jing Qiu explicitly confirmed personal participation in JEV-9B on October 11, 2026.",
+  "supersedes_release": "compression-nas-2026-10-11"
 }

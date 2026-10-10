@@ -44,7 +44,7 @@
       "english_only": true,
       "source_repository": "https://huggingface.co/autotrust/JEV-9B . This is the official Git source repository, including native inference examples, serving Python, configs and released adapter/head assets; it is not a newly invented GitHub mirror.",
       "source_revision": "d7bf1c0051f78e3a7bd5bbb90add79bfd769079b",
-      "proposal_sha256": "2a7cac901afbb73d259367a2a922586ab51229b186b55457345ec0908000128f"
+      "proposal_sha256": "38cd4f444aae72544a15003a7a32166e159aafdb3afa7de1a9c5240b5488b523"
     },
     {
       "task": "gpt-subnet-nas-rsi",

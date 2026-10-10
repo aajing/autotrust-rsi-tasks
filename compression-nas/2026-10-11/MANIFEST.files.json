@@ -8,18 +8,18 @@
     },
     {
       "path": "PUBLIC-LINKS.json",
-      "bytes": 21411,
-      "sha256": "82daa7ca3a0adc2cb684cd32d00e498d4d9e9c89fb40a918156a2c21b8f163b7"
+      "bytes": 21529,
+      "sha256": "fb8a0e47bb926a577ba1cee624d257d99f7514f9e3e34a6b72429fdb9b21fd27"
     },
     {
       "path": "PUBLICATION.json",
-      "bytes": 1095,
-      "sha256": "9ccf09c0d2eb8fe253819a98fd8f0be8eab2274348b9160a8327206d422c278e"
+      "bytes": 1270,
+      "sha256": "99a6b0c927ad022501be67453556bccbeea042ad075ea95db3a8956c39460855"
     },
     {
       "path": "README.md",
-      "bytes": 5639,
-      "sha256": "401226b79de6f374509fde7eea258c03a51b2798f99d4d73a2ee08bac6973872"
+      "bytes": 5703,
+      "sha256": "e5de8e35480fc02275b194410078b5300581deddd2bac4a8492d20303d967a7e"
     },
     {
       "path": "gpt-subnet-nas-rsi/DATA.md",
@@ -158,8 +158,8 @@
     },
     {
       "path": "jev-block-nas-rsi/EXPERTISE.md",
-      "bytes": 1280,
-      "sha256": "20f62e0a6b96ee741800067f2a48435794c7a146fa45c86382f031151d071cf2"
+      "bytes": 1716,
+      "sha256": "33d985492e2376a050e5b5ab9df9cc6a19af5879170f8729f71e491cc4c29b34"
     },
     {
       "path": "jev-block-nas-rsi/INTEGRATION.md",
@@ -243,8 +243,8 @@
     },
     {
       "path": "jev-block-nas-rsi/proposal.md",
-      "bytes": 18740,
-      "sha256": "2a7cac901afbb73d259367a2a922586ab51229b186b55457345ec0908000128f"
+      "bytes": 18984,
+      "sha256": "38cd4f444aae72544a15003a7a32166e159aafdb3afa7de1a9c5240b5488b523"
     },
     {
       "path": "jev-block-nas-rsi/scoring.py",
@@ -664,7 +664,7 @@
     {
       "path": "preflight-report.json",
       "bytes": 2452,
-      "sha256": "7985764c4e2b7869e90241014e363959c67fe4916df6bce391936a2b197830b2"
+      "sha256": "cb010b86eaf9ae624e77d341711b9b7de4c65b5a1c37593fd4d246de16a735af"
     },
     {
       "path": "shared/DIFFERENTIATION.md",
@@ -678,18 +678,18 @@
     },
     {
       "path": "shared/SUBMISSION-NOTES.md",
-      "bytes": 4217,
-      "sha256": "1b99d3b69ae499d76bb5663c4839632ae2e2213445c6541fc4c57792d997d513"
+      "bytes": 4653,
+      "sha256": "6d67e8e17efe6963f8a10db9eaa0b173bce65cac0c7b7ef7d9ce7cae43683125"
     },
     {
       "path": "shared/author.json",
-      "bytes": 1059,
-      "sha256": "ce3520b8eafade0aed8ecc5a3b2c5b95d7a30e99e591e1949ef0626208ed89f3"
+      "bytes": 1482,
+      "sha256": "6bf7b44c6ea6c8a8ebf032e44d974a344c79292ac0066790179ea1ca18eba69b"
     },
     {
       "path": "shared/expertise-evidence.md",
-      "bytes": 10919,
-      "sha256": "0b33c7af79142497a24617d60cab8192993c760303e076d0e263267097b64bd5"
+      "bytes": 11355,
+      "sha256": "a124de6032e64d02a6f67fedbd440e253bf23febf096a881118c9fd3308502fb"
     },
     {
       "path": "shared/official-proposal-template.md",
