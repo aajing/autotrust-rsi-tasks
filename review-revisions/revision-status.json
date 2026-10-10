@@ -6,11 +6,7 @@
   "all_answers_public": true,
   "encrypted": false,
   "contributor_evidence": "organization-member link supplied by contributor; public ajing/uremia membership and JEV release-author credit checked; professional-name mapping remains contributor-provided",
-  "approval_needed": [
-    "public-benchmark fitting/selection for think and coldstart",
-    "declarative-only coldstart candidate and retain/report byte duplicates",
-    "released B0 compression reference; quant storage reward with full score at <=40%"
-  ],
+  "approval_needed": [],
   "validation": {
     "quant_cpu_tests": 16,
     "prune_cpu_tests": 16,
@@ -24,45 +20,67 @@
     {
       "task": "gev-think-rsi",
       "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/211",
-      "proposal_sha256": "8e115433685cbe62741fab5fabf9662c838455016fd42cafc900e188ab60ecaa"
+      "proposal_sha256": "8e115433685cbe62741fab5fabf9662c838455016fd42cafc900e188ab60ecaa",
+      "submitted_proposal_sha256": "fbf48c895dbbade6db2bfa91e179caef49ae0721e752808895f656f5f05407d5",
+      "official_decision": "Pass"
     },
     {
       "task": "jev-judge-rsi",
       "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/210",
-      "proposal_sha256": "692a297ba9974fc29d5ddf022716680c24971589d4af09a0f35178d53f3309ad"
+      "proposal_sha256": "692a297ba9974fc29d5ddf022716680c24971589d4af09a0f35178d53f3309ad",
+      "submitted_proposal_sha256": "1c9ff7e385cebb69db1a9af64904709678662d376d8ae1a3b413ce772cd7aed0",
+      "official_decision": "Pass"
     },
     {
       "task": "jev-coldstart-rsi",
       "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/212",
-      "proposal_sha256": "5805683df5652c2b1d8efbe05757ac66a1b8304bdd8587c7e69adebddcdbb748"
+      "proposal_sha256": "5805683df5652c2b1d8efbe05757ac66a1b8304bdd8587c7e69adebddcdbb748",
+      "submitted_proposal_sha256": "b57cd05c3d2ecb359e91aeb405f30aadcc0c32d798c9e1a9e1e85dd4df88549e",
+      "official_decision": "Pass"
     },
     {
       "task": "jev-visual-control-rsi",
       "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/213",
-      "proposal_sha256": "6d4bb57b91835e4a9c10bffc6056bce8d3f0d14dce1d85e79cb5a0c5006220c6"
+      "proposal_sha256": "6d4bb57b91835e4a9c10bffc6056bce8d3f0d14dce1d85e79cb5a0c5006220c6",
+      "submitted_proposal_sha256": "683d8230d9c5a46db1d45d8715bf1985203a75f607691e25843387407f435cb9",
+      "official_decision": "Pass"
     },
     {
       "task": "gev-quant-rsi",
       "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/214",
-      "proposal_sha256": "e91b7ee1217e46ecd64d261767a92d4d0a9dbc93b70a78fe5c8767fbbe351852"
+      "proposal_sha256": "e91b7ee1217e46ecd64d261767a92d4d0a9dbc93b70a78fe5c8767fbbe351852",
+      "submitted_proposal_sha256": "47431ee4845fc0a9bcc7e4f5f0187ced01fe1fee2165d8fa830a50d67acb87ce",
+      "official_decision": "Pass"
     },
     {
       "task": "moe-prune-rsi",
       "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/215",
-      "proposal_sha256": "3cc84d8b3ca3e17be836f6acb7b7d554ec384a00058b9c8d5ed62c269f306e5e"
+      "proposal_sha256": "3cc84d8b3ca3e17be836f6acb7b7d554ec384a00058b9c8d5ed62c269f306e5e",
+      "submitted_proposal_sha256": "125e227f0f4db0a0d41d551295b2b7679da3846b6f9ec4e075911c60da9104f2",
+      "official_decision": "Pass"
     }
   ],
   "official_updated_tasks": [
-    "jev-judge-rsi"
-  ],
-  "official_update_blocked_tasks": {
-    "jev-visual-control-rsi": "pre-update helper authentication failed; no mutation attempted"
-  },
-  "official_contract_confirmation_pending": [
     "gev-think-rsi",
+    "jev-judge-rsi",
     "jev-coldstart-rsi",
+    "jev-visual-control-rsi",
     "gev-quant-rsi",
     "moe-prune-rsi"
   ],
-  "release_url": "https://github.com/aajing/autotrust-rsi-tasks/releases/tag/review-revision-1-2026-10-10"
+  "official_update_blocked_tasks": {},
+  "official_contract_confirmation_pending": [],
+  "release_url": "https://github.com/aajing/autotrust-rsi-tasks/releases/tag/review-revision-1-2026-10-10",
+  "contributor_confirmed_at_utc": "2026-10-10T14:16:43.497707+00:00",
+  "contributor_confirmation": "Confirmed all revised scientific contracts and requested submission/checking review outcome.",
+  "official_update_status": "all six confirmed revisions posted",
+  "official_review_verified_at_utc": "2026-10-10T14:28:30.166300+00:00",
+  "official_decisions": {
+    "gev-think-rsi": "Pass",
+    "jev-judge-rsi": "Pass",
+    "jev-coldstart-rsi": "Pass",
+    "jev-visual-control-rsi": "Pass",
+    "gev-quant-rsi": "Pass",
+    "moe-prune-rsi": "Pass"
+  }
 }
