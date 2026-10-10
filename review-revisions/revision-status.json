@@ -1,7 +1,7 @@
 {
   "prepared_at_utc": "2026-10-10T13:48:48.300416+00:00",
   "implementation_commit": "88a9b88a888e970d590109eb59d8af973d618913",
-  "official_updates_made": false,
+  "official_updates_made": true,
   "gpu_runs": 0,
   "all_answers_public": true,
   "encrypted": false,
@@ -51,5 +51,18 @@
       "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/215",
       "proposal_sha256": "3cc84d8b3ca3e17be836f6acb7b7d554ec384a00058b9c8d5ed62c269f306e5e"
     }
-  ]
+  ],
+  "official_updated_tasks": [
+    "jev-judge-rsi"
+  ],
+  "official_update_blocked_tasks": {
+    "jev-visual-control-rsi": "pre-update helper authentication failed; no mutation attempted"
+  },
+  "official_contract_confirmation_pending": [
+    "gev-think-rsi",
+    "jev-coldstart-rsi",
+    "gev-quant-rsi",
+    "moe-prune-rsi"
+  ],
+  "release_url": "https://github.com/aajing/autotrust-rsi-tasks/releases/tag/review-revision-1-2026-10-10"
 }

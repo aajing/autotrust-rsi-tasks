@@ -113,7 +113,7 @@
       "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/SHA256SUMS"
     }
   ],
-  "official_submission_verified_at_utc": "2026-10-10T13:15:41.283251+00:00",
+  "official_submission_verified_at_utc": "2026-10-10T14:02:22.333062+00:00",
   "official_submissions": [
     {
       "task": "gev-think-rsi",
@@ -129,9 +129,9 @@
       "discussion_number": 210,
       "discussion_url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/210",
       "created_at": "2026-10-10T13:06:40Z",
-      "review_status": "review completed",
-      "official_decision": "Reject",
-      "submitted_proposal_sha256": "1ba0238a56b97c2c1f7b32f9f07e060e7e750c30ca0a629a7f038c0a22d3a4e1"
+      "review_status": "revision review running",
+      "official_decision": null,
+      "submitted_proposal_sha256": "1c9ff7e385cebb69db1a9af64904709678662d376d8ae1a3b413ce772cd7aed0"
     },
     {
       "task": "jev-coldstart-rsi",
@@ -169,5 +169,80 @@
       "official_decision": "Reject",
       "submitted_proposal_sha256": "4fae9deefcd9c9733e24e3e2c75d9bac2cba1dce672b3a6fbdbd57c137e319a4"
     }
-  ]
+  ],
+  "revision_release": {
+    "verified_at_utc": "2026-10-10T14:05:16.458689+00:00",
+    "release_url": "https://github.com/aajing/autotrust-rsi-tasks/releases/tag/review-revision-1-2026-10-10",
+    "tag": "review-revision-1-2026-10-10",
+    "draft": false,
+    "prerelease": true,
+    "encrypted": false,
+    "anonymous_metadata_access": true,
+    "assets": [
+      {
+        "name": "archives.json",
+        "bytes": 2817,
+        "sha256": "7ca54fe256875f72f1dc3c913ab3a915289da816a7c9d686fc99b86c21df5b0b",
+        "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/review-revision-1-2026-10-10/archives.json",
+        "remote_digest_verified": true
+      },
+      {
+        "name": "autotrust-six-task-proposals-public.zip",
+        "bytes": 14460792,
+        "sha256": "db4a7b01b34c39ab9afe7438f86cd2e301adb26564e0e64056703ab131f1a3a9",
+        "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/review-revision-1-2026-10-10/autotrust-six-task-proposals-public.zip",
+        "remote_digest_verified": true
+      },
+      {
+        "name": "gev-quant-rsi-public.zip",
+        "bytes": 944717,
+        "sha256": "c62b1b95b081b2b048caeac9403679cfc51645bade51d086132eeb93dc434423",
+        "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/review-revision-1-2026-10-10/gev-quant-rsi-public.zip",
+        "remote_digest_verified": true
+      },
+      {
+        "name": "gev-think-rsi-public.zip",
+        "bytes": 225771,
+        "sha256": "d58cb469630a673f25218f90248b7eb31a5b6788bea06abc6e051f6a324b6b6a",
+        "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/review-revision-1-2026-10-10/gev-think-rsi-public.zip",
+        "remote_digest_verified": true
+      },
+      {
+        "name": "jev-coldstart-rsi-public.zip",
+        "bytes": 10852730,
+        "sha256": "f8034e9b446f878ee05d338c77e80179f4dbc7d61688f8088473973d5b9758c5",
+        "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/review-revision-1-2026-10-10/jev-coldstart-rsi-public.zip",
+        "remote_digest_verified": true
+      },
+      {
+        "name": "jev-judge-rsi-public.zip",
+        "bytes": 888241,
+        "sha256": "831480a454e11173a7cc17088d84c510f2f8ed625edb7b33c279280fef2a37c6",
+        "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/review-revision-1-2026-10-10/jev-judge-rsi-public.zip",
+        "remote_digest_verified": true
+      },
+      {
+        "name": "jev-visual-control-rsi-public.zip",
+        "bytes": 208713,
+        "sha256": "042a63c6a6d7e28d5548c7e45d9c32993ee40b325819bc131e8ad559d8c424b8",
+        "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/review-revision-1-2026-10-10/jev-visual-control-rsi-public.zip",
+        "remote_digest_verified": true
+      },
+      {
+        "name": "moe-prune-rsi-public.zip",
+        "bytes": 1154630,
+        "sha256": "743ee5b9a3b4d98ee49facab8fcc904e53e0cace0118e594363e78da5255400b",
+        "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/review-revision-1-2026-10-10/moe-prune-rsi-public.zip",
+        "remote_digest_verified": true
+      },
+      {
+        "name": "SHA256SUMS",
+        "bytes": 665,
+        "sha256": "6a35d9f9bb7277712e04f9e403f7afc7c214efe5e904648b1525fb83c3322f3c",
+        "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/review-revision-1-2026-10-10/SHA256SUMS",
+        "remote_digest_verified": true
+      }
+    ]
+  },
+  "latest_revision_status": "public revision packages; judge evidence revision submitted and review running; visual update blocked at pre-update authentication; four scientific-contract revisions await contributor confirmation"
 }

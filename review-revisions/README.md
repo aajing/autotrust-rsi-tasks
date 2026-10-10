@@ -1,6 +1,6 @@
 # First-review revisions
 
-These are revision drafts responding to the six completed initial Reject decisions on 10 October 2026. The original Discussion bodies and official review receipts remain unchanged in `../official-submissions/`. Publishing files here does not resubmit a proposal and does not imply official acceptance.
+These are revision drafts responding to the six completed initial Reject decisions on 10 October 2026. The current Discussion bodies and observed official review receipts are recorded in `../official-submissions/`; the original versions remain in Git history. Publishing files here does not resubmit a proposal and does not imply official acceptance.
 
 Every prepared input, answer, construction seed, reference solution and evaluator remains public and unencrypted. No GPU experiment, model baseline measurement or paid compute job was run for this revision.
 
@@ -26,3 +26,7 @@ Source acquisition is distinct from authoring: the first coldstart review tried 
 The changes above are substantive scientific-contract revisions, so they are prepared for contributor review before a Discussion update. The official workflow requires returning such changes to the contributor for confirmation. No extra GPU reproduction is being requested.
 
 The original discussion/session mapping is retained. After the changed scientific contracts are confirmed, updates should go to the same discussions, one native session per task. Do not create duplicate discussions or post `/task` to force a second review.
+
+## Official update snapshot
+
+The evidence-only revision of jev-judge-rsi (#210) was posted successfully and its new automated review is running. The visual-control pre-update helper authentication check failed; no update was attempted. The four scientific-contract revisions have not been submitted pending contributor confirmation. The revision release was published and all nine uploaded asset digests and sizes match the local files.
