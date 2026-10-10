@@ -1,0 +1,101 @@
+{
+  "sha": "876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6",
+  "node_id": "C_kwDOLNH0mdoAKDg3NmI0ZDJkMDhlM2IxZDVmNzBkMDk2OWMyOTlkOGM3YzQyZGRmYjY",
+  "commit": {
+    "author": {
+      "name": "Jiayi Yuan",
+      "email": "34369239+jy-yuan@users.noreply.github.com",
+      "date": "2025-11-20T20:34:32Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2025-11-20T20:34:32Z"
+    },
+    "message": "update readme\n\nCorrected typos and improved clarity in update entries.",
+    "tree": {
+      "sha": "c94c31b2cfd44eeb9a18cff9dcdf03adff4ac49b",
+      "url": "https://api.github.com/repos/jy-yuan/KIVI/git/trees/c94c31b2cfd44eeb9a18cff9dcdf03adff4ac49b"
+    },
+    "url": "https://api.github.com/repos/jy-yuan/KIVI/git/commits/876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJpH3tZCRC1aQ7uu5UhlAAAJa0QAGWTDsSveB06pXtOQdBrZQW8\nbhCUaexkUzuB1CobBUQ71eE0ypxHyX5RU4HvUVmd1RO1xkczzMwvYVzHwwrwYtnE\nzqsTm/OyjHO89dVsRJ2yNsIrY+FYRrbvG3ljigxIbjcePtP+cElYXByKFxAjbOfH\ngwHxzfgNUKado06q5m0zlq5oEfLT8mFIF11nZ4jirwHM3JZ3tUzU/UdnoXh2n5Ke\n2kldSHKuV5s6CSEfJhn/MI29YaVuQEqy6UC3l2FM1XyQ3CWEZhAEnjZBdP7lpiZ6\n0LWksqWL77QtaM34ZHasJhiL9SkVunopsou/kC38/YLmli4LIFFo3y2X/62+s2eE\nENWdxfehk0Ln5BlF0ny9Oak2FKvgufo/qayM5YGfELGmWHfWjrE+om5AyF31tgkx\nQ3tPvZDajOffIZeDpPoyLb0crS344BH3Qq6UVnk363Dyxx6KK8G4z6nZTYTt++TS\nmq8TUH+UuxRfOL/SNqd9GwgEIZPJqQqK680g3XTzeJz69Id1GNfOOMhS9NdxaE1U\nyAxhe2RcbxZKOZSovyn8UMNhehOOKZKTpxg1lG5/o3vV4HX5AHRzZCZiuOP7pKWh\nSszvmoyVxh1+C0pYYZo3Q3SaTey5VTTIltI7xhNfiFlcTFQgsVeBgDu3WR6Wa0L2\nifVDpSk3DLH3tZ+xZIsq\n=2n5R\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree c94c31b2cfd44eeb9a18cff9dcdf03adff4ac49b\nparent ccfa81bb963ca94c087c62d0321d2b4ecd55fdc7\nauthor Jiayi Yuan <34369239+jy-yuan@users.noreply.github.com> 1763670872 -0800\ncommitter GitHub <noreply@github.com> 1763670872 -0800\n\nupdate readme\n\nCorrected typos and improved clarity in update entries.",
+      "verified_at": "2025-11-20T20:34:33Z"
+    }
+  },
+  "url": "https://api.github.com/repos/jy-yuan/KIVI/commits/876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6",
+  "html_url": "https://github.com/jy-yuan/KIVI/commit/876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6",
+  "comments_url": "https://api.github.com/repos/jy-yuan/KIVI/commits/876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6/comments",
+  "author": {
+    "login": "jy-yuan",
+    "id": 34369239,
+    "node_id": "MDQ6VXNlcjM0MzY5MjM5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/34369239?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/jy-yuan",
+    "html_url": "https://github.com/jy-yuan",
+    "followers_url": "https://api.github.com/users/jy-yuan/followers",
+    "following_url": "https://api.github.com/users/jy-yuan/following{/other_user}",
+    "gists_url": "https://api.github.com/users/jy-yuan/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/jy-yuan/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/jy-yuan/subscriptions",
+    "organizations_url": "https://api.github.com/users/jy-yuan/orgs",
+    "repos_url": "https://api.github.com/users/jy-yuan/repos",
+    "events_url": "https://api.github.com/users/jy-yuan/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/jy-yuan/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "ccfa81bb963ca94c087c62d0321d2b4ecd55fdc7",
+      "url": "https://api.github.com/repos/jy-yuan/KIVI/commits/ccfa81bb963ca94c087c62d0321d2b4ecd55fdc7",
+      "html_url": "https://github.com/jy-yuan/KIVI/commit/ccfa81bb963ca94c087c62d0321d2b4ecd55fdc7"
+    }
+  ],
+  "stats": {
+    "total": 6,
+    "additions": 3,
+    "deletions": 3
+  },
+  "files": [
+    {
+      "sha": "ac0627c7329ee8ceace7ea266c8e435d9c2c5fed",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 3,
+      "deletions": 3,
+      "changes": 6,
+      "blob_url": "https://github.com/jy-yuan/KIVI/blob/876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6/README.md",
+      "raw_url": "https://github.com/jy-yuan/KIVI/raw/876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6/README.md",
+      "contents_url": "https://api.github.com/repos/jy-yuan/KIVI/contents/README.md?ref=876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6",
+      "patch": "@@ -3,12 +3,12 @@\n Implementation of [ICML24] [KIVI: A Tuning-Free Asymmetric 2bit Quantization for KV Cache](https://arxiv.org/abs/2402.02750)\n \n ## Updates\n-- [2025.09.25]: \ud83d\udd25\ud83d\udd25\ud83d\udd25 We released a toolkit that tests the impact of numerical precision and enables deterministic LLM inference. This helps eliminate the training\u2013inference mismatch in reinforcement learning. Please \ud83c\udf1f it if you find this work is interesting and useful for your research! <https://github.com/nanomaoli/llm_reproducibility)>\n-- [2025.01.18]: We add KIVI implementation with GQA and compatiable with transformers 4.43. Now it supports LLama3 family. Please reinstall KIVI.\n+- [2025.09.25]: \ud83d\udd25\ud83d\udd25\ud83d\udd25 We released a toolkit that tests the impact of numerical precision and enables deterministic LLM inference. This helps eliminate the training\u2013inference mismatch in reinforcement learning. Please \ud83c\udf1f it if you find this work is interesting and useful for your research! <https://github.com/nanomaoli/llm_reproducibility>\n+- [2025.01.18]: We add KIVI implementation with GQA and compatible with transformers 4.43. Now it supports the LLama3 family. Please reinstall KIVI.\n - [2024.06.07]: \ud83c\udf89 KIVI largely inspires the [HuggingFace Transformers KV Cache quantization](https://huggingface.co/docs/transformers/main/en/kv_cache)\n - [2024.06.06]: (Beta) We extensively optimize the codebase in [branch develop](https://github.com/jy-yuan/KIVI/tree/develop) to reduce the latency of KIVI. Note that **you need to reinstall our CUDA implementation** under the ```quant``` folder.\n - [2024.05.01]: \ud83c\udf89 KIVI has been accepted by ICML 2024! See you in Vienna!\n-- [2024.04.12]: We add the support for Mistral model family. The performance of LongChat-7b-v1.5-32K and Mistral-7B-Instruct-v0.2 on 15 tasks from LongBench can be found in [long_bench.md](./docs/long_bench.md).\n+- [2024.04.12]: We add support for the Mistral model family. The performance of LongChat-7b-v1.5-32K and Mistral-7B-Instruct-v0.2 on 15 tasks from LongBench can be found in [long_bench.md](./docs/long_bench.md).\n \n - [2024.04.05]: We release the code for reproducing our CoQA/TruthfulQA/GSM8K results using LM-Eval. Please check the [README of branch lmeval](https://github.com/jy-yuan/KIVI/tree/lmeval).\n "
+    }
+  ]
+}

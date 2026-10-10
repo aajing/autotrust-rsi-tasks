@@ -1,0 +1,125 @@
+{
+  "sha": "bf16c9c13949a10fc8e77189776f95538a598709",
+  "node_id": "C_kwDOI7xeftoAKGJmMTZjOWMxMzk0OWExMGZjOGU3NzE4OTc3NmY5NTUzOGE1OTg3MDk",
+  "commit": {
+    "author": {
+      "name": "Mook",
+      "email": "68294499+Godmook@users.noreply.github.com",
+      "date": "2026-10-10T15:05:55Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-10T15:05:55Z"
+    },
+    "message": "[Bugfix][Model] K-EXAONE: restore loading of pre-2.0 configs and apply RoPE to the MTP layer (#60187)\n\nSigned-off-by: godmook <cmoh4135@naver.com>\nSigned-off-by: Mook <68294499+Godmook@users.noreply.github.com>",
+    "tree": {
+      "sha": "c86bd816e3fe47e51c7a3a0b660fadea65a2dbf8",
+      "url": "https://api.github.com/repos/vllm-project/vllm/git/trees/c86bd816e3fe47e51c7a3a0b660fadea65a2dbf8"
+    },
+    "url": "https://api.github.com/repos/vllm-project/vllm/git/commits/bf16c9c13949a10fc8e77189776f95538a598709",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqylRTCRC1aQ7uu5UhlAAAzfQQAHZVagNQHvXBlGJFmFOEr3O9\nbpps3jBVk5EF6rCLXPT83I8Qur1IbFE4LFtiGnAd0HyrLStT3fBnc3py6GULIDqy\nlcvXFJpQkvkIWtVAuXpCqIN7aYaVNVH8wlhM8P96ORwOA+xmWRpE7X+33KOb7x0M\nwkSTTOJZNyOPECn1hRedsT2eMcBDZx7rFUVwMSpqGSKzKGcWUosNzPWhvevwc0yF\nPPBjolAnqsTItKWlgQgUjHpd/ynPPYu4KlJqBMjpOt0aR0xi6Pbq4ZSYtQQN8UBp\nWC+KeLtWWHX7FdgwILNI5P9JW6GrjKmXW0zlyPT716KxWM6utCH+NBy1+q9JpLgL\nf+QwYKfKj58tprnTLtYBQyC7S34cIoRKaJL557jgCVDvuBCQ/g12Vipf9k1vrtOm\nFU1KT8d/xunDwcFH3zLNS36liWJl6XyisIKc4OYIiYVFjdBeO74qcmW+h4UhcsM3\n9g2dgqL/GaPJEfu9C+KlaLPTeZnqUmOLN2+K0AvAFqUupu+BcW9MZ1qUZOq8HHiK\nFGkhJbJoOxx1mC+rEdluEDIhaOwK4/vgjvKeewaV1NfwQ9kedrREsjYnFNHefSOP\n/bUIhRgZQ2HcoqEFW9L10TLObvWA42RdXcrRbIPWpAnIHMlEFth2MM9PV115D2vv\nSx908gw1zmer4qPUqxmV\n=37Xf\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree c86bd816e3fe47e51c7a3a0b660fadea65a2dbf8\nparent 2bea22002d66a6c89d208fa682b40a89538f023c\nauthor Mook <68294499+Godmook@users.noreply.github.com> 1791644755 +0900\ncommitter GitHub <noreply@github.com> 1791644755 +0000\n\n[Bugfix][Model] K-EXAONE: restore loading of pre-2.0 configs and apply RoPE to the MTP layer (#60187)\n\nSigned-off-by: godmook <cmoh4135@naver.com>\nSigned-off-by: Mook <68294499+Godmook@users.noreply.github.com>",
+      "verified_at": "2026-10-10T15:05:56Z"
+    }
+  },
+  "url": "https://api.github.com/repos/vllm-project/vllm/commits/bf16c9c13949a10fc8e77189776f95538a598709",
+  "html_url": "https://github.com/vllm-project/vllm/commit/bf16c9c13949a10fc8e77189776f95538a598709",
+  "comments_url": "https://api.github.com/repos/vllm-project/vllm/commits/bf16c9c13949a10fc8e77189776f95538a598709/comments",
+  "author": {
+    "login": "Godmook",
+    "id": 68294499,
+    "node_id": "MDQ6VXNlcjY4Mjk0NDk5",
+    "avatar_url": "https://avatars.githubusercontent.com/u/68294499?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/Godmook",
+    "html_url": "https://github.com/Godmook",
+    "followers_url": "https://api.github.com/users/Godmook/followers",
+    "following_url": "https://api.github.com/users/Godmook/following{/other_user}",
+    "gists_url": "https://api.github.com/users/Godmook/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/Godmook/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/Godmook/subscriptions",
+    "organizations_url": "https://api.github.com/users/Godmook/orgs",
+    "repos_url": "https://api.github.com/users/Godmook/repos",
+    "events_url": "https://api.github.com/users/Godmook/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/Godmook/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "2bea22002d66a6c89d208fa682b40a89538f023c",
+      "url": "https://api.github.com/repos/vllm-project/vllm/commits/2bea22002d66a6c89d208fa682b40a89538f023c",
+      "html_url": "https://github.com/vllm-project/vllm/commit/2bea22002d66a6c89d208fa682b40a89538f023c"
+    }
+  ],
+  "stats": {
+    "total": 44,
+    "additions": 28,
+    "deletions": 16
+  },
+  "files": [
+    {
+      "sha": "b57f3fcb72773d8139906b1c45d954e5963cf0a0",
+      "filename": "tests/models/registry.py",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 0,
+      "changes": 4,
+      "blob_url": "https://github.com/vllm-project/vllm/blob/bf16c9c13949a10fc8e77189776f95538a598709/tests%2Fmodels%2Fregistry.py",
+      "raw_url": "https://github.com/vllm-project/vllm/raw/bf16c9c13949a10fc8e77189776f95538a598709/tests%2Fmodels%2Fregistry.py",
+      "contents_url": "https://api.github.com/repos/vllm-project/vllm/contents/tests%2Fmodels%2Fregistry.py?ref=bf16c9c13949a10fc8e77189776f95538a598709",
+      "patch": "@@ -266,6 +266,10 @@ def check_available_online(\n     ),\n     \"Exaone4ForCausalLM\": _HfExamplesInfo(\"LGAI-EXAONE/EXAONE-4.0-32B\"),\n     \"ExaoneMoeForCausalLM\": _HfExamplesInfo(\"LGAI-EXAONE/K-EXAONE-236B-A23B\"),\n+    \"ExaoneMoEForCausalLM\": _HfExamplesInfo(\n+        \"LGAI-EXAONE/K-EXAONE-236B-A23B\",\n+        hf_overrides={\"architectures\": [\"ExaoneMoEForCausalLM\"]},\n+    ),\n     \"FalconForCausalLM\": _HfExamplesInfo(\"tiiuae/falcon-7b\"),\n     \"FalconH1ForCausalLM\": _HfExamplesInfo(\"tiiuae/Falcon-H1-0.5B-Base\"),\n     \"FlexOlmoForCausalLM\": _HfExamplesInfo(\"allenai/Flex-reddit-2x7B-1T\"),"
+    },
+    {
+      "sha": "ad6b0b3594fe5019ec0c7fd47b34bfabe5679469",
+      "filename": "vllm/model_executor/models/exaone_moe.py",
+      "status": "modified",
+      "additions": 23,
+      "deletions": 16,
+      "changes": 39,
+      "blob_url": "https://github.com/vllm-project/vllm/blob/bf16c9c13949a10fc8e77189776f95538a598709/vllm%2Fmodel_executor%2Fmodels%2Fexaone_moe.py",
+      "raw_url": "https://github.com/vllm-project/vllm/raw/bf16c9c13949a10fc8e77189776f95538a598709/vllm%2Fmodel_executor%2Fmodels%2Fexaone_moe.py",
+      "contents_url": "https://api.github.com/repos/vllm-project/vllm/contents/vllm%2Fmodel_executor%2Fmodels%2Fexaone_moe.py?ref=bf16c9c13949a10fc8e77189776f95538a598709",
+      "patch": "@@ -227,24 +227,31 @@ def __init__(\n \n         layer_idx = extract_layer_index(prefix)\n \n-        if config.sliding_windows is not None:\n-            self.sliding_window_size = config.sliding_windows[layer_idx]\n-\n-        if config.layer_types[layer_idx] == \"full_attention\":\n-            self.sliding_window_size = None\n-\n+        # Configs published before K-EXAONE 2.0 only have the scalar\n+        # `sliding_window` and no MTP fields; their MTP layer follows the main\n+        # layer with the same index.\n+        layer_types = config.layer_types\n+        sliding_windows = getattr(config, \"sliding_windows\", None)\n         if is_mtp:\n-            self.sliding_window = (\n-                config.mtp_layer_types[layer_idx] == \"sliding_attention\"\n+            layer_types = getattr(config, \"mtp_layer_types\", None) or layer_types\n+            sliding_windows = (\n+                getattr(config, \"mtp_sliding_windows\", None) or sliding_windows\n             )\n-            if config.mtp_sliding_windows is not None:\n-                self.sliding_window_size = config.mtp_sliding_windows[layer_idx]\n-\n-            if config.mtp_layer_types[layer_idx] == \"full_attention\":\n-                self.sliding_window_size = None\n \n-        # apply rotary embeddings to every layer in full attention models\n-        self.apply_rope_all_layers = \"sliding_attention\" not in config.layer_types\n+        if layer_types[layer_idx] == \"full_attention\":\n+            self.sliding_window_size = None\n+        elif sliding_windows is not None:\n+            self.sliding_window_size = sliding_windows[layer_idx]\n+        else:\n+            self.sliding_window_size = config.sliding_window\n+\n+        # Full-attention layers are NoPE when sliding layers are present, except\n+        # the MTP layer, which is trained with RoPE.\n+        self.use_rope = (\n+            bool(self.sliding_window_size)\n+            or is_mtp\n+            or \"sliding_attention\" not in config.layer_types\n+        )\n \n         set_default_rope_theta(config, default_theta=1000000)\n         self.rotary_emb = get_rope(\n@@ -279,7 +286,7 @@ def forward(\n         k = self.k_norm(k)\n         k = k.flatten(-2, -1)\n \n-        if self.sliding_window_size or self.apply_rope_all_layers:\n+        if self.use_rope:\n             q, k = self.rotary_emb(positions, q, k)\n         attn_output = self.attn(q, k, v)\n         output, _ = self.o_proj(attn_output)"
+    },
+    {
+      "sha": "875179a88faebc881e129aef80d382579aa25e0d",
+      "filename": "vllm/model_executor/models/registry.py",
+      "status": "modified",
+      "additions": 1,
+      "deletions": 0,
+      "changes": 1,
+      "blob_url": "https://github.com/vllm-project/vllm/blob/bf16c9c13949a10fc8e77189776f95538a598709/vllm%2Fmodel_executor%2Fmodels%2Fregistry.py",
+      "raw_url": "https://github.com/vllm-project/vllm/raw/bf16c9c13949a10fc8e77189776f95538a598709/vllm%2Fmodel_executor%2Fmodels%2Fregistry.py",
+      "contents_url": "https://api.github.com/repos/vllm-project/vllm/contents/vllm%2Fmodel_executor%2Fmodels%2Fregistry.py?ref=bf16c9c13949a10fc8e77189776f95538a598709",
+      "patch": "@@ -98,6 +98,7 @@\n     \"ExaoneForCausalLM\": (\"exaone\", \"ExaoneForCausalLM\"),\n     \"Exaone4ForCausalLM\": (\"exaone4\", \"Exaone4ForCausalLM\"),\n     \"ExaoneMoeForCausalLM\": (\"exaone_moe\", \"ExaoneMoeForCausalLM\"),\n+    \"ExaoneMoEForCausalLM\": (\"exaone_moe\", \"ExaoneMoeForCausalLM\"),\n     \"FalconForCausalLM\": (\"falcon\", \"FalconForCausalLM\"),\n     \"FalconMambaForCausalLM\": (\"mamba\", \"MambaForCausalLM\"),\n     \"FalconH1ForCausalLM\": (\"falcon_h1\", \"FalconH1ForCausalLM\"),"
+    }
+  ]
+}

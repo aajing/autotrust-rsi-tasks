@@ -1,0 +1,691 @@
+{
+  "scope": "local CPU and file checks only; not GPU results or official approval",
+  "structural_preflight": {
+    "kind": "local structural preflight, not official approval or GPU validation",
+    "tasks": [
+      {
+        "task": "kv-cache-rsi",
+        "structural_errors": [],
+        "fields": 28,
+        "english_only": true,
+        "source_repository": "https://github.com/jy-yuan/KIVI",
+        "source_revision": "876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6",
+        "proposal_sha256": "911bec1c1f7bbe84aa8fb09dd2a869778ba7d01dd566b2b463307ec67ac598da"
+      },
+      {
+        "task": "vl-activation-quant-rsi",
+        "structural_errors": [],
+        "fields": 28,
+        "english_only": true,
+        "source_repository": "https://github.com/vllm-project/llm-compressor",
+        "source_revision": "229758564a9a9607b858daccb65edb0c633315ec",
+        "proposal_sha256": "b346cae9c822172a1c64bec607d0b3dbd8acfb376b3f4a9aede6c07e7c1224c8"
+      },
+      {
+        "task": "lowrank-compress-rsi",
+        "structural_errors": [],
+        "fields": 28,
+        "english_only": true,
+        "source_repository": "https://github.com/AIoT-MLSys-Lab/SVD-LLM",
+        "source_revision": "7538cca98880ff312a79a16252aab5a7b480fbe9",
+        "proposal_sha256": "a9ba9715eb7c5bc3a94928414ad83b0e78f9f3e917e3362f78a51c71fb75ffe5"
+      },
+      {
+        "task": "sparse24-rsi",
+        "structural_errors": [],
+        "fields": 28,
+        "english_only": true,
+        "source_repository": "https://github.com/NVIDIA/Model-Optimizer",
+        "source_revision": "4c1f813828cb9dd07b0d842d60ba35e3946237dc",
+        "proposal_sha256": "678f4c827ba4db811c16caebc0213ada018b878098d87ff5ef3df8fc59732f31"
+      },
+      {
+        "task": "jev-block-nas-rsi",
+        "structural_errors": [],
+        "fields": 28,
+        "english_only": true,
+        "source_repository": "https://huggingface.co/autotrust/JEV-9B . This is the official Git source repository, including native inference examples, serving Python, configs and released adapter/head assets; it is not a newly invented GitHub mirror.",
+        "source_revision": "d7bf1c0051f78e3a7bd5bbb90add79bfd769079b",
+        "proposal_sha256": "f065fc24d3525725d96f06647e35b0895eb2a859db4c98106ff7d74d279db87d"
+      },
+      {
+        "task": "gpt-subnet-nas-rsi",
+        "structural_errors": [],
+        "fields": 28,
+        "english_only": true,
+        "source_repository": "https://github.com/automl/HW-GPT-Bench",
+        "source_revision": "1f43ee8322e6295d56c1e2004319123509fd53b8",
+        "proposal_sha256": "65c7095ec8642e2f1c4de52bc5ff1c249d11152784c494264aed6266e27ef428"
+      }
+    ],
+    "passed": true
+  },
+  "suites": [
+    {
+      "task": "kv-cache-rsi",
+      "passed": true,
+      "tests": 10,
+      "output": "test_bindings_and_quality_coverage (test_scoring.RewardTests.test_bindings_and_quality_coverage) ... ok\ntest_full_score_boundary (test_scoring.RewardTests.test_full_score_boundary) ... ok\ntest_identity_is_zero (test_scoring.RewardTests.test_identity_is_zero) ... ok\ntest_identity_still_requires_complete_cells_and_digest (test_scoring.RewardTests.test_identity_still_requires_complete_cells_and_digest) ... ok\ntest_invalid_incomplete_and_nan_are_unscored (test_scoring.RewardTests.test_invalid_incomplete_and_nan_are_unscored) ... ok\ntest_multimodal_cache_cannot_skip_work (test_scoring.RewardTests.test_multimodal_cache_cannot_skip_work) ... ok\ntest_one_family_cannot_hide_behind_macro (test_scoring.RewardTests.test_one_family_cannot_hide_behind_macro) ... ok\ntest_quality_workload_cache_is_not_exempt (test_scoring.RewardTests.test_quality_workload_cache_is_not_exempt) ... ok\ntest_task_specific_runtime_boundaries (test_scoring.RewardTests.test_task_specific_runtime_boundaries) ... ok\ntest_worst_cell_and_repeat_completeness (test_scoring.RewardTests.test_worst_cell_and_repeat_completeness) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.014s\n\nOK\n"
+    },
+    {
+      "task": "vl-activation-quant-rsi",
+      "passed": true,
+      "tests": 10,
+      "output": "test_bindings_and_quality_coverage (test_scoring.RewardTests.test_bindings_and_quality_coverage) ... ok\ntest_full_score_boundary (test_scoring.RewardTests.test_full_score_boundary) ... ok\ntest_identity_is_zero (test_scoring.RewardTests.test_identity_is_zero) ... ok\ntest_identity_still_requires_complete_cells_and_digest (test_scoring.RewardTests.test_identity_still_requires_complete_cells_and_digest) ... ok\ntest_invalid_incomplete_and_nan_are_unscored (test_scoring.RewardTests.test_invalid_incomplete_and_nan_are_unscored) ... ok\ntest_multimodal_cache_cannot_skip_work (test_scoring.RewardTests.test_multimodal_cache_cannot_skip_work) ... ok\ntest_one_family_cannot_hide_behind_macro (test_scoring.RewardTests.test_one_family_cannot_hide_behind_macro) ... ok\ntest_quality_workload_cache_is_not_exempt (test_scoring.RewardTests.test_quality_workload_cache_is_not_exempt) ... ok\ntest_task_specific_runtime_boundaries (test_scoring.RewardTests.test_task_specific_runtime_boundaries) ... ok\ntest_worst_cell_and_repeat_completeness (test_scoring.RewardTests.test_worst_cell_and_repeat_completeness) ... ok\n\n----------------------------------------------------------------------\nRan 10 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "task": "lowrank-compress-rsi",
+      "passed": true,
+      "tests": 6,
+      "output": "test_bad_timing_and_timeout_rejected (test_scoring.ScoringContracts.test_bad_timing_and_timeout_rejected) ... ok\ntest_coverage_and_binding_rejected (test_scoring.ScoringContracts.test_coverage_and_binding_rejected) ... ok\ntest_identity_and_lowrank_endpoints (test_scoring.ScoringContracts.test_identity_and_lowrank_endpoints) ... ok\ntest_quality_gate_is_finite_zero (test_scoring.ScoringContracts.test_quality_gate_is_finite_zero) ... ok\ntest_single_bucket_regression_cannot_hide_in_average (test_scoring.ScoringContracts.test_single_bucket_regression_cannot_hide_in_average) ... ok\ntest_sparse_real_speed_required (test_scoring.ScoringContracts.test_sparse_real_speed_required) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "task": "sparse24-rsi",
+      "passed": true,
+      "tests": 6,
+      "output": "test_bad_timing_and_timeout_rejected (test_scoring.ScoringContracts.test_bad_timing_and_timeout_rejected) ... ok\ntest_coverage_and_binding_rejected (test_scoring.ScoringContracts.test_coverage_and_binding_rejected) ... ok\ntest_identity_and_lowrank_endpoints (test_scoring.ScoringContracts.test_identity_and_lowrank_endpoints) ... ok\ntest_quality_gate_is_finite_zero (test_scoring.ScoringContracts.test_quality_gate_is_finite_zero) ... ok\ntest_single_bucket_regression_cannot_hide_in_average (test_scoring.ScoringContracts.test_single_bucket_regression_cannot_hide_in_average) ... ok\ntest_sparse_real_speed_required (test_scoring.ScoringContracts.test_sparse_real_speed_required) ... ok\n\n----------------------------------------------------------------------\nRan 6 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "task": "jev-block-nas-rsi",
+      "passed": true,
+      "tests": 17,
+      "output": "test_changed_data_is_unscored (test_scoring.ContractTests.test_changed_data_is_unscored) ... ok\ntest_changed_runtime_is_unscored (test_scoring.ContractTests.test_changed_runtime_is_unscored) ... ok\ntest_full_target (test_scoring.ContractTests.test_full_target) ... ok\ntest_invalid_is_not_zero (test_scoring.ContractTests.test_invalid_is_not_zero) ... ok\ntest_latency_gate (test_scoring.ContractTests.test_latency_gate) ... ok\ntest_missing_binding_is_unscored (test_scoring.ContractTests.test_missing_binding_is_unscored) ... ok\ntest_missing_row_is_unscored (test_scoring.ContractTests.test_missing_row_is_unscored) ... ok\ntest_nan_is_unscored (test_scoring.ContractTests.test_nan_is_unscored) ... ok\ntest_oversize_invalid (test_scoring.ContractTests.test_oversize_invalid) ... ok\ntest_partial_size_gain (test_scoring.ContractTests.test_partial_size_gain) ... ok\ntest_quality_boundary_is_inclusive (test_scoring.ContractTests.test_quality_boundary_is_inclusive) ... ok\ntest_reference_is_zero (test_scoring.ContractTests.test_reference_is_zero) ... ok\ntest_single_family_regression_cannot_be_averaged_away (test_scoring.ContractTests.test_single_family_regression_cannot_be_averaged_away) ... ok\ntest_system2_change_invalid (test_scoring.ContractTests.test_system2_change_invalid) ... ok\ntest_timeout_unscored (test_scoring.ContractTests.test_timeout_unscored) ... ok\ntest_truthy_string_flag_is_invalid (test_scoring.ContractTests.test_truthy_string_flag_is_invalid) ... ok\ntest_truthy_system2_flag_invalid (test_scoring.ContractTests.test_truthy_system2_flag_invalid) ... ok\n\n----------------------------------------------------------------------\nRan 17 tests in 0.001s\n\nOK\n"
+    },
+    {
+      "task": "gpt-subnet-nas-rsi",
+      "passed": true,
+      "tests": 16,
+      "output": "test_baseline_zero (test_scoring.ContractTests.test_baseline_zero) ... ok\ntest_changed_data_is_unscored (test_scoring.ContractTests.test_changed_data_is_unscored) ... ok\ntest_changed_runtime_is_unscored (test_scoring.ContractTests.test_changed_runtime_is_unscored) ... ok\ntest_crash_unscored (test_scoring.ContractTests.test_crash_unscored) ... ok\ntest_full_score_requires_both (test_scoring.ContractTests.test_full_score_requires_both) ... ok\ntest_incomplete_data_unscored (test_scoring.ContractTests.test_incomplete_data_unscored) ... ok\ntest_missing_binding_is_unscored (test_scoring.ContractTests.test_missing_binding_is_unscored) ... ok\ntest_missing_domain_unscored (test_scoring.ContractTests.test_missing_domain_unscored) ... ok\ntest_nonfinite_unscored (test_scoring.ContractTests.test_nonfinite_unscored) ... ok\ntest_one_workload_regression_not_hidden (test_scoring.ContractTests.test_one_workload_regression_not_hidden) ... ok\ntest_partial_gain (test_scoring.ContractTests.test_partial_gain) ... ok\ntest_speed_alone_insufficient (test_scoring.ContractTests.test_speed_alone_insufficient) ... ok\ntest_storage_alone_insufficient (test_scoring.ContractTests.test_storage_alone_insufficient) ... ok\ntest_truthy_string_flag_is_invalid (test_scoring.ContractTests.test_truthy_string_flag_is_invalid) ... ok\ntest_worst_domain_gate (test_scoring.ContractTests.test_worst_domain_gate) ... ok\ntest_zero_latency_invalid (test_scoring.ContractTests.test_zero_latency_invalid) ... ok\n\n----------------------------------------------------------------------\nRan 16 tests in 0.001s\n\nOK\n"
+    }
+  ],
+  "file_checks": [
+    {
+      "check": "LongBench hash/count/IDs: qasper",
+      "passed": true
+    },
+    {
+      "check": "LongBench hash/count/IDs: hotpotqa",
+      "passed": true
+    },
+    {
+      "check": "LongBench hash/count/IDs: musique",
+      "passed": true
+    },
+    {
+      "check": "LongBench hash/count/IDs: gov_report",
+      "passed": true
+    },
+    {
+      "check": "LongBench hash/count/IDs: passage_count",
+      "passed": true
+    },
+    {
+      "check": "LongBench hash/count/IDs: passage_retrieval_en",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_158.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 08524901006324.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_40633.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_60514.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_10.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 10669853002985.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_100878.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_60916.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 5967.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_20953.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_100946.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_4524.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 7780.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 9814.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 30922516017795.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_60422.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 3389.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_20841.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 4393.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: OECD_GROSS_PENSION_WEALTH_AUS_EST_HRV_LUX_000002.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_60926.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 05114418009630.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 74067221020171.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: OECD_FREIGHT_TRANSPORT_FIN_HUN_IND_PRT_RUS_000027.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 15979830001410.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 24427049001318.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_60221.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 619.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_100695.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_60476.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 26282467018528.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_61941.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 11128.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_852.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_60308.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_100493.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 47731310020871.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 9591.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_61211.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_20612.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 1909.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_4148.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 10365965014074.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_60414.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_24192.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_101266.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 26535003011580.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 05810070001466.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_81161.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 10688218006639.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_83125.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_82099.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_20322.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_20394.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 3841.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 5417.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 4170.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 71549950001483.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 56783352006090.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: 97331592016092.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_80102.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_66.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_60137.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_1320.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_63561.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_2600.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_100815.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_103185.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_101180.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_5613.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_441.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_40896.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_4569.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_2898.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_21855.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_5606.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_4210.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_23831.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_62268.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_60731.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_40153.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_2138.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_102644.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_63037.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_20719.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_101263.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_2120.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_4167.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_20387.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_23416.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_42702.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_171.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_298.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_5706.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_80062.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_22228.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_82605.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_2684.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_43841.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_42110.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_62315.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_847.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_5726.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_1260.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_101208.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_22463.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_81125.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_81813.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_21194.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_102398.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_63423.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_20064.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_2546.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_62237.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_82607.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_6264.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_41011.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_60750.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_103831.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_20669.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: multi_col_80695.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_80796.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_63352.png",
+      "passed": true
+    },
+    {
+      "check": "ChartQA image: two_col_43014.png",
+      "passed": true
+    },
+    {
+      "check": "lowrank-compress-rsi data: gsm8k.development.jsonl",
+      "passed": true
+    },
+    {
+      "check": "lowrank-compress-rsi data: gsm8k.evaluation.jsonl",
+      "passed": true
+    },
+    {
+      "check": "lowrank-compress-rsi data: gsm8k.fewshot.json",
+      "passed": true
+    },
+    {
+      "check": "lowrank-compress-rsi data: gsm8k.practice.jsonl",
+      "passed": true
+    },
+    {
+      "check": "lowrank-compress-rsi data: prefill.requests.json",
+      "passed": true
+    },
+    {
+      "check": "lowrank-compress-rsi data: wikitext.development.jsonl",
+      "passed": true
+    },
+    {
+      "check": "lowrank-compress-rsi data: wikitext.evaluation.jsonl",
+      "passed": true
+    },
+    {
+      "check": "lowrank-compress-rsi data: wikitext.practice.jsonl",
+      "passed": true
+    },
+    {
+      "check": "sparse24-rsi data: gsm8k.development.jsonl",
+      "passed": true
+    },
+    {
+      "check": "sparse24-rsi data: gsm8k.evaluation.jsonl",
+      "passed": true
+    },
+    {
+      "check": "sparse24-rsi data: gsm8k.fewshot.json",
+      "passed": true
+    },
+    {
+      "check": "sparse24-rsi data: gsm8k.practice.jsonl",
+      "passed": true
+    },
+    {
+      "check": "sparse24-rsi data: prefill.requests.json",
+      "passed": true
+    },
+    {
+      "check": "sparse24-rsi data: wikitext.development.jsonl",
+      "passed": true
+    },
+    {
+      "check": "sparse24-rsi data: wikitext.evaluation.jsonl",
+      "passed": true
+    },
+    {
+      "check": "sparse24-rsi data: wikitext.practice.jsonl",
+      "passed": true
+    }
+  ],
+  "json_files_parsed": 74,
+  "task_python_files_parsed": 20,
+  "test_count": 65,
+  "passed": true
+}

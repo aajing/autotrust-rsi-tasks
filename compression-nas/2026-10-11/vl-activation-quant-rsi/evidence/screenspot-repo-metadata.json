@@ -1,0 +1,101 @@
+{
+  "sha": "0ef37ac4d7aaf37ba7b990e3e3c3ca77e1fb8f93",
+  "node_id": "C_kwDOLH9rt9oAKDBlZjM3YWM0ZDdhYWYzN2JhN2I5OTBlM2UzYzNjYTc3ZTFmYjhmOTM",
+  "commit": {
+    "author": {
+      "name": "Fangzhi Xu",
+      "email": "51074146+xufangzhi@users.noreply.github.com",
+      "date": "2025-07-13T06:44:39Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2025-07-13T06:44:39Z"
+    },
+    "message": "Update readme.md",
+    "tree": {
+      "sha": "3b93844f9157e634cbd245c7767c2e6585f07e70",
+      "url": "https://api.github.com/repos/njucckevin/SeeClick/git/trees/3b93844f9157e634cbd245c7767c2e6585f07e70"
+    },
+    "url": "https://api.github.com/repos/njucckevin/SeeClick/git/commits/0ef37ac4d7aaf37ba7b990e3e3c3ca77e1fb8f93",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoc1XXCRC1aQ7uu5UhlAAAsp8QAFxhhc3qx4QoO8U10/eYd/Zm\nnQRmjJgHUR6R4wlPMoho8pe7KTKZPc+DfIqkF+ydAyQup8xYCvzJ6NWTd1ZkmSDI\nUZnrePXUYzLWfmrBktfBmjIhNx1O6QF/YJY/iERM4dGisBkHkXPSs7QlEOslNj0g\nNrcjhBLAPRDzTrAxz2qC09NpBPTCc/zLYE1yCNSyK7qJntaCeubMcRzBlN+GOUT0\nkAgdrwTL/I8sp7/vigQbaajEv9YELyqOiZZL2AUXsSknLXa7jDkvr8wM9aBohaF1\nHWzxjs1MwiIqR2ffRbWCKtt/9r3yhgbe1mkqnN4pbn8UKT5LTrl5YO+l6u/F/E69\nGCzx2EOIhI1sj2Owgi5+1lHfs9rvz3AKmJy9nshaKFKfzvMVQL6e52EibFFUEXmv\n4U6Wf83PfSfasQuXld5hyeWrk42Jb5hTX8Qv5DZJrOosLtyXSvORhXBddusE0By8\n1rt2t6ZltmQY7UIzYl2mo5R2JHALR10zDT8VnDoswpOM+UKxWeN521lLBt7fjYB3\nTDJ0LTf/m5l8nLzOa9NLqRLEoTpHdqJZM3bjnKvarg4jeXG8PpnseZYsKw8CxBPd\n6OC776jsl2st/QoG50+oGlvO8t6LcoFFFXsmatiN3iifHYZAkG3tlZfl4kBR70jJ\nDGwQ4LQAq0Ivar0w0JlB\n=gEue\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree 3b93844f9157e634cbd245c7767c2e6585f07e70\nparent d9e29c3c6895c1b2c3e801439fd078dfcbe857ff\nauthor Fangzhi Xu <51074146+xufangzhi@users.noreply.github.com> 1752389079 +0800\ncommitter GitHub <noreply@github.com> 1752389079 +0800\n\nUpdate readme.md",
+      "verified_at": "2025-07-13T06:44:40Z"
+    }
+  },
+  "url": "https://api.github.com/repos/njucckevin/SeeClick/commits/0ef37ac4d7aaf37ba7b990e3e3c3ca77e1fb8f93",
+  "html_url": "https://github.com/njucckevin/SeeClick/commit/0ef37ac4d7aaf37ba7b990e3e3c3ca77e1fb8f93",
+  "comments_url": "https://api.github.com/repos/njucckevin/SeeClick/commits/0ef37ac4d7aaf37ba7b990e3e3c3ca77e1fb8f93/comments",
+  "author": {
+    "login": "xufangzhi",
+    "id": 51074146,
+    "node_id": "MDQ6VXNlcjUxMDc0MTQ2",
+    "avatar_url": "https://avatars.githubusercontent.com/u/51074146?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/xufangzhi",
+    "html_url": "https://github.com/xufangzhi",
+    "followers_url": "https://api.github.com/users/xufangzhi/followers",
+    "following_url": "https://api.github.com/users/xufangzhi/following{/other_user}",
+    "gists_url": "https://api.github.com/users/xufangzhi/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/xufangzhi/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/xufangzhi/subscriptions",
+    "organizations_url": "https://api.github.com/users/xufangzhi/orgs",
+    "repos_url": "https://api.github.com/users/xufangzhi/repos",
+    "events_url": "https://api.github.com/users/xufangzhi/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/xufangzhi/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "d9e29c3c6895c1b2c3e801439fd078dfcbe857ff",
+      "url": "https://api.github.com/repos/njucckevin/SeeClick/commits/d9e29c3c6895c1b2c3e801439fd078dfcbe857ff",
+      "html_url": "https://github.com/njucckevin/SeeClick/commit/d9e29c3c6895c1b2c3e801439fd078dfcbe857ff"
+    }
+  ],
+  "stats": {
+    "total": 3,
+    "additions": 2,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "4c3cae756a0369dbbecde007cbc17390f5c55b42",
+      "filename": "readme.md",
+      "status": "modified",
+      "additions": 2,
+      "deletions": 1,
+      "changes": 3,
+      "blob_url": "https://github.com/njucckevin/SeeClick/blob/0ef37ac4d7aaf37ba7b990e3e3c3ca77e1fb8f93/readme.md",
+      "raw_url": "https://github.com/njucckevin/SeeClick/raw/0ef37ac4d7aaf37ba7b990e3e3c3ca77e1fb8f93/readme.md",
+      "contents_url": "https://api.github.com/repos/njucckevin/SeeClick/contents/readme.md?ref=0ef37ac4d7aaf37ba7b990e3e3c3ca77e1fb8f93",
+      "patch": "@@ -16,7 +16,8 @@ Release Plans:\n - [x] Code for pre-training and evaluation on ScreenSpot\n - [x] Code for collecting pre-training data\n \n-News: SeeClick is accepted by ACL 2024.\n+News: SeeClick is accepted by ACL 2024. Other following works [OS-Atlas](https://arxiv.org/abs/2410.23218), [OS-Genesis](https://arxiv.org/abs/2412.19723) are also released !\n+\n \n ***\n ### GUI Grounding Benchmark: *ScreenSpot*"
+    }
+  ]
+}

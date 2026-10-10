@@ -1,0 +1,117 @@
+{
+  "schema": "openrsi-proposal-contract-v1",
+  "slug": "lowrank-compress-rsi",
+  "status": "draft-not-submitted",
+  "review_date_utc": "2026-10-10",
+  "contributor": {
+    "full_name": "Jing Qiu",
+    "email": "ajing@autotrust.ai",
+    "github": "aajing",
+    "source_authorship_claim": false
+  },
+  "primary_source": {
+    "repository": "https://github.com/AIoT-MLSys-Lab/SVD-LLM",
+    "commit": "7538cca98880ff312a79a16252aab5a7b480fbe9"
+  },
+  "model": {
+    "repository": "mistralai/Mistral-7B-v0.1",
+    "revision": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+    "license": "Apache-2.0",
+    "gated": false,
+    "baseline": "B0 existing dense BF16 release",
+    "weights_downloaded": false
+  },
+  "runtime": {
+    "torch_version": "2.8.0",
+    "torch_commit": "ba56102387ef21a3b04b357e5b183d48f0afefc7",
+    "transformers_version": "5.7.0",
+    "transformers_commit": "6ffbb07f93d9e44457450d1150136309b0dc966b",
+    "dtype": "bfloat16",
+    "attention": "native Mistral SDPA",
+    "torch_compile": false,
+    "cuda_graphs": false,
+    "sparse_backend": null,
+    "candidate_code_executed_by_judge": false
+  },
+  "data": {
+    "manifest_sha256": "e1d4c6a289600f9597e71c6dfd9d75c1b366518bd50487397abe4d2322bddd11",
+    "seed": "compression-nas-2026-10-10-v1",
+    "all_answers_public": true,
+    "encrypted": false,
+    "evaluation_fitting": "allowed within declared tensor scope and budgets; benchmark-conditioned optimization, no unseen-data claim",
+    "counts": {
+      "wikitext": {
+        "evaluation": 128,
+        "development": 64,
+        "practice": 256
+      },
+      "gsm8k": {
+        "evaluation": 256,
+        "practice": 512,
+        "development": 64
+      }
+    },
+    "nll_tokens": 65536,
+    "gsm8k_evaluation_count": 256,
+    "max_output_tokens_per_question": 256,
+    "max_input_tokens": 2048
+  },
+  "action_space": "Exactly 224 attention/MLP linear weights: q_proj, k_proj, v_proj, o_proj, gate_proj, up_proj and down_proj in 32 layers. Each is either hash-identical dense B0 or two static BF16 factors U[m,r], V[r,n], applied as U(Vx), with rank a positive multiple of 8 and r*(m+n)<=m*n. No dense residual, added bypass or extra adapter is permitted. Search per-matrix ranks, calibration weighting, whitening/damping, truncation and sequential recovery of factor entries. Recovery updates one transformer block at a time.",
+  "artifact": "BF16 safetensors holding U/V factors plus unchanged dense tensors, a ranks.json map, exact source/output tensor inventory and Work provenance. Judge installs task-owned FactorLinear modules in the frozen native Mistral graph; it never reconstructs and caches a dense UV product for inference.",
+  "score": {
+    "formula": "100*clip((1-C/C0)/0.40,0,1)",
+    "direction": "higher",
+    "full_score": "C/C0 <= 0.60 and every quality/resource gate; C is actual BF16 weight/factor tensor payload bytes, including every frozen inference weight once.",
+    "baseline_score": 0,
+    "quality_gates": {
+      "nll_increase_nats_max": 0.1,
+      "gsm_accuracy_drop_max": 0.03
+    },
+    "peak_gpu_gib_max": 64,
+    "per_bucket_throughput_ratio_min": 0.9,
+    "tensor_bytes_ratio_max": 1.0,
+    "complete_gate_failure": 0,
+    "candidate_invalid": "unscored",
+    "infrastructure_timeout_incomplete": "unscored",
+    "optional_work_controls_required": false
+  },
+  "budgets": {
+    "physical_nodes": 1,
+    "gpu_count_work": 1,
+    "gpu_count_judge": 1,
+    "gpu_reference": "H100 80 GB",
+    "cpu_cores": 24,
+    "host_ram_gib": 256,
+    "ssd_gib": 300,
+    "work_seconds_hard": 7200,
+    "judge_seconds_hard": 2700,
+    "forward_token_exposures_max": 8388608,
+    "training_token_exposures_max": 262144,
+    "optimizer_updates_max": 256,
+    "unique_selected_calibration_records_max": 512,
+    "judge_attempts_trajectory_max": 16,
+    "trajectory_hours_default": 24,
+    "trajectory_hours_extension": 48,
+    "estimated_work_minutes": 90,
+    "estimated_judge_minutes": 30,
+    "outer_overhead_minutes": 10,
+    "estimated_cycle_minutes": 130,
+    "optimistic_loops_48h": 22.153846153846153,
+    "loop_limit_after_attempt_cap": 16,
+    "hard_envelope_cycle_minutes": 180
+  },
+  "network": {
+    "research_web": false,
+    "external_inference": false,
+    "remote_compute": false,
+    "author_setup": "pinned public downloads only"
+  },
+  "lifecycle": {
+    "solution": "copy existing pinned B0 plus identity declarative manifest; no compression, fitting, training or evaluation",
+    "reference_setup": "task-author B0 measurement once after acceptance, then frozen",
+    "work": "all candidate construction and optional controls, including repetitions and discarded attempts",
+    "judge": "candidate-only direct evaluation of shared materialized Work snapshot with Judge-only task tests",
+    "shared_snapshot_limitation": "not an independent clean-Base verifier"
+  },
+  "gpu_experiments_performed": 0
+}

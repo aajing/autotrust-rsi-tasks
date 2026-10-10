@@ -1,0 +1,77 @@
+[
+  {
+    "file": "evidence/hwgpt__LICENSE",
+    "bytes": 11357,
+    "sha256": "c71d239df91726fc519c6eb72d318ec65820627232b2f796219e87dcf35d0ab4"
+  },
+  {
+    "file": "evidence/hwgpt__README.md",
+    "bytes": 5487,
+    "sha256": "ffd61483407dc52120bb230cb93e2488120785e99f6d7ad5ac73172ffabb80a2"
+  },
+  {
+    "file": "evidence/hwgpt__configs__config_eval__owt_s_eval.yaml",
+    "bytes": 4512,
+    "sha256": "19bae2c1eaf03b5d887487f7f19ae88288f65a26564f9f900ea2f80c509d3f46"
+  },
+  {
+    "file": "evidence/hwgpt__configs__config_train__owt_s.yaml",
+    "bytes": 4468,
+    "sha256": "ef504da15ba8b1ac011d4a851c8e9b7e4288e891887b0160cbf8debcca419993"
+  },
+  {
+    "file": "evidence/hwgpt__data_collection__gpt_profiler__profile__gpt_perplexity_profiler.py",
+    "bytes": 9193,
+    "sha256": "713cab988a5aee3289d137399c58240504fa4285f6a9a13baf9442991915a62f"
+  },
+  {
+    "file": "evidence/hwgpt__downstream_eval__eval_gpt_l.py",
+    "bytes": 3285,
+    "sha256": "ba9d7874ff638eb56a44e0678b175222edc03f1cc89eaf1aabf18b51462d710e"
+  },
+  {
+    "file": "evidence/hwgpt__hwgpt__configs_api__gpt_s.yaml",
+    "bytes": 4634,
+    "sha256": "128f68dfb70ccc786a214e82af1759e7bab7ac6529f3897ee188f94c1651992d"
+  },
+  {
+    "file": "evidence/hwgpt__hwgpt__model__gpt__model.py",
+    "bytes": 8073,
+    "sha256": "6d9564dd708a0a8d64f74fba441dbda191df898ec492d90267e301636dc4f5e9"
+  },
+  {
+    "file": "evidence/hwgpt__hwgpt__model__gpt_base__model.py",
+    "bytes": 17751,
+    "sha256": "f729fe8aa73bdc4817bad674fa575e836e97d1f1c74a60649053649c6a466e33"
+  },
+  {
+    "file": "evidence/hwgpt__pl_gpt__data__lm_datamodule_nas.py",
+    "bytes": 19132,
+    "sha256": "524fab9575e446d0ca96f4401ac506156946e31f07946b4b7006596178041ba2"
+  },
+  {
+    "file": "evidence/hwgpt__pl_gpt__pl_module__lm_evaluator_configurable.py",
+    "bytes": 16098,
+    "sha256": "20c67529c54c54b108b4499aec6493e85c6678419d1b5e913b2edb2e8ca6b9f3"
+  },
+  {
+    "file": "evidence/hwgpt__setup.py",
+    "bytes": 1264,
+    "sha256": "75c37ed6ece86eaa88a7d65f8c9a367a719ddfdadcc1109226f29cdbc2cc7953"
+  },
+  {
+    "file": "evidence/tiny-cardinality.json",
+    "bytes": 428,
+    "sha256": "0cc23dd48a33cc136f97c483a9bc3f9bfada27153c465fdbea317d7931e9c1d8"
+  },
+  {
+    "file": "evidence/tiny_card.md",
+    "bytes": 1061,
+    "sha256": "f67b71c3ffe761795b9428222444bfc1ec447d45cb13b00821b7e6c1ceecf7c5"
+  },
+  {
+    "file": "evidence/wiki_card.md",
+    "bytes": 10464,
+    "sha256": "d5aabf145d341366745ac703b5844c442c143943b6c77929481395c822b1c28c"
+  }
+]

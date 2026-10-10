@@ -1,0 +1,43 @@
+{
+  "source_rows": {
+    "wikitext/test": 4358,
+    "wikitext/validation": 3760,
+    "wikitext/train": 36718,
+    "gsm8k/train": 7473,
+    "gsm8k/test": 1319
+  },
+  "wikitext_tokens": {
+    "test": 334660,
+    "validation": 292994,
+    "train": 2811494
+  },
+  "wikitext_distinct_eligible_blocks": {
+    "evaluation": 653,
+    "development": 572,
+    "practice": 5491
+  },
+  "gsm8k_distinct_eligible_rows": {
+    "test": 1319,
+    "train": 7471
+  },
+  "seed": "compression-nas-2026-10-10-v1",
+  "counts": {
+    "wikitext": {
+      "evaluation": 128,
+      "development": 64,
+      "practice": 256
+    },
+    "gsm8k": {
+      "evaluation": 256,
+      "practice": 512,
+      "development": 64
+    }
+  },
+  "nll_tokens_evaluation": 65536,
+  "gsm8k_evaluation_max_output_tokens": 65536,
+  "timing_buckets": 6,
+  "timing_tokens_per_complete_pass": 35840,
+  "data_visibility": "all inputs, answers, seeds and timing cases public; disclosed benchmark-conditioned fitting allowed",
+  "gpu_runs": 0,
+  "model_weights_downloaded": false
+}

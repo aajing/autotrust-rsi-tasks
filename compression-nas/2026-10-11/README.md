@@ -1,0 +1,43 @@
+# Compression, quantization and neural architecture search proposals
+
+Six English proposal packages prepared for Jing Qiu, ajing@autotrust.ai, GitHub `aajing`.
+
+This batch contains six English proposal drafts and their public supporting contracts, submitted for preparation by Jing Qiu on behalf of AutoTrust. It is separate from the six earlier proposals that passed official review. These new proposals have not been posted to official Discussions or evaluated on a GPU. Publication of support material is not official submission.
+
+| Task | Question | Proposal |
+| --- | --- | --- |
+| kv-cache-rsi | How much long-context attention state can a reusable encoding and retention policy remove while preserving answer quality and latency? | [English proposal](kv-cache-rsi/proposal.md) |
+| vl-activation-quant-rsi | Can cross-modal calibration and activation treatment improve a real low-precision vision-language deployment under fixed image processing? | [English proposal](vl-activation-quant-rsi/proposal.md) |
+| lowrank-compress-rsi | Can nonuniform low-rank matrix representations compress a dense language model while retaining its general capabilities? | [English proposal](lowrank-compress-rsi/proposal.md) |
+| sparse24-rsi | Can structured sparse masks deliver an actual whole-model execution improvement while meeting quality constraints? | [English proposal](sparse24-rsi/proposal.md) |
+| jev-block-nas-rsi | Can a smaller detachable neural capability branch preserve the released JEV branch's probabilities and calibration? | [English proposal](jev-block-nas-rsi/proposal.md) |
+| gpt-subnet-nas-rsi | Can architecture search extract a trained standalone GPT subnet with a better measured quality/resource tradeoff? | [English proposal](gpt-subnet-nas-rsi/proposal.md) |
+
+## Review downloads
+
+- [All six proposal packages](dist/compression-nas-six-proposals.zip)
+- [Archive checksums](dist/SHA256SUMS)
+- [Local validation report](validation-report.json)
+- [Publication scope and data delivery](PUBLICATION.json)
+
+## Contents and scope
+
+Each task folder contains the official 28-field `proposal.md`, a machine-readable `task.json`, pinned public-source evidence, a deterministic data specification, and an integration plan. Any local scoring code is a CPU contract implementation, not a replacement for the task's model evaluator. The main score, full-score endpoint, resource and quality gates, and invalid-run semantics belong to that task's contract.
+
+The [distinction from neighboring tasks](shared/DIFFERENTIATION.md), [contributor evidence](shared/expertise-evidence.md) and [handoff notes](shared/SUBMISSION-NOTES.md) are shared across the batch. Names and project contributions are not invented. The contributor confirmed Jing Qiu as the sole listed author for this batch.
+
+Published-source inputs and answers are disclosed; all locally included data, manifests and archives are unencrypted. Model weights and large upstream assets remain available through their specified source interfaces. A listed source interface does not mean the entire upstream artifact is mirrored inside this handoff. Each task's `DATA.md` and `SOURCES.md` distinguish included records, acquisition instructions and metadata-only verification.
+
+## Local preparation checks
+
+For a public checkout, first run `python3 kv-cache-rsi/materialize_data.py` to reconstruct the 192 plaintext LongBench records from their pinned public source. Work and Judge remain offline after setup. See the source notices for attribution.
+
+From this directory, `python3 tools/preflight.py --output preflight-report.json` checks the table structure, source revision presence, required files and local JSON validity. It does not issue an OpenRSI approval. `python3 tools/validate_local.py` runs the six CPU scoring suites, checks included LongBench/ChartQA/WikiText/GSM8K payload hashes and parses task JSON/Python files. These checks exercise reward and admission boundaries; they do not execute model inference.
+
+After checks, `python3 tools/package.py` builds six individual ZIPs and one combined ZIP in `dist/`, verifies archive integrity and confirms the encryption flag is off. `dist/SHA256SUMS` identifies the exact archive bytes. The per-file manifest records hashes of the local handoff files.
+
+## Official review and execution
+
+The user selected all six directions for development. Scientific contracts in these drafts are concrete proposed designs and remain reviewable before official handoff. Runtime allocations are estimates, and full-score attainability has not been measured. Existing released artifacts are used as references; new compression and recovery work belongs to Work rather than becoming an unavailable baseline prerequisite.
+
+Proposal review, task generation, execution validation and final benchmark inclusion are distinct stages. The official handoff must preserve one native proposal session per task. No GPU service has been started and no original session trajectory is bundled in these review archives.

@@ -1,0 +1,215 @@
+{
+  "status": "complete_draft_for_review_not_submitted",
+  "review_date_utc": "2026-10-10",
+  "contributor": {
+    "full_name": "Jing Qiu",
+    "email": "ajing@autotrust.ai",
+    "github": "aajing"
+  },
+  "hardware": {
+    "physical_nodes": 1,
+    "gpu_count": 1,
+    "gpu_type": "NVIDIA H100 80GB",
+    "cpu_cores": 16,
+    "host_ram_gib": 256,
+    "local_disk_gib": 200,
+    "work_judge_serial": true
+  },
+  "research_budget": {
+    "default_wall_hours": 24,
+    "extension_wall_hours": 48,
+    "all_work_judge_edit_compile_retry_time_counted": true,
+    "new_models_or_external_training_services": false
+  },
+  "information": {
+    "all_selected_inputs_answers_seeds_public": true,
+    "encryption": false,
+    "public_benchmark_conditioned_fitting_and_selection_allowed": true,
+    "unseen_generalization_claim": false,
+    "judge_only_test_injection": "execution ownership only; test contents and gold are public"
+  },
+  "baseline_policy": {
+    "required_reference": "released original-precision B0 only",
+    "solution": "resolve and materialize released artifact and identity manifest; no training, calibration or evaluation",
+    "new_quantized_controls": "optional Work trials, never construction or scoring prerequisites",
+    "normal_judge": "candidate only against a frozen public integrity-protected same-device reference record",
+    "one_time_reference_capture": "trusted evaluator during baseline reproduction/task initialization; reserve budget once, do not repeat per candidate"
+  },
+  "failure_semantics": {
+    "invalid_artifact": "unscored",
+    "attributable_compile_failure": "unscored",
+    "illegal_memory_access": "unscored",
+    "candidate_process_crash": "unscored",
+    "oom": "unscored",
+    "nan_or_inf": "unscored",
+    "timeout": "unscored",
+    "infrastructure_failure": "unscored",
+    "incomplete_workload": "unscored",
+    "completed_valid_candidate_failing_scientific_gates": 0,
+    "per_example_empty_or_unparseable_output": "valid completed output scored incorrect; never dropped",
+    "missing_output_due_to_crash": "unscored incomplete run"
+  },
+  "retry_policy": {
+    "infrastructure_retries_per_same_candidate": 1,
+    "candidate_fault_automatic_retries": 0,
+    "resampling_or_replacement": false,
+    "all_elapsed_time_charged": true,
+    "retry_is_new_adaptive_loop": false
+  },
+  "network": {
+    "web_search_during_work": false,
+    "external_services_during_work_or_judge": false,
+    "setup_public_downloads_only": true,
+    "runtime_network": false,
+    "additional_data": "Only deterministic augmentation, resampling or recombination of the fixed public task inputs in Work. All generated calibration data must be saved. No other corpora, APIs or models."
+  },
+  "trust_model": "Shared Base/Work/Judge snapshot. Task-owned tests are injected Judge-only, not a clean independent Base. Hashing, restricted loaders and source review reduce but cannot prove absence of all malicious native-code behavior.",
+  "gpu_validation_performed": false,
+  "task_id": "vl-activation-quant-rsi",
+  "title": "Calibrated Static FP8 Activations for Multimodal Inference",
+  "source": {
+    "repository": "https://github.com/vllm-project/llm-compressor",
+    "git_commit": "229758564a9a9607b858daccb65edb0c633315ec",
+    "license": "Apache-2.0",
+    "runtime_repository": "https://github.com/vllm-project/vllm",
+    "runtime_git_commit": "bf16c9c13949a10fc8e77189776f95538a598709"
+  },
+  "model": {
+    "id": "Qwen/Qwen2.5-VL-7B-Instruct",
+    "hf_revision": "cc594898137f460bfe9f0759e9844b3ce807cfb5",
+    "license": "Apache-2.0",
+    "gated": false,
+    "artifact_dtype": "BF16",
+    "matched_runtime_dtype": "BF16 with actual FP8 GEMM in eligible candidate language linear layers",
+    "weights_trainable": "Only quantization-related rounding, clipping, scaling and algebraically equivalent diagonal reparameterization; no ordinary SFT, LoRA or distillation updates."
+  },
+  "data": {
+    "manifest": "data-manifest.json",
+    "families": [
+      "chartqa_human",
+      "chartqa_augmented",
+      "screenspot_desktop",
+      "screenspot_mobile",
+      "screenspot_web"
+    ],
+    "examples_per_family": 64,
+    "total_quality_examples": 320,
+    "selection": "For each source array: SHA256(family + NUL + decimal zero-based row index), ascending; first64; no exclusions",
+    "quality_metric": "Equally weighted mean of five family scores [0,100]"
+  },
+  "allowed_candidate": {
+    "artifact": [
+      "standard compressed-tensors model snapshot",
+      "quantization recipe",
+      "offline calibration code and complete materialized scale/weight tensors",
+      "provenance manifest and public calibration data manifest"
+    ],
+    "inference_custom_code": false,
+    "weight_format": "FP8 E4M3FN per-output-channel for all eligible language Linear weights except protected group allowance; no block/MX/NVFP4 or lower weight bit search",
+    "activation_formats": [
+      "calibrated static per-tensor FP8 E4M3FN",
+      "dynamic per-token FP8 E4M3FN for remaining eligible groups"
+    ],
+    "static_parameter_coverage_min": 0.8,
+    "protected_bf16_parameter_fraction_max": 0.05,
+    "coverage_denominator": "Total original weight scalar count of q_proj,k_proj,v_proj,o_proj,gate_proj,up_proj,down_proj in every language decoder layer; count each physical weight once.",
+    "fused_group_rule": "q/k/v projections share activation mode and positive finite input scale; gate/up share activation mode and scale. Scale after vLLM fused loader max-collapse is authoritative. No claimed independent scales inside one fused runtime group.",
+    "research_scope": [
+      "image/text calibration mixture and sample weighting",
+      "static scale estimation, clipping objectives and positive scale optimization",
+      "quantization rounding/weight clipping and fused per-channel diagonal equivalence transforms",
+      "which limited groups require dynamic activation quantization or BF16 protection"
+    ],
+    "immutable": [
+      "vision encoder and projector weights and precision",
+      "embedding,lm_head,tokenizer,processor,RoPE,architecture",
+      "image resolution policy,prompts,decoding,KV cache BF16",
+      "scoring,timers,batching,reference records"
+    ],
+    "not_allowed": [
+      "normal weight fine-tuning, adapters, pruning, replacement modules",
+      "runtime callbacks, custom model code, answer lookup tables, file-reading model hooks",
+      "image dropping,cropping,resolution reduction,output budget or EOS changes"
+    ]
+  },
+  "generation": {
+    "seed": 42,
+    "do_sample": false,
+    "temperature": 0,
+    "max_tokens": 64,
+    "tensor_parallel_size": 1,
+    "max_model_len": 4096,
+    "kv_cache_dtype": "auto/BF16",
+    "enable_prefix_caching": false,
+    "max_num_seqs": 8,
+    "gpu_memory_utilization": 0.75,
+    "processor": {
+      "min_pixels": 200704,
+      "max_pixels": 1003520,
+      "visual_tokens_min": 256,
+      "visual_tokens_max": 1280,
+      "same_pinned_processor": true
+    },
+    "chartqa_prompt": "Answer the question using the chart. Reply with only the answer.\nQuestion: {query}",
+    "screenspot_prompt": "Locate the interface element for this instruction: {instruction}\nReturn only a JSON array [x, y] giving the center point in integer coordinates from 0 to 1000, relative to the original full image.",
+    "scoring": "ChartQA: stripped casefolded exact match, or numeric relative error <=5% for nonzero gold (gold zero requires absolute error <=1e-6); parse trailing percent as division by100 in both sides. ScreenSpot: exactly one two-integer JSON array in [0,1000]; normalize gold xywh bbox by original image width/height; hit iff inclusive inside bbox. No LLM judge.",
+    "mm_processor_cache_gb": 0,
+    "limit_mm_per_prompt": {
+      "image": 1
+    }
+  },
+  "performance_protocol": {
+    "requests": "First8 selected records from each of five families,40 image/text prompts; fixed family-interleaved order.",
+    "prefill_decode": "All input images at the fixed processor policy and exactly64 forced continuation tokens per request. Continuation is the repeated tokenizer encoding of the string Measurement continuation. truncated to64 tokens. No EOS-based shortcuts.",
+    "batch_sizes": [
+      1,
+      8
+    ],
+    "cells": 2,
+    "warmup_passes_per_cell": 2,
+    "timed_passes_per_cell": 5,
+    "time_statistic": "For each batch size measure full40-request synchronized elapsed time including image processing,vision encode,prefill and decode; median five passes. Throughput ratio per cell =reference_elapsed/candidate_elapsed; geometric mean two ratios. Model loading/one-time kernel compile excluded from timed passes but charged overhead.",
+    "total_measured_requests": 400,
+    "total_warmup_requests": 160,
+    "memory": "Max torch CUDA allocated/reserved peak and observed process peak over both cells; candidate/reference worst ratio. Set kv_cache_memory_bytes=2147483648 identically so vLLM percentage reservation cannot manufacture memory gains.",
+    "real_fp8_requirement": "Evaluator records actual FP8 kernel dispatch for every quantized eligible group; fake-quantized BF16 GEMM is invalid.",
+    "multimodal_cache_policy": "Disable processor cache with mm_processor_cache_gb=0. Assign globally unique task-owned multi_modal_uuids image identifier for everyquality/performance request, includingwarmups and repeats, so neither manager norworker encoder output can be reused acrossrequests. UUID changes only cacheidentity, neverinputpixels/text. Verifyprocessorandvisionimage-item counters equal everyrequest; decoder reuse within a request is permitted.",
+    "required_processor_images_per_cell": 280,
+    "required_vision_images_per_cell": 280,
+    "required_quality_processor_images": 320,
+    "required_quality_vision_images": 320
+  },
+  "score": {
+    "formula": "If all gates pass:100*clip((S-1)/0.5,0,1), where S is geometric mean measured throughput speedup over B0; otherwise completed valid run scores0.",
+    "full_score_throughput_speedup_min": 1.5,
+    "quality_macro_drop_pp_max": 1.0,
+    "quality_each_family_drop_pp_max": 2.0,
+    "peak_gpu_ratio_max": 0.7,
+    "each_batch_throughput_speedup_min": 1.0,
+    "baseline_score": 0
+  },
+  "time_estimate": {
+    "work_minutes": 60,
+    "full_judge_minutes": 45,
+    "mandatory_per_cycle_overhead_minutes": 15,
+    "full_cycle_minutes": 120,
+    "one_time_reference_and_setup_allowance_minutes": 120,
+    "loops_in_48h_arithmetic": 24,
+    "planned_complete_loops_in_48h_with_margin": 22,
+    "planned_complete_loops_in_24h_with_margin": 10,
+    "remaining_margin_minutes_48h": 120,
+    "judge_hard_timeout_minutes": 90,
+    "basis": "Unmeasured planning estimate: Work permits full calibration on up to the320 disclosed images and complete FP8 export; Judge includes320 quality generations plus560 timed/warmup request executions. A7B model,<=1280 image tokens and64 decode tokens per request fit the1H100 lane. 48h-120min-22*120min=120min margin. Every loop includes full Judge, not proxy-only diagnostics.",
+    "compute_note": "Within normal reference as an estimate; no measured performance claim."
+  },
+  "metrics_record_contract": {
+    "binding_fields": [
+      "data_manifest_sha256",
+      "runtime_fingerprint"
+    ],
+    "binding_format": "equal64lowercasehexSHA256 in candidate/reference",
+    "artifact_sha256": "completeartifactidentitydigest",
+    "required_family_counts": 64,
+    "required_total_quality_count": 320
+  }
+}

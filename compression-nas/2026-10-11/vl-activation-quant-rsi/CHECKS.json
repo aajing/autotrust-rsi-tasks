@@ -1,0 +1,31 @@
+{
+  "status": "local_preflight_pass_not_official_review",
+  "checked_at_utc": "2026-10-10",
+  "proposal_fields": 28,
+  "required_files": [
+    "proposal.md",
+    "task.json",
+    "DATA.md",
+    "SOURCES.md",
+    "INTEGRATION.md",
+    "EXPERTISE.md",
+    "data-manifest.json",
+    "scoring.py",
+    "test_scoring.py",
+    "verify_data.py"
+  ],
+  "scoring_tests_run": 10,
+  "scoring_tests_passed": 10,
+  "data_verification": "passed",
+  "data_manifest_sha256": "6bab72141003915116ae4136a88d171dc5aebcdfa21475fbe5598982dac33647",
+  "scientific_task_sha256": "8d0e35b05334eae345c04b5e581fa20404c44987496e1a5d48d5580bc32428d4",
+  "gpu_experiments": 0,
+  "submitted": false,
+  "official_accepted": false,
+  "known_execution_gaps": [
+    "Task-Agent adapter and native runtime integration not implemented",
+    "H100 compile/numerical/performance validation not performed",
+    "model weight shards not downloaded",
+    "178 selected unique ScreenSpot images referenced by existing public pinned ZIP+SHA256; ZIP not downloaded"
+  ]
+}

@@ -1,0 +1,21 @@
+{
+  "status": "public support drafts; no official Discussions created",
+  "date": "2026-10-11",
+  "author": "Jing Qiu",
+  "organization": "AutoTrust",
+  "public_plaintext": true,
+  "encrypted": false,
+  "files_copied": 362,
+  "upstream_fetched_text_files": [
+    "kv-cache-rsi/data/gov_report.jsonl",
+    "kv-cache-rsi/data/hotpotqa.jsonl",
+    "kv-cache-rsi/data/musique.jsonl",
+    "kv-cache-rsi/data/passage_count.jsonl",
+    "kv-cache-rsi/data/passage_retrieval_en.jsonl",
+    "kv-cache-rsi/data/qasper.jsonl"
+  ],
+  "text_materializer": "kv-cache-rsi/materialize_data.py",
+  "input_and_gold_visibility": "All inputs and answers remain obtainable from the exact public upstream sources. Raw LongBench text is fetched at setup rather than mirrored here.",
+  "selected_project_familiarity": "pending factual confirmation for external projects",
+  "gpu_experiments": 0
+}

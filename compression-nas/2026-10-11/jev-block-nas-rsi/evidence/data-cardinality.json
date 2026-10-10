@@ -1,0 +1,42 @@
+{
+  "url": "https://huggingface.co/datasets/SargeDev/jev-distill-corpus-v3/resolve/75111a13a8455032f0435050bfc7e0c9026ecfe8/test_set_30k.jsonl",
+  "read_method": "Streamed full JSONL bytes without storing text bodies",
+  "sha256": "53b044fa5bbcb22164d9a28811e56fabcd82ae29224d994c693b069eeb5d23ed",
+  "physical_nonempty_rows": 29955,
+  "source_kind_counts": {
+    "openjev_v2/choice": 887,
+    "openjev_v2/noul": 1432,
+    "yuri_v1/noul": 2260,
+    "yuri_v3/choice": 8312,
+    "yuri_v3/noul": 8537,
+    "yuri_v3/score": 8527
+  },
+  "selected_total": 6144,
+  "selected_kind_counts": {
+    "noul": 2048,
+    "choice": 2048,
+    "score": 2048
+  },
+  "selected_family_counts": {
+    "agent": 660,
+    "biology": 405,
+    "business": 565,
+    "chemistry": 340,
+    "genomics": 446,
+    "knowledge": 579,
+    "medical": 532,
+    "physics": 363,
+    "science": 392,
+    "spatial": 392,
+    "structured": 403,
+    "technical": 651,
+    "theology": 416
+  },
+  "selected_option_counts": {
+    "2": 2048,
+    "3": 21,
+    "4": 2004,
+    "5": 23,
+    "6": 2048
+  }
+}

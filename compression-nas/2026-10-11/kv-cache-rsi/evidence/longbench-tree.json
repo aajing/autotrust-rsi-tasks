@@ -1,0 +1,130 @@
+[
+  {
+    "type": "file",
+    "oid": "28df5f900b358436f0267334b3e3e9af33f917ba",
+    "size": 2307,
+    "path": ".gitattributes",
+    "lastCommit": {
+      "id": "f4baf0b75bb71ef27378ab2d7ba83d449c045166",
+      "title": "initial commit",
+      "date": "2023-07-29T14:33:21.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "unscanned"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "c68bcc96bd3df0ac2f3905a356b99ff25a43b725",
+    "size": 3982,
+    "path": "LongBench.py",
+    "lastCommit": {
+      "id": "f72191f71cd6fcd0da8a54f0915078efda579449",
+      "title": "Update LongBench.py",
+      "date": "2023-08-29T04:51:14.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "unscanned"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "dc9a87ac3719353c4137963bc9d952d608b64d97",
+    "size": 16038,
+    "path": "README.md",
+    "lastCommit": {
+      "id": "5e628be450b7e67fb7ae6e201bd6d8f7056f7672",
+      "title": "Update README.md",
+      "date": "2024-12-18T08:44:33.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "unscanned"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "unscanned",
+        "pickleImports": [],
+        "version": "0.0.0"
+      },
+      "virusTotalScan": {
+        "status": "unscanned"
+      }
+    }
+  },
+  {
+    "type": "file",
+    "oid": "0d67c48d140b67b56ca224ffec75b75bfa42ae67",
+    "size": 113932529,
+    "lfs": {
+      "oid": "cb45b11a4133c6bc1d6a44b0f8e701335ff1e543195db1103472e575857f7f64",
+      "size": 113932529,
+      "pointerSize": 134
+    },
+    "xetHash": "59f4339b6a500a51b14add87c1ca805d5c8fa60ffd1bb0676e3ce73a3bdfc4d1",
+    "path": "data.zip",
+    "lastCommit": {
+      "id": "4a90f81c8db79f60c15f77dcd207a1099038c775",
+      "title": "Upload data.zip",
+      "date": "2023-08-29T02:50:55.000Z"
+    },
+    "securityFileStatus": {
+      "status": "safe",
+      "protectAiScan": {
+        "status": "unscanned"
+      },
+      "avScan": {
+        "status": "safe",
+        "message": "No security issues detected",
+        "reportLink": "https://fdtn.ai/ai-supply-chain/hugging-face?utm_source=huggingface"
+      },
+      "pickleImportScan": {
+        "status": "safe",
+        "pickleImports": [],
+        "version": "0.0.32"
+      },
+      "virusTotalScan": {
+        "status": "safe",
+        "message": "0/75 engines detect it as malicious.",
+        "reportLink": "https://www.virustotal.com/gui/file/cb45b11a4133c6bc1d6a44b0f8e701335ff1e543195db1103472e575857f7f64?utm_source=huggingface"
+      }
+    }
+  }
+]

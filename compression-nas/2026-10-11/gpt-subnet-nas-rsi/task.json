@@ -1,0 +1,162 @@
+{
+  "task_id": "gpt-subnet-nas-rsi",
+  "schema_version": 1,
+  "status": "proposal_draft_not_submitted",
+  "review_date_utc": "2026-10-10",
+  "source": {
+    "repository": "https://github.com/automl/HW-GPT-Bench",
+    "revision": "1f43ee8322e6295d56c1e2004319123509fd53b8"
+  },
+  "checkpoint": {
+    "filename": "gpt_s.ckpt",
+    "drive_file_id": "1N7CMOktSBulsfCmVpLMYlbFNeOYn_JLU",
+    "listing_size_bytes": 1484460504,
+    "sha256": null,
+    "full_payload_verified": false,
+    "loader": "source native GPT plus LanguageModelEvaluator; current Whittle not assumed compatible"
+  },
+  "tokenizer": {
+    "repository": "openai-community/gpt2",
+    "revision": "607a30d783dfa663caf39e06633721c8d4cfcd7e",
+    "pad_token": "<pad>",
+    "pad_token_id": 50257,
+    "padded_vocab_size": 50304,
+    "preserve_native_logits_semantics": true
+  },
+  "data": {
+    "wikitext": {
+      "repository": "Salesforce/wikitext",
+      "revision": "b08601e04326c79dfdd32d625aee71d232d685c3",
+      "config": "wikitext-2-raw-v1",
+      "split": "test",
+      "physical_row_count": 4358,
+      "selected_rows": "all physical rows including blank rows"
+    },
+    "tinystories": {
+      "repository": "roneneldan/TinyStories",
+      "revision": "f54c09fd23315a6f9c86f9dc80f725de7d8f9c64",
+      "file": "TinyStories-valid.txt",
+      "full_nonempty_document_count": 21990,
+      "selected_document_count": 2048,
+      "selection": "first nonempty documents in physical order",
+      "sha256": "94e431816c4cce81ff71e4408ff8d3bda9a42e8d2663986697c3954288cb38b4"
+    },
+    "public_answers": true,
+    "benchmark_informed_fitting_allowed": true,
+    "unseen_generalization_claim": false,
+    "allowed_work_inputs": [
+      "WikiText-2-raw-v1 train",
+      "WikiText-2-raw-v1 validation",
+      "WikiText-2-raw-v1 test",
+      "entire pinned TinyStories-valid.txt"
+    ]
+  },
+  "reference": {
+    "artifact": "maximum subnet of released GPT-S checkpoint",
+    "fresh_training_required": false,
+    "solution_evaluates": false,
+    "candidate_only_judge": true,
+    "metric_report_status": "execution validation only; not yet measured"
+  },
+  "action_space": {
+    "width": [
+      192,
+      384,
+      768
+    ],
+    "depth": [
+      10,
+      11,
+      12
+    ],
+    "layer_indices": "strictly increasing original indices",
+    "per_layer_heads": [
+      4,
+      8,
+      12
+    ],
+    "head_size": 64,
+    "per_layer_mlp_ratio": [
+      2,
+      3,
+      4
+    ],
+    "bias": [
+      true,
+      false
+    ],
+    "recovery_training_allowed": true,
+    "candidate_runtime_code_allowed": false,
+    "dynamic_graph": false,
+    "quantization_allowed": false
+  },
+  "evaluation": {
+    "nll_contexts": [
+      256,
+      512,
+      1024
+    ],
+    "domain_context_cells": 6,
+    "nll_delta_max": 0.08,
+    "timing_workloads": [
+      [
+        1,
+        128
+      ],
+      [
+        4,
+        512
+      ],
+      [
+        8,
+        1024
+      ]
+    ],
+    "rounds": 5,
+    "warmup_forwards_per_round": 25,
+    "timed_forwards_per_round": 100,
+    "every_latency_ratio_max": 1.05,
+    "peak_memory_ratio_max": 1.05,
+    "seed": 20261010,
+    "required_report_bindings": [
+      "data_manifest_sha256",
+      "runtime_fingerprint"
+    ]
+  },
+  "reward": {
+    "range": [
+      0,
+      100
+    ],
+    "formula": "100*min(clip((1-bytes_ratio)/0.30,0,1),clip((1-latency_ratio_gmean)/0.40,0,1)) if all gates else 0",
+    "full_bytes_ratio_max": 0.7,
+    "full_latency_ratio_gmean_max": 0.6,
+    "invalid_or_incomplete_score": null,
+    "complete_gate_failure_score": 0,
+    "target_empirically_validated": false
+  },
+  "budgets": {
+    "physical_nodes": 1,
+    "gpu_type": "H100 80GB",
+    "work_gpus": 1,
+    "judge_gpus": 1,
+    "serial_peak_gpus": 1,
+    "cpu_cores": 16,
+    "ram_gib": 256,
+    "work_minutes_per_candidate_max": 60,
+    "training_token_exposures_per_candidate_max": 10000000,
+    "judge_minutes_max": 30,
+    "mandatory_overhead_minutes": 15,
+    "total_hours_default": 24,
+    "total_hours_extension": 48,
+    "identical_infrastructure_retry_max": 1,
+    "candidate_failure_retry_max": 0,
+    "full_48h_loops_after_4h_margin": 25
+  },
+  "readiness": {
+    "scientific_contract_complete": true,
+    "gpu_experiment_performed": false,
+    "runtime_implementation": "specified for Task Agent; not complete in this proposal package",
+    "official_submission_performed": false
+  }
+}

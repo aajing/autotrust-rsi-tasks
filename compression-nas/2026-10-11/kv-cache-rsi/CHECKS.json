@@ -1,0 +1,31 @@
+{
+  "status": "local_preflight_pass_not_official_review",
+  "checked_at_utc": "2026-10-10",
+  "proposal_fields": 28,
+  "required_files": [
+    "proposal.md",
+    "task.json",
+    "DATA.md",
+    "SOURCES.md",
+    "INTEGRATION.md",
+    "EXPERTISE.md",
+    "data-manifest.json",
+    "scoring.py",
+    "test_scoring.py",
+    "verify_data.py"
+  ],
+  "scoring_tests_run": 10,
+  "scoring_tests_passed": 10,
+  "data_verification": "passed",
+  "data_manifest_sha256": "1a4fa53eb61225bbb14f7c0c31b3660412cd8509dc420a5374c8ea12f180e65f",
+  "scientific_task_sha256": "a24ebece9b7a8d105f3f1b698b87e758d442aa4ee74aed8b7cc6c121fe366e3c",
+  "gpu_experiments": 0,
+  "submitted": false,
+  "official_accepted": false,
+  "known_execution_gaps": [
+    "Task-Agent adapter and native runtime integration not implemented",
+    "H100 compile/numerical/performance validation not performed",
+    "model weight shards not downloaded"
+  ],
+  "known_rights_provenance_limit": "LongBench HF card lacks a dataset-wide license declaration; code MIT is not asserted to cover aggregated text."
+}

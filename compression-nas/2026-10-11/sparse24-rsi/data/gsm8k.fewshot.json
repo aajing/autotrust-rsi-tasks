@@ -1,0 +1,15 @@
+{
+  "examples": [
+    {
+      "question": "What is fifteen more than a quarter of 48?",
+      "answer": "A quarter of 48 is 48/4=<<48/4=12>>12.\nThe number is 12+15=<<12+15=27>>27.\n#### 27"
+    },
+    {
+      "question": "John takes a pill every 6 hours.  How many pills does he take a week?",
+      "answer": "He takes 24/6=<<24/6=4>>4 pills a day\nSo he takes 4*7=<<4*7=28>>28 pills a week\n#### 28"
+    }
+  ],
+  "prefix": "Solve the problem. Show your reasoning and end with \"#### <number>\".\n\nQuestion: What is fifteen more than a quarter of 48?\nAnswer: A quarter of 48 is 48/4=<<48/4=12>>12.\nThe number is 12+15=<<12+15=27>>27.\n#### 27\n\nQuestion: John takes a pill every 6 hours.  How many pills does he take a week?\nAnswer: He takes 24/6=<<24/6=4>>4 pills a day\nSo he takes 4*7=<<4*7=28>>28 pills a week\n#### 28\n\n",
+  "source": "openai/gsm8k main train",
+  "selection": "two shortest tokenized question+rationale; question-hash tie break"
+}

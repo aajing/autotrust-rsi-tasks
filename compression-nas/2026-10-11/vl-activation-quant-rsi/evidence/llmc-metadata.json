@@ -1,0 +1,101 @@
+{
+  "sha": "229758564a9a9607b858daccb65edb0c633315ec",
+  "node_id": "C_kwDOMMEcmNoAKDIyOTc1ODU2NGE5YTk2MDdiODU4ZGFjY2I2NWVkYjBjNjMzMzE1ZWM",
+  "commit": {
+    "author": {
+      "name": "HDCharles",
+      "email": "39544797+HDCharles@users.noreply.github.com",
+      "date": "2026-10-09T16:00:08Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2026-10-09T16:00:08Z"
+    },
+    "message": "refactor and add warning to resolve seq targets (#3266)\n\nlittle cleaner and better UX\n\n---------\n\nSigned-off-by: HDCharles <39544797+HDCharles@users.noreply.github.com>",
+    "tree": {
+      "sha": "f030f915dafeaf2cb7f157e22c052df63224fa45",
+      "url": "https://api.github.com/repos/vllm-project/llm-compressor/git/trees/f030f915dafeaf2cb7f157e22c052df63224fa45"
+    },
+    "url": "https://api.github.com/repos/vllm-project/llm-compressor/git/commits/229758564a9a9607b858daccb65edb0c633315ec",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJqyQ+ICRC1aQ7uu5UhlAAA60UQAEK77IYTL8U4OsPzGC2b3sIs\n60aRiuntTKBvBWF1Wd5b6g20wmy3/KO2JDDUvlRHrIjiYFKUx2YezzLTig7MT0Oc\n6yLjVZDUTtod3Gh9fDUoKkFGVw1X/EzJ1Q04nbctJrUPooUxEQUs/+va4UVVHzo8\nDLPmANMRMIceFssDpRezhCp35zfxEne8QUBkTLjOrwixzWVe7KsuwwbglEXTr83N\nbF3lMFA0TyabrHh30KWv4/Aff/PZ/iVLcXyP5y8DsjEWc6KaJMzGygDGuuFrnlYX\n5GEmITy4hAIMsm1gzilMmBHd4gxIjdG6ZDhu9uN7mRy8gOdlCXaxmSTk8jfTkHK9\nIRRHkCBfEvauJfxcBR3QodrvHmz4XbKf9bUr5QEGx+g44J+RDYHN5osKi8EVu4Vo\nJzQzo5t+6hN1Uvm57pJP9R7QkVMDs1cO8HYIWdfaT+RfXpR9P4m7TPI7L3K0qll2\ncAdo3WFDfU7Z+nibU8Gs7qO2N/PoDWvVI0V7VwVxMLLYW+zOCZXQqJI/Vt5rfnd8\nqFUHNE2IKJ+cQWQyr4kD6IlZKdkJlN7TaxLPeFAx/IR5MR0UmUVB5V8rfh4AeepJ\nyLfspfA/q2PieNmFAwzRMSHeQ6fCbxt9Ih53kw8X79vTYQJ0aOAQg/3gnRB8El65\nygD96bucNjeNKiYSscHA\n=SVz3\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree f030f915dafeaf2cb7f157e22c052df63224fa45\nparent 1b6bacda725978d88c60fff1d2baacb0bb5cdeea\nauthor HDCharles <39544797+HDCharles@users.noreply.github.com> 1791561608 -0400\ncommitter GitHub <noreply@github.com> 1791561608 -0400\n\nrefactor and add warning to resolve seq targets (#3266)\n\nlittle cleaner and better UX\n\n---------\n\nSigned-off-by: HDCharles <39544797+HDCharles@users.noreply.github.com>",
+      "verified_at": "2026-10-09T16:00:08Z"
+    }
+  },
+  "url": "https://api.github.com/repos/vllm-project/llm-compressor/commits/229758564a9a9607b858daccb65edb0c633315ec",
+  "html_url": "https://github.com/vllm-project/llm-compressor/commit/229758564a9a9607b858daccb65edb0c633315ec",
+  "comments_url": "https://api.github.com/repos/vllm-project/llm-compressor/commits/229758564a9a9607b858daccb65edb0c633315ec/comments",
+  "author": {
+    "login": "HDCharles",
+    "id": 39544797,
+    "node_id": "MDQ6VXNlcjM5NTQ0Nzk3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/39544797?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/HDCharles",
+    "html_url": "https://github.com/HDCharles",
+    "followers_url": "https://api.github.com/users/HDCharles/followers",
+    "following_url": "https://api.github.com/users/HDCharles/following{/other_user}",
+    "gists_url": "https://api.github.com/users/HDCharles/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/HDCharles/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/HDCharles/subscriptions",
+    "organizations_url": "https://api.github.com/users/HDCharles/orgs",
+    "repos_url": "https://api.github.com/users/HDCharles/repos",
+    "events_url": "https://api.github.com/users/HDCharles/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/HDCharles/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "1b6bacda725978d88c60fff1d2baacb0bb5cdeea",
+      "url": "https://api.github.com/repos/vllm-project/llm-compressor/commits/1b6bacda725978d88c60fff1d2baacb0bb5cdeea",
+      "html_url": "https://github.com/vllm-project/llm-compressor/commit/1b6bacda725978d88c60fff1d2baacb0bb5cdeea"
+    }
+  ],
+  "stats": {
+    "total": 23,
+    "additions": 18,
+    "deletions": 5
+  },
+  "files": [
+    {
+      "sha": "10dddd4e5998581e860c1f12488cfc87d412a329",
+      "filename": "src/llmcompressor/pipelines/sequential/helpers.py",
+      "status": "modified",
+      "additions": 18,
+      "deletions": 5,
+      "changes": 23,
+      "blob_url": "https://github.com/vllm-project/llm-compressor/blob/229758564a9a9607b858daccb65edb0c633315ec/src%2Fllmcompressor%2Fpipelines%2Fsequential%2Fhelpers.py",
+      "raw_url": "https://github.com/vllm-project/llm-compressor/raw/229758564a9a9607b858daccb65edb0c633315ec/src%2Fllmcompressor%2Fpipelines%2Fsequential%2Fhelpers.py",
+      "contents_url": "https://api.github.com/repos/vllm-project/llm-compressor/contents/src%2Fllmcompressor%2Fpipelines%2Fsequential%2Fhelpers.py?ref=229758564a9a9607b858daccb65edb0c633315ec",
+      "patch": "@@ -125,17 +125,18 @@ def _resolve_sequential_targets(\n     model: PreTrainedModel, sequential_targets: list[str]\n ) -> set[Module]:\n     \"\"\"Combine requested targets with attention boundaries and remove nested ones.\"\"\"\n-    requested_targets = list(match_named_modules(model, sequential_targets))\n-    targets = {module for _, module in requested_targets}\n+    orig_targets = {m for _, m in list(match_named_modules(model, sequential_targets))}\n \n     # Add attention modules as targets (we don't want to trace inside attention)\n-    targets.update(\n+    attention_targets = {\n         module for _, module in model.named_modules() if _is_attention_module(module)\n-    )\n+    }\n+    targets = orig_targets | attention_targets\n \n     target_names = {name: mod for name, mod in model.named_modules() if mod in targets}\n \n-    # get rid of any targets that are contained by another\n+    # Keep only the outermost target. The tracer treats it as a leaf, so nested\n+    # targets cannot appear as independent call_module nodes in the graph.\n     outer_targets = {\n         target\n         for name, target in target_names.items()\n@@ -144,6 +145,18 @@ def _resolve_sequential_targets(\n             for other_name in target_names.keys()\n         )\n     }\n+\n+    if any(\n+        isinstance(module, torch.nn.Linear) for module in orig_targets - outer_targets\n+    ):  # detect linear being ignored in favor of another target\n+        logger.warning(\n+            \"Some requested Linear targets are nested inside an outer sequential \"\n+            \"target and will not form separate subgraphs. This commonly happens due to\"\n+            \"attention blocks being added as targets to avoid tracing into them.  \"\n+            \"such Nested Linear modules are still calibrated and quantized as normal.\",\n+            log_once=True,\n+        )\n+\n     return outer_targets\n \n "
+    }
+  ]
+}

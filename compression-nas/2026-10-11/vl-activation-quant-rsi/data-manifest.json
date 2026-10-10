@@ -1,0 +1,1629 @@
+{
+  "chartqa_git_revision": "044eabfc306abfe9340c5741f0093aefc5973d06",
+  "screenspot_hf_revision": "5efbb1f1b5463a575f2eb7bc30fe29e49c15f93c",
+  "selection": "For each of five families, index source JSON array from zero, sort ascending SHA256(UTF8(family + NUL + decimal_source_index)), take first 64. No exclusions.",
+  "source_counts": {
+    "chartqa_human": 1250,
+    "chartqa_augmented": 1250,
+    "screenspot_desktop": 334,
+    "screenspot_mobile": 501,
+    "screenspot_web": 437
+  },
+  "selected_per_family": 64,
+  "total_selected": 320,
+  "screenspot_images": {
+    "url": "https://huggingface.co/datasets/OS-Copilot/ScreenSpot-v2/resolve/5efbb1f1b5463a575f2eb7bc30fe29e49c15f93c/screenspotv2_image.zip",
+    "bundled": false,
+    "sha256": "750555b8b06e3898634c610cd904600feb7ec7ca530e625a00c1416a73d829ee",
+    "bytes": 1331012233,
+    "selected_unique_images": 178
+  },
+  "records": [
+    {
+      "record_id": "chartqa_human:606",
+      "family": "chartqa_human",
+      "source_index": 606
+    },
+    {
+      "record_id": "chartqa_human:17",
+      "family": "chartqa_human",
+      "source_index": 17
+    },
+    {
+      "record_id": "chartqa_human:967",
+      "family": "chartqa_human",
+      "source_index": 967
+    },
+    {
+      "record_id": "chartqa_human:835",
+      "family": "chartqa_human",
+      "source_index": 835
+    },
+    {
+      "record_id": "chartqa_human:1090",
+      "family": "chartqa_human",
+      "source_index": 1090
+    },
+    {
+      "record_id": "chartqa_human:226",
+      "family": "chartqa_human",
+      "source_index": 226
+    },
+    {
+      "record_id": "chartqa_human:673",
+      "family": "chartqa_human",
+      "source_index": 673
+    },
+    {
+      "record_id": "chartqa_human:1244",
+      "family": "chartqa_human",
+      "source_index": 1244
+    },
+    {
+      "record_id": "chartqa_human:28",
+      "family": "chartqa_human",
+      "source_index": 28
+    },
+    {
+      "record_id": "chartqa_human:1162",
+      "family": "chartqa_human",
+      "source_index": 1162
+    },
+    {
+      "record_id": "chartqa_human:1146",
+      "family": "chartqa_human",
+      "source_index": 1146
+    },
+    {
+      "record_id": "chartqa_human:1220",
+      "family": "chartqa_human",
+      "source_index": 1220
+    },
+    {
+      "record_id": "chartqa_human:188",
+      "family": "chartqa_human",
+      "source_index": 188
+    },
+    {
+      "record_id": "chartqa_human:510",
+      "family": "chartqa_human",
+      "source_index": 510
+    },
+    {
+      "record_id": "chartqa_human:275",
+      "family": "chartqa_human",
+      "source_index": 275
+    },
+    {
+      "record_id": "chartqa_human:1177",
+      "family": "chartqa_human",
+      "source_index": 1177
+    },
+    {
+      "record_id": "chartqa_human:465",
+      "family": "chartqa_human",
+      "source_index": 465
+    },
+    {
+      "record_id": "chartqa_human:946",
+      "family": "chartqa_human",
+      "source_index": 946
+    },
+    {
+      "record_id": "chartqa_human:117",
+      "family": "chartqa_human",
+      "source_index": 117
+    },
+    {
+      "record_id": "chartqa_human:526",
+      "family": "chartqa_human",
+      "source_index": 526
+    },
+    {
+      "record_id": "chartqa_human:1236",
+      "family": "chartqa_human",
+      "source_index": 1236
+    },
+    {
+      "record_id": "chartqa_human:213",
+      "family": "chartqa_human",
+      "source_index": 213
+    },
+    {
+      "record_id": "chartqa_human:338",
+      "family": "chartqa_human",
+      "source_index": 338
+    },
+    {
+      "record_id": "chartqa_human:524",
+      "family": "chartqa_human",
+      "source_index": 524
+    },
+    {
+      "record_id": "chartqa_human:367",
+      "family": "chartqa_human",
+      "source_index": 367
+    },
+    {
+      "record_id": "chartqa_human:253",
+      "family": "chartqa_human",
+      "source_index": 253
+    },
+    {
+      "record_id": "chartqa_human:995",
+      "family": "chartqa_human",
+      "source_index": 995
+    },
+    {
+      "record_id": "chartqa_human:444",
+      "family": "chartqa_human",
+      "source_index": 444
+    },
+    {
+      "record_id": "chartqa_human:1248",
+      "family": "chartqa_human",
+      "source_index": 1248
+    },
+    {
+      "record_id": "chartqa_human:1009",
+      "family": "chartqa_human",
+      "source_index": 1009
+    },
+    {
+      "record_id": "chartqa_human:380",
+      "family": "chartqa_human",
+      "source_index": 380
+    },
+    {
+      "record_id": "chartqa_human:627",
+      "family": "chartqa_human",
+      "source_index": 627
+    },
+    {
+      "record_id": "chartqa_human:63",
+      "family": "chartqa_human",
+      "source_index": 63
+    },
+    {
+      "record_id": "chartqa_human:899",
+      "family": "chartqa_human",
+      "source_index": 899
+    },
+    {
+      "record_id": "chartqa_human:1001",
+      "family": "chartqa_human",
+      "source_index": 1001
+    },
+    {
+      "record_id": "chartqa_human:666",
+      "family": "chartqa_human",
+      "source_index": 666
+    },
+    {
+      "record_id": "chartqa_human:403",
+      "family": "chartqa_human",
+      "source_index": 403
+    },
+    {
+      "record_id": "chartqa_human:151",
+      "family": "chartqa_human",
+      "source_index": 151
+    },
+    {
+      "record_id": "chartqa_human:621",
+      "family": "chartqa_human",
+      "source_index": 621
+    },
+    {
+      "record_id": "chartqa_human:941",
+      "family": "chartqa_human",
+      "source_index": 941
+    },
+    {
+      "record_id": "chartqa_human:457",
+      "family": "chartqa_human",
+      "source_index": 457
+    },
+    {
+      "record_id": "chartqa_human:742",
+      "family": "chartqa_human",
+      "source_index": 742
+    },
+    {
+      "record_id": "chartqa_human:353",
+      "family": "chartqa_human",
+      "source_index": 353
+    },
+    {
+      "record_id": "chartqa_human:832",
+      "family": "chartqa_human",
+      "source_index": 832
+    },
+    {
+      "record_id": "chartqa_human:1133",
+      "family": "chartqa_human",
+      "source_index": 1133
+    },
+    {
+      "record_id": "chartqa_human:873",
+      "family": "chartqa_human",
+      "source_index": 873
+    },
+    {
+      "record_id": "chartqa_human:264",
+      "family": "chartqa_human",
+      "source_index": 264
+    },
+    {
+      "record_id": "chartqa_human:216",
+      "family": "chartqa_human",
+      "source_index": 216
+    },
+    {
+      "record_id": "chartqa_human:1219",
+      "family": "chartqa_human",
+      "source_index": 1219
+    },
+    {
+      "record_id": "chartqa_human:357",
+      "family": "chartqa_human",
+      "source_index": 357
+    },
+    {
+      "record_id": "chartqa_human:659",
+      "family": "chartqa_human",
+      "source_index": 659
+    },
+    {
+      "record_id": "chartqa_human:1230",
+      "family": "chartqa_human",
+      "source_index": 1230
+    },
+    {
+      "record_id": "chartqa_human:759",
+      "family": "chartqa_human",
+      "source_index": 759
+    },
+    {
+      "record_id": "chartqa_human:925",
+      "family": "chartqa_human",
+      "source_index": 925
+    },
+    {
+      "record_id": "chartqa_human:471",
+      "family": "chartqa_human",
+      "source_index": 471
+    },
+    {
+      "record_id": "chartqa_human:33",
+      "family": "chartqa_human",
+      "source_index": 33
+    },
+    {
+      "record_id": "chartqa_human:83",
+      "family": "chartqa_human",
+      "source_index": 83
+    },
+    {
+      "record_id": "chartqa_human:334",
+      "family": "chartqa_human",
+      "source_index": 334
+    },
+    {
+      "record_id": "chartqa_human:409",
+      "family": "chartqa_human",
+      "source_index": 409
+    },
+    {
+      "record_id": "chartqa_human:574",
+      "family": "chartqa_human",
+      "source_index": 574
+    },
+    {
+      "record_id": "chartqa_human:1233",
+      "family": "chartqa_human",
+      "source_index": 1233
+    },
+    {
+      "record_id": "chartqa_human:1089",
+      "family": "chartqa_human",
+      "source_index": 1089
+    },
+    {
+      "record_id": "chartqa_human:990",
+      "family": "chartqa_human",
+      "source_index": 990
+    },
+    {
+      "record_id": "chartqa_human:886",
+      "family": "chartqa_human",
+      "source_index": 886
+    },
+    {
+      "record_id": "chartqa_augmented:443",
+      "family": "chartqa_augmented",
+      "source_index": 443
+    },
+    {
+      "record_id": "chartqa_augmented:263",
+      "family": "chartqa_augmented",
+      "source_index": 263
+    },
+    {
+      "record_id": "chartqa_augmented:463",
+      "family": "chartqa_augmented",
+      "source_index": 463
+    },
+    {
+      "record_id": "chartqa_augmented:917",
+      "family": "chartqa_augmented",
+      "source_index": 917
+    },
+    {
+      "record_id": "chartqa_augmented:718",
+      "family": "chartqa_augmented",
+      "source_index": 718
+    },
+    {
+      "record_id": "chartqa_augmented:139",
+      "family": "chartqa_augmented",
+      "source_index": 139
+    },
+    {
+      "record_id": "chartqa_augmented:547",
+      "family": "chartqa_augmented",
+      "source_index": 547
+    },
+    {
+      "record_id": "chartqa_augmented:577",
+      "family": "chartqa_augmented",
+      "source_index": 577
+    },
+    {
+      "record_id": "chartqa_augmented:571",
+      "family": "chartqa_augmented",
+      "source_index": 571
+    },
+    {
+      "record_id": "chartqa_augmented:1117",
+      "family": "chartqa_augmented",
+      "source_index": 1117
+    },
+    {
+      "record_id": "chartqa_augmented:989",
+      "family": "chartqa_augmented",
+      "source_index": 989
+    },
+    {
+      "record_id": "chartqa_augmented:485",
+      "family": "chartqa_augmented",
+      "source_index": 485
+    },
+    {
+      "record_id": "chartqa_augmented:988",
+      "family": "chartqa_augmented",
+      "source_index": 988
+    },
+    {
+      "record_id": "chartqa_augmented:775",
+      "family": "chartqa_augmented",
+      "source_index": 775
+    },
+    {
+      "record_id": "chartqa_augmented:980",
+      "family": "chartqa_augmented",
+      "source_index": 980
+    },
+    {
+      "record_id": "chartqa_augmented:708",
+      "family": "chartqa_augmented",
+      "source_index": 708
+    },
+    {
+      "record_id": "chartqa_augmented:541",
+      "family": "chartqa_augmented",
+      "source_index": 541
+    },
+    {
+      "record_id": "chartqa_augmented:630",
+      "family": "chartqa_augmented",
+      "source_index": 630
+    },
+    {
+      "record_id": "chartqa_augmented:76",
+      "family": "chartqa_augmented",
+      "source_index": 76
+    },
+    {
+      "record_id": "chartqa_augmented:1164",
+      "family": "chartqa_augmented",
+      "source_index": 1164
+    },
+    {
+      "record_id": "chartqa_augmented:755",
+      "family": "chartqa_augmented",
+      "source_index": 755
+    },
+    {
+      "record_id": "chartqa_augmented:75",
+      "family": "chartqa_augmented",
+      "source_index": 75
+    },
+    {
+      "record_id": "chartqa_augmented:161",
+      "family": "chartqa_augmented",
+      "source_index": 161
+    },
+    {
+      "record_id": "chartqa_augmented:34",
+      "family": "chartqa_augmented",
+      "source_index": 34
+    },
+    {
+      "record_id": "chartqa_augmented:73",
+      "family": "chartqa_augmented",
+      "source_index": 73
+    },
+    {
+      "record_id": "chartqa_augmented:1204",
+      "family": "chartqa_augmented",
+      "source_index": 1204
+    },
+    {
+      "record_id": "chartqa_augmented:131",
+      "family": "chartqa_augmented",
+      "source_index": 131
+    },
+    {
+      "record_id": "chartqa_augmented:1246",
+      "family": "chartqa_augmented",
+      "source_index": 1246
+    },
+    {
+      "record_id": "chartqa_augmented:742",
+      "family": "chartqa_augmented",
+      "source_index": 742
+    },
+    {
+      "record_id": "chartqa_augmented:698",
+      "family": "chartqa_augmented",
+      "source_index": 698
+    },
+    {
+      "record_id": "chartqa_augmented:670",
+      "family": "chartqa_augmented",
+      "source_index": 670
+    },
+    {
+      "record_id": "chartqa_augmented:978",
+      "family": "chartqa_augmented",
+      "source_index": 978
+    },
+    {
+      "record_id": "chartqa_augmented:724",
+      "family": "chartqa_augmented",
+      "source_index": 724
+    },
+    {
+      "record_id": "chartqa_augmented:365",
+      "family": "chartqa_augmented",
+      "source_index": 365
+    },
+    {
+      "record_id": "chartqa_augmented:682",
+      "family": "chartqa_augmented",
+      "source_index": 682
+    },
+    {
+      "record_id": "chartqa_augmented:367",
+      "family": "chartqa_augmented",
+      "source_index": 367
+    },
+    {
+      "record_id": "chartqa_augmented:1221",
+      "family": "chartqa_augmented",
+      "source_index": 1221
+    },
+    {
+      "record_id": "chartqa_augmented:287",
+      "family": "chartqa_augmented",
+      "source_index": 287
+    },
+    {
+      "record_id": "chartqa_augmented:788",
+      "family": "chartqa_augmented",
+      "source_index": 788
+    },
+    {
+      "record_id": "chartqa_augmented:611",
+      "family": "chartqa_augmented",
+      "source_index": 611
+    },
+    {
+      "record_id": "chartqa_augmented:1124",
+      "family": "chartqa_augmented",
+      "source_index": 1124
+    },
+    {
+      "record_id": "chartqa_augmented:859",
+      "family": "chartqa_augmented",
+      "source_index": 859
+    },
+    {
+      "record_id": "chartqa_augmented:806",
+      "family": "chartqa_augmented",
+      "source_index": 806
+    },
+    {
+      "record_id": "chartqa_augmented:513",
+      "family": "chartqa_augmented",
+      "source_index": 513
+    },
+    {
+      "record_id": "chartqa_augmented:106",
+      "family": "chartqa_augmented",
+      "source_index": 106
+    },
+    {
+      "record_id": "chartqa_augmented:828",
+      "family": "chartqa_augmented",
+      "source_index": 828
+    },
+    {
+      "record_id": "chartqa_augmented:538",
+      "family": "chartqa_augmented",
+      "source_index": 538
+    },
+    {
+      "record_id": "chartqa_augmented:710",
+      "family": "chartqa_augmented",
+      "source_index": 710
+    },
+    {
+      "record_id": "chartqa_augmented:1213",
+      "family": "chartqa_augmented",
+      "source_index": 1213
+    },
+    {
+      "record_id": "chartqa_augmented:1175",
+      "family": "chartqa_augmented",
+      "source_index": 1175
+    },
+    {
+      "record_id": "chartqa_augmented:1009",
+      "family": "chartqa_augmented",
+      "source_index": 1009
+    },
+    {
+      "record_id": "chartqa_augmented:823",
+      "family": "chartqa_augmented",
+      "source_index": 823
+    },
+    {
+      "record_id": "chartqa_augmented:624",
+      "family": "chartqa_augmented",
+      "source_index": 624
+    },
+    {
+      "record_id": "chartqa_augmented:244",
+      "family": "chartqa_augmented",
+      "source_index": 244
+    },
+    {
+      "record_id": "chartqa_augmented:662",
+      "family": "chartqa_augmented",
+      "source_index": 662
+    },
+    {
+      "record_id": "chartqa_augmented:98",
+      "family": "chartqa_augmented",
+      "source_index": 98
+    },
+    {
+      "record_id": "chartqa_augmented:315",
+      "family": "chartqa_augmented",
+      "source_index": 315
+    },
+    {
+      "record_id": "chartqa_augmented:72",
+      "family": "chartqa_augmented",
+      "source_index": 72
+    },
+    {
+      "record_id": "chartqa_augmented:303",
+      "family": "chartqa_augmented",
+      "source_index": 303
+    },
+    {
+      "record_id": "chartqa_augmented:706",
+      "family": "chartqa_augmented",
+      "source_index": 706
+    },
+    {
+      "record_id": "chartqa_augmented:304",
+      "family": "chartqa_augmented",
+      "source_index": 304
+    },
+    {
+      "record_id": "chartqa_augmented:542",
+      "family": "chartqa_augmented",
+      "source_index": 542
+    },
+    {
+      "record_id": "chartqa_augmented:1169",
+      "family": "chartqa_augmented",
+      "source_index": 1169
+    },
+    {
+      "record_id": "chartqa_augmented:947",
+      "family": "chartqa_augmented",
+      "source_index": 947
+    },
+    {
+      "record_id": "screenspot_desktop:299",
+      "family": "screenspot_desktop",
+      "source_index": 299
+    },
+    {
+      "record_id": "screenspot_desktop:200",
+      "family": "screenspot_desktop",
+      "source_index": 200
+    },
+    {
+      "record_id": "screenspot_desktop:305",
+      "family": "screenspot_desktop",
+      "source_index": 305
+    },
+    {
+      "record_id": "screenspot_desktop:122",
+      "family": "screenspot_desktop",
+      "source_index": 122
+    },
+    {
+      "record_id": "screenspot_desktop:108",
+      "family": "screenspot_desktop",
+      "source_index": 108
+    },
+    {
+      "record_id": "screenspot_desktop:282",
+      "family": "screenspot_desktop",
+      "source_index": 282
+    },
+    {
+      "record_id": "screenspot_desktop:81",
+      "family": "screenspot_desktop",
+      "source_index": 81
+    },
+    {
+      "record_id": "screenspot_desktop:112",
+      "family": "screenspot_desktop",
+      "source_index": 112
+    },
+    {
+      "record_id": "screenspot_desktop:234",
+      "family": "screenspot_desktop",
+      "source_index": 234
+    },
+    {
+      "record_id": "screenspot_desktop:69",
+      "family": "screenspot_desktop",
+      "source_index": 69
+    },
+    {
+      "record_id": "screenspot_desktop:78",
+      "family": "screenspot_desktop",
+      "source_index": 78
+    },
+    {
+      "record_id": "screenspot_desktop:49",
+      "family": "screenspot_desktop",
+      "source_index": 49
+    },
+    {
+      "record_id": "screenspot_desktop:279",
+      "family": "screenspot_desktop",
+      "source_index": 279
+    },
+    {
+      "record_id": "screenspot_desktop:58",
+      "family": "screenspot_desktop",
+      "source_index": 58
+    },
+    {
+      "record_id": "screenspot_desktop:12",
+      "family": "screenspot_desktop",
+      "source_index": 12
+    },
+    {
+      "record_id": "screenspot_desktop:24",
+      "family": "screenspot_desktop",
+      "source_index": 24
+    },
+    {
+      "record_id": "screenspot_desktop:278",
+      "family": "screenspot_desktop",
+      "source_index": 278
+    },
+    {
+      "record_id": "screenspot_desktop:124",
+      "family": "screenspot_desktop",
+      "source_index": 124
+    },
+    {
+      "record_id": "screenspot_desktop:111",
+      "family": "screenspot_desktop",
+      "source_index": 111
+    },
+    {
+      "record_id": "screenspot_desktop:319",
+      "family": "screenspot_desktop",
+      "source_index": 319
+    },
+    {
+      "record_id": "screenspot_desktop:72",
+      "family": "screenspot_desktop",
+      "source_index": 72
+    },
+    {
+      "record_id": "screenspot_desktop:194",
+      "family": "screenspot_desktop",
+      "source_index": 194
+    },
+    {
+      "record_id": "screenspot_desktop:84",
+      "family": "screenspot_desktop",
+      "source_index": 84
+    },
+    {
+      "record_id": "screenspot_desktop:70",
+      "family": "screenspot_desktop",
+      "source_index": 70
+    },
+    {
+      "record_id": "screenspot_desktop:88",
+      "family": "screenspot_desktop",
+      "source_index": 88
+    },
+    {
+      "record_id": "screenspot_desktop:31",
+      "family": "screenspot_desktop",
+      "source_index": 31
+    },
+    {
+      "record_id": "screenspot_desktop:180",
+      "family": "screenspot_desktop",
+      "source_index": 180
+    },
+    {
+      "record_id": "screenspot_desktop:266",
+      "family": "screenspot_desktop",
+      "source_index": 266
+    },
+    {
+      "record_id": "screenspot_desktop:303",
+      "family": "screenspot_desktop",
+      "source_index": 303
+    },
+    {
+      "record_id": "screenspot_desktop:306",
+      "family": "screenspot_desktop",
+      "source_index": 306
+    },
+    {
+      "record_id": "screenspot_desktop:87",
+      "family": "screenspot_desktop",
+      "source_index": 87
+    },
+    {
+      "record_id": "screenspot_desktop:159",
+      "family": "screenspot_desktop",
+      "source_index": 159
+    },
+    {
+      "record_id": "screenspot_desktop:185",
+      "family": "screenspot_desktop",
+      "source_index": 185
+    },
+    {
+      "record_id": "screenspot_desktop:172",
+      "family": "screenspot_desktop",
+      "source_index": 172
+    },
+    {
+      "record_id": "screenspot_desktop:29",
+      "family": "screenspot_desktop",
+      "source_index": 29
+    },
+    {
+      "record_id": "screenspot_desktop:333",
+      "family": "screenspot_desktop",
+      "source_index": 333
+    },
+    {
+      "record_id": "screenspot_desktop:118",
+      "family": "screenspot_desktop",
+      "source_index": 118
+    },
+    {
+      "record_id": "screenspot_desktop:38",
+      "family": "screenspot_desktop",
+      "source_index": 38
+    },
+    {
+      "record_id": "screenspot_desktop:5",
+      "family": "screenspot_desktop",
+      "source_index": 5
+    },
+    {
+      "record_id": "screenspot_desktop:16",
+      "family": "screenspot_desktop",
+      "source_index": 16
+    },
+    {
+      "record_id": "screenspot_desktop:97",
+      "family": "screenspot_desktop",
+      "source_index": 97
+    },
+    {
+      "record_id": "screenspot_desktop:0",
+      "family": "screenspot_desktop",
+      "source_index": 0
+    },
+    {
+      "record_id": "screenspot_desktop:330",
+      "family": "screenspot_desktop",
+      "source_index": 330
+    },
+    {
+      "record_id": "screenspot_desktop:13",
+      "family": "screenspot_desktop",
+      "source_index": 13
+    },
+    {
+      "record_id": "screenspot_desktop:47",
+      "family": "screenspot_desktop",
+      "source_index": 47
+    },
+    {
+      "record_id": "screenspot_desktop:304",
+      "family": "screenspot_desktop",
+      "source_index": 304
+    },
+    {
+      "record_id": "screenspot_desktop:20",
+      "family": "screenspot_desktop",
+      "source_index": 20
+    },
+    {
+      "record_id": "screenspot_desktop:218",
+      "family": "screenspot_desktop",
+      "source_index": 218
+    },
+    {
+      "record_id": "screenspot_desktop:332",
+      "family": "screenspot_desktop",
+      "source_index": 332
+    },
+    {
+      "record_id": "screenspot_desktop:189",
+      "family": "screenspot_desktop",
+      "source_index": 189
+    },
+    {
+      "record_id": "screenspot_desktop:165",
+      "family": "screenspot_desktop",
+      "source_index": 165
+    },
+    {
+      "record_id": "screenspot_desktop:68",
+      "family": "screenspot_desktop",
+      "source_index": 68
+    },
+    {
+      "record_id": "screenspot_desktop:275",
+      "family": "screenspot_desktop",
+      "source_index": 275
+    },
+    {
+      "record_id": "screenspot_desktop:48",
+      "family": "screenspot_desktop",
+      "source_index": 48
+    },
+    {
+      "record_id": "screenspot_desktop:117",
+      "family": "screenspot_desktop",
+      "source_index": 117
+    },
+    {
+      "record_id": "screenspot_desktop:284",
+      "family": "screenspot_desktop",
+      "source_index": 284
+    },
+    {
+      "record_id": "screenspot_desktop:125",
+      "family": "screenspot_desktop",
+      "source_index": 125
+    },
+    {
+      "record_id": "screenspot_desktop:25",
+      "family": "screenspot_desktop",
+      "source_index": 25
+    },
+    {
+      "record_id": "screenspot_desktop:176",
+      "family": "screenspot_desktop",
+      "source_index": 176
+    },
+    {
+      "record_id": "screenspot_desktop:289",
+      "family": "screenspot_desktop",
+      "source_index": 289
+    },
+    {
+      "record_id": "screenspot_desktop:280",
+      "family": "screenspot_desktop",
+      "source_index": 280
+    },
+    {
+      "record_id": "screenspot_desktop:286",
+      "family": "screenspot_desktop",
+      "source_index": 286
+    },
+    {
+      "record_id": "screenspot_desktop:187",
+      "family": "screenspot_desktop",
+      "source_index": 187
+    },
+    {
+      "record_id": "screenspot_desktop:128",
+      "family": "screenspot_desktop",
+      "source_index": 128
+    },
+    {
+      "record_id": "screenspot_mobile:295",
+      "family": "screenspot_mobile",
+      "source_index": 295
+    },
+    {
+      "record_id": "screenspot_mobile:387",
+      "family": "screenspot_mobile",
+      "source_index": 387
+    },
+    {
+      "record_id": "screenspot_mobile:394",
+      "family": "screenspot_mobile",
+      "source_index": 394
+    },
+    {
+      "record_id": "screenspot_mobile:498",
+      "family": "screenspot_mobile",
+      "source_index": 498
+    },
+    {
+      "record_id": "screenspot_mobile:275",
+      "family": "screenspot_mobile",
+      "source_index": 275
+    },
+    {
+      "record_id": "screenspot_mobile:426",
+      "family": "screenspot_mobile",
+      "source_index": 426
+    },
+    {
+      "record_id": "screenspot_mobile:445",
+      "family": "screenspot_mobile",
+      "source_index": 445
+    },
+    {
+      "record_id": "screenspot_mobile:222",
+      "family": "screenspot_mobile",
+      "source_index": 222
+    },
+    {
+      "record_id": "screenspot_mobile:273",
+      "family": "screenspot_mobile",
+      "source_index": 273
+    },
+    {
+      "record_id": "screenspot_mobile:268",
+      "family": "screenspot_mobile",
+      "source_index": 268
+    },
+    {
+      "record_id": "screenspot_mobile:152",
+      "family": "screenspot_mobile",
+      "source_index": 152
+    },
+    {
+      "record_id": "screenspot_mobile:377",
+      "family": "screenspot_mobile",
+      "source_index": 377
+    },
+    {
+      "record_id": "screenspot_mobile:383",
+      "family": "screenspot_mobile",
+      "source_index": 383
+    },
+    {
+      "record_id": "screenspot_mobile:186",
+      "family": "screenspot_mobile",
+      "source_index": 186
+    },
+    {
+      "record_id": "screenspot_mobile:48",
+      "family": "screenspot_mobile",
+      "source_index": 48
+    },
+    {
+      "record_id": "screenspot_mobile:210",
+      "family": "screenspot_mobile",
+      "source_index": 210
+    },
+    {
+      "record_id": "screenspot_mobile:282",
+      "family": "screenspot_mobile",
+      "source_index": 282
+    },
+    {
+      "record_id": "screenspot_mobile:343",
+      "family": "screenspot_mobile",
+      "source_index": 343
+    },
+    {
+      "record_id": "screenspot_mobile:133",
+      "family": "screenspot_mobile",
+      "source_index": 133
+    },
+    {
+      "record_id": "screenspot_mobile:242",
+      "family": "screenspot_mobile",
+      "source_index": 242
+    },
+    {
+      "record_id": "screenspot_mobile:271",
+      "family": "screenspot_mobile",
+      "source_index": 271
+    },
+    {
+      "record_id": "screenspot_mobile:427",
+      "family": "screenspot_mobile",
+      "source_index": 427
+    },
+    {
+      "record_id": "screenspot_mobile:437",
+      "family": "screenspot_mobile",
+      "source_index": 437
+    },
+    {
+      "record_id": "screenspot_mobile:450",
+      "family": "screenspot_mobile",
+      "source_index": 450
+    },
+    {
+      "record_id": "screenspot_mobile:396",
+      "family": "screenspot_mobile",
+      "source_index": 396
+    },
+    {
+      "record_id": "screenspot_mobile:454",
+      "family": "screenspot_mobile",
+      "source_index": 454
+    },
+    {
+      "record_id": "screenspot_mobile:204",
+      "family": "screenspot_mobile",
+      "source_index": 204
+    },
+    {
+      "record_id": "screenspot_mobile:101",
+      "family": "screenspot_mobile",
+      "source_index": 101
+    },
+    {
+      "record_id": "screenspot_mobile:112",
+      "family": "screenspot_mobile",
+      "source_index": 112
+    },
+    {
+      "record_id": "screenspot_mobile:58",
+      "family": "screenspot_mobile",
+      "source_index": 58
+    },
+    {
+      "record_id": "screenspot_mobile:99",
+      "family": "screenspot_mobile",
+      "source_index": 99
+    },
+    {
+      "record_id": "screenspot_mobile:348",
+      "family": "screenspot_mobile",
+      "source_index": 348
+    },
+    {
+      "record_id": "screenspot_mobile:243",
+      "family": "screenspot_mobile",
+      "source_index": 243
+    },
+    {
+      "record_id": "screenspot_mobile:499",
+      "family": "screenspot_mobile",
+      "source_index": 499
+    },
+    {
+      "record_id": "screenspot_mobile:78",
+      "family": "screenspot_mobile",
+      "source_index": 78
+    },
+    {
+      "record_id": "screenspot_mobile:390",
+      "family": "screenspot_mobile",
+      "source_index": 390
+    },
+    {
+      "record_id": "screenspot_mobile:333",
+      "family": "screenspot_mobile",
+      "source_index": 333
+    },
+    {
+      "record_id": "screenspot_mobile:441",
+      "family": "screenspot_mobile",
+      "source_index": 441
+    },
+    {
+      "record_id": "screenspot_mobile:354",
+      "family": "screenspot_mobile",
+      "source_index": 354
+    },
+    {
+      "record_id": "screenspot_mobile:153",
+      "family": "screenspot_mobile",
+      "source_index": 153
+    },
+    {
+      "record_id": "screenspot_mobile:1",
+      "family": "screenspot_mobile",
+      "source_index": 1
+    },
+    {
+      "record_id": "screenspot_mobile:324",
+      "family": "screenspot_mobile",
+      "source_index": 324
+    },
+    {
+      "record_id": "screenspot_mobile:289",
+      "family": "screenspot_mobile",
+      "source_index": 289
+    },
+    {
+      "record_id": "screenspot_mobile:257",
+      "family": "screenspot_mobile",
+      "source_index": 257
+    },
+    {
+      "record_id": "screenspot_mobile:135",
+      "family": "screenspot_mobile",
+      "source_index": 135
+    },
+    {
+      "record_id": "screenspot_mobile:284",
+      "family": "screenspot_mobile",
+      "source_index": 284
+    },
+    {
+      "record_id": "screenspot_mobile:254",
+      "family": "screenspot_mobile",
+      "source_index": 254
+    },
+    {
+      "record_id": "screenspot_mobile:369",
+      "family": "screenspot_mobile",
+      "source_index": 369
+    },
+    {
+      "record_id": "screenspot_mobile:497",
+      "family": "screenspot_mobile",
+      "source_index": 497
+    },
+    {
+      "record_id": "screenspot_mobile:212",
+      "family": "screenspot_mobile",
+      "source_index": 212
+    },
+    {
+      "record_id": "screenspot_mobile:483",
+      "family": "screenspot_mobile",
+      "source_index": 483
+    },
+    {
+      "record_id": "screenspot_mobile:410",
+      "family": "screenspot_mobile",
+      "source_index": 410
+    },
+    {
+      "record_id": "screenspot_mobile:312",
+      "family": "screenspot_mobile",
+      "source_index": 312
+    },
+    {
+      "record_id": "screenspot_mobile:43",
+      "family": "screenspot_mobile",
+      "source_index": 43
+    },
+    {
+      "record_id": "screenspot_mobile:266",
+      "family": "screenspot_mobile",
+      "source_index": 266
+    },
+    {
+      "record_id": "screenspot_mobile:480",
+      "family": "screenspot_mobile",
+      "source_index": 480
+    },
+    {
+      "record_id": "screenspot_mobile:137",
+      "family": "screenspot_mobile",
+      "source_index": 137
+    },
+    {
+      "record_id": "screenspot_mobile:353",
+      "family": "screenspot_mobile",
+      "source_index": 353
+    },
+    {
+      "record_id": "screenspot_mobile:281",
+      "family": "screenspot_mobile",
+      "source_index": 281
+    },
+    {
+      "record_id": "screenspot_mobile:402",
+      "family": "screenspot_mobile",
+      "source_index": 402
+    },
+    {
+      "record_id": "screenspot_mobile:132",
+      "family": "screenspot_mobile",
+      "source_index": 132
+    },
+    {
+      "record_id": "screenspot_mobile:259",
+      "family": "screenspot_mobile",
+      "source_index": 259
+    },
+    {
+      "record_id": "screenspot_mobile:37",
+      "family": "screenspot_mobile",
+      "source_index": 37
+    },
+    {
+      "record_id": "screenspot_mobile:291",
+      "family": "screenspot_mobile",
+      "source_index": 291
+    },
+    {
+      "record_id": "screenspot_web:18",
+      "family": "screenspot_web",
+      "source_index": 18
+    },
+    {
+      "record_id": "screenspot_web:421",
+      "family": "screenspot_web",
+      "source_index": 421
+    },
+    {
+      "record_id": "screenspot_web:396",
+      "family": "screenspot_web",
+      "source_index": 396
+    },
+    {
+      "record_id": "screenspot_web:51",
+      "family": "screenspot_web",
+      "source_index": 51
+    },
+    {
+      "record_id": "screenspot_web:353",
+      "family": "screenspot_web",
+      "source_index": 353
+    },
+    {
+      "record_id": "screenspot_web:385",
+      "family": "screenspot_web",
+      "source_index": 385
+    },
+    {
+      "record_id": "screenspot_web:342",
+      "family": "screenspot_web",
+      "source_index": 342
+    },
+    {
+      "record_id": "screenspot_web:254",
+      "family": "screenspot_web",
+      "source_index": 254
+    },
+    {
+      "record_id": "screenspot_web:337",
+      "family": "screenspot_web",
+      "source_index": 337
+    },
+    {
+      "record_id": "screenspot_web:248",
+      "family": "screenspot_web",
+      "source_index": 248
+    },
+    {
+      "record_id": "screenspot_web:352",
+      "family": "screenspot_web",
+      "source_index": 352
+    },
+    {
+      "record_id": "screenspot_web:93",
+      "family": "screenspot_web",
+      "source_index": 93
+    },
+    {
+      "record_id": "screenspot_web:104",
+      "family": "screenspot_web",
+      "source_index": 104
+    },
+    {
+      "record_id": "screenspot_web:431",
+      "family": "screenspot_web",
+      "source_index": 431
+    },
+    {
+      "record_id": "screenspot_web:418",
+      "family": "screenspot_web",
+      "source_index": 418
+    },
+    {
+      "record_id": "screenspot_web:325",
+      "family": "screenspot_web",
+      "source_index": 325
+    },
+    {
+      "record_id": "screenspot_web:276",
+      "family": "screenspot_web",
+      "source_index": 276
+    },
+    {
+      "record_id": "screenspot_web:225",
+      "family": "screenspot_web",
+      "source_index": 225
+    },
+    {
+      "record_id": "screenspot_web:64",
+      "family": "screenspot_web",
+      "source_index": 64
+    },
+    {
+      "record_id": "screenspot_web:199",
+      "family": "screenspot_web",
+      "source_index": 199
+    },
+    {
+      "record_id": "screenspot_web:35",
+      "family": "screenspot_web",
+      "source_index": 35
+    },
+    {
+      "record_id": "screenspot_web:63",
+      "family": "screenspot_web",
+      "source_index": 63
+    },
+    {
+      "record_id": "screenspot_web:235",
+      "family": "screenspot_web",
+      "source_index": 235
+    },
+    {
+      "record_id": "screenspot_web:126",
+      "family": "screenspot_web",
+      "source_index": 126
+    },
+    {
+      "record_id": "screenspot_web:416",
+      "family": "screenspot_web",
+      "source_index": 416
+    },
+    {
+      "record_id": "screenspot_web:366",
+      "family": "screenspot_web",
+      "source_index": 366
+    },
+    {
+      "record_id": "screenspot_web:386",
+      "family": "screenspot_web",
+      "source_index": 386
+    },
+    {
+      "record_id": "screenspot_web:300",
+      "family": "screenspot_web",
+      "source_index": 300
+    },
+    {
+      "record_id": "screenspot_web:382",
+      "family": "screenspot_web",
+      "source_index": 382
+    },
+    {
+      "record_id": "screenspot_web:91",
+      "family": "screenspot_web",
+      "source_index": 91
+    },
+    {
+      "record_id": "screenspot_web:169",
+      "family": "screenspot_web",
+      "source_index": 169
+    },
+    {
+      "record_id": "screenspot_web:285",
+      "family": "screenspot_web",
+      "source_index": 285
+    },
+    {
+      "record_id": "screenspot_web:264",
+      "family": "screenspot_web",
+      "source_index": 264
+    },
+    {
+      "record_id": "screenspot_web:403",
+      "family": "screenspot_web",
+      "source_index": 403
+    },
+    {
+      "record_id": "screenspot_web:239",
+      "family": "screenspot_web",
+      "source_index": 239
+    },
+    {
+      "record_id": "screenspot_web:423",
+      "family": "screenspot_web",
+      "source_index": 423
+    },
+    {
+      "record_id": "screenspot_web:260",
+      "family": "screenspot_web",
+      "source_index": 260
+    },
+    {
+      "record_id": "screenspot_web:221",
+      "family": "screenspot_web",
+      "source_index": 221
+    },
+    {
+      "record_id": "screenspot_web:375",
+      "family": "screenspot_web",
+      "source_index": 375
+    },
+    {
+      "record_id": "screenspot_web:251",
+      "family": "screenspot_web",
+      "source_index": 251
+    },
+    {
+      "record_id": "screenspot_web:202",
+      "family": "screenspot_web",
+      "source_index": 202
+    },
+    {
+      "record_id": "screenspot_web:388",
+      "family": "screenspot_web",
+      "source_index": 388
+    },
+    {
+      "record_id": "screenspot_web:95",
+      "family": "screenspot_web",
+      "source_index": 95
+    },
+    {
+      "record_id": "screenspot_web:122",
+      "family": "screenspot_web",
+      "source_index": 122
+    },
+    {
+      "record_id": "screenspot_web:205",
+      "family": "screenspot_web",
+      "source_index": 205
+    },
+    {
+      "record_id": "screenspot_web:137",
+      "family": "screenspot_web",
+      "source_index": 137
+    },
+    {
+      "record_id": "screenspot_web:274",
+      "family": "screenspot_web",
+      "source_index": 274
+    },
+    {
+      "record_id": "screenspot_web:270",
+      "family": "screenspot_web",
+      "source_index": 270
+    },
+    {
+      "record_id": "screenspot_web:411",
+      "family": "screenspot_web",
+      "source_index": 411
+    },
+    {
+      "record_id": "screenspot_web:256",
+      "family": "screenspot_web",
+      "source_index": 256
+    },
+    {
+      "record_id": "screenspot_web:158",
+      "family": "screenspot_web",
+      "source_index": 158
+    },
+    {
+      "record_id": "screenspot_web:177",
+      "family": "screenspot_web",
+      "source_index": 177
+    },
+    {
+      "record_id": "screenspot_web:140",
+      "family": "screenspot_web",
+      "source_index": 140
+    },
+    {
+      "record_id": "screenspot_web:364",
+      "family": "screenspot_web",
+      "source_index": 364
+    },
+    {
+      "record_id": "screenspot_web:68",
+      "family": "screenspot_web",
+      "source_index": 68
+    },
+    {
+      "record_id": "screenspot_web:116",
+      "family": "screenspot_web",
+      "source_index": 116
+    },
+    {
+      "record_id": "screenspot_web:262",
+      "family": "screenspot_web",
+      "source_index": 262
+    },
+    {
+      "record_id": "screenspot_web:324",
+      "family": "screenspot_web",
+      "source_index": 324
+    },
+    {
+      "record_id": "screenspot_web:193",
+      "family": "screenspot_web",
+      "source_index": 193
+    },
+    {
+      "record_id": "screenspot_web:218",
+      "family": "screenspot_web",
+      "source_index": 218
+    },
+    {
+      "record_id": "screenspot_web:145",
+      "family": "screenspot_web",
+      "source_index": 145
+    },
+    {
+      "record_id": "screenspot_web:156",
+      "family": "screenspot_web",
+      "source_index": 156
+    },
+    {
+      "record_id": "screenspot_web:67",
+      "family": "screenspot_web",
+      "source_index": 67
+    },
+    {
+      "record_id": "screenspot_web:250",
+      "family": "screenspot_web",
+      "source_index": 250
+    }
+  ],
+  "chartqa_images": {
+    "bundled": true,
+    "unique_image_count": 124,
+    "total_bytes": 5663330,
+    "checksums": "data/chartqa-image-hashes.json"
+  }
+}

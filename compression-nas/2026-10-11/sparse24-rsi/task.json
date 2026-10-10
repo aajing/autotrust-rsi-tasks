@@ -1,0 +1,117 @@
+{
+  "schema": "openrsi-proposal-contract-v1",
+  "slug": "sparse24-rsi",
+  "status": "draft-not-submitted",
+  "review_date_utc": "2026-10-10",
+  "contributor": {
+    "full_name": "Jing Qiu",
+    "email": "ajing@autotrust.ai",
+    "github": "aajing",
+    "source_authorship_claim": false
+  },
+  "primary_source": {
+    "repository": "https://github.com/NVIDIA/Model-Optimizer",
+    "commit": "4c1f813828cb9dd07b0d842d60ba35e3946237dc"
+  },
+  "model": {
+    "repository": "mistralai/Mistral-7B-v0.1",
+    "revision": "27d67f1b5f57dc0953326b2601d68371d40ea8da",
+    "license": "Apache-2.0",
+    "gated": false,
+    "baseline": "B0 existing dense BF16 release",
+    "weights_downloaded": false
+  },
+  "runtime": {
+    "torch_version": "2.8.0",
+    "torch_commit": "ba56102387ef21a3b04b357e5b183d48f0afefc7",
+    "transformers_version": "5.7.0",
+    "transformers_commit": "6ffbb07f93d9e44457450d1150136309b0dc966b",
+    "dtype": "bfloat16",
+    "attention": "native Mistral SDPA",
+    "torch_compile": false,
+    "cuda_graphs": false,
+    "sparse_backend": "PyTorch cuSPARSELt native semi-structured tensor",
+    "candidate_code_executed_by_judge": false
+  },
+  "data": {
+    "manifest_sha256": "e1d4c6a289600f9597e71c6dfd9d75c1b366518bd50487397abe4d2322bddd11",
+    "seed": "compression-nas-2026-10-10-v1",
+    "all_answers_public": true,
+    "encrypted": false,
+    "evaluation_fitting": "allowed within declared tensor scope and budgets; benchmark-conditioned optimization, no unseen-data claim",
+    "counts": {
+      "wikitext": {
+        "evaluation": 128,
+        "development": 64,
+        "practice": 256
+      },
+      "gsm8k": {
+        "evaluation": 256,
+        "practice": 512,
+        "development": 64
+      }
+    },
+    "nll_tokens": 65536,
+    "gsm8k_evaluation_count": 256,
+    "max_output_tokens_per_question": 256,
+    "max_input_tokens": 2048
+  },
+  "action_space": "The same 224 original linear projections may be left hash-identical dense or replaced by one static 2:4 matrix. In each original contiguous group of four input columns, declare exactly two sorted retained positions and their BF16 values. The remaining positions are zero. Search projection eligibility, calibration weighting, masks, SparseGPT compensation and bounded block-local recovery of retained values. Recovery updates one transformer block at a time; nonselected dense matrices remain unchanged.",
+  "artifact": "Safetensors holding BF16 retained values and uint8 position pairs for selected matrices plus unchanged dense tensors; sparse_map.json identifies original module names. Judge reconstructs canonical masked matrices once, validates exact 2:4 grouping, then packs them with SparseSemiStructuredTensorCUSPARSELT.from_dense. No candidate Python or pickled model is loaded.",
+  "score": {
+    "formula": "100*clip((S-1.03)/(1.25-1.03),0,1)",
+    "direction": "higher",
+    "full_score": "S >= 1.25 and every quality/resource gate; S is the geometric mean of the six matched bucket throughput ratios, with native cuSPARSELt execution verified. Every bucket must also reach at least 0.95 times B0 throughput.",
+    "baseline_score": 0,
+    "quality_gates": {
+      "nll_increase_nats_max": 0.1,
+      "gsm_accuracy_drop_max": 0.03
+    },
+    "peak_gpu_gib_max": 64,
+    "per_bucket_throughput_ratio_min": 0.95,
+    "tensor_bytes_ratio_max": null,
+    "complete_gate_failure": 0,
+    "candidate_invalid": "unscored",
+    "infrastructure_timeout_incomplete": "unscored",
+    "optional_work_controls_required": false
+  },
+  "budgets": {
+    "physical_nodes": 1,
+    "gpu_count_work": 1,
+    "gpu_count_judge": 1,
+    "gpu_reference": "H100 80 GB",
+    "cpu_cores": 24,
+    "host_ram_gib": 256,
+    "ssd_gib": 300,
+    "work_seconds_hard": 7200,
+    "judge_seconds_hard": 2700,
+    "forward_token_exposures_max": 8388608,
+    "training_token_exposures_max": 262144,
+    "optimizer_updates_max": 256,
+    "unique_selected_calibration_records_max": 512,
+    "judge_attempts_trajectory_max": 16,
+    "trajectory_hours_default": 24,
+    "trajectory_hours_extension": 48,
+    "estimated_work_minutes": 90,
+    "estimated_judge_minutes": 30,
+    "outer_overhead_minutes": 10,
+    "estimated_cycle_minutes": 130,
+    "optimistic_loops_48h": 22.153846153846153,
+    "loop_limit_after_attempt_cap": 16,
+    "hard_envelope_cycle_minutes": 180
+  },
+  "network": {
+    "research_web": false,
+    "external_inference": false,
+    "remote_compute": false,
+    "author_setup": "pinned public downloads only"
+  },
+  "lifecycle": {
+    "solution": "copy existing pinned B0 plus identity declarative manifest; no compression, fitting, training or evaluation",
+    "reference_setup": "task-author B0 measurement once after acceptance, then frozen",
+    "work": "all candidate construction and optional controls, including repetitions and discarded attempts",
+    "judge": "candidate-only direct evaluation of shared materialized Work snapshot with Judge-only task tests",
+    "shared_snapshot_limitation": "not an independent clean-Base verifier"
+  },
+  "gpu_experiments_performed": 0
+}

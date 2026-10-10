@@ -1,0 +1,18 @@
+{
+  "proposal_fields": 28,
+  "all_english_proposal": true,
+  "source_lock_files_verified": 23,
+  "data_files_verified": 8,
+  "materialized_counts": {
+    "wikitext.evaluation": 128,
+    "wikitext.development": 64,
+    "wikitext.practice": 256,
+    "gsm8k.evaluation": 256,
+    "gsm8k.practice": 512,
+    "gsm8k.development": 64
+  },
+  "scoring_tests_passed": 6,
+  "gpu_runs": 0,
+  "upstream_programs_executed": false,
+  "official_submission": false
+}

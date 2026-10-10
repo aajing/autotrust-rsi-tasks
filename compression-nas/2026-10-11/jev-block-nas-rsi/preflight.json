@@ -1,0 +1,15 @@
+{
+  "task_id": "jev-block-nas-rsi",
+  "proposal_fields": 28,
+  "unique_fields": 28,
+  "exact_commit_matches_primary_source": true,
+  "central_placeholders_found": false,
+  "cpu_contract_tests_passed": 17,
+  "test_kind": "synthetic score boundary and invalid-input checks; not model experiments",
+  "source_text_inspected": true,
+  "gpu_experiments": 0,
+  "full_checkpoint_load_verified": false,
+  "remote_submission": false,
+  "official_review": "not requested/performed",
+  "remaining_implementation": "Task-owned graph/export/evaluator and real H100 execution validation as documented in INTEGRATION.md"
+}

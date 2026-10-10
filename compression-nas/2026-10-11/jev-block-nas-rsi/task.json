@@ -1,0 +1,139 @@
+{
+  "task_id": "jev-block-nas-rsi",
+  "schema_version": 1,
+  "status": "proposal_draft_not_submitted",
+  "review_date_utc": "2026-10-10",
+  "source": {
+    "repository": "https://huggingface.co/autotrust/JEV-9B",
+    "revision": "d7bf1c0051f78e3a7bd5bbb90add79bfd769079b"
+  },
+  "data": {
+    "repository": "SargeDev/jev-distill-corpus-v3",
+    "revision": "75111a13a8455032f0435050bfc7e0c9026ecfe8",
+    "source_file": "test_set_30k.jsonl",
+    "selection_seed": "jev-block-nas-rsi:v1:",
+    "per_kind_count": 2048,
+    "total_count": 6144,
+    "manifest": "evaluation-manifest.json",
+    "public_answers": true,
+    "benchmark_informed_fitting_allowed": true,
+    "unseen_generalization_claim": false
+  },
+  "reference": {
+    "artifact": "released unmerged adapter + head + temperatures",
+    "fresh_training_required": false,
+    "solution_evaluates": false,
+    "candidate_only_judge": true,
+    "metric_report": "baseline/reference.json",
+    "metric_report_status": "to be produced during execution validation; no values invented",
+    "header_verified_lora_scalars": 40108032,
+    "header_verified_head_scalars": 98328,
+    "calibration_scalars": 3,
+    "canonical_branch_bytes": 160825452,
+    "canonical_bytes_evidence": "Safetensors headers inspected; excludes fixed graph shape/op constants and includes 3 published temperatures; no payload loading/performance claim"
+  },
+  "action_space": {
+    "max_nodes": 512,
+    "max_added_residual_nodes": 64,
+    "projection_lora_ranks": [
+      1,
+      2,
+      4,
+      8,
+      16,
+      32
+    ],
+    "residual_widths": [
+      8,
+      16,
+      32,
+      64,
+      128,
+      256
+    ],
+    "residual_ops": [
+      "low_rank_linear",
+      "silu_bottleneck"
+    ],
+    "compositions": [
+      "serial",
+      "parallel_sum"
+    ],
+    "equal_shape_weight_sharing": true,
+    "head_hidden_widths": [
+      0,
+      16,
+      32,
+      64,
+      128
+    ],
+    "output_slots": 24,
+    "all_branch_scalar_dtype": "float32",
+    "backbone_frozen": true,
+    "input_dependent_routing": false
+  },
+  "evaluation": {
+    "kind_gates": {
+      "kl_delta_max": 0.005,
+      "soft_ece10_delta_max": 0.005
+    },
+    "family_kl_delta_max": 0.01,
+    "choice_agreement_delta_min": -0.01,
+    "noul_brier_delta_max": 0.001,
+    "score_rps_delta_max": 0.003,
+    "latency_ratio_max": 1.15,
+    "gpu_memory_ratio_max": 1.05,
+    "system2_unchanged": true,
+    "quality_calls": 6144,
+    "timing_batches": [
+      1,
+      8
+    ],
+    "timing_rows_per_kind": 32,
+    "timing_rounds": 5,
+    "warmup_batches_per_round": 10,
+    "timed_batches_per_round": 30,
+    "seed": 20261010,
+    "required_report_bindings": [
+      "data_manifest_sha256",
+      "runtime_fingerprint"
+    ],
+    "timing_order": "Take the first 32 rows per primitive in manifest order. Interleave them as noul[0], choice[0], score[0], noul[1], choice[1], score[1], and so on, yielding a 96-row ring. For each batch size, start the cursor at zero and consume consecutive rows modulo 96 through all five rounds; each round consumes 10 warmup batches followed by 30 measured batches. Advance the cursor for both warmup and measured batches, and do not reset it between rounds. B0 and candidates use the identical sequence.",
+    "metric_accumulation_dtype": "float64"
+  },
+  "reward": {
+    "range": [
+      0,
+      100
+    ],
+    "formula": "100*clip((1-branch_bytes/B0_branch_bytes)/0.75,0,1) if all scientific gates pass else 0",
+    "full_score_branch_ratio_max": 0.25,
+    "invalid_or_incomplete_score": null,
+    "complete_gate_failure_score": 0,
+    "target_empirically_validated": false
+  },
+  "budgets": {
+    "physical_nodes": 1,
+    "gpu_type": "H100 80GB",
+    "work_gpus": 1,
+    "judge_gpus": 1,
+    "serial_peak_gpus": 1,
+    "cpu_cores": 16,
+    "ram_gib": 256,
+    "work_minutes_per_candidate_max": 100,
+    "training_input_token_exposures_per_candidate_max": 8000000,
+    "judge_minutes_max": 45,
+    "mandatory_overhead_minutes": 15,
+    "total_hours_default": 24,
+    "total_hours_extension": 48,
+    "identical_infrastructure_retry_max": 1,
+    "candidate_failure_retry_max": 0,
+    "full_48h_loops_after_4h_margin": 16
+  },
+  "readiness": {
+    "scientific_contract_complete": true,
+    "gpu_experiment_performed": false,
+    "runtime_implementation": "specified for Task Agent; not complete in this proposal package",
+    "official_submission_performed": false
+  }
+}

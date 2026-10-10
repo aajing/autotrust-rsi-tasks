@@ -1,0 +1,114 @@
+[
+  {
+    "section": "Contributor",
+    "field": "Full name"
+  },
+  {
+    "section": "Contributor",
+    "field": "Email"
+  },
+  {
+    "section": "Research Question",
+    "field": "Repository URL"
+  },
+  {
+    "section": "Research Question",
+    "field": "Exact commit/tag"
+  },
+  {
+    "section": "Research Question",
+    "field": "Scientific question"
+  },
+  {
+    "section": "Research Question",
+    "field": "Why this is scientific research rather than pure engineering optimization"
+  },
+  {
+    "section": "Research Question",
+    "field": "Starting environment and artifacts"
+  },
+  {
+    "section": "Research Question",
+    "field": "Agent's final deliverable"
+  },
+  {
+    "section": "Research Question",
+    "field": "Files/components the agent may modify"
+  },
+  {
+    "section": "Research Question",
+    "field": "Prohibited actions"
+  },
+  {
+    "section": "Reference Baseline",
+    "field": "Baseline implementation or artifact"
+  },
+  {
+    "section": "Reference Baseline",
+    "field": "Repository evidence paths"
+  },
+  {
+    "section": "Reference Baseline",
+    "field": "Baseline evaluation path"
+  },
+  {
+    "section": "Reference Baseline",
+    "field": "Baseline metric reported by the repository"
+  },
+  {
+    "section": "Evaluation",
+    "field": "Fixed evaluation protocol"
+  },
+  {
+    "section": "Evaluation",
+    "field": "Evaluation mode and input"
+  },
+  {
+    "section": "Evaluation",
+    "field": "Reward or score definition"
+  },
+  {
+    "section": "Evaluation",
+    "field": "Feedback visible to the agent"
+  },
+  {
+    "section": "Evaluation",
+    "field": "Evaluation information hidden from the agent"
+  },
+  {
+    "section": "Evaluation",
+    "field": "Measures preventing reward hacking"
+  },
+  {
+    "section": "Evaluation",
+    "field": "Noise handling and meaningful improvement"
+  },
+  {
+    "section": "Workspace",
+    "field": "Is web search required?"
+  },
+  {
+    "section": "Workspace",
+    "field": "May the agent use external services?"
+  },
+  {
+    "section": "Workspace",
+    "field": "May the agent construct or collect additional data?"
+  },
+  {
+    "section": "Workspace",
+    "field": "Leakage and reward-hacking safeguards"
+  },
+  {
+    "section": "Compute Feasibility",
+    "field": "Compute resources per single experiment run"
+  },
+  {
+    "section": "Compute Feasibility",
+    "field": "Estimated runtime per single experiment run"
+  },
+  {
+    "section": "Compute Feasibility",
+    "field": "Early-stopping signals / lower-cost proxy experiments"
+  }
+]

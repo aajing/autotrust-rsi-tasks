@@ -1,0 +1,9 @@
+{
+  "url": "https://huggingface.co/datasets/roneneldan/TinyStories/resolve/f54c09fd23315a6f9c86f9dc80f725de7d8f9c64/TinyStories-valid.txt",
+  "bytes": 19447282,
+  "sha256": "94e431816c4cce81ff71e4408ff8d3bda9a42e8d2663986697c3954288cb38b4",
+  "nonempty_documents": 21990,
+  "selected_count": 2048,
+  "selection_rule": "first 2048 documents in physical order; first 256 serve timing inputs too",
+  "minimum_nonempty_chars": 61
+}

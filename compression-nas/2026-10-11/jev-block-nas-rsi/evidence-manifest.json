@@ -1,0 +1,47 @@
+[
+  {
+    "file": "evidence/baseline-shapes.json",
+    "bytes": 98281,
+    "sha256": "97ca1cf4b7128ea09e60830b362c7eb29a0f46341dd59e5d21690d96f9a6aa59"
+  },
+  {
+    "file": "evidence/data-cardinality.json",
+    "bytes": 1055,
+    "sha256": "23efab50d10ac6dd3abf34ffc42eef1b06a35a231af5090ff50ce196e94192b6"
+  },
+  {
+    "file": "evidence/jev__README.md",
+    "bytes": 54192,
+    "sha256": "883d6b57696e7f7976faa61f89a6e61f787e6388fd9b55062b3cb574f3c382c5"
+  },
+  {
+    "file": "evidence/jev__adapter__adapter_config.json",
+    "bytes": 1319,
+    "sha256": "9ec52bc006c17292f597c0ca331e978991ef7d2df3cd6f7cb89592869a36f476"
+  },
+  {
+    "file": "evidence/jev__calibration.json",
+    "bytes": 1007,
+    "sha256": "9644305e85fac82944ec4353742af9c0fbc6434a277d3f0e54c2abb185aaf9b8"
+  },
+  {
+    "file": "evidence/jev__config.json",
+    "bytes": 2292,
+    "sha256": "616e4e6b1ef1ca8b1832a1a8cb35d16a2281eb876c1bba5eb2cfb4960e496bbc"
+  },
+  {
+    "file": "evidence/jev__judge_config.json",
+    "bytes": 1435,
+    "sha256": "0ee2ce84743b646e1c493619a8b55f71b94660f3a599467a1b8942f0eb68d677"
+  },
+  {
+    "file": "evidence/jev__vl__serve.sh",
+    "bytes": 1674,
+    "sha256": "35b09aaaafc118f3eec70a64d8afcadd4a5665abb0cecba43f782bdc1a523d5a"
+  },
+  {
+    "file": "evidence/jev__vl__serve_decide.py",
+    "bytes": 23884,
+    "sha256": "f7fc2e6be733541ab82d2b2ffba7ec7a07b1ab6952236a745a3ba65a6f9bfa8e"
+  }
+]

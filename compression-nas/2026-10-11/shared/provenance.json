@@ -1,0 +1,9 @@
+{
+  "official_template_repository": "https://github.com/OpenRSI-Foundation/OpenRSI-Index",
+  "official_template_commit": "dcfbc43b117b92d276837aa0d48f291d544fcf7a",
+  "template_sha256": "4a416f3b66931cd145bc6a070f627c26a35f70a0423d0655a1a41ea6be323bf5",
+  "purpose": "Local proposal preparation for six newly selected topics; no official submission in this batch.",
+  "user_direction": "Advance all six selected compression, quantization and NAS topics.",
+  "runtime_measurements": "None; proposal estimates only.",
+  "gpu_jobs_started": 0
+}

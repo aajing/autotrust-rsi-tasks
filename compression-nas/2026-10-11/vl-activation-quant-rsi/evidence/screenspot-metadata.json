@@ -1,0 +1,42 @@
+{
+  "_id": "6729d17a86503ffe1cc9c231",
+  "id": "OS-Copilot/ScreenSpot-v2",
+  "author": "OS-Copilot",
+  "sha": "5efbb1f1b5463a575f2eb7bc30fe29e49c15f93c",
+  "lastModified": "2025-02-10T11:15:38.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "license:apache-2.0",
+    "modality:image",
+    "region:us"
+  ],
+  "downloads": 4364,
+  "likes": 32,
+  "cardData": {
+    "license": "apache-2.0"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "screenspot_desktop_v2.json"
+    },
+    {
+      "rfilename": "screenspot_mobile_v2.json"
+    },
+    {
+      "rfilename": "screenspot_web_v2.json"
+    },
+    {
+      "rfilename": "screenspotv2_image.zip"
+    }
+  ],
+  "createdAt": "2024-11-05T08:04:10.000Z",
+  "usedStorage": 2660717736
+}

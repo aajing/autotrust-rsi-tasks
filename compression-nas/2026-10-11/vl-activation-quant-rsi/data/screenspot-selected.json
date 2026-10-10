@@ -1,0 +1,2882 @@
+[
+  {
+    "img_filename": "pc_2c2b6cbd-39cf-4bd2-80aa-d953890c21e5.png",
+    "bbox": [
+      1254,
+      628,
+      491,
+      58
+    ],
+    "instruction": "add a send message action",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 299,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:299"
+  },
+  {
+    "img_filename": "pc_65c6ab58-5f56-4a53-a65d-5e88511bbe0f.png",
+    "bbox": [
+      646,
+      3,
+      68,
+      75
+    ],
+    "instruction": "share this guide to someone",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 200,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:200"
+  },
+  {
+    "img_filename": "pc_97ce9c11-f20b-4294-982a-f01241c81576.png",
+    "bbox": [
+      836,
+      19,
+      523,
+      66
+    ],
+    "instruction": "search in dictionary",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 305,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:305"
+  },
+  {
+    "img_filename": "pc_5377c04c-7d8f-4377-b1ed-d7994722871f.png",
+    "bbox": [
+      370,
+      509,
+      132,
+      34
+    ],
+    "instruction": "view the game for me",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 122,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:122"
+  },
+  {
+    "img_filename": "pc_58d89b93-10e2-41fe-8b6d-3532fd3bb832.png",
+    "bbox": [
+      0,
+      407,
+      50,
+      45
+    ],
+    "instruction": "view windows settings",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 108,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:108"
+  },
+  {
+    "img_filename": "pc_8c77197f-8be9-485a-bf32-989a8a66fbae.png",
+    "bbox": [
+      748,
+      158,
+      957,
+      51
+    ],
+    "instruction": "select python interpreter",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 282,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:282"
+  },
+  {
+    "img_filename": "pc_140cfa7d-6933-4591-ae0d-a1eadda2d7b5.png",
+    "bbox": [
+      703,
+      51,
+      160,
+      73
+    ],
+    "instruction": "open videos folder",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 81,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:81"
+  },
+  {
+    "img_filename": "pc_3f7ea28c-0425-4837-a540-dc5bb23449b8.png",
+    "bbox": [
+      48,
+      25,
+      58,
+      29
+    ],
+    "instruction": "design option",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 112,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:112"
+  },
+  {
+    "img_filename": "pc_63a274e4-38e1-4a50-a102-33b31aee3a62.png",
+    "bbox": [
+      1013,
+      19,
+      100,
+      72
+    ],
+    "instruction": "add images",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 234,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:234"
+  },
+  {
+    "img_filename": "pc_17904586-d58c-4f1d-8c1e-6a6697353b14.png",
+    "bbox": [
+      792,
+      13,
+      156,
+      65
+    ],
+    "instruction": "sign in",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 69,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:69"
+  },
+  {
+    "img_filename": "pc_6f580940-6536-452e-9310-f9ebb87879eb.png",
+    "bbox": [
+      613,
+      52,
+      73,
+      86
+    ],
+    "instruction": "edit with paint 3d",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 78,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:78"
+  },
+  {
+    "img_filename": "pc_3b590e58-aab0-42c4-9b74-7d1a6b7f26fe.png",
+    "bbox": [
+      17,
+      52,
+      483,
+      36
+    ],
+    "instruction": "enter the wegameapps folder",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 49,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:49"
+  },
+  {
+    "img_filename": "pc_45480159-6b1b-4528-9109-dab1905c62b7.png",
+    "bbox": [
+      520,
+      349,
+      184,
+      50
+    ],
+    "instruction": "check file colors",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 279,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:279"
+  },
+  {
+    "img_filename": "pc_5b1e5fe2-e063-463f-ab56-2b09d17b88a5.png",
+    "bbox": [
+      154,
+      352,
+      100,
+      99
+    ],
+    "instruction": "open Samsung Printer Center",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 58,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:58"
+  },
+  {
+    "img_filename": "pc_e618dc7e-8ffb-4a37-a317-9d3908c38395.png",
+    "bbox": [
+      883,
+      496,
+      62,
+      44
+    ],
+    "instruction": "input method toolbar",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 12,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:12"
+  },
+  {
+    "img_filename": "pc_83462e63-b0cd-4921-9d19-8a534ed445c7.png",
+    "bbox": [
+      916,
+      13,
+      44,
+      39
+    ],
+    "instruction": "click the \"settings and more\" button",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 24,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:24"
+  },
+  {
+    "img_filename": "pc_ac718327-53b2-49c1-8707-d12220913fc1.png",
+    "bbox": [
+      1511,
+      55,
+      58,
+      58
+    ],
+    "instruction": "debug",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 278,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:278"
+  },
+  {
+    "img_filename": "pc_70f27c18-7de8-4445-b6fe-202fa17bbe04.png",
+    "bbox": [
+      283,
+      60,
+      42,
+      67
+    ],
+    "instruction": "click to choose shapes",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 124,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:124"
+  },
+  {
+    "img_filename": "pc_c8b036c3-da02-490e-a09b-0a42b8d9f344.png",
+    "bbox": [
+      0,
+      391,
+      47,
+      42
+    ],
+    "instruction": "personal account options",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 111,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:111"
+  },
+  {
+    "img_filename": "pc_odcu20.png",
+    "bbox": [
+      2207,
+      76,
+      647,
+      46
+    ],
+    "instruction": "search in this folder",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 319,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:319"
+  },
+  {
+    "img_filename": "pc_8fc42b3c-c8bc-4866-b787-aed98a86d614.png",
+    "bbox": [
+      183,
+      24,
+      316,
+      44
+    ],
+    "instruction": "view sound settings.",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 72,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:72"
+  },
+  {
+    "img_filename": "pc_7ba3945d-3975-45f3-9145-71805a9723de.png",
+    "bbox": [
+      471,
+      176,
+      594,
+      69
+    ],
+    "instruction": "set as contacts only",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 194,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:194"
+  },
+  {
+    "img_filename": "pc_6dfaf0c7-a3e5-4e71-8431-5eeb9fb8e493.png",
+    "bbox": [
+      527,
+      243,
+      362,
+      36
+    ],
+    "instruction": "see more information",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 84,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:84"
+  },
+  {
+    "img_filename": "pc_25eca08c-57eb-45b0-8c0b-79ccec8400ff.png",
+    "bbox": [
+      901,
+      0,
+      33,
+      22
+    ],
+    "instruction": "minimize the window.",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 70,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:70"
+  },
+  {
+    "img_filename": "pc_79eaf625-93f5-42a4-977e-71aba5418ff4.png",
+    "bbox": [
+      11,
+      120,
+      145,
+      22
+    ],
+    "instruction": "go to the desktop",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 88,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:88"
+  },
+  {
+    "img_filename": "pc_b1f1df2a-6c3d-40f9-ac70-dea7925c85dc.png",
+    "bbox": [
+      296,
+      157,
+      124,
+      37
+    ],
+    "instruction": "set up onedrive",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 31,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:31"
+  },
+  {
+    "img_filename": "pc_15bd214f-b45f-48f8-8125-21d79373a99e.png",
+    "bbox": [
+      683,
+      683,
+      558,
+      125
+    ],
+    "instruction": "go to music app",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 180,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:180"
+  },
+  {
+    "img_filename": "pc_3f805781-f2fe-45dc-8bc5-e62d12f1c359.png",
+    "bbox": [
+      879,
+      797,
+      212,
+      223
+    ],
+    "instruction": "add a sunburst chart",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 266,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:266"
+  },
+  {
+    "img_filename": "pc_b313a50d-ac5e-4189-beb9-3f5ceb67e536.png",
+    "bbox": [
+      1426,
+      14,
+      80,
+      69
+    ],
+    "instruction": "search in files",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 303,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:303"
+  },
+  {
+    "img_filename": "pc_1inyhi.png",
+    "bbox": [
+      12,
+      433,
+      67,
+      64
+    ],
+    "instruction": "open vscode",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 306,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:306"
+  },
+  {
+    "img_filename": "pc_b2579d6f-b494-47e3-872a-5e42a43f251a.png",
+    "bbox": [
+      782,
+      394,
+      146,
+      30
+    ],
+    "instruction": "adjust screen size",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 87,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:87"
+  },
+  {
+    "img_filename": "pc_6f79b56c-2b0f-471d-9f9d-93932c69a0ce.png",
+    "bbox": [
+      1025,
+      141,
+      104,
+      127
+    ],
+    "instruction": "check my apple id",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 159,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:159"
+  },
+  {
+    "img_filename": "pc_33eb9249-4ee4-4752-9541-8466efda3845.png",
+    "bbox": [
+      1800,
+      1558,
+      44,
+      52
+    ],
+    "instruction": "zoom out",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 185,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:185"
+  },
+  {
+    "img_filename": "pc_3ffab0d5-e99d-47b8-9684-ec9d8d063419.png",
+    "bbox": [
+      78,
+      845,
+      53,
+      42
+    ],
+    "instruction": "add a new preferred language",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 172,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:172"
+  },
+  {
+    "img_filename": "pc_fa28755f-aee4-48f3-a484-02e670a6ff8f.png",
+    "bbox": [
+      537,
+      127,
+      279,
+      25
+    ],
+    "instruction": "create a new file",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 29,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:29"
+  },
+  {
+    "img_filename": "pc_aaaaaa.png",
+    "bbox": [
+      701,
+      321,
+      417,
+      34
+    ],
+    "instruction": "enter my full name",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 333,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:333"
+  },
+  {
+    "img_filename": "pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+    "bbox": [
+      319,
+      277,
+      241,
+      48
+    ],
+    "instruction": "open fax option",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 118,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:118"
+  },
+  {
+    "img_filename": "pc_8ce8a3b6-c2a9-4b69-986e-34b7d96e27ef.png",
+    "bbox": [
+      213,
+      63,
+      266,
+      69
+    ],
+    "instruction": "view the devices",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 38,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:38"
+  },
+  {
+    "img_filename": "pc_f0122b91-3f8b-4510-9a6e-f0239d84b94e.png",
+    "bbox": [
+      697,
+      63,
+      34,
+      32
+    ],
+    "instruction": "minimize calculator",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 5,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:5"
+  },
+  {
+    "img_filename": "pc_221d3c5a-0a1b-456e-9676-7b5ff95cc1b1.png",
+    "bbox": [
+      10,
+      84,
+      50,
+      39
+    ],
+    "instruction": "click the file processing menu",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 16,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:16"
+  },
+  {
+    "img_filename": "pc_5da8f8cd-8ba2-490a-86e0-5c82421a9bee.png",
+    "bbox": [
+      322,
+      67,
+      279,
+      26
+    ],
+    "instruction": "click to open the file",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 97,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:97"
+  },
+  {
+    "img_filename": "pc_ede36f9b-1154-4f76-b7f8-c15d7d3f9b6e.png",
+    "bbox": [
+      910,
+      78,
+      44,
+      34
+    ],
+    "instruction": "close this window",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 0,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:0"
+  },
+  {
+    "img_filename": "pc_vcud9k.png",
+    "bbox": [
+      269,
+      127,
+      113,
+      132
+    ],
+    "instruction": "insert a new slide",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 330,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:330"
+  },
+  {
+    "img_filename": "pc_54779155-8627-4cac-8ea6-98277cfe0647.png",
+    "bbox": [
+      778,
+      4,
+      38,
+      41
+    ],
+    "instruction": "access the personal account interface",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 13,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:13"
+  },
+  {
+    "img_filename": "pc_580035fc-f55e-4817-b0c5-b741fb034cd0.png",
+    "bbox": [
+      441,
+      458,
+      32,
+      51
+    ],
+    "instruction": "click the button to play previous track",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 47,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:47"
+  },
+  {
+    "img_filename": "pc_97ce9c11-f20b-4294-982a-f01241c81576.png",
+    "bbox": [
+      746,
+      19,
+      62,
+      65
+    ],
+    "instruction": "enlarge the font",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 304,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:304"
+  },
+  {
+    "img_filename": "pc_870d6da1-bc85-4e74-a1bd-ef6f975c2146.png",
+    "bbox": [
+      855,
+      495,
+      76,
+      45
+    ],
+    "instruction": "check the date and time menu",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 20,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:20"
+  },
+  {
+    "img_filename": "pc_514bf9d5-ca63-4d33-94cb-dc1b11994199.png",
+    "bbox": [
+      1024,
+      444,
+      212,
+      186
+    ],
+    "instruction": "switch to alerts mode",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 218,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:218"
+  },
+  {
+    "img_filename": "pc_zuyj00.png",
+    "bbox": [
+      1744,
+      281,
+      258,
+      53
+    ],
+    "instruction": "adjust the options of  \"show previous\"",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 332,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:332"
+  },
+  {
+    "img_filename": "pc_dde13919-4c5b-49a1-8c8a-7d03f363c7ac.png",
+    "bbox": [
+      837,
+      2,
+      277,
+      57
+    ],
+    "instruction": "check the date and time",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 189,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:189"
+  },
+  {
+    "img_filename": "pc_66906e9c-dc3c-49e9-aaf0-0e7d5efc97db.png",
+    "bbox": [
+      347,
+      209,
+      350,
+      41
+    ],
+    "instruction": "show screen saver after",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 165,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:165"
+  },
+  {
+    "img_filename": "pc_3a625c5d-db8a-41fb-b533-16a7c8a4f345.png",
+    "bbox": [
+      887,
+      20,
+      37,
+      36
+    ],
+    "instruction": "refresh the page",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 68,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:68"
+  },
+  {
+    "img_filename": "pc_38236247-66f3-4ad3-aeb0-bc4783335a46.png",
+    "bbox": [
+      393,
+      1087,
+      373,
+      61
+    ],
+    "instruction": "sign up for free",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 275,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:275"
+  },
+  {
+    "img_filename": "pc_ac6779f8-a188-4633-bfcc-ab05ada6848c.png",
+    "bbox": [
+      872,
+      40,
+      37,
+      32
+    ],
+    "instruction": "pin to taskbar",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 48,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:48"
+  },
+  {
+    "img_filename": "pc_17b94559-9897-4b8e-ae34-c47ce5b5d46f.png",
+    "bbox": [
+      4,
+      3,
+      41,
+      30
+    ],
+    "instruction": "click the \"back to previous page\" button",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 117,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:117"
+  },
+  {
+    "img_filename": "pc_155db9b3-fe88-41cb-81d1-d51f37ba5970.png",
+    "bbox": [
+      519,
+      139,
+      400,
+      68
+    ],
+    "instruction": "cancel showing plots in tool windows",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 284,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:284"
+  },
+  {
+    "img_filename": "pc_70f27c18-7de8-4445-b6fe-202fa17bbe04.png",
+    "bbox": [
+      368,
+      59,
+      42,
+      69
+    ],
+    "instruction": "select a new size",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 125,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:125"
+  },
+  {
+    "img_filename": "pc_2b40c066-2f8f-4389-8df8-e70e8dfc1309.png",
+    "bbox": [
+      894,
+      0,
+      66,
+      64
+    ],
+    "instruction": "full-screen display",
+    "data_type": "icon",
+    "data_source": "windows",
+    "source_index": 25,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:25"
+  },
+  {
+    "img_filename": "pc_819d6d6a-0ea9-46e0-869d-e17d271381ca.png",
+    "bbox": [
+      987,
+      13,
+      60,
+      48
+    ],
+    "instruction": "open siri",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 176,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:176"
+  },
+  {
+    "img_filename": "pc_e9abfe29-8665-47e1-ba30-f79a0089278a.png",
+    "bbox": [
+      685,
+      55,
+      111,
+      95
+    ],
+    "instruction": "switch to display",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 289,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:289"
+  },
+  {
+    "img_filename": "pc_7656e3c5-00b1-4be7-9103-9890b837342f.png",
+    "bbox": [
+      0,
+      424,
+      467,
+      48
+    ],
+    "instruction": "check python interpreter",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 280,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:280"
+  },
+  {
+    "img_filename": "pc_668258b4-f214-4a57-a500-d03aa94b0e65.png",
+    "bbox": [
+      2192,
+      779,
+      66,
+      55
+    ],
+    "instruction": "minimize the debug panel",
+    "data_type": "icon",
+    "data_source": "macos",
+    "source_index": 286,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:286"
+  },
+  {
+    "img_filename": "pc_33eb9249-4ee4-4752-9541-8466efda3845.png",
+    "bbox": [
+      198,
+      104,
+      187,
+      45
+    ],
+    "instruction": "switch to device",
+    "data_type": "text",
+    "data_source": "macos",
+    "source_index": 187,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:187"
+  },
+  {
+    "img_filename": "pc_3b7dab65-2cc4-4545-be95-93d4d2576b47.png",
+    "bbox": [
+      1099,
+      520,
+      204,
+      227
+    ],
+    "instruction": "view the get organized tips",
+    "data_type": "text",
+    "data_source": "windows",
+    "source_index": 128,
+    "family": "screenspot_desktop",
+    "record_id": "screenspot_desktop:128"
+  },
+  {
+    "img_filename": "mobile_c9c47c96-1b18-45dd-8e88-f0b48c54617d.png",
+    "bbox": [
+      417,
+      497,
+      336,
+      258
+    ],
+    "instruction": "check the wallet",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 295,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:295"
+  },
+  {
+    "img_filename": "mobile_df977636-55ed-4c99-8ff1-569ef8e6c78a.png",
+    "bbox": [
+      937,
+      97,
+      126,
+      126
+    ],
+    "instruction": "tap the icon for displaying more functional",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 387,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:387"
+  },
+  {
+    "img_filename": "mobile_8f5ecfa3-33b9-4306-bc67-87aacadfc45b.png",
+    "bbox": [
+      9,
+      1382,
+      1047,
+      170
+    ],
+    "instruction": "change the language to be translated into",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 394,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:394"
+  },
+  {
+    "img_filename": "mobile_zigyqt.jpg",
+    "bbox": [
+      19,
+      2109,
+      1203,
+      203
+    ],
+    "instruction": "Check the latest QQ notification",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 498,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:498"
+  },
+  {
+    "img_filename": "mobile_63adf499-326a-44b4-8b3f-0ecd1935745e.png",
+    "bbox": [
+      49,
+      908,
+      1073,
+      129
+    ],
+    "instruction": "check health details",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 275,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:275"
+  },
+  {
+    "img_filename": "mobile_c47a7b32-1c13-414c-af34-f8ec2c7a0731.png",
+    "bbox": [
+      13,
+      155,
+      286,
+      105
+    ],
+    "instruction": "back to settings",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 426,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:426"
+  },
+  {
+    "img_filename": "mobile_88d4e5a0-ca4e-4dc7-9b43-1932dc5aa896.png",
+    "bbox": [
+      398,
+      1532,
+      748,
+      130
+    ],
+    "instruction": "add this song to favorite",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 445,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:445"
+  },
+  {
+    "img_filename": "mobile_e277f0fc-fe73-4304-9d8e-2bc4613e1986.png",
+    "bbox": [
+      512,
+      797,
+      529,
+      594
+    ],
+    "instruction": "Monitor calorie expenditure",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 222,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:222"
+  },
+  {
+    "img_filename": "mobile_f45826c5-d796-46cf-b0c3-c4095206735c.png",
+    "bbox": [
+      912,
+      390,
+      174,
+      105
+    ],
+    "instruction": "allow google maps to send notifications",
+    "data_type": "icon",
+    "data_source": "ios",
+    "source_index": 273,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:273"
+  },
+  {
+    "img_filename": "mobile_c784c6c1-0203-4193-8131-f34cef16d400.png",
+    "bbox": [
+      52,
+      794,
+      1067,
+      135
+    ],
+    "instruction": "adjust display & brightness setting",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 268,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:268"
+  },
+  {
+    "img_filename": "mobile_ef01fd08-a7fd-42a3-b1aa-fe22b3f79730.png",
+    "bbox": [
+      548,
+      2075,
+      476,
+      212
+    ],
+    "instruction": "agree this privacy policy",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 152,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:152"
+  },
+  {
+    "img_filename": "mobile_5c444b03-c5ca-41d8-b4cb-e12f4f4a4387.png",
+    "bbox": [
+      121,
+      339,
+      188,
+      249
+    ],
+    "instruction": "search in this app",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 377,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:377"
+  },
+  {
+    "img_filename": "mobile_b84d7f20-7c25-4613-829f-6c620e223593.png",
+    "bbox": [
+      179,
+      1270,
+      155,
+      94
+    ],
+    "instruction": "add a fire emoji in the post",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 383,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:383"
+  },
+  {
+    "img_filename": "mobile_d17dfa46-fc13-4f38-9261-3f9f7171067b.png",
+    "bbox": [
+      800,
+      447,
+      228,
+      126
+    ],
+    "instruction": "turn on airplane mode",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 186,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:186"
+  },
+  {
+    "img_filename": "mobile_5c9fb5f1-7d84-4283-8ba4-7821a9545c95.png",
+    "bbox": [
+      45,
+      990,
+      1078,
+      145
+    ],
+    "instruction": "choose the pjlab-guest as network",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 48,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:48"
+  },
+  {
+    "img_filename": "mobile_569a4f5a-01f0-4386-89ba-768e1f88d38e.png",
+    "bbox": [
+      11,
+      1351,
+      1045,
+      163
+    ],
+    "instruction": "check week summary",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 210,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:210"
+  },
+  {
+    "img_filename": "mobile_d97a442a-6912-4a26-9387-fe5dee9b3d0a.png",
+    "bbox": [
+      885,
+      2262,
+      135,
+      129
+    ],
+    "instruction": "adjust the color",
+    "data_type": "icon",
+    "data_source": "ios",
+    "source_index": 282,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:282"
+  },
+  {
+    "img_filename": "mobile_674f6746-05c0-4e7d-93de-adf054f0eaf6.png",
+    "bbox": [
+      926,
+      119,
+      126,
+      101
+    ],
+    "instruction": "post a new article",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 343,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:343"
+  },
+  {
+    "img_filename": "mobile_faa33d8c-ff72-4c74-98df-cb46cc0516aa.png",
+    "bbox": [
+      48,
+      488,
+      1013,
+      114
+    ],
+    "instruction": "open system apps settings",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 133,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:133"
+  },
+  {
+    "img_filename": "mobile_f53240ec-a09f-4857-9ca1-db5fb79455c3.png",
+    "bbox": [
+      792,
+      1623,
+      268,
+      268
+    ],
+    "instruction": "open notes",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 242,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:242"
+  },
+  {
+    "img_filename": "mobile_d8a299f2-f432-4bef-abc4-5a005cf4c40f.png",
+    "bbox": [
+      46,
+      1112,
+      1079,
+      177
+    ],
+    "instruction": "manage the password for aliyunidaas.com",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 271,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:271"
+  },
+  {
+    "img_filename": "mobile_c47a7b32-1c13-414c-af34-f8ec2c7a0731.png",
+    "bbox": [
+      45,
+      2185,
+      1080,
+      134
+    ],
+    "instruction": "check personalized recommendations",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 427,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:427"
+  },
+  {
+    "img_filename": "mobile_f6313b8a-4258-47d1-97af-7868e04979a4.png",
+    "bbox": [
+      799,
+      1847,
+      191,
+      191
+    ],
+    "instruction": "play next song",
+    "data_type": "icon",
+    "data_source": "ios",
+    "source_index": 437,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:437"
+  },
+  {
+    "img_filename": "mobile_0ze76a.png",
+    "bbox": [
+      2166,
+      70,
+      74,
+      59
+    ],
+    "instruction": "share this stock",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 450,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:450"
+  },
+  {
+    "img_filename": "mobile_a84e2cd2-1d45-42c1-8e2e-5c06fa3419af.png",
+    "bbox": [
+      587,
+      1812,
+      191,
+      231
+    ],
+    "instruction": "share to twitter",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 396,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:396"
+  },
+  {
+    "img_filename": "mobile_4yoej9.jpg",
+    "bbox": [
+      78,
+      2172,
+      1125,
+      128
+    ],
+    "instruction": "log in with google account",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 454,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:454"
+  },
+  {
+    "img_filename": "mobile_3b5ab7d3-8e84-4be1-83ba-801882db294b.png",
+    "bbox": [
+      80,
+      1102,
+      191,
+      199
+    ],
+    "instruction": "clear the result",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 204,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:204"
+  },
+  {
+    "img_filename": "mobile_c1f1188d-1bd3-4ce6-8e3f-96628d07b0b9.png",
+    "bbox": [
+      919,
+      1486,
+      162,
+      221
+    ],
+    "instruction": "login with email",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 101,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:101"
+  },
+  {
+    "img_filename": "mobile_d8a4069b-ec35-4a62-a3cd-5b5e7d95b50c.png",
+    "bbox": [
+      427,
+      2261,
+      128,
+      139
+    ],
+    "instruction": "view docs",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 112,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:112"
+  },
+  {
+    "img_filename": "mobile_db81809e-7672-4329-8453-f622d97fa7ca.png",
+    "bbox": [
+      45,
+      2328,
+      1076,
+      130
+    ],
+    "instruction": "show suggestions",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 58,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:58"
+  },
+  {
+    "img_filename": "mobile_c1f1188d-1bd3-4ce6-8e3f-96628d07b0b9.png",
+    "bbox": [
+      89,
+      1198,
+      988,
+      132
+    ],
+    "instruction": "login with wechat",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 99,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:99"
+  },
+  {
+    "img_filename": "mobile_35351ad5-e887-4f0c-8e11-b0ae43776394.png",
+    "bbox": [
+      154,
+      296,
+      386,
+      130
+    ],
+    "instruction": "log in ",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 348,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:348"
+  },
+  {
+    "img_filename": "mobile_b9537ded-e771-43c7-bab4-1db747625d87.png",
+    "bbox": [
+      33,
+      340,
+      571,
+      93
+    ],
+    "instruction": "open automation",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 243,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:243"
+  },
+  {
+    "img_filename": "mobile_zn2mmo.png",
+    "bbox": [
+      2253,
+      60,
+      80,
+      67
+    ],
+    "instruction": "add a new alarm",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 499,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:499"
+  },
+  {
+    "img_filename": "mobile_e0fb2f66-6e2c-42d6-8cfd-34e510f1ab2e.png",
+    "bbox": [
+      1,
+      1290,
+      1164,
+      137
+    ],
+    "instruction": "view notifications",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 78,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:78"
+  },
+  {
+    "img_filename": "mobile_c988d05c-1c6d-4b0d-aacb-eafb866320fb.png",
+    "bbox": [
+      865,
+      1985,
+      188,
+      191
+    ],
+    "instruction": "post a new tweet",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 390,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:390"
+  },
+  {
+    "img_filename": "mobile_97752e81-d94b-49a1-8cb2-709395d63372.png",
+    "bbox": [
+      28,
+      112,
+      188,
+      115
+    ],
+    "instruction": "cancel the new meeting setting",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 333,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:333"
+  },
+  {
+    "img_filename": "mobile_86bad4a5-d11b-4f2d-b367-5180a49ca4b5.png",
+    "bbox": [
+      37,
+      786,
+      359,
+      126
+    ],
+    "instruction": "view all country musics",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 441,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:441"
+  },
+  {
+    "img_filename": "mobile_a1c4c142-4b8e-4db8-a74f-f84f047cbf46.png",
+    "bbox": [
+      515,
+      935,
+      476,
+      292
+    ],
+    "instruction": "pay 99 rmb for telephone bill",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 354,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:354"
+  },
+  {
+    "img_filename": "mobile_ef01fd08-a7fd-42a3-b1aa-fe22b3f79730.png",
+    "bbox": [
+      88,
+      2103,
+      460,
+      207
+    ],
+    "instruction": "disagree the agreement",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 153,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:153"
+  },
+  {
+    "img_filename": "mobile_1ca5b944-293a-46a1-af95-eb35bc8a0b2a.png",
+    "bbox": [
+      879,
+      75,
+      599,
+      269
+    ],
+    "instruction": "view world clock",
+    "data_type": "icon",
+    "data_source": "ios",
+    "source_index": 1,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:1"
+  },
+  {
+    "img_filename": "mobile_b099c8b7-0ff4-404b-a1a2-10691a313a8b.png",
+    "bbox": [
+      237,
+      134,
+      134,
+      112
+    ],
+    "instruction": "open hdr shoting mode",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 324,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:324"
+  },
+  {
+    "img_filename": "mobile_4e55ce53-bc82-44c3-a81a-8282f55ec4c9.png",
+    "bbox": [
+      411,
+      1948,
+      351,
+      282
+    ],
+    "instruction": "check the information about airtag",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 289,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:289"
+  },
+  {
+    "img_filename": "mobile_d3771dd7-e526-4b87-8971-247ca5582e85.png",
+    "bbox": [
+      543,
+      652,
+      113,
+      72
+    ],
+    "instruction": "stop sharing my location",
+    "data_type": "icon",
+    "data_source": "ios",
+    "source_index": 257,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:257"
+  },
+  {
+    "img_filename": "mobile_faa33d8c-ff72-4c74-98df-cb46cc0516aa.png",
+    "bbox": [
+      32,
+      138,
+      167,
+      110
+    ],
+    "instruction": "back to previous page",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 135,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:135"
+  },
+  {
+    "img_filename": "mobile_d3865883-8214-4bff-9834-13987580abe8.png",
+    "bbox": [
+      771,
+      956,
+      321,
+      261
+    ],
+    "instruction": "add a circle",
+    "data_type": "icon",
+    "data_source": "ios",
+    "source_index": 284,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:284"
+  },
+  {
+    "img_filename": "mobile_95b2eec8-7804-474f-bf47-7c13a7a02595.png",
+    "bbox": [
+      974,
+      54,
+      163,
+      87
+    ],
+    "instruction": "open a new private window",
+    "data_type": "icon",
+    "data_source": "ios",
+    "source_index": 254,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:254"
+  },
+  {
+    "img_filename": "mobile_41049254-5e60-485c-b974-174ad6e98bd0.png",
+    "bbox": [
+      13,
+      130,
+      162,
+      130
+    ],
+    "instruction": "return to homepage",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 369,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:369"
+  },
+  {
+    "img_filename": "mobile_z0bava.jpg",
+    "bbox": [
+      681,
+      962,
+      210,
+      242
+    ],
+    "instruction": "check my qq coins ",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 497,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:497"
+  },
+  {
+    "img_filename": "mobile_9aa2c4bf-aa52-43ed-ac30-f22798c14668.png",
+    "bbox": [
+      27,
+      891,
+      264,
+      277
+    ],
+    "instruction": "open instagram",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 212,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:212"
+  },
+  {
+    "img_filename": "mobile_ly188d.jpg",
+    "bbox": [
+      185,
+      1983,
+      522,
+      67
+    ],
+    "instruction": "choose my country as US, English",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 483,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:483"
+  },
+  {
+    "img_filename": "mobile_6ad7dd8f-82d3-4e73-b437-667dc1b24574.png",
+    "bbox": [
+      959,
+      101,
+      112,
+      134
+    ],
+    "instruction": "add a new device",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 410,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:410"
+  },
+  {
+    "img_filename": "mobile_9f4d72cc-149d-4613-b19a-759ee34d8a47.png",
+    "bbox": [
+      49,
+      168,
+      1073,
+      114
+    ],
+    "instruction": "serch tab",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 312,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:312"
+  },
+  {
+    "img_filename": "mobile_9b66c296-5f43-4312-b933-4dfabf00247c.png",
+    "bbox": [
+      47,
+      1444,
+      1074,
+      134
+    ],
+    "instruction": "view icloud",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 43,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:43"
+  },
+  {
+    "img_filename": "mobile_08782c89-65da-43ca-8eb6-8ca71e9f8ea7.png",
+    "bbox": [
+      935,
+      943,
+      91,
+      85
+    ],
+    "instruction": "remove the camera from the included controls",
+    "data_type": "icon",
+    "data_source": "ios",
+    "source_index": 266,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:266"
+  },
+  {
+    "img_filename": "mobile_je83pz.jpg",
+    "bbox": [
+      419,
+      1108,
+      216,
+      267
+    ],
+    "instruction": "view my reading list",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 480,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:480"
+  },
+  {
+    "img_filename": "mobile_db3c83d0-b179-4661-88d4-baf938bcf477.png",
+    "bbox": [
+      922,
+      114,
+      106,
+      114
+    ],
+    "instruction": "scan qr code",
+    "data_type": "icon",
+    "data_source": "android",
+    "source_index": 137,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:137"
+  },
+  {
+    "img_filename": "mobile_a1c4c142-4b8e-4db8-a74f-f84f047cbf46.png",
+    "bbox": [
+      46,
+      675,
+      466,
+      256
+    ],
+    "instruction": "persuit 9.95 CNY as telephone fee",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 353,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:353"
+  },
+  {
+    "img_filename": "mobile_d97a442a-6912-4a26-9387-fe5dee9b3d0a.png",
+    "bbox": [
+      408,
+      2208,
+      102,
+      222
+    ],
+    "instruction": "choose watercolor brush style",
+    "data_type": "icon",
+    "data_source": "ios",
+    "source_index": 281,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:281"
+  },
+  {
+    "img_filename": "mobile_7618dc0d-3998-4dd2-82db-86df2cc97da3.png",
+    "bbox": [
+      132,
+      480,
+      707,
+      115
+    ],
+    "instruction": "filter unread feeds",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 402,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:402"
+  },
+  {
+    "img_filename": "mobile_b012267b-fcd6-4d0c-991a-f2a4afd0a2ff.png",
+    "bbox": [
+      503,
+      240,
+      513,
+      142
+    ],
+    "instruction": "switch to focus mode",
+    "data_type": "text",
+    "data_source": "android",
+    "source_index": 132,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:132"
+  },
+  {
+    "img_filename": "mobile_63cdee53-9026-46c9-9b69-639452091dcc.png",
+    "bbox": [
+      132,
+      541,
+      615,
+      89
+    ],
+    "instruction": "add storage account",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 259,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:259"
+  },
+  {
+    "img_filename": "mobile_93dec21b-d612-41df-9f76-933ceadaba66.png",
+    "bbox": [
+      352,
+      1109,
+      195,
+      246
+    ],
+    "instruction": "open the app store",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 37,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:37"
+  },
+  {
+    "img_filename": "mobile_f6f4bdd0-01eb-41a4-b696-42fcc45097b6.png",
+    "bbox": [
+      870,
+      857,
+      255,
+      198
+    ],
+    "instruction": "choose the place called \"\u9999\u6e2f\u5e7f\u573a\"",
+    "data_type": "text",
+    "data_source": "ios",
+    "source_index": 291,
+    "family": "screenspot_mobile",
+    "record_id": "screenspot_mobile:291"
+  },
+  {
+    "img_filename": "web_6c677961-e540-4cc5-b725-5e301019a9f9.png",
+    "bbox": [
+      2429,
+      778,
+      74,
+      66
+    ],
+    "instruction": "full screen display",
+    "data_type": "icon",
+    "data_source": "gitlab",
+    "source_index": 18,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:18"
+  },
+  {
+    "img_filename": "web_q8t3el.png",
+    "bbox": [
+      661,
+      474,
+      65,
+      33
+    ],
+    "instruction": "View the comments on the first article about Musk on the page",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 421,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:421"
+  },
+  {
+    "img_filename": "web_citsb7.png",
+    "bbox": [
+      335,
+      452,
+      285,
+      59
+    ],
+    "instruction": "Purchase the latest battlegroud season pass",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 396,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:396"
+  },
+  {
+    "img_filename": "web_32fce6b7-8437-4877-8436-f67c99d82f81.png",
+    "bbox": [
+      1934,
+      595,
+      483,
+      93
+    ],
+    "instruction": "view supported cloud",
+    "data_type": "text",
+    "data_source": "gitlab",
+    "source_index": 51,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:51"
+  },
+  {
+    "img_filename": "web_2450df5d-6082-4941-8fe5-ee61df8e7021.png",
+    "bbox": [
+      628,
+      198,
+      91,
+      80
+    ],
+    "instruction": "switch the product arrangement to a 2*2 grid",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 353,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:353"
+  },
+  {
+    "img_filename": "web_83raem.png",
+    "bbox": [
+      1460,
+      29,
+      76,
+      33
+    ],
+    "instruction": "Change the temperature display unit to Celsius",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 385,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:385"
+  },
+  {
+    "img_filename": "web_8a36314e-03d8-422d-920b-d3a93c12e6a5.png",
+    "bbox": [
+      1750,
+      632,
+      701,
+      91
+    ],
+    "instruction": "show more information of the items in cart",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 342,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:342"
+  },
+  {
+    "img_filename": "web_40de46fb-69c0-4de1-b4c6-9349c812450e.png",
+    "bbox": [
+      1497,
+      936,
+      117,
+      82
+    ],
+    "instruction": "select search langugage",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 254,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:254"
+  },
+  {
+    "img_filename": "web_e103f2b7-edaf-4acc-8b85-6cfb0b9c024c.png",
+    "bbox": [
+      976,
+      354,
+      112,
+      73
+    ],
+    "instruction": "confirm leaving the shopping cart",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 337,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:337"
+  },
+  {
+    "img_filename": "web_5e5f5a65-435a-424f-baf9-e5bf89b917f6.png",
+    "bbox": [
+      675,
+      220,
+      70,
+      90
+    ],
+    "instruction": "close the note bar",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 248,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:248"
+  },
+  {
+    "img_filename": "web_2450df5d-6082-4941-8fe5-ee61df8e7021.png",
+    "bbox": [
+      2129,
+      211,
+      291,
+      65
+    ],
+    "instruction": "change the sorting method",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 352,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:352"
+  },
+  {
+    "img_filename": "web_d3f48983-3396-4249-990c-d1214fbed944.png",
+    "bbox": [
+      33,
+      1186,
+      231,
+      72
+    ],
+    "instruction": "add the first product into cart",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 93,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:93"
+  },
+  {
+    "img_filename": "web_d00882a8-4d93-4116-91ad-e8bb8fdd8ff2.png",
+    "bbox": [
+      38,
+      676,
+      502,
+      72
+    ],
+    "instruction": "check my downloadable products",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 104,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:104"
+  },
+  {
+    "img_filename": "web_ts6lzz.png",
+    "bbox": [
+      871,
+      579,
+      203,
+      193
+    ],
+    "instruction": "check the book named Ms. Rachel",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 431,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:431"
+  },
+  {
+    "img_filename": "web_nnxneu.png",
+    "bbox": [
+      439,
+      556,
+      211,
+      348
+    ],
+    "instruction": "view more videos about VALORANT",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 418,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:418"
+  },
+  {
+    "img_filename": "web_df804fb9-f96e-425e-b1a3-fe8f6810a1de.png",
+    "bbox": [
+      104,
+      463,
+      1501,
+      70
+    ],
+    "instruction": "input keyword in the searchbar",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 325,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:325"
+  },
+  {
+    "img_filename": "web_6f93090a-81f6-489e-bb35-1a2838b18c01.png",
+    "bbox": [
+      1940,
+      116,
+      432,
+      68
+    ],
+    "instruction": "input word to search in wikidata",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 276,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:276"
+  },
+  {
+    "img_filename": "web_da9f908d-568d-4d65-8587-47870f78f678.png",
+    "bbox": [
+      2065,
+      23,
+      79,
+      55
+    ],
+    "instruction": "need help",
+    "data_type": "text",
+    "data_source": "tool",
+    "source_index": 225,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:225"
+  },
+  {
+    "img_filename": "web_6466b8cc-deea-451a-8019-d0684052d771.png",
+    "bbox": [
+      1731,
+      1045,
+      71,
+      53
+    ],
+    "instruction": "comment to administrator",
+    "data_type": "icon",
+    "data_source": "gitlab",
+    "source_index": 64,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:64"
+  },
+  {
+    "img_filename": "web_d9841866-2ee7-4afd-a77a-8c0e52f6691c.png",
+    "bbox": [
+      2467,
+      838,
+      86,
+      82
+    ],
+    "instruction": "search in the website",
+    "data_type": "icon",
+    "data_source": "forum",
+    "source_index": 199,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:199"
+  },
+  {
+    "img_filename": "web_e640514e-5946-4808-922f-f50c51b0da78.png",
+    "bbox": [
+      697,
+      964,
+      141,
+      92
+    ],
+    "instruction": "switch to groups view",
+    "data_type": "text",
+    "data_source": "gitlab",
+    "source_index": 35,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:35"
+  },
+  {
+    "img_filename": "web_6466b8cc-deea-451a-8019-d0684052d771.png",
+    "bbox": [
+      2412,
+      1113,
+      112,
+      62
+    ],
+    "instruction": "enable notifications",
+    "data_type": "icon",
+    "data_source": "gitlab",
+    "source_index": 63,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:63"
+  },
+  {
+    "img_filename": "web_fa131c38-3d94-4e5a-ba3a-269724d93a30.png",
+    "bbox": [
+      25,
+      1048,
+      721,
+      115
+    ],
+    "instruction": "check the direction of \"slight left onto hancock street\"",
+    "data_type": "text",
+    "data_source": "tool",
+    "source_index": 235,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:235"
+  },
+  {
+    "img_filename": "web_39126cee-4462-4567-9fa4-5ad1f3589047.png",
+    "bbox": [
+      224,
+      837,
+      250,
+      64
+    ],
+    "instruction": "show reviews",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 126,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:126"
+  },
+  {
+    "img_filename": "web_m76p3o.png",
+    "bbox": [
+      976,
+      990,
+      109,
+      34
+    ],
+    "instruction": "add black myth to my steam cart",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 416,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:416"
+  },
+  {
+    "img_filename": "web_29f17af5-5e60-41a0-8a0c-36a991a0a19d.png",
+    "bbox": [
+      369,
+      793,
+      813,
+      190
+    ],
+    "instruction": "provide a review for the current product",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 366,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:366"
+  },
+  {
+    "img_filename": "web_8u9hc4.png",
+    "bbox": [
+      450,
+      1015,
+      150,
+      22
+    ],
+    "instruction": "view drama books",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 386,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:386"
+  },
+  {
+    "img_filename": "web_0092e09d-acc7-4ced-8871-47cb05a0a554.png",
+    "bbox": [
+      104,
+      796,
+      57,
+      57
+    ],
+    "instruction": "let website remember account information for no logging in the next year",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 300,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:300"
+  },
+  {
+    "img_filename": "web_7bnnwq.png",
+    "bbox": [
+      1044,
+      598,
+      245,
+      56
+    ],
+    "instruction": "Click the current date",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 382,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:382"
+  },
+  {
+    "img_filename": "web_dd867d69-511e-4ab2-834e-2e111c7b3198.png",
+    "bbox": [
+      2408,
+      585,
+      90,
+      71
+    ],
+    "instruction": "go to next page",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 91,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:91"
+  },
+  {
+    "img_filename": "web_6c4e07ff-3589-4a78-99cf-fcf703a33a74.png",
+    "bbox": [
+      438,
+      1131,
+      44,
+      45
+    ],
+    "instruction": "don't show post previews",
+    "data_type": "icon",
+    "data_source": "forum",
+    "source_index": 169,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:169"
+  },
+  {
+    "img_filename": "web_2bda50e8-15d0-473a-a8cb-bd0777963756.png",
+    "bbox": [
+      792,
+      346,
+      90,
+      55
+    ],
+    "instruction": "open talk page",
+    "data_type": "text",
+    "data_source": "tool",
+    "source_index": 285,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:285"
+  },
+  {
+    "img_filename": "web_7777a073-0358-46a8-babb-60c07c7bb17d.png",
+    "bbox": [
+      557,
+      75,
+      202,
+      82
+    ],
+    "instruction": "switch to discussion",
+    "data_type": "text",
+    "data_source": "tool",
+    "source_index": 264,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:264"
+  },
+  {
+    "img_filename": "web_f4ww24.png",
+    "bbox": [
+      757,
+      555,
+      205,
+      40
+    ],
+    "instruction": "Choose to download PyTorch for Mac system",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 403,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:403"
+  },
+  {
+    "img_filename": "web_833f9d90-a50c-4f03-9eb6-e740aa811fa0.png",
+    "bbox": [
+      1984,
+      1403,
+      287,
+      33
+    ],
+    "instruction": "goto openstreetmap france",
+    "data_type": "text",
+    "data_source": "tool",
+    "source_index": 239,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:239"
+  },
+  {
+    "img_filename": "web_qltu7f.png",
+    "bbox": [
+      1481,
+      448,
+      88,
+      35
+    ],
+    "instruction": "Follow the Twitter account of 'Ask PayPal'",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 423,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:423"
+  },
+  {
+    "img_filename": "web_467ae916-9a16-4517-85cc-f439c79e8c44.png",
+    "bbox": [
+      1653,
+      788,
+      126,
+      107
+    ],
+    "instruction": "search result",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 260,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:260"
+  },
+  {
+    "img_filename": "web_dbd7514b-9ca3-40cd-b09a-990f7b955da1.png",
+    "bbox": [
+      303,
+      756,
+      172,
+      44
+    ],
+    "instruction": "view the result of erie country",
+    "data_type": "text",
+    "data_source": "tool",
+    "source_index": 221,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:221"
+  },
+  {
+    "img_filename": "web_174lzg.png",
+    "bbox": [
+      1162,
+      290,
+      376,
+      158
+    ],
+    "instruction": "view more details about rental cars",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 375,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:375"
+  },
+  {
+    "img_filename": "web_e0425287-c246-4122-a26e-6e0ca5958d4e.png",
+    "bbox": [
+      2197,
+      960,
+      123,
+      44
+    ],
+    "instruction": "select image format",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 251,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:251"
+  },
+  {
+    "img_filename": "web_11acd5dc-63ab-415f-823d-10cd68acef01.png",
+    "bbox": [
+      841,
+      307,
+      235,
+      104
+    ],
+    "instruction": "check the weather news",
+    "data_type": "text",
+    "data_source": "forum",
+    "source_index": 202,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:202"
+  },
+  {
+    "img_filename": "web_911npk.png",
+    "bbox": [
+      1712,
+      10,
+      144,
+      40
+    ],
+    "instruction": "log in",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 388,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:388"
+  },
+  {
+    "img_filename": "web_55e57d6e-0cb0-4024-b89f-89a3c594f20e.png",
+    "bbox": [
+      766,
+      256,
+      424,
+      104
+    ],
+    "instruction": "view clothing, shoes and jewelry",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 95,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:95"
+  },
+  {
+    "img_filename": "web_bb6f684d-6060-478d-aceb-d0b77c23a68b.png",
+    "bbox": [
+      353,
+      926,
+      343,
+      75
+    ],
+    "instruction": "reset the password",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 122,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:122"
+  },
+  {
+    "img_filename": "web_d977cce9-21cf-4eab-8d17-2aa9a616ba2f.png",
+    "bbox": [
+      629,
+      796,
+      105,
+      104
+    ],
+    "instruction": "pause reading the page",
+    "data_type": "icon",
+    "data_source": "forum",
+    "source_index": 205,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:205"
+  },
+  {
+    "img_filename": "web_fd8befe1-4e5b-4de2-9978-db25d2be2173.png",
+    "bbox": [
+      206,
+      754,
+      1120,
+      283
+    ],
+    "instruction": "add comment",
+    "data_type": "icon",
+    "data_source": "forum",
+    "source_index": 137,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:137"
+  },
+  {
+    "img_filename": "web_dc5cf80d-74c4-475e-928f-ee6b7ef254a1.png",
+    "bbox": [
+      1585,
+      1023,
+      180,
+      36
+    ],
+    "instruction": "open wikispecies",
+    "data_type": "text",
+    "data_source": "tool",
+    "source_index": 274,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:274"
+  },
+  {
+    "img_filename": "web_6547e373-2b01-422b-a104-988a43742ba8.png",
+    "bbox": [
+      46,
+      805,
+      301,
+      44
+    ],
+    "instruction": "swith language of current web page",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 270,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:270"
+  },
+  {
+    "img_filename": "web_j2wrmj.png",
+    "bbox": [
+      1472,
+      723,
+      329,
+      83
+    ],
+    "instruction": "choose the 1Tb storage",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 411,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:411"
+  },
+  {
+    "img_filename": "web_c6e1ac03-ebaf-4ebe-8fb2-5d6f8769f385.png",
+    "bbox": [
+      213,
+      827,
+      268,
+      82
+    ],
+    "instruction": "download wikipedia app in google play store",
+    "data_type": "text",
+    "data_source": "tool",
+    "source_index": 256,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:256"
+  },
+  {
+    "img_filename": "web_f9bf7ee5-1966-4261-bf9e-76202c196a55.png",
+    "bbox": [
+      97,
+      1004,
+      1234,
+      129
+    ],
+    "instruction": "choose tag",
+    "data_type": "icon",
+    "data_source": "forum",
+    "source_index": 158,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:158"
+  },
+  {
+    "img_filename": "web_659de266-0af1-47bc-a2dc-5edc4dbb29d8.png",
+    "bbox": [
+      2429,
+      19,
+      83,
+      74
+    ],
+    "instruction": "search in the website",
+    "data_type": "icon",
+    "data_source": "forum",
+    "source_index": 177,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:177"
+  },
+  {
+    "img_filename": "web_587b0743-0e7a-4291-811b-4d6fb5510fb3.png",
+    "bbox": [
+      1901,
+      495,
+      241,
+      90
+    ],
+    "instruction": "unsubscribe the book ",
+    "data_type": "text",
+    "data_source": "forum",
+    "source_index": 140,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:140"
+  },
+  {
+    "img_filename": "web_0437294c-e652-4bc4-acbf-f0c4cf3759ba.png",
+    "bbox": [
+      1784,
+      899,
+      247,
+      52
+    ],
+    "instruction": "add this item to compare",
+    "data_type": "text",
+    "data_source": "shop",
+    "source_index": 364,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:364"
+  },
+  {
+    "img_filename": "web_586be1bf-6fab-43bf-adad-640eaab4a0df.png",
+    "bbox": [
+      2403,
+      644,
+      63,
+      67
+    ],
+    "instruction": "copy the ssh link",
+    "data_type": "icon",
+    "data_source": "gitlab",
+    "source_index": 68,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:68"
+  },
+  {
+    "img_filename": "web_844d70be-3743-409c-abf0-a148975fdbc8.png",
+    "bbox": [
+      2434,
+      775,
+      70,
+      66
+    ],
+    "instruction": "sort from largest to smallest",
+    "data_type": "icon",
+    "data_source": "shop",
+    "source_index": 116,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:116"
+  },
+  {
+    "img_filename": "web_df166734-1f33-4e1d-887f-292ee9c21502.png",
+    "bbox": [
+      803,
+      534,
+      150,
+      38
+    ],
+    "instruction": "goto france wikipedia",
+    "data_type": "text",
+    "data_source": "tool",
+    "source_index": 262,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:262"
+  },
+  {
+    "img_filename": "web_df804fb9-f96e-425e-b1a3-fe8f6810a1de.png",
+    "bbox": [
+      465,
+      663,
+      55,
+      55
+    ],
+    "instruction": "delete the 'article' tag for searching",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 324,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:324"
+  },
+  {
+    "img_filename": "web_9618f323-7310-4d6e-9c79-a476427ca1ae.png",
+    "bbox": [
+      550,
+      172,
+      224,
+      74
+    ],
+    "instruction": "filter with featured creteria",
+    "data_type": "text",
+    "data_source": "forum",
+    "source_index": 193,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:193"
+  },
+  {
+    "img_filename": "web_2d6ce349-19b2-438b-bc41-611bb64ee63b.png",
+    "bbox": [
+      2478,
+      553,
+      79,
+      74
+    ],
+    "instruction": "share the map with someone",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 218,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:218"
+  },
+  {
+    "img_filename": "web_d146e5c3-e1ea-446c-ab84-a348fe07a1b8.png",
+    "bbox": [
+      547,
+      297,
+      163,
+      75
+    ],
+    "instruction": "change the sorting method",
+    "data_type": "icon",
+    "data_source": "forum",
+    "source_index": 145,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:145"
+  },
+  {
+    "img_filename": "web_5766e094-3b76-4b5f-8399-e47ff5506df2.png",
+    "bbox": [
+      100,
+      501,
+      1232,
+      82
+    ],
+    "instruction": "input the title",
+    "data_type": "icon",
+    "data_source": "forum",
+    "source_index": 156,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:156"
+  },
+  {
+    "img_filename": "web_4befbc37-411b-4621-8a3c-c1d95676efa1.png",
+    "bbox": [
+      578,
+      1105,
+      1913,
+      86
+    ],
+    "instruction": "jump to data folder",
+    "data_type": "text",
+    "data_source": "gitlab",
+    "source_index": 67,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:67"
+  },
+  {
+    "img_filename": "web_e0425287-c246-4122-a26e-6e0ca5958d4e.png",
+    "bbox": [
+      2046,
+      704,
+      415,
+      38
+    ],
+    "instruction": "check geo uri link",
+    "data_type": "icon",
+    "data_source": "tool",
+    "source_index": 250,
+    "family": "screenspot_web",
+    "record_id": "screenspot_web:250"
+  }
+]

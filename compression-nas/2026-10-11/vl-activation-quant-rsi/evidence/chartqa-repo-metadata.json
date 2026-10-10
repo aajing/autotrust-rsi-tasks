@@ -1,0 +1,101 @@
+{
+  "sha": "044eabfc306abfe9340c5741f0093aefc5973d06",
+  "node_id": "C_kwDOG9gXBNoAKDA0NGVhYmZjMzA2YWJmZTkzNDBjNTc0MWYwMDkzYWVmYzU5NzNkMDY",
+  "commit": {
+    "author": {
+      "name": "Ahmed Masry",
+      "email": "47740795+AhmedMasryKU@users.noreply.github.com",
+      "date": "2025-04-18T03:00:27Z"
+    },
+    "committer": {
+      "name": "GitHub",
+      "email": "noreply@github.com",
+      "date": "2025-04-18T03:00:27Z"
+    },
+    "message": "Update README.md",
+    "tree": {
+      "sha": "f131fa9e0003ec7724d9d5a9eaf76705734e4c42",
+      "url": "https://api.github.com/repos/vis-nlp/ChartQA/git/trees/f131fa9e0003ec7724d9d5a9eaf76705734e4c42"
+    },
+    "url": "https://api.github.com/repos/vis-nlp/ChartQA/git/commits/044eabfc306abfe9340c5741f0093aefc5973d06",
+    "comment_count": 0,
+    "verification": {
+      "verified": true,
+      "reason": "valid",
+      "signature": "-----BEGIN PGP SIGNATURE-----\n\nwsFcBAABCAAQBQJoAcBMCRC1aQ7uu5UhlAAAgLkQAFOs5qCJyTAU+OocoejJCMMV\ntqE/ocFNRsLM4C5dgBZSK9p5Pw81dI/pYAH6gWlYUR+ugyi+GT5L07CicysY7MTZ\nGEcuLT4K85idgoOu5hJsEh4SmxsVfkQ4txL18kLqGTsVPBzLPj/LE3WeuQBUnkj2\n9cUmWI/+azAz2WZvxRM2Iu+eJNEBVa0jyJdgwGbKEfo1VA9anGcgIJ5s+QwkWdl1\nrHnfendI9P79rs1gvCmP2bVd9S/9rbw74ni2Pf2CuP0F2ORKjEjsibtXOSZ1t8is\ngdM9QmrjwgjQ311Va9XGMjtgGhoAJm5zGLErKhUdeC3BKuhO/u+gZntrbZM/w9+a\nv7vdh4kzqZA6ne30KRid+Wim1OPRgXls6t2VCctvFY5d6wNBavAzojfTfa5NX96B\n0wXY4z1pC/sVCWZJsVLMQwsAwghhKxDHoWT48hKvM1XV9PBpUfli2NH/ebv1OfO1\n61iS0/6jkQlsX/KdY/Yr9gfMUPOy35koCmCtH7ygEn0G7RwFzoo+NawwBoBTFSIB\nzL7yTrKkURfFjsi46ZtXFoMCvPLJ6lwdFX37UOe03tNpbtHak7Tsk3xzuLn7eQqt\nAALp8hEYI3XNgCZ1ZEYsUN9iO9QoKkZTx6b7YennCSXDhT84SlTpKS79hMJXX3OG\nBi6il7zCWAEPberG6EH4\n=rBN0\n-----END PGP SIGNATURE-----\n",
+      "payload": "tree f131fa9e0003ec7724d9d5a9eaf76705734e4c42\nparent 58e05691eeaf8ff42890c16a300d91c9628b941f\nauthor Ahmed Masry <47740795+AhmedMasryKU@users.noreply.github.com> 1744945227 -0400\ncommitter GitHub <noreply@github.com> 1744945227 -0400\n\nUpdate README.md",
+      "verified_at": "2025-04-18T03:05:29Z"
+    }
+  },
+  "url": "https://api.github.com/repos/vis-nlp/ChartQA/commits/044eabfc306abfe9340c5741f0093aefc5973d06",
+  "html_url": "https://github.com/vis-nlp/ChartQA/commit/044eabfc306abfe9340c5741f0093aefc5973d06",
+  "comments_url": "https://api.github.com/repos/vis-nlp/ChartQA/commits/044eabfc306abfe9340c5741f0093aefc5973d06/comments",
+  "author": {
+    "login": "AhmedMasryKU",
+    "id": 47740795,
+    "node_id": "MDQ6VXNlcjQ3NzQwNzk1",
+    "avatar_url": "https://avatars.githubusercontent.com/u/47740795?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/AhmedMasryKU",
+    "html_url": "https://github.com/AhmedMasryKU",
+    "followers_url": "https://api.github.com/users/AhmedMasryKU/followers",
+    "following_url": "https://api.github.com/users/AhmedMasryKU/following{/other_user}",
+    "gists_url": "https://api.github.com/users/AhmedMasryKU/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/AhmedMasryKU/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/AhmedMasryKU/subscriptions",
+    "organizations_url": "https://api.github.com/users/AhmedMasryKU/orgs",
+    "repos_url": "https://api.github.com/users/AhmedMasryKU/repos",
+    "events_url": "https://api.github.com/users/AhmedMasryKU/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/AhmedMasryKU/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "committer": {
+    "login": "web-flow",
+    "id": 19864447,
+    "node_id": "MDQ6VXNlcjE5ODY0NDQ3",
+    "avatar_url": "https://avatars.githubusercontent.com/u/19864447?v=4",
+    "gravatar_id": "",
+    "url": "https://api.github.com/users/web-flow",
+    "html_url": "https://github.com/web-flow",
+    "followers_url": "https://api.github.com/users/web-flow/followers",
+    "following_url": "https://api.github.com/users/web-flow/following{/other_user}",
+    "gists_url": "https://api.github.com/users/web-flow/gists{/gist_id}",
+    "starred_url": "https://api.github.com/users/web-flow/starred{/owner}{/repo}",
+    "subscriptions_url": "https://api.github.com/users/web-flow/subscriptions",
+    "organizations_url": "https://api.github.com/users/web-flow/orgs",
+    "repos_url": "https://api.github.com/users/web-flow/repos",
+    "events_url": "https://api.github.com/users/web-flow/events{/privacy}",
+    "received_events_url": "https://api.github.com/users/web-flow/received_events",
+    "type": "User",
+    "user_view_type": "public",
+    "site_admin": false
+  },
+  "parents": [
+    {
+      "sha": "58e05691eeaf8ff42890c16a300d91c9628b941f",
+      "url": "https://api.github.com/repos/vis-nlp/ChartQA/commits/58e05691eeaf8ff42890c16a300d91c9628b941f",
+      "html_url": "https://github.com/vis-nlp/ChartQA/commit/58e05691eeaf8ff42890c16a300d91c9628b941f"
+    }
+  ],
+  "stats": {
+    "total": 5,
+    "additions": 4,
+    "deletions": 1
+  },
+  "files": [
+    {
+      "sha": "67bef48958090d2cf94c357dffad1b77f3ecfb02",
+      "filename": "README.md",
+      "status": "modified",
+      "additions": 4,
+      "deletions": 1,
+      "changes": 5,
+      "blob_url": "https://github.com/vis-nlp/ChartQA/blob/044eabfc306abfe9340c5741f0093aefc5973d06/README.md",
+      "raw_url": "https://github.com/vis-nlp/ChartQA/raw/044eabfc306abfe9340c5741f0093aefc5973d06/README.md",
+      "contents_url": "https://api.github.com/repos/vis-nlp/ChartQA/contents/README.md?ref=044eabfc306abfe9340c5741f0093aefc5973d06",
+      "patch": "@@ -1,8 +1,11 @@\n # ChartQA: A Benchmark for Question Answering about Charts with Visual and Logical Reasoning\n \n * Authors: Ahmed Masry, Do Long, Jia Qing Tan, Shafiq Joty, Enamul Hoque\n+\n+\ud83d\udea8 **New benchmark alert!** Check out our new [ChartQAPro](https://github.com/vis-nlp/ChartQAPro): a more diverse, challenging dataset for real-world chart question answering. \ud83e\udde0\ud83d\udcca\n+\n * Paper Link: [ChartQA](https://aclanthology.org/2022.findings-acl.177/)\n-* **[NEW]** If you are looking for powerful Chart Models, explore our latest models for chart understanding:\n+* If you are looking for powerful Chart Models, explore our latest models for chart understanding:\n     * [UniChart](https://github.com/vis-nlp/UniChart)\n         * A lightweight model (140M parameters) excelling in ChartQA, Chart-to-Table, Chart Summarization, and Open-ended QA.\n     * [ChartInstruct](https://github.com/vis-nlp/ChartInstruct)"
+    }
+  ]
+}

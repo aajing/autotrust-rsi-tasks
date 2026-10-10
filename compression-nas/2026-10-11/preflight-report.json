@@ -1,0 +1,60 @@
+{
+  "kind": "local structural preflight, not official approval or GPU validation",
+  "tasks": [
+    {
+      "task": "kv-cache-rsi",
+      "structural_errors": [],
+      "fields": 28,
+      "english_only": true,
+      "source_repository": "https://github.com/jy-yuan/KIVI",
+      "source_revision": "876b4d2d08e3b1d5f70d0969c299d8c7c42ddfb6",
+      "proposal_sha256": "911bec1c1f7bbe84aa8fb09dd2a869778ba7d01dd566b2b463307ec67ac598da"
+    },
+    {
+      "task": "vl-activation-quant-rsi",
+      "structural_errors": [],
+      "fields": 28,
+      "english_only": true,
+      "source_repository": "https://github.com/vllm-project/llm-compressor",
+      "source_revision": "229758564a9a9607b858daccb65edb0c633315ec",
+      "proposal_sha256": "b346cae9c822172a1c64bec607d0b3dbd8acfb376b3f4a9aede6c07e7c1224c8"
+    },
+    {
+      "task": "lowrank-compress-rsi",
+      "structural_errors": [],
+      "fields": 28,
+      "english_only": true,
+      "source_repository": "https://github.com/AIoT-MLSys-Lab/SVD-LLM",
+      "source_revision": "7538cca98880ff312a79a16252aab5a7b480fbe9",
+      "proposal_sha256": "a9ba9715eb7c5bc3a94928414ad83b0e78f9f3e917e3362f78a51c71fb75ffe5"
+    },
+    {
+      "task": "sparse24-rsi",
+      "structural_errors": [],
+      "fields": 28,
+      "english_only": true,
+      "source_repository": "https://github.com/NVIDIA/Model-Optimizer",
+      "source_revision": "4c1f813828cb9dd07b0d842d60ba35e3946237dc",
+      "proposal_sha256": "678f4c827ba4db811c16caebc0213ada018b878098d87ff5ef3df8fc59732f31"
+    },
+    {
+      "task": "jev-block-nas-rsi",
+      "structural_errors": [],
+      "fields": 28,
+      "english_only": true,
+      "source_repository": "https://huggingface.co/autotrust/JEV-9B . This is the official Git source repository, including native inference examples, serving Python, configs and released adapter/head assets; it is not a newly invented GitHub mirror.",
+      "source_revision": "d7bf1c0051f78e3a7bd5bbb90add79bfd769079b",
+      "proposal_sha256": "f065fc24d3525725d96f06647e35b0895eb2a859db4c98106ff7d74d279db87d"
+    },
+    {
+      "task": "gpt-subnet-nas-rsi",
+      "structural_errors": [],
+      "fields": 28,
+      "english_only": true,
+      "source_repository": "https://github.com/automl/HW-GPT-Bench",
+      "source_revision": "1f43ee8322e6295d56c1e2004319123509fd53b8",
+      "proposal_sha256": "65c7095ec8642e2f1c4de52bc5ff1c249d11152784c494264aed6266e27ef428"
+    }
+  ],
+  "passed": true
+}

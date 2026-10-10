@@ -1,0 +1,118 @@
+{
+  "_id": "65e6a25da7b9471cef572ebf",
+  "id": "HuggingFaceM4/ChartQA",
+  "author": "HuggingFaceM4",
+  "sha": "b605b6e08b57faf4359aeb2fe6a3ca595f99b6c5",
+  "lastModified": "2024-03-05T23:09:27.000Z",
+  "private": false,
+  "gated": false,
+  "disabled": false,
+  "tags": [
+    "license:gpl-3.0",
+    "size_categories:10K<n<100K",
+    "format:parquet",
+    "modality:image",
+    "modality:text",
+    "library:datasets",
+    "library:dask",
+    "library:mlcroissant",
+    "library:polars",
+    "region:us"
+  ],
+  "description": "\n\t\n\t\t\n\t\n\t\n\t\tDataset Card for \"ChartQA\"\n\t\n\nMore Information needed\n",
+  "downloads": 17695,
+  "likes": 69,
+  "cardData": {
+    "dataset_info": {
+      "features": [
+        {
+          "name": "image",
+          "dtype": "image"
+        },
+        {
+          "name": "query",
+          "dtype": "string"
+        },
+        {
+          "name": "label",
+          "list": "string"
+        },
+        {
+          "name": "human_or_machine",
+          "dtype": {
+            "class_label": {
+              "names": {
+                "0": "human",
+                "1": "machine"
+              }
+            }
+          }
+        }
+      ],
+      "splits": [
+        {
+          "name": "train",
+          "num_bytes": 1256446073.625,
+          "num_examples": 28299
+        },
+        {
+          "name": "val",
+          "num_bytes": 84202126,
+          "num_examples": 1920
+        },
+        {
+          "name": "test",
+          "num_bytes": 107049156.5,
+          "num_examples": 2500
+        }
+      ],
+      "download_size": 964095599,
+      "dataset_size": 1447697356.125
+    },
+    "configs": [
+      {
+        "config_name": "default",
+        "data_files": [
+          {
+            "split": "train",
+            "path": "data/train-*"
+          },
+          {
+            "split": "val",
+            "path": "data/val-*"
+          },
+          {
+            "split": "test",
+            "path": "data/test-*"
+          }
+        ]
+      }
+    ],
+    "license": "gpl-3.0"
+  },
+  "siblings": [
+    {
+      "rfilename": ".gitattributes"
+    },
+    {
+      "rfilename": "README.md"
+    },
+    {
+      "rfilename": "data/test-00000-of-00001-e2cd0b7a0f9eb20d.parquet"
+    },
+    {
+      "rfilename": "data/train-00000-of-00003-49492f364babfa44.parquet"
+    },
+    {
+      "rfilename": "data/train-00001-of-00003-7302bae5e425bbc7.parquet"
+    },
+    {
+      "rfilename": "data/train-00002-of-00003-194c9400785577a2.parquet"
+    },
+    {
+      "rfilename": "data/val-00000-of-00001-0f11003c77497969.parquet"
+    }
+  ],
+  "createdAt": "2024-03-05T04:41:01.000Z",
+  "usedStorage": 964492118
+}
