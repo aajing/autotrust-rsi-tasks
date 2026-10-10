@@ -1,5 +1,5 @@
 {
-  "reviewed_at_utc": "2026-10-10T13:48:48.338554+00:00",
+  "reviewed_at_utc": "2026-10-10T13:50:24.124690+00:00",
   "scope": "28-field format, English text, contributor metadata, plain GitHub URLs and package-copy consistency only; not verification of identity, expertise, scientific validity or acceptance",
   "submission_status": "Local proposal copies may be revisions not yet posted. Exact submitted bodies and official decisions are in official-submissions/.",
   "observed_official_reviews": [
@@ -44,7 +44,7 @@
   "files": [
     {
       "file": "gev-think-rsi.md",
-      "sha256": "93d24a15c08b4009c6f17895344d9a947f175a895b41204f0ae6f719be5a635c",
+      "sha256": "8e115433685cbe62741fab5fabf9662c838455016fd42cafc900e188ab60ecaa",
       "word_count": 2470,
       "official_fields": 28,
       "english_only": true,
@@ -54,7 +54,7 @@
     },
     {
       "file": "jev-judge-rsi.md",
-      "sha256": "407d45dc078cbbcff7064ed215e62147a8ac9b96fb522e3ba5d89cc5e76de59d",
+      "sha256": "692a297ba9974fc29d5ddf022716680c24971589d4af09a0f35178d53f3309ad",
       "word_count": 2568,
       "official_fields": 28,
       "english_only": true,
@@ -64,7 +64,7 @@
     },
     {
       "file": "jev-coldstart-rsi.md",
-      "sha256": "8bbc19f44926b07427576cedce4b7f94398b39d15ccd87b6fc72e5d89095cc12",
+      "sha256": "5805683df5652c2b1d8efbe05757ac66a1b8304bdd8587c7e69adebddcdbb748",
       "word_count": 2580,
       "official_fields": 28,
       "english_only": true,
@@ -74,7 +74,7 @@
     },
     {
       "file": "jev-visual-control-rsi.md",
-      "sha256": "c717c8ae3cc5cb77ae420ea9ff224c61814c47521baf4e89429a24a832ca75db",
+      "sha256": "6d4bb57b91835e4a9c10bffc6056bce8d3f0d14dce1d85e79cb5a0c5006220c6",
       "word_count": 3137,
       "official_fields": 28,
       "english_only": true,
@@ -84,7 +84,7 @@
     },
     {
       "file": "gev-quant-rsi.md",
-      "sha256": "5c7b9f99faf7350005ff67778ef2ba65bc2da18edc40d15cdb9b2a3ad46b3456",
+      "sha256": "e91b7ee1217e46ecd64d261767a92d4d0a9dbc93b70a78fe5c8767fbbe351852",
       "word_count": 2788,
       "official_fields": 28,
       "english_only": true,
@@ -94,7 +94,7 @@
     },
     {
       "file": "moe-prune-rsi.md",
-      "sha256": "d5df9c5b8e818455f5f8c0ecb421668b8b0ecf9ce03b3700b7501b0817c436bb",
+      "sha256": "3cc84d8b3ca3e17be836f6acb7b7d554ec384a00058b9c8d5ed62c269f306e5e",
       "word_count": 2617,
       "official_fields": 28,
       "english_only": true,

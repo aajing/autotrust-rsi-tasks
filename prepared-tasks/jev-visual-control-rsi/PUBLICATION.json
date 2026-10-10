@@ -1,8 +1,8 @@
 {
   "repository": "https://github.com/aajing/autotrust-rsi-tasks",
-  "implementation_commit": "6493c469ce26a543e196fcc8214ac8cde7d2a1e1",
+  "implementation_commit": "88a9b88a888e970d590109eb59d8af973d618913",
   "path": "prepared-tasks/jev-visual-control-rsi",
-  "source_url": "https://github.com/aajing/autotrust-rsi-tasks/tree/6493c469ce26a543e196fcc8214ac8cde7d2a1e1/prepared-tasks/jev-visual-control-rsi",
+  "source_url": "https://github.com/aajing/autotrust-rsi-tasks/tree/88a9b88a888e970d590109eb59d8af973d618913/prepared-tasks/jev-visual-control-rsi",
   "evaluation_answers_public": true,
   "encrypted": false,
   "official_submission_status": "initial review Reject; revision draft published for contributor review, not resubmitted",
