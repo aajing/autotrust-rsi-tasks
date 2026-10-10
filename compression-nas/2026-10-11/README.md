@@ -2,16 +2,16 @@
 
 Six English proposal packages prepared for Jing Qiu, ajing@autotrust.ai, GitHub `aajing`.
 
-This batch contains six English proposal drafts and their public supporting contracts, prepared by Jing Qiu on behalf of AutoTrust. It is separate from the six earlier proposals that passed official review. These new proposals have not been posted to official Discussions or evaluated on a GPU. Publication of support material is not official submission.
+This batch contains six English proposal drafts and their public supporting contracts, prepared by Jing Qiu on behalf of AutoTrust. It is separate from the six earlier proposals that passed official review. All six proposals have now been submitted to official Task Ideas Discussions. Their submitted English bodies have been checked against the confirmed files. See [official submission records](OFFICIAL-SUBMISSIONS.json) for the dated review status and direct links. No GPU experiment has been run. The v2 archives retain their original preparation snapshot and checksums.
 
 | Task | Question | Proposal |
 | --- | --- | --- |
-| kv-cache-rsi | How much long-context attention state can a reusable encoding and retention policy remove while preserving answer quality and latency? | [English proposal](kv-cache-rsi/proposal.md) |
-| vl-activation-quant-rsi | Can cross-modal calibration and activation treatment improve a real low-precision vision-language deployment under fixed image processing? | [English proposal](vl-activation-quant-rsi/proposal.md) |
-| lowrank-compress-rsi | Can nonuniform low-rank matrix representations compress a dense language model while retaining its general capabilities? | [English proposal](lowrank-compress-rsi/proposal.md) |
-| sparse24-rsi | Can structured sparse masks deliver an actual whole-model execution improvement while meeting quality constraints? | [English proposal](sparse24-rsi/proposal.md) |
-| jev-block-nas-rsi | Can a smaller detachable neural capability branch preserve the released JEV branch's probabilities and calibration? | [English proposal](jev-block-nas-rsi/proposal.md) |
-| gpt-subnet-nas-rsi | Can architecture search extract a trained standalone GPT subnet with a better measured quality/resource tradeoff? | [English proposal](gpt-subnet-nas-rsi/proposal.md) |
+| kv-cache-rsi | How much long-context attention state can a reusable encoding and retention policy remove while preserving answer quality and latency? | [Official Discussion #216](https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/216) |
+| vl-activation-quant-rsi | Can cross-modal calibration and activation treatment improve a real low-precision vision-language deployment under fixed image processing? | [Official Discussion #221](https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/221) |
+| lowrank-compress-rsi | Can nonuniform low-rank matrix representations compress a dense language model while retaining its general capabilities? | [Official Discussion #217](https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/217) |
+| sparse24-rsi | Can structured sparse masks deliver an actual whole-model execution improvement while meeting quality constraints? | [Official Discussion #218](https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/218) |
+| jev-block-nas-rsi | Can a smaller detachable neural capability branch preserve the released JEV branch's probabilities and calibration? | [Official Discussion #219](https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/219) |
+| gpt-subnet-nas-rsi | Can architecture search extract a trained standalone GPT subnet with a better measured quality/resource tradeoff? | [Official Discussion #220](https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/220) |
 
 ## Review downloads
 
@@ -41,6 +41,6 @@ The contributor has explicitly confirmed familiarity with all five external sour
 
 ## Official review and execution
 
-The user selected all six directions for development. Scientific contracts in these drafts are concrete proposed designs and remain reviewable before official handoff. Runtime allocations are estimates, and full-score attainability has not been measured. Existing released artifacts are used as references; new compression and recovery work belongs to Work rather than becoming an unavailable baseline prerequisite.
+The user selected all six directions for development. The scientific contracts were confirmed for official handoff and submitted without changing their 28-field review tables. Runtime allocations are estimates, and full-score attainability has not been measured. Existing released artifacts are used as references; new compression and recovery work belongs to Work rather than becoming an unavailable baseline prerequisite.
 
 Proposal review, task generation, execution validation and final benchmark inclusion are distinct stages. The official handoff must preserve one native proposal session per task. No GPU service has been started and no original session trajectory is bundled in these review archives.

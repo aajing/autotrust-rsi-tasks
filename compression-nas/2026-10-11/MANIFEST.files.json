@@ -1,10 +1,15 @@
 {
-  "scope": "local review handoff, not official submission",
+  "scope": "public source tree and official submission index; release archives retain their release-time manifests",
   "files": [
     {
       "path": ".gitignore",
       "bytes": 39,
       "sha256": "12305155a6461848862ac31dd1d38e82b8b31bd9a776bdf7d7df9c2d4bfea5a1"
+    },
+    {
+      "path": "OFFICIAL-SUBMISSIONS.json",
+      "bytes": 2779,
+      "sha256": "4ef6230d290ca8b8e3580dc58619302d3f79d50720f2e4382384f559f94397ff"
     },
     {
       "path": "PUBLIC-LINKS.json",
@@ -13,13 +18,13 @@
     },
     {
       "path": "PUBLICATION.json",
-      "bytes": 1270,
-      "sha256": "99a6b0c927ad022501be67453556bccbeea042ad075ea95db3a8956c39460855"
+      "bytes": 1414,
+      "sha256": "e113b558597e1aefca49c7bf1e1cf0fc8c0788ae2ce1defe57df0c101643d9a7"
     },
     {
       "path": "README.md",
-      "bytes": 5703,
-      "sha256": "e5de8e35480fc02275b194410078b5300581deddd2bac4a8492d20303d967a7e"
+      "bytes": 6208,
+      "sha256": "0d8d13e0097584170c26cff9595b9cb5179f55628c12907799461f379cf61440"
     },
     {
       "path": "gpt-subnet-nas-rsi/DATA.md",

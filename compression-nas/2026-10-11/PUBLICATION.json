@@ -1,5 +1,5 @@
 {
-  "status": "public support drafts; no official Discussions created",
+  "status": "six official Task Ideas Discussions created; review statuses in OFFICIAL-SUBMISSIONS.json",
   "date": "2026-10-11",
   "author": "Jing Qiu",
   "organization": "AutoTrust",
@@ -21,5 +21,7 @@
   "release_tag": "compression-nas-2026-10-11-v2",
   "fresh_longbench_archive_verification": "not completed: network failure; local selected-record hashes and unit tests passed",
   "jev_project_participation": "Jing Qiu explicitly confirmed personal participation in JEV-9B on October 11, 2026.",
-  "supersedes_release": "compression-nas-2026-10-11"
+  "supersedes_release": "compression-nas-2026-10-11",
+  "official_discussions_created": 6,
+  "official_status_checked_at_utc": "2026-10-10T17:37:47.810083+00:00"
 }

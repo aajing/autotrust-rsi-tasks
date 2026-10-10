@@ -1,0 +1,65 @@
+{
+  "status": "all six officially submitted",
+  "verified_at_utc": "2026-10-10T17:37:47.810083+00:00",
+  "author": "aajing",
+  "category": "Task Ideas",
+  "submitted_english": true,
+  "body_hashes_verified": true,
+  "review_note": "Proposal PASS is an initial review result; task construction and final inclusion are later stages. Statuses are a dated observation, not a live monitor.",
+  "tasks": [
+    {
+      "task": "kv-cache-rsi",
+      "number": 216,
+      "url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/216",
+      "actual_title": "Adaptive KV-Cache Compression for Long-Context Inference",
+      "review_status": "pass",
+      "task_preparation_status": "building",
+      "remote_body_sha256": "6349ccbf8a5301afddd202cbc71e6fcd309b2e94f95a2ef355446eae94e9eb94"
+    },
+    {
+      "task": "lowrank-compress-rsi",
+      "number": 217,
+      "url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/217",
+      "actual_title": "lowrank-compress-rsi",
+      "review_status": "pass",
+      "task_preparation_status": "building",
+      "remote_body_sha256": "231e6804eb84d7032669e33e55c917ea026311f382469a7b7eb54e088bbe0d4d"
+    },
+    {
+      "task": "sparse24-rsi",
+      "number": 218,
+      "url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/218",
+      "actual_title": "sparse24-rsi",
+      "review_status": "pass",
+      "task_preparation_status": "queued",
+      "remote_body_sha256": "8d3808a0b0d287c921ad5686acf3f9e8c255e41ad9cb2c713add16f8fef6192c"
+    },
+    {
+      "task": "jev-block-nas-rsi",
+      "number": 219,
+      "url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/219",
+      "actual_title": "JEV Block NAS: Smaller Detachable Capability Graphs",
+      "review_status": "pass",
+      "task_preparation_status": "building",
+      "remote_body_sha256": "a97572c4800649da156c948158693e70b0d3d1e7056ef2455ece5e54c74e48c6"
+    },
+    {
+      "task": "gpt-subnet-nas-rsi",
+      "number": 220,
+      "url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/220",
+      "actual_title": "GPT Subnet NAS: Real Hardware-Efficient Dense Language Models",
+      "review_status": "pass",
+      "task_preparation_status": "queued",
+      "remote_body_sha256": "568f43179286b41be95f2255df00d90a40ed43d8bdcea4e1869b2aa580623ed2"
+    },
+    {
+      "task": "vl-activation-quant-rsi",
+      "number": 221,
+      "url": "https://github.com/OpenRSI-Foundation/OpenRSI-Index/discussions/221",
+      "actual_title": "Calibrated Static FP8 Activations for Multimodal Inference",
+      "review_status": "queued_or_in_progress",
+      "task_preparation_status": "not_started",
+      "remote_body_sha256": "c11dcf6819601eb4b493b37ec63e8ba2ae5af0b8b35ab1ff559665897ef91832"
+    }
+  ]
+}
