@@ -2,7 +2,7 @@
   "prepared_at_utc": "2026-10-10T12:52:24.843859+00:00",
   "repository": "https://github.com/aajing/autotrust-rsi-tasks",
   "release_tag": "public-proposals-2026-10-10",
-  "publication_status": "source ready for upload",
+  "publication_status": "published and verified",
   "official_submission_status": "not submitted to official review",
   "tasks": [
     "gev-think-rsi",
@@ -21,5 +21,96 @@
     "Simulacra image archive (86569533440 bytes); exact3560-image list and importer included"
   ],
   "scope": "All locally prepared six-task proposal material; unrelated tasks, credentials and session logs excluded",
-  "implementation_commit": "2a7512d966938d4618dec533c1851f8b561c6a0d"
+  "implementation_commit": "2a7512d966938d4618dec533c1851f8b561c6a0d",
+  "verified_at_utc": "2026-10-10T12:57:46.788157+00:00",
+  "proposal_handoff_commit": "f0a1cbe14bfcc731bcace1261b59db388ae1facf",
+  "release_url": "https://github.com/aajing/autotrust-rsi-tasks/releases/tag/public-proposals-2026-10-10",
+  "release_assets": [
+    {
+      "file": "archives.json",
+      "bytes": 2686,
+      "sha256": "e331df5b6d572951428a894d315522de97e6dd878dca8fc3feddd3f40711f3c1",
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/archives.json",
+      "remote_digest_verified": true
+    },
+    {
+      "file": "autotrust-six-task-proposals-public.zip",
+      "bytes": 14399318,
+      "sha256": "48ba16622690ceedb507cd3c5ce5c564518c061b1be10b6a0f7e5b4f2db1ec18",
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/autotrust-six-task-proposals-public.zip",
+      "remote_digest_verified": true
+    },
+    {
+      "file": "gev-quant-rsi-public.zip",
+      "bytes": 933246,
+      "sha256": "53fb3af4e2921886ffce35ddf8930bab3bb4e2c2e8382ceb6fa9811f90d2e831",
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/gev-quant-rsi-public.zip",
+      "remote_digest_verified": true
+    },
+    {
+      "file": "gev-think-rsi-public.zip",
+      "bytes": 221007,
+      "sha256": "c60e37cae5b5bf90513b42c0d84d0a36ca598d01693320a561e07c9b4d19ac34",
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/gev-think-rsi-public.zip",
+      "remote_digest_verified": true
+    },
+    {
+      "file": "jev-coldstart-rsi-public.zip",
+      "bytes": 10840958,
+      "sha256": "c80b684d2544c5606583b931a2268abb2b5e0fecbc9b70b78341cae62276434c",
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/jev-coldstart-rsi-public.zip",
+      "remote_digest_verified": true
+    },
+    {
+      "file": "jev-judge-rsi-public.zip",
+      "bytes": 883714,
+      "sha256": "bc0c61622232198963bbffb9897ee820c9f841efcf1f1ec80ccb173a5b0b777e",
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/jev-judge-rsi-public.zip",
+      "remote_digest_verified": true
+    },
+    {
+      "file": "jev-visual-control-rsi-public.zip",
+      "bytes": 204284,
+      "sha256": "1497c53628d6635f452500f15a854c94d2808daf164a57b3b4a115c9ba4bb0e5",
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/jev-visual-control-rsi-public.zip",
+      "remote_digest_verified": true
+    },
+    {
+      "file": "moe-prune-rsi-public.zip",
+      "bytes": 1144414,
+      "sha256": "b166158738a9cc6f0ae9ee5aec1730c0d155f00d96efcbc863af2e0c86d37705",
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/moe-prune-rsi-public.zip",
+      "remote_digest_verified": true
+    },
+    {
+      "file": "SHA256SUMS",
+      "bytes": 665,
+      "sha256": "f2b4d8648ca8596725bda62b8c10ea0cf231698156aff1daf42bf65ccb958409",
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/SHA256SUMS",
+      "remote_digest_verified": true
+    }
+  ],
+  "anonymous_access_checks": [
+    {
+      "asset": "proposal",
+      "http_status": 200,
+      "anonymous": true,
+      "bytes": 18767,
+      "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/main/draft-proposals/2026-10-10/gev-think-rsi.md"
+    },
+    {
+      "asset": "public_answers",
+      "http_status": 200,
+      "anonymous": true,
+      "bytes": 150419,
+      "url": "https://raw.githubusercontent.com/aajing/autotrust-rsi-tasks/main/prepared-tasks/jev-judge-rsi/data/public/evaluation_gold.jsonl"
+    },
+    {
+      "asset": "release_checksums",
+      "http_status": 200,
+      "anonymous": true,
+      "bytes": 665,
+      "url": "https://github.com/aajing/autotrust-rsi-tasks/releases/download/public-proposals-2026-10-10/SHA256SUMS"
+    }
+  ]
 }
