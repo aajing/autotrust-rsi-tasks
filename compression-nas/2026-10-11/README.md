@@ -2,7 +2,7 @@
 
 Six English proposal packages prepared for Jing Qiu, ajing@autotrust.ai, GitHub `aajing`.
 
-This batch contains six English proposal drafts and their public supporting contracts, submitted for preparation by Jing Qiu on behalf of AutoTrust. It is separate from the six earlier proposals that passed official review. These new proposals have not been posted to official Discussions or evaluated on a GPU. Publication of support material is not official submission.
+This batch contains six English proposal drafts and their public supporting contracts, prepared by Jing Qiu on behalf of AutoTrust. It is separate from the six earlier proposals that passed official review. These new proposals have not been posted to official Discussions or evaluated on a GPU. Publication of support material is not official submission.
 
 | Task | Question | Proposal |
 | --- | --- | --- |
@@ -15,8 +15,8 @@ This batch contains six English proposal drafts and their public supporting cont
 
 ## Review downloads
 
-- [All six proposal packages](dist/compression-nas-six-proposals.zip)
-- [Archive checksums](dist/SHA256SUMS)
+- [All six proposal packages](https://github.com/aajing/autotrust-rsi-tasks/releases/download/compression-nas-2026-10-11/compression-nas-six-proposals.zip)
+- [Archive checksums](https://github.com/aajing/autotrust-rsi-tasks/releases/download/compression-nas-2026-10-11/SHA256SUMS)
 - [Local validation report](validation-report.json)
 - [Publication scope and data delivery](PUBLICATION.json)
 
@@ -35,6 +35,9 @@ For a public checkout, first run `python3 kv-cache-rsi/materialize_data.py` to r
 From this directory, `python3 tools/preflight.py --output preflight-report.json` checks the table structure, source revision presence, required files and local JSON validity. It does not issue an OpenRSI approval. `python3 tools/validate_local.py` runs the six CPU scoring suites, checks included LongBench/ChartQA/WikiText/GSM8K payload hashes and parses task JSON/Python files. These checks exercise reward and admission boundaries; they do not execute model inference.
 
 After checks, `python3 tools/package.py` builds six individual ZIPs and one combined ZIP in `dist/`, verifies archive integrity and confirms the encryption flag is off. `dist/SHA256SUMS` identifies the exact archive bytes. The per-file manifest records hashes of the local handoff files.
+
+
+The contributor has explicitly confirmed familiarity with all five external source codebases. The current preparation checks comprise 65 CPU scoring tests, 6 materializer tests, and 146 local data hash/count checks. A fresh full LongBench download did not complete because of network failures; the 192 previously prepared records still match their pinned hashes. See [materialization check](kv-cache-rsi/materialization-check.json). No fresh full-archive success is claimed.
 
 ## Official review and execution
 

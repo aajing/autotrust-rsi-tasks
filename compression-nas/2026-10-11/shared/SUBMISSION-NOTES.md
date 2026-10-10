@@ -8,6 +8,8 @@ The submitting contact is Jing Qiu, ajing@autotrust.ai, GitHub aajing, represent
 
 The contributor explicitly confirmed Jing Qiu as the sole listed author for this batch. A single submission contact does not establish or limit the eventual paper's authorship; the organizers control their final attribution policy.
 
+On October 11, 2026, the contributor explicitly confirmed familiarity with the codebases of KIVI, LLM Compressor, SVD-LLM, NVIDIA Model Optimizer and HW-GPT-Bench. These five proposals use the domain-expertise route. This factual declaration is separate from organizational authorization and does not claim authorship of the external projects.
+
 ## Source and model revisions
 
 Each proposal's Exact commit/tag must resolve in the repository named by that proposal. A Hugging Face Git repository may be the primary source if it contains the actual implementation; its revision must not be presented as a commit in an unrelated GitHub repository. Model and dataset revisions are separately labeled.

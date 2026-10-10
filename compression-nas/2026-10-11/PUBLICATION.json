@@ -16,6 +16,8 @@
   ],
   "text_materializer": "kv-cache-rsi/materialize_data.py",
   "input_and_gold_visibility": "All inputs and answers remain obtainable from the exact public upstream sources. Raw LongBench text is fetched at setup rather than mirrored here.",
-  "selected_project_familiarity": "pending factual confirmation for external projects",
-  "gpu_experiments": 0
+  "selected_project_familiarity": "Contributor explicitly confirmed familiarity with all five external codebases on October 11, 2026.",
+  "gpu_experiments": 0,
+  "release_tag": "compression-nas-2026-10-11",
+  "fresh_longbench_archive_verification": "not completed: network failure; local selected-record hashes and unit tests passed"
 }

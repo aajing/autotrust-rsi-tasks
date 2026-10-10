@@ -57,3 +57,7 @@ Initial official reviews: https://github.com/OpenRSI-Foundation/OpenRSI-Index/di
 > Jing Qiu (ajing@autotrust.ai; GitHub aajing) supplied the submitting identity and directed us to their membership on AutoTrust's official organization page. That page publicly lists ajing, linked to Hugging Face account uremia. The existing September 30, 2026 JEV-27B-VL release article publicly credits ajing/uremia as an AutoTrust coauthor and documents calibrated multimodal decisions, judging and image recommendation. These public sources support the contributor's relationship to AutoTrust's shared decision-model work. The professional-name/account association is contributor-provided; the public profile displays ajing rather than Jing Qiu. No authorship of every model component or of the independent evaluation dataset is inferred.
 
 Append the task-specific mechanism from the preceding table. Link the actual organization/profile/article, rather than presenting this report or a new task-repository declaration as independent authorship evidence. No private identity documents, GPU experiments or module-level attribution request is needed to document the supplied relationship accurately.
+
+## Current contributor declaration for this batch
+
+On October 11, 2026, Jing Qiu confirmed representing AutoTrust, authorization to use its organizational achievements, and familiarity with the codebases of KIVI, LLM Compressor, SVD-LLM, NVIDIA Model Optimizer and HW-GPT-Bench. The five external-source proposals use the domain-expertise route; no external-project authorship is asserted.

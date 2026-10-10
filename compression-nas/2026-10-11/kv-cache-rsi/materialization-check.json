@@ -1,0 +1,84 @@
+{
+  "status": "not_completed_network_failure",
+  "checked_at_utc": "2026-10-10T16:27:25.121455+00:00",
+  "fresh_full_archive_verified": false,
+  "expected_archive": {
+    "url": "https://huggingface.co/datasets/zai-org/LongBench/resolve/5e628be450b7e67fb7ae6e201bd6d8f7056f7672/data.zip",
+    "bytes": 113932529,
+    "sha256": "cb45b11a4133c6bc1d6a44b0f8e701335ff1e543195db1103472e575857f7f64"
+  },
+  "attempts": [
+    {
+      "command": "python3 materialize_data.py --verify-only",
+      "result": "ValueError: incomplete archive download",
+      "last_observed_partial_bytes": 54525952,
+      "partial_file_removed_by_materializer": true
+    },
+    {
+      "command": "curl with normal TLS, --retry 2 and 240-second per-attempt limit, same pinned URL with download=true",
+      "result": "TLS handshake failed: SSL_ERROR_SYSCALL"
+    },
+    {
+      "command": "stdlib urllib bounded Range probe, same pinned URL",
+      "result": "TLS handshake failed: UNEXPECTED_EOF_WHILE_READING"
+    }
+  ],
+  "observed_local_selected_records": 192,
+  "local_selected_files": {
+    "qasper": {
+      "observed_rows": 32,
+      "sha256": "6ecf0bca29f769318e812c5cb5921a90c103c943e6a932ca4472a3af964b510c",
+      "matches_manifest": true,
+      "serialization_matches_materializer": true
+    },
+    "hotpotqa": {
+      "observed_rows": 32,
+      "sha256": "52d070ed3f08dc9ff2b2449b69e902a72d1162f02eb2cba3616012639fab97d0",
+      "matches_manifest": true,
+      "serialization_matches_materializer": true
+    },
+    "musique": {
+      "observed_rows": 32,
+      "sha256": "9738982f8bf4dcb8a017f63a7b83d26aabed5b94399867de605f7fd0f167e6f8",
+      "matches_manifest": true,
+      "serialization_matches_materializer": true
+    },
+    "gov_report": {
+      "observed_rows": 32,
+      "sha256": "9b49da994560d7e9890b298f70054d6c0225a5ed212a6a6418689505dd56fd26",
+      "matches_manifest": true,
+      "serialization_matches_materializer": true
+    },
+    "passage_count": {
+      "observed_rows": 32,
+      "sha256": "54d21ded1e3f07251eb3d49b393431748f737123b19ea92dde0127400b68780e",
+      "matches_manifest": true,
+      "serialization_matches_materializer": true
+    },
+    "passage_retrieval_en": {
+      "observed_rows": 32,
+      "sha256": "addba2c22a0565747f315c48eb28e8cdbb3680228efce555fb639b809a8743e4",
+      "matches_manifest": true,
+      "serialization_matches_materializer": true
+    }
+  },
+  "synthetic_fail_closed_tests": {
+    "command": "python3 -m unittest test_materialize_data.py -v",
+    "passed": 6,
+    "gpu_tests": 0
+  },
+  "selected_data_written": false,
+  "raw_local_files_unchanged": true,
+  "active_downloads": 0,
+  "cache_entries": [],
+  "public_package_excludes": [
+    ".cache/**",
+    "data/qasper.jsonl",
+    "data/hotpotqa.jsonl",
+    "data/musique.jsonl",
+    "data/gov_report.jsonl",
+    "data/passage_count.jsonl",
+    "data/passage_retrieval_en.jsonl"
+  ],
+  "interpretation": "The fresh source-download run is not verified. Existing local cohort hashes and prior documented archive checks are separate evidence. Re-run materialize_data.py --verify-only when normal upstream connectivity is available; no disabled TLS or substitute asset was used."
+}

@@ -10,5 +10,17 @@
   "submitting_on_behalf_of": "AutoTrust",
   "organizational_work_use_authorized": true,
   "organizational_authorization_statement": "The contributor explicitly states that they represent AutoTrust and may use all AutoTrust achievements.",
-  "third_party_codebase_familiarity": "Not yet confirmed; organizational representation is not a claim of third-party authorship or codebase familiarity."
+  "third_party_codebase_familiarity": {
+    "status": "explicitly confirmed by the contributor",
+    "date": "2026-10-11",
+    "projects": [
+      "KIVI",
+      "LLM Compressor",
+      "SVD-LLM",
+      "NVIDIA Model Optimizer",
+      "HW-GPT-Bench"
+    ],
+    "statement": "The contributor confirmed familiarity with the codebases of all five listed external projects.",
+    "route": "domain expertise; no upstream coauthorship claimed"
+  }
 }
