@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-10T12:44:47.334109+00:00",
+  "python": "3.12.3",
+  "platform": "macOS-14.4-arm64-arm-64bit",
+  "Pillow": "12.3.0",
+  "tests_run": 15,
+  "failures": 0,
+  "errors": 0,
+  "passed": true,
+  "certificate_replays": 224,
+  "model_calls": 0,
+  "GPU_runs": 0,
+  "native_ipc_synthetic_transport_fixture": true,
+  "fixture_is_model_inference_or_performance": false,
+  "optional_uid_separation_executed": false,
+  "optional_mujoco_engine_executed": false,
+  "new_suite_baseline_score": null,
+  "H100_runtime_and_memory": null
+}

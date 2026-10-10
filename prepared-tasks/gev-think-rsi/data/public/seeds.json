@@ -1,0 +1,5 @@
+{
+  "train": "gev-think-rsi-train-public-v2",
+  "dev": "gev-think-rsi-dev-public-v2",
+  "evaluation": "gev-think-rsi-evaluation-public-v2"
+}

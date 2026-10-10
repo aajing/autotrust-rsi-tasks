@@ -1,0 +1,16 @@
+{
+  "contributor": "Jing Qiu",
+  "email": "ajing@autotrust.ai",
+  "github_account": "aajing",
+  "identity_link": "contributor-confirmed; public commit displays the account handle",
+  "existing_contribution_url": "https://github.com/AutoTrustAI/autoresearch-sota-strategy/commit/e00c83e1017916f094a2b604c01d816ec6dfa9ca",
+  "existing_contribution_files": [
+    "train.py",
+    "prepare.py",
+    "RESULTS.md",
+    "ATTRIBUTION.md"
+  ],
+  "task_repository": "https://github.com/aajing/autotrust-rsi-tasks",
+  "task_code_path": "prepared-tasks/jev-visual-control-rsi",
+  "evidence_scope": "related pre-existing project contribution; not ownership of all upstream model components"
+}

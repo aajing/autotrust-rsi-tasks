@@ -1,0 +1,19 @@
+{
+  "checked_at_utc": "2026-10-10T12:47:06.973052+00:00",
+  "public_research_export": {
+    "files": 62,
+    "all_evaluation_records_solutions_seeds": true,
+    "encrypted": false,
+    "model_calls": 0
+  },
+  "exact_28_fields_and_mirrored_proposal": true,
+  "reconstructed_224_records_and_certificates_byte_identical": true,
+  "native_ipc_after_removing_legacy_isolation_argument_targeted_checks": 2,
+  "shell_syntax_checks_passed": true,
+  "model_calls": 0,
+  "GPU_runs": 0,
+  "official_review_submission": false,
+  "optional_uid_execution": false,
+  "mujoco_engine_execution": false,
+  "native_JEV_serving_execution": false
+}

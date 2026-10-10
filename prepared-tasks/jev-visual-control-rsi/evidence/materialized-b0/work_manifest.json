@@ -1,0 +1,14 @@
+{
+  "schema": 1,
+  "files": {
+    "controller.py": "5852e03db40e2125bcfc81a697c02afcd8b6ccb228ce9b6d943533da9668a912",
+    "candidate_worker.py": "4c6f2ff283639f1540fa80d5aac68405617ba99605fd893a4f26993eaa52c7f7",
+    "baseline.json": "f7d31f1b10f5e7c42ab9ae9f1e8425df1b9c3459365ba2ca0929e04b57ce2437",
+    "budget.json": "86d09a8a7b7f575d9a47a04bfa702d98ae690f5ab67706be02449e3f55b0c465",
+    "source_manifest.json": "f642e3e6cc6aa1fc926fda386556616ea558ce69537f88400d48356b0ec20786",
+    "PROTOCOL.md": "39175f4005d843409a916a45972d03eb74b22fc333d69117f3a5833ab5ab3cd5"
+  },
+  "contains_realized_scene_data": false,
+  "public_research_assets_available": true,
+  "restriction": "execution interface, not confidentiality"
+}

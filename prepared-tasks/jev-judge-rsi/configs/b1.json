@@ -1,0 +1,1 @@
+{"version":1,"prompt":"Check each requirement against the observable transcript, final artifacts and images. Identify any contradiction or missing evidence in a bounded diagnosis. Then judge whether every requirement was completed and persisted, using only supplied evidence.","use_s2_review":true,"use_s1_recheck":true,"calibration":{"kind":"affine_clip","a":1.0,"b":0.0}}

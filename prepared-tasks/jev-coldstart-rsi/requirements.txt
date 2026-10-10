@@ -1,0 +1,3 @@
+# CPU preparation and scoring use only Python stdlib.
+# Pillow is needed only for image import and real-model visual diagnostics.
+Pillow>=10.4,<13

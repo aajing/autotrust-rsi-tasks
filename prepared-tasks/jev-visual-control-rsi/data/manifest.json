@@ -1,0 +1,77 @@
+{
+  "cells": {
+    "development": {
+      "distractor_pick_place/hard": 6,
+      "distractor_pick_place/harder": 6,
+      "obstacle_transport/hard": 6,
+      "obstacle_transport/harder": 6,
+      "ordered_two_place/hard": 6,
+      "ordered_two_place/harder": 6,
+      "precision_place/hard": 6,
+      "precision_place/harder": 6
+    },
+    "evaluation": {
+      "distractor_pick_place/hard": 6,
+      "distractor_pick_place/harder": 6,
+      "obstacle_transport/hard": 6,
+      "obstacle_transport/harder": 6,
+      "ordered_two_place/hard": 6,
+      "ordered_two_place/harder": 6,
+      "precision_place/hard": 6,
+      "precision_place/harder": 6
+    },
+    "train": {
+      "distractor_pick_place/hard": 16,
+      "distractor_pick_place/harder": 16,
+      "obstacle_transport/hard": 16,
+      "obstacle_transport/harder": 16,
+      "ordered_two_place/hard": 16,
+      "ordered_two_place/harder": 16,
+      "precision_place/hard": 16,
+      "precision_place/harder": 16
+    }
+  },
+  "distribution": "all records, certificates and seed public; inspection permitted; per-scene solution lookup in the controller prohibited",
+  "files": {
+    "data/development/certificates.jsonl": {
+      "bytes": 115809,
+      "rows": 48,
+      "sha256": "58ccaf474aa114b7a4dbfabd79074e40ed5c1bedca301ab73a633b7f36a5e178"
+    },
+    "data/development/scenes.jsonl": {
+      "bytes": 67843,
+      "rows": 48,
+      "sha256": "faa0262355cab883c8f402b0a0ec214e3b2191af22139e5cc15749dd4df419d3"
+    },
+    "data/evaluation/certificates.jsonl": {
+      "bytes": 115810,
+      "rows": 48,
+      "sha256": "de4e2993b86bb538fa196645d20298a93260cfe19291b034ec9c0227db96a856"
+    },
+    "data/evaluation/scenes.jsonl": {
+      "bytes": 67830,
+      "rows": 48,
+      "sha256": "32285a359e015bbb61d7b105cd27e5e8bcdaf93e2c8c603908a8f035ea6560f0"
+    },
+    "data/train/certificates.jsonl": {
+      "bytes": 308755,
+      "rows": 128,
+      "sha256": "36cc48592d04bd9bc8a6471cd73141fc47327efdd1dca676c4e01e5f3fd9c846"
+    },
+    "data/train/scenes.jsonl": {
+      "bytes": 180237,
+      "rows": 128,
+      "sha256": "5d5234e6253bdc5810aa9180d6ba2c8dd5b3c3340db171b968e6dadca6a9ca38"
+    }
+  },
+  "generated_attempts": 695,
+  "model_inference_performed": false,
+  "model_performance_claimed": false,
+  "partition": "int(geometry_sha256[:8],16)%10 train0..5 development6..7 evaluation8..9",
+  "protocol": "jev-visual-control-cpu-v2-public",
+  "renderer": "Pillow CPU orthographic reference; optional MuJoCo rendering is not the certified scoring lane",
+  "scene_count": 224,
+  "schema": 2,
+  "unique_geometries": 224,
+  "unique_seeds": 224
+}

@@ -1,0 +1,84 @@
+{
+  "reviewed_at_utc": "2026-10-10T12:54:09.378088+00:00",
+  "scope": "28-field format, English text, contributor identity, plain GitHub URLs and package-copy consistency; CPU checks recorded separately",
+  "submission_status": "not submitted to official review; public publication tracked separately",
+  "current_official_template_blob": "0f8d6537a413156eb286a0ca66e09b6491291a5f",
+  "files": [
+    {
+      "file": "gev-think-rsi.md",
+      "sha256": "9bc619a03f184782fa28b520415691b3b30b0dbf7a264895ca67b483866fe559",
+      "word_count": 2476,
+      "official_fields": 28,
+      "english_only": true,
+      "explicit_full_score": true,
+      "marked_not_submitted": true,
+      "package_copy_identical": true
+    },
+    {
+      "file": "jev-judge-rsi.md",
+      "sha256": "dd1f087fb922c596a7043edbb8f4f2eb71c5870d00ffbccea1fe619dd0f03660",
+      "word_count": 2500,
+      "official_fields": 28,
+      "english_only": true,
+      "explicit_full_score": true,
+      "marked_not_submitted": true,
+      "package_copy_identical": true
+    },
+    {
+      "file": "jev-coldstart-rsi.md",
+      "sha256": "ef239d3325556ef2fcecd1a35d3401f6df31b91aec483695f733af0650f5bd0d",
+      "word_count": 2404,
+      "official_fields": 28,
+      "english_only": true,
+      "explicit_full_score": true,
+      "marked_not_submitted": true,
+      "package_copy_identical": true
+    },
+    {
+      "file": "jev-visual-control-rsi.md",
+      "sha256": "be32ed4f711cdb9cb9c1d1374173cccf5f45cfe4b5d749e8a1fe0454f4757359",
+      "word_count": 3074,
+      "official_fields": 28,
+      "english_only": true,
+      "explicit_full_score": true,
+      "marked_not_submitted": true,
+      "package_copy_identical": true
+    },
+    {
+      "file": "gev-quant-rsi.md",
+      "sha256": "8df4d46d58cb605ef8067b5491e01eb15f171697a89844065cbdc0507ce424a8",
+      "word_count": 2458,
+      "official_fields": 28,
+      "english_only": true,
+      "explicit_full_score": true,
+      "marked_not_submitted": true,
+      "package_copy_identical": true
+    },
+    {
+      "file": "moe-prune-rsi.md",
+      "sha256": "8422d864fc57d620de8e0bd20e4776d69a4dbaffb63c88e562ca8c998759feb5",
+      "word_count": 2372,
+      "official_fields": 28,
+      "english_only": true,
+      "explicit_full_score": true,
+      "marked_not_submitted": true,
+      "package_copy_identical": true
+    }
+  ],
+  "preparation_changes": [
+    "Host RAM availability confirmed by user",
+    "Five open procedural datasets and CPU contracts materialized",
+    "Recommendation dataset changed to CC0 Simulacra with acquired source metadata and fixed six-cohort split",
+    "All prepared evaluation answers, seeds and reference materials public and unencrypted",
+    "Judge lexical shortcuts removed and independent world coverage expanded",
+    "Prune full-score expert-removal threshold raised to 37.5%",
+    "Source pins, baseline materializers, scoring contracts and runbooks prepared"
+  ],
+  "not_performed": [
+    "Official proposal submission",
+    "GPU/model inference or training",
+    "Full Simulacra image archive download",
+    "H100 runtime/latency measurements",
+    "Official trusted Harness activation"
+  ]
+}

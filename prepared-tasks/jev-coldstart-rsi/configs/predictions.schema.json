@@ -1,0 +1,10 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "One diagnostic output JSONL row",
+  "type": "object", "required": ["id", "scores"], "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string"},
+    "scores": {"type": "object", "minProperties": 20, "maxProperties": 20, "additionalProperties": {"type": "number"}}
+  },
+  "$comment": "Scorer additionally requires finite values, exact candidate handles, complete query coverage and no duplicate query IDs. Submitted policies must compute scores at evaluation; prediction files are only CPU/local diagnostics."
+}

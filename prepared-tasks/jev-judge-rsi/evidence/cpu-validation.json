@@ -1,0 +1,71 @@
+{
+  "version": 2,
+  "date": "2026-10-10",
+  "task": "jev-judge-rsi",
+  "protocol": "fully public evaluation inputs/answers/seeds, reserved from fitting by declared protocol",
+  "preparation": {
+    "prepared": {
+      "train": 480,
+      "dev": 144,
+      "evaluation": 240
+    },
+    "groups": 864,
+    "png_files": 432,
+    "all_answers_public": true,
+    "gpu_executed": false
+  },
+  "cpu_contracts": {
+    "status": "cpu_contracts_passed",
+    "splits": {
+      "train": {
+        "records": 480,
+        "perfect_oracle_fixture": 100,
+        "constant_half_score": 0,
+        "actual_gold_recomputed": true,
+        "inexact_probability_cannot_score_100": true
+      },
+      "dev": {
+        "records": 144,
+        "perfect_oracle_fixture": 100,
+        "constant_half_score": 0,
+        "actual_gold_recomputed": true,
+        "inexact_probability_cannot_score_100": true
+      },
+      "evaluation": {
+        "records": 240,
+        "perfect_oracle_fixture": 100,
+        "constant_half_score": 0,
+        "actual_gold_recomputed": true,
+        "inexact_probability_cannot_score_100": true
+      }
+    },
+    "semantic_groups": 864,
+    "gpu_or_model_run": false,
+    "official_runtime_validated": false
+  },
+  "cli_contracts": {
+    "baseline_materialized": true,
+    "default_evaluation_oracle_fixture_score": 100.0,
+    "all_wrong_score": 0,
+    "missing_case_exit_code": 2,
+    "all_evaluation_assets_in_work_export": true,
+    "export_manifest_bytes_match": true,
+    "export_cpu_checks_passed": true,
+    "repeat_preparation_byte_identical": true,
+    "proposal_rows": 28
+  },
+  "manifest_sha256": "0c8cae76f84f45e83e4cbfc76a2b5aa26bd37d9030d5293bc299716adc9c7466",
+  "model_or_gpu_run": false,
+  "official_runtime_validated": false,
+  "model_baseline_measured": false,
+  "latest_change_validation": {
+    "change": "Require exact valid probabilities for score 100; cap floating-point rounding at nextafter(100,0) otherwise",
+    "epsilon_regressions": [
+      1e-10,
+      1e-200
+    ],
+    "cpu_check_suite_rerun": true,
+    "public_data_changed": false,
+    "model_or_gpu_run": false
+  }
+}

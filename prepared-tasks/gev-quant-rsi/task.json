@@ -1,0 +1,50 @@
+{
+  "schema": "task-config-v1",
+  "slug": "gev-quant-rsi",
+  "mode": "quant",
+  "source_revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
+  "counts": {
+    "practice": 1152,
+    "development": 288,
+    "evaluation": 576
+  },
+  "source_model": "autotrust/GEV-26B-Decide",
+  "status": "cpu-prepared-gpu-unverified",
+  "hardware": {
+    "gpu": "H100",
+    "vram_gb": 80,
+    "host_ram_gb": 256,
+    "host_ram_user_confirmed": true
+  },
+  "budgets": {
+    "work_seconds": 7200,
+    "judge_seconds": 3600,
+    "trajectory_hours": 24,
+    "judge_attempts": 12,
+    "work_inference_tokens": 500000,
+    "recovery_token_exposures": 0,
+    "recovery_updates": 0
+  },
+  "benchmark_visibility": "public",
+  "protocol": "Fit on practice only; development selects; evaluation answers and seeds are inspectable and cannot support a secret-test generalization claim.",
+  "official_submission_status": "not-submitted",
+  "intended_public_repository": "https://github.com/aajing/autotrust-rsi-tasks",
+  "repository_path": "prepared-tasks/gev-quant-rsi",
+  "execution": {
+    "backend": "cpu_dequantize_to_bf16_then_native_bf16",
+    "reconstruction_function": "taskkit.tensors.dequantize",
+    "same_path_for": "BQ and every candidate",
+    "native_packed_gpu_execution": false,
+    "runtime_status": "ordinary pinned-backbone BF16 loader not integrated or measured",
+    "artifact_byte_policy": "all delivered model weights/scales/adapters and frozen dependencies once; deterministic ephemeral BF16 reconstruction excluded",
+    "judge_wall_includes": [
+      "integrity_checks",
+      "cpu_reconstruction",
+      "loading",
+      "preprocessing",
+      "inference",
+      "timing_repeats",
+      "finalization"
+    ]
+  }
+}

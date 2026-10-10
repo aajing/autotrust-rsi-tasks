@@ -1,0 +1,1 @@
+{"version":1,"kind":"threshold","threshold":0.8,"reconsider_tokens":1024,"max_reconsiderations":1,"tool_check":false}

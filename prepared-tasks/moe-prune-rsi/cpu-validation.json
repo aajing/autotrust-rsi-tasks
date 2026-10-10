@@ -1,0 +1,29 @@
+{
+  "benchmark_visibility": "public",
+  "data_manifest_sha256": "9265c4ef4ff509476307e01de49aa392d27275b89b17f048c79d665b61b9944c",
+  "dataset_counts": {
+    "development": 384,
+    "evaluation": 576,
+    "practice": 1536
+  },
+  "deterministic_rebuild": "passed",
+  "elapsed_cpu_check_seconds": 21.197,
+  "gold_oracle_cases_checked": 2496,
+  "gpu_entrypoint": "refused-unimplemented",
+  "gpu_runs": 0,
+  "missing_baseline_materializer": "refused",
+  "missing_reference_assessment": {
+    "official_reward": false,
+    "reason": "reference cache is unmaterialized or incompatible",
+    "status": "unscored"
+  },
+  "model_weights_downloaded": false,
+  "numpy": "1.21.5",
+  "python": "3.9.12",
+  "schema": "cpu-validation-v2",
+  "scope": "CPU data/oracle/arithmetic contracts only; fixtures are not model scores",
+  "staged_file_count": 458,
+  "test_count": 15,
+  "test_status": "passed",
+  "work_public_evaluation_included": "passed"
+}

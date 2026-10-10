@@ -1,0 +1,27 @@
+{
+  "dataset": {
+    "id": "JD-P/simulacra-aesthetic-captions",
+    "revision": "5b78f9eee45698ba8629fbaa461952952433553d",
+    "license": "CC0-1.0",
+    "sqlite_sha256": "da6fe7ca508982daf27b92d316d8dfa1e6b27e934f1b19495c6175d418f579d3",
+    "sqlite_bytes": 44748800,
+    "sqlite_url": "https://raw.githubusercontent.com/JD-P/simulacra-aesthetic-captions/5b78f9eee45698ba8629fbaa461952952433553d/sac_public_2022_06_29.sqlite",
+    "image_archive_url": "https://s3.us-west-1.wasabisys.com/simulacrabot/sac.tar",
+    "image_archive_bytes": 86569533440,
+    "image_archive_etag": "3ce0a79d7db112fd7aefd46a17ff7c63-5504",
+    "image_archive_sha256": null,
+    "image_payload_status": "pending"
+  },
+  "model": {
+    "id": "autotrust/JEV-27B-VL",
+    "revision": "ba3f0d584994b37998f235c0a3f6f1beff32ba1e",
+    "license": "Apache-2.0",
+    "weights_downloaded": false
+  },
+  "baseline_precedent": {
+    "repository": "https://github.com/yuhai-china/JEV-27B-DEMO",
+    "revision": "403b9662a76ef621ecbf3224d6b2b4e1a205701c",
+    "path": "07-video-recommendation",
+    "reproduced": false
+  }
+}

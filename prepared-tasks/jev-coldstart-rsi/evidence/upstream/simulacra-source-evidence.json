@@ -1,0 +1,7 @@
+{
+  "source": "https://github.com/JD-P/simulacra-aesthetic-captions/blob/5b78f9eee45698ba8629fbaa461952952433553d/README.md",
+  "downloaded_readme_sha256": "7fd234204e55c73225a0396187d9e8af6615d9c888a4a0f718b45da78b3f32f2",
+  "license_declaration_excerpt": "completely public domain under the CC0 1.0 Universal Public Domain Dedication",
+  "scope_stated_by_authors": "Generated images, prompts and human ratings; source synthetic user IDs derive from aesthetic surveys; exclude corrupted surveys containing more than 20 entries.",
+  "citation": "John David Pressman, Katherine Crowson and Simulacra Captions Contributors (2022). Simulacra Aesthetic Captions, v1.0, Stability AI."
+}

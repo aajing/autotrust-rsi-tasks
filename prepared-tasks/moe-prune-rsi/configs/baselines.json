@@ -1,0 +1,16 @@
+{
+  "B0": {
+    "type": "original_bf16",
+    "status": "configuration-only"
+  },
+  "B96": {
+    "type": "routing_frequency",
+    "keep_per_layer": 96,
+    "top_k": 8,
+    "profiling_records": 384,
+    "tie_break": "ascending_original_expert_id",
+    "recovery": false,
+    "scale_policy": "preserve_surviving_per_expert_and_global_values",
+    "status": "configuration-only-routing-counts-not-measured"
+  }
+}

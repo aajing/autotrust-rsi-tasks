@@ -1,0 +1,1 @@
+Did the acting agent actually satisfy and persist every requirement? Use only the observable task bundle and any bounded review already produced. The System 1 positive probability is the completion estimate. Neither raw verifier state nor ground-truth labels are available.

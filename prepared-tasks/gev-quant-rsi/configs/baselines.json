@@ -1,0 +1,19 @@
+{
+  "B0": {
+    "type": "original_bf16",
+    "status": "configuration-only",
+    "execution_backend": "native_bf16"
+  },
+  "BQ": {
+    "type": "symmetric_weight_only_integer",
+    "bits": 4,
+    "group_size": 128,
+    "rounding": "nearest_ties_even",
+    "scale": "max_abs_div_7_zero_group_scale_1",
+    "clip_ratio": 1,
+    "activation_dtype": "bfloat16",
+    "status": "configuration-only-no-materialized-weights",
+    "execution_backend": "cpu_dequantize_to_bf16_then_native_bf16",
+    "reconstruction_function": "taskkit.tensors.dequantize"
+  }
+}

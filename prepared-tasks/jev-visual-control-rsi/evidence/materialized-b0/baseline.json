@@ -1,0 +1,18 @@
+{
+  "name": "B0-source-servo-adaptation",
+  "entrypoint": "controller:Controller",
+  "original_source": "sources/JEV-9B/vl/demos/robot_arm.py",
+  "initial_gain_m": 0.04,
+  "reversal_multiplier": 0.5,
+  "agreement_multiplier": 1.05,
+  "minimum_gain_m": 0.0025,
+  "stop_gain_m": 0.005,
+  "max_planar_phase_steps": 28,
+  "carry_z_m": 0.24,
+  "grasp_z_m": 0.063,
+  "release_z_m": 0.085,
+  "model_endpoint_path": "/v1/decide",
+  "weights_frozen": true,
+  "new_suite_model_performance": null,
+  "policy_description": "Two directional visual questions in planar phases; fixed z/aperture phases query visual readiness but retain fixed timing. No privileged obstacle planner."
+}

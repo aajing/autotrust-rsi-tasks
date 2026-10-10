@@ -1,0 +1,1 @@
+{"version":1,"prompt":"Does the supplied observable evidence establish that every requested task requirement was completed and persisted? Judge actual artifacts and final views; the actor's claim is not authority. Return the frozen true/false probability distribution.","use_s2_review":false,"use_s1_recheck":false,"calibration":{"kind":"affine_clip","a":1.0,"b":0.0}}

@@ -1,0 +1,54 @@
+{
+  "version": 2,
+  "date": "2026-10-10",
+  "task": "gev-think-rsi",
+  "protocol": "fully public evaluation inputs/answers/seeds, reserved from fitting by declared protocol",
+  "preparation": {
+    "prepared": {
+      "train": 500,
+      "dev": 100,
+      "evaluation": 200
+    },
+    "groups": 400,
+    "all_answers_public": true,
+    "gpu_executed": false
+  },
+  "cpu_contracts": {
+    "status": "cpu_contracts_passed",
+    "splits": {
+      "train": {
+        "records": 500,
+        "oracle_fixture_score": 100,
+        "all_wrong_score": 0
+      },
+      "dev": {
+        "records": 100,
+        "oracle_fixture_score": 100,
+        "all_wrong_score": 0
+      },
+      "evaluation": {
+        "records": 200,
+        "oracle_fixture_score": 100,
+        "all_wrong_score": 0
+      }
+    },
+    "semantic_groups": 400,
+    "gpu_or_model_run": false,
+    "official_runtime_validated": false
+  },
+  "cli_contracts": {
+    "baseline_materialized": true,
+    "default_evaluation_oracle_fixture_score": 100.0,
+    "all_wrong_score": 0.0,
+    "missing_case_exit_code": 2,
+    "all_evaluation_assets_in_work_export": true,
+    "export_manifest_bytes_match": true,
+    "export_cpu_checks_passed": true,
+    "repeat_preparation_byte_identical": true,
+    "proposal_rows": 28
+  },
+  "manifest_sha256": "581732fa3091d8e065a8cb206f8b961ef96af13a71ae07e25619734bbbefbf29",
+  "model_or_gpu_run": false,
+  "official_runtime_validated": false,
+  "model_baseline_measured": false
+}

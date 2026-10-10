@@ -1,0 +1,24 @@
+{
+  "prepared_at_utc": "2026-10-10T12:52:24.843859+00:00",
+  "repository": "https://github.com/aajing/autotrust-rsi-tasks",
+  "release_tag": "public-proposals-2026-10-10",
+  "publication_status": "preparing",
+  "official_submission_status": "not submitted to official review",
+  "tasks": [
+    "gev-think-rsi",
+    "jev-judge-rsi",
+    "jev-coldstart-rsi",
+    "jev-visual-control-rsi",
+    "gev-quant-rsi",
+    "moe-prune-rsi"
+  ],
+  "evaluation_answers_public": true,
+  "evaluation_seeds_public": true,
+  "encrypted": false,
+  "model_gpu_experiments_run": false,
+  "external_public_assets_not_mirrored": [
+    "Pinned model weights from Hugging Face",
+    "Simulacra image archive (86569533440 bytes); exact3560-image list and importer included"
+  ],
+  "scope": "All locally prepared six-task proposal material; unrelated tasks, credentials and session logs excluded"
+}

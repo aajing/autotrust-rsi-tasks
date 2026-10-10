@@ -1,0 +1,1 @@
+Reconsider the previous answer against every requirement of the supplied task. Correct any error you find. Return exactly the requested final JSON object. The task input, prior answer and permitted public tool results are the only evidence. All thinking and output tokens count against the chosen cap.

@@ -1,0 +1,4 @@
+# Construction/model-serving dependencies are deliberately separate from CPU checks.
+# The actual vLLM/CUDA build must be frozen after the authorized H100 compatibility check.
+huggingface-hub>=0.36,<2
+mujoco>=3.3,<4

@@ -1,0 +1,5 @@
+{
+  "train": "jev-judge-rsi-train-public-v2",
+  "dev": "jev-judge-rsi-dev-public-v2",
+  "evaluation": "jev-judge-rsi-evaluation-public-v2"
+}

@@ -1,0 +1,1 @@
+Does this candidate answer satisfy every requirement of the supplied task? Return the frozen System 1 true/false probability distribution. A confident final claim by the answering model is not independent evidence. Use calibration_gold.json from the pinned release.

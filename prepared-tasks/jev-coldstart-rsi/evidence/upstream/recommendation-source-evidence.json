@@ -1,0 +1,13 @@
+{
+  "repository": "https://github.com/yuhai-china/JEV-27B-DEMO",
+  "revision": "403b9662a76ef621ecbf3224d6b2b4e1a205701c",
+  "path": "07-video-recommendation/demo.py",
+  "source_sha256": "5762219db1c1bc30a063e3f5d1169b18dbe9df6502506448a6a30b19488dfb1d",
+  "evidence_functions": [
+    "request",
+    "score",
+    "run",
+    "rank_user"
+  ],
+  "adaptation": "Content and observed history are passed to the frozen native JEV System 1 head once per candidate. Task-local code is original; source benchmark results are not our measurements."
+}

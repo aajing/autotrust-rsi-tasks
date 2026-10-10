@@ -1,0 +1,3 @@
+# CPU preparation only. No Torch, CUDA or model download is required.
+numpy>=1.24,<3
+

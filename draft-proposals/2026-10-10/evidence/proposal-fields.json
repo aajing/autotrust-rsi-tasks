@@ -1,0 +1,114 @@
+[
+  [
+    "Contributor",
+    "Full name"
+  ],
+  [
+    "Contributor",
+    "Email"
+  ],
+  [
+    "Research Question",
+    "Repository URL"
+  ],
+  [
+    "Research Question",
+    "Exact commit/tag"
+  ],
+  [
+    "Research Question",
+    "Scientific question"
+  ],
+  [
+    "Research Question",
+    "Why this is scientific research rather than pure engineering optimization"
+  ],
+  [
+    "Research Question",
+    "Starting environment and artifacts"
+  ],
+  [
+    "Research Question",
+    "Agent's final deliverable"
+  ],
+  [
+    "Research Question",
+    "Files/components the agent may modify"
+  ],
+  [
+    "Research Question",
+    "Prohibited actions"
+  ],
+  [
+    "Reference Baseline",
+    "Baseline implementation or artifact"
+  ],
+  [
+    "Reference Baseline",
+    "Repository evidence paths"
+  ],
+  [
+    "Reference Baseline",
+    "Baseline evaluation path"
+  ],
+  [
+    "Reference Baseline",
+    "Baseline metric reported by the repository"
+  ],
+  [
+    "Evaluation",
+    "Fixed evaluation protocol"
+  ],
+  [
+    "Evaluation",
+    "Evaluation mode and input"
+  ],
+  [
+    "Evaluation",
+    "Reward or score definition"
+  ],
+  [
+    "Evaluation",
+    "Feedback visible to the agent"
+  ],
+  [
+    "Evaluation",
+    "Evaluation information hidden from the agent"
+  ],
+  [
+    "Evaluation",
+    "Measures preventing reward hacking"
+  ],
+  [
+    "Evaluation",
+    "Noise handling and meaningful improvement"
+  ],
+  [
+    "Workspace",
+    "Is web search required?"
+  ],
+  [
+    "Workspace",
+    "May the agent use external services?"
+  ],
+  [
+    "Workspace",
+    "May the agent construct or collect additional data?"
+  ],
+  [
+    "Workspace",
+    "Leakage and reward-hacking safeguards"
+  ],
+  [
+    "Compute Feasibility",
+    "Compute resources per single experiment run"
+  ],
+  [
+    "Compute Feasibility",
+    "Estimated runtime per single experiment run"
+  ],
+  [
+    "Compute Feasibility",
+    "Early-stopping signals / lower-cost proxy experiments"
+  ]
+]

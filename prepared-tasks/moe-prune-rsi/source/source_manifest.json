@@ -1,0 +1,31 @@
+{
+  "schema": "source-acquisition-v1",
+  "repo_id": "autotrust/GEV-26B-Decide",
+  "revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
+  "status": "metadata-only-no-weights",
+  "required": {
+    "backbone": "all shards referenced by model.safetensors.index.json",
+    "system1": [
+      "adapter/",
+      "adapter_vllm/",
+      "head.safetensors",
+      "calibration.json",
+      "calibration_gold.json",
+      "judge_config.json"
+    ],
+    "tokenizer_processor": [
+      "tokenizer.json",
+      "tokenizer_config.json",
+      "processor_config.json",
+      "chat_template.jinja"
+    ],
+    "licenses": "acquire source and inherited Gemma license terms before redistribution"
+  },
+  "hashes_for_model_weights": null,
+  "gpu_runtime": {
+    "status": "not-implemented",
+    "container_digest": null,
+    "dependency_lock": null
+  }
+}
+

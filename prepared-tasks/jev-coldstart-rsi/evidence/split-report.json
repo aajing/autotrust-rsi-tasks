@@ -1,0 +1,38 @@
+{
+  "source_sqlite_sha256": "da6fe7ca508982daf27b92d316d8dfa1e6b27e934f1b19495c6175d418f579d3",
+  "eligible_users_after_filters": {
+    "train": 57,
+    "dev": 16,
+    "evaluation": 16
+  },
+  "selected": {
+    "train": {
+      "users": 57,
+      "queries": 342,
+      "cells": 6,
+      "candidates_per_query": 20
+    },
+    "dev": {
+      "users": 16,
+      "queries": 96,
+      "cells": 6,
+      "candidates_per_query": 20
+    },
+    "evaluation": {
+      "users": 16,
+      "queries": 96,
+      "cells": 6,
+      "candidates_per_query": 20
+    }
+  },
+  "requested_images": 3560,
+  "source_rating_scale": [
+    1,
+    10
+  ],
+  "history_order": "frozen hash order; no temporal claim",
+  "independence_unit": "synthetic survey user ID",
+  "public_data_secrecy_claim": false,
+  "image_payload_status": "pending_import",
+  "complete_model_evaluation": false
+}

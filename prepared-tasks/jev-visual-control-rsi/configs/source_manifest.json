@@ -1,0 +1,213 @@
+{
+  "schema": 1,
+  "sources": [
+    {
+      "files": [
+        {
+          "bytes": 53799,
+          "git_blob_id": "5e3b13dfe566f0a681361f1f4e639ccd051312d1",
+          "lfs_sha256": null,
+          "path": "README.md"
+        },
+        {
+          "bytes": 1335,
+          "git_blob_id": "2d093d03334d1bcd8511a3867adb084f382fd3c5",
+          "lfs_sha256": null,
+          "path": "vl/adapter_vllm/adapter_config.json"
+        },
+        {
+          "bytes": 176647800,
+          "git_blob_id": "0aebe46d2a28445332224672ef0e5054d6f3515f",
+          "lfs_sha256": "39d508b2692c85849ac252aa3f84726ec50e8c750b5bfb4f2b55ba4a7b5e1787",
+          "path": "vl/adapter_vllm/adapter_model.safetensors"
+        },
+        {
+          "bytes": 1312,
+          "git_blob_id": "1ffded90c6f3009996503e008f880ff74e33335e",
+          "lfs_sha256": null,
+          "path": "vl/adapter_vllm/decision_head.json"
+        },
+        {
+          "bytes": 1007,
+          "git_blob_id": "18c9e8df7e36870b059d069bff0defdd7a024384",
+          "lfs_sha256": null,
+          "path": "vl/calibration.json"
+        },
+        {
+          "bytes": 9924,
+          "git_blob_id": "0989a46696766fcf7c28c00a847ac52c9aab1918",
+          "lfs_sha256": null,
+          "path": "vl/demos/computer_use.py"
+        },
+        {
+          "bytes": 19884,
+          "git_blob_id": "cd298d7a5af59d9701dcdd762f3de1640d54686b",
+          "lfs_sha256": null,
+          "path": "vl/demos/robot_arm.py"
+        },
+        {
+          "bytes": 9682,
+          "git_blob_id": "74a1393384003ce200244311e8566183fa1e78ee",
+          "lfs_sha256": null,
+          "path": "vl/demos/webapp.html"
+        },
+        {
+          "bytes": 1674,
+          "git_blob_id": "fc43be33d376f5f3df60fb554e40f292a9586324",
+          "lfs_sha256": null,
+          "path": "vl/serve.sh"
+        },
+        {
+          "bytes": 23884,
+          "git_blob_id": "b179ed67f1b6b41b109a96fc08d92b95a9b8ed5d",
+          "lfs_sha256": null,
+          "path": "vl/serve_decide.py"
+        }
+      ],
+      "license": "apache-2.0",
+      "repo": "autotrust/JEV-9B",
+      "revision": "b63f651ce8ed64481d3f5e73ecdb05f740042f01"
+    },
+    {
+      "files": [
+        {
+          "bytes": 1570,
+          "git_blob_id": "52373fe24473b1aa44333d318f578ae6bf04b49b",
+          "lfs_sha256": null,
+          "path": ".gitattributes"
+        },
+        {
+          "bytes": 11544,
+          "git_blob_id": "f938136e3adacfd92be087f6e113b5d6d97f678f",
+          "lfs_sha256": null,
+          "path": "LICENSE"
+        },
+        {
+          "bytes": 77643,
+          "git_blob_id": "0f3972cb2c995a86bde9ac92440da530fe2b2c68",
+          "lfs_sha256": null,
+          "path": "README.md"
+        },
+        {
+          "bytes": 7756,
+          "git_blob_id": "a585dec894e63da457d9440ec6aa7caa16d20860",
+          "lfs_sha256": null,
+          "path": "chat_template.jinja"
+        },
+        {
+          "bytes": 3126,
+          "git_blob_id": "273ce437e01baf96a07cd9eb3d5f48bac8d7c657",
+          "lfs_sha256": null,
+          "path": "config.json"
+        },
+        {
+          "bytes": 3353259,
+          "git_blob_id": "a494e019ca1502219fd0128658b979e5f05ae8e8",
+          "lfs_sha256": null,
+          "path": "merges.txt"
+        },
+        {
+          "bytes": 5276436216,
+          "git_blob_id": "dfcd6f97b641f0447db5697eca1f4e227c84449c",
+          "lfs_sha256": "db6f444b43d318c92f360a13a25561a6a65b10c0631b8ed305a426dbaa6c380e",
+          "path": "model.safetensors-00001-of-00004.safetensors"
+        },
+        {
+          "bytes": 5335161512,
+          "git_blob_id": "645b45d883adaee57a4dbbf75577fa634d20c6b5",
+          "lfs_sha256": "31c7d7e2dd5d207840b31cc59083c8f4c4718959149e0358c0364052bb9a0330",
+          "path": "model.safetensors-00002-of-00004.safetensors"
+        },
+        {
+          "bytes": 5368717440,
+          "git_blob_id": "20f21fdc49bdca8f021badede1ec436d8241f1e2",
+          "lfs_sha256": "7ec36ba3a4176a44c3c0876ad80c56a2f70c84bf008d82e9501df642f17dadec",
+          "path": "model.safetensors-00003-of-00004.safetensors"
+        },
+        {
+          "bytes": 3325995712,
+          "git_blob_id": "5a0f71d358bf91155d46e610dc32db45989a1a5f",
+          "lfs_sha256": "b62b0c4cd7e44edee103ee8f4fe225f246d5e768e07bfd5f25b63a8aa1fdd0c6",
+          "path": "model.safetensors-00004-of-00004.safetensors"
+        },
+        {
+          "bytes": 79657,
+          "git_blob_id": "e4c1cb7dba5096b43b9d92bc781aba5e3aa8acd8",
+          "lfs_sha256": null,
+          "path": "model.safetensors.index.json"
+        },
+        {
+          "bytes": 390,
+          "git_blob_id": "2ea84a437d448ff71b08df68fdd949d5cc4ebb64",
+          "lfs_sha256": null,
+          "path": "preprocessor_config.json"
+        },
+        {
+          "bytes": 12807982,
+          "git_blob_id": "a73a846725794819aa6e1c9e97d8dc9671c2006d",
+          "lfs_sha256": "5f9e4d4901a92b997e463c1f46055088b6cca5ca61a6522d1b9f64c4bb81cb42",
+          "path": "tokenizer.json"
+        },
+        {
+          "bytes": 16710,
+          "git_blob_id": "eda48d3e75a8e59a8479ee4ec8b37f76e711d9c1",
+          "lfs_sha256": null,
+          "path": "tokenizer_config.json"
+        },
+        {
+          "bytes": 385,
+          "git_blob_id": "3ba673a5ad7d4d13f54155ecd38b2a94a6dac8fe",
+          "lfs_sha256": null,
+          "path": "video_preprocessor_config.json"
+        },
+        {
+          "bytes": 6722759,
+          "git_blob_id": "0aa0ce0658d60ac4a5d609f4eadb0e8e43514176",
+          "lfs_sha256": null,
+          "path": "vocab.json"
+        }
+      ],
+      "license": "apache-2.0",
+      "repo": "Qwen/Qwen3.5-9B",
+      "revision": "c202236235762e1c871ad0ccb60c8ee5ba337b9a"
+    }
+  ],
+  "status": "metadata_only_no_model_weights_downloaded",
+  "vendored_files": {
+    "sources/JEV-9B/README.md": {
+      "bytes": 53799,
+      "sha256": "322cf4b61346715c35647030af26665412e1ee4d4d6d3b54c497800277031b33",
+      "url": "https://huggingface.co/autotrust/JEV-9B/resolve/b63f651ce8ed64481d3f5e73ecdb05f740042f01/README.md"
+    },
+    "sources/JEV-9B/vl/adapter_vllm/adapter_config.json": {
+      "bytes": 1335,
+      "sha256": "5ae16c5e11f37c5a67ec0e3b16d871fcc19c069090c1e42a6289f63c8067f6b6",
+      "url": "https://huggingface.co/autotrust/JEV-9B/resolve/b63f651ce8ed64481d3f5e73ecdb05f740042f01/vl/adapter_vllm/adapter_config.json"
+    },
+    "sources/JEV-9B/vl/adapter_vllm/decision_head.json": {
+      "bytes": 1312,
+      "sha256": "1ae78fc161dea47cb8e3d5b4f5de4ac61c48a33f8031b68052bf699be30ec7fc",
+      "url": "https://huggingface.co/autotrust/JEV-9B/resolve/b63f651ce8ed64481d3f5e73ecdb05f740042f01/vl/adapter_vllm/decision_head.json"
+    },
+    "sources/JEV-9B/vl/calibration.json": {
+      "bytes": 1007,
+      "sha256": "9644305e85fac82944ec4353742af9c0fbc6434a277d3f0e54c2abb185aaf9b8",
+      "url": "https://huggingface.co/autotrust/JEV-9B/resolve/b63f651ce8ed64481d3f5e73ecdb05f740042f01/vl/calibration.json"
+    },
+    "sources/JEV-9B/vl/demos/robot_arm.py": {
+      "bytes": 19884,
+      "sha256": "be3caae0670008a2c0a31b476a702a7f4e47b29e8eca2719557dda0649adcd48",
+      "url": "https://huggingface.co/autotrust/JEV-9B/resolve/b63f651ce8ed64481d3f5e73ecdb05f740042f01/vl/demos/robot_arm.py"
+    },
+    "sources/JEV-9B/vl/serve.sh": {
+      "bytes": 1674,
+      "sha256": "35b09aaaafc118f3eec70a64d8afcadd4a5665abb0cecba43f782bdc1a523d5a",
+      "url": "https://huggingface.co/autotrust/JEV-9B/resolve/b63f651ce8ed64481d3f5e73ecdb05f740042f01/vl/serve.sh"
+    },
+    "sources/JEV-9B/vl/serve_decide.py": {
+      "bytes": 23884,
+      "sha256": "f7fc2e6be733541ab82d2b2ffba7ec7a07b1ab6952236a745a3ba65a6f9bfa8e",
+      "url": "https://huggingface.co/autotrust/JEV-9B/resolve/b63f651ce8ed64481d3f5e73ecdb05f740042f01/vl/serve_decide.py"
+    }
+  }
+}

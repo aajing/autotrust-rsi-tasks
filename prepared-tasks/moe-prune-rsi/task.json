@@ -1,0 +1,42 @@
+{
+  "schema": "task-config-v1",
+  "slug": "moe-prune-rsi",
+  "mode": "prune",
+  "source_revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
+  "counts": {
+    "practice": 1536,
+    "development": 384,
+    "evaluation": 576
+  },
+  "source_model": "autotrust/GEV-26B-Decide",
+  "status": "cpu-prepared-gpu-unverified",
+  "hardware": {
+    "gpu": "H100",
+    "vram_gb": 80,
+    "host_ram_gb": 256,
+    "host_ram_user_confirmed": true
+  },
+  "budgets": {
+    "work_seconds": 7200,
+    "judge_seconds": 3600,
+    "trajectory_hours": 24,
+    "judge_attempts": 12,
+    "work_inference_tokens": 500000,
+    "recovery_token_exposures": 250000,
+    "recovery_updates": 512
+  },
+  "benchmark_visibility": "public",
+  "protocol": "Fit on practice only; development selects; evaluation answers and seeds are inspectable and cannot support a secret-test generalization claim.",
+  "official_submission_status": "not-submitted",
+  "intended_public_repository": "https://github.com/aajing/autotrust-rsi-tasks",
+  "repository_path": "prepared-tasks/moe-prune-rsi",
+  "score_contract": {
+    "original_experts": 3840,
+    "full_score_removal": 1440,
+    "full_score_retained_max": 2400,
+    "reference_baseline": "B96",
+    "B96_retained": 2880,
+    "B96_structural_score_max": 66.66666666666667,
+    "threshold_choice": "ex ante, no attainability claimed"
+  }
+}

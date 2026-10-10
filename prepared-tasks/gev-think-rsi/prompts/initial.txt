@@ -1,0 +1,1 @@
+Solve the supplied task using only its visible inputs. Return exactly the requested free-response JSON object, without an explanation or Markdown. Do not invent missing facts. The initial draft is limited to 128 output tokens.

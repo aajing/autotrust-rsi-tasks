@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "title": "JEV cold-start visible query",
+  "type": "object",
+  "required": ["id", "cell", "user_group", "history", "candidates"],
+  "additionalProperties": false,
+  "properties": {
+    "id": {"type": "string", "pattern": "^[a-f0-9]{24}$"},
+    "cell": {"enum": ["text-3", "text-20", "image-3", "image-20", "both-3", "both-20"]},
+    "user_group": {"type": "string", "pattern": "^[a-f0-9]{20}$"},
+    "history": {"type": "array", "minItems": 3, "maxItems": 20, "items": {"$ref": "#/$defs/historyItem"}},
+    "candidates": {"type": "array", "minItems": 20, "maxItems": 20, "items": {"$ref": "#/$defs/candidate"}}
+  },
+  "$defs": {
+    "candidate": {
+      "type": "object", "required": ["handle"], "additionalProperties": false,
+      "properties": {"handle": {"type": "string"}, "text": {"type": "string"}, "image": {"type": "string", "pattern": "^images/[a-f0-9]{64}\\.png$"}}
+    },
+    "historyItem": {
+      "type": "object", "required": ["handle", "rating"], "additionalProperties": false,
+      "properties": {"handle": {"type": "string"}, "rating": {"type": "integer", "minimum": 1, "maximum": 10}, "text": {"type": "string"}, "image": {"type": "string", "pattern": "^images/[a-f0-9]{64}\\.png$"}}
+    }
+  },
+  "$comment": "Semantic checks additionally enforce the exact modality and 3/20 history count, distinct handles and image disjointness. Candidate ratings are never part of the visible schema."
+}

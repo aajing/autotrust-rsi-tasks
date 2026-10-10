@@ -1,0 +1,47 @@
+{
+  "version": 2,
+  "models": [
+    {
+      "repository": "autotrust/JEV-27B-VL",
+      "revision": "ba3f0d584994b37998f235c0a3f6f1beff32ba1e",
+      "url": "https://huggingface.co/autotrust/JEV-27B-VL/tree/ba3f0d584994b37998f235c0a3f6f1beff32ba1e",
+      "acquisition": "hf download autotrust/JEV-27B-VL --revision ba3f0d584994b37998f235c0a3f6f1beff32ba1e --local-dir model/JEV",
+      "downloaded": false,
+      "license": "Apache-2.0; preserve upstream files."
+    }
+  ],
+  "task_data": {
+    "origin": "Original controlled procedural task worlds and rendered observations; no external trajectories or benchmark labels",
+    "license": "CC0-1.0",
+    "media_downloaded": false,
+    "png_renderer": "render.py",
+    "visibility": "fully_public_unencrypted",
+    "public_assets": [
+      "train inputs and gold",
+      "development inputs and gold",
+      "evaluation inputs and gold",
+      "executable oracles",
+      "construction seeds",
+      "semantic group assignments"
+    ],
+    "evaluation_protocol": "Reserved from fitting/selection by declared protocol; publicly inspectable, included in Work; no secret-test generalization claim."
+  },
+  "runtime": {
+    "dependency_lock": null,
+    "container_digest": null,
+    "validated_on_h100": false
+  },
+  "task_publication": {
+    "repository": "https://github.com/aajing/autotrust-rsi-tasks",
+    "path": "prepared-tasks/jev-judge-rsi",
+    "release_commit": null,
+    "status": "publication commit to be recorded by publisher"
+  },
+  "contributor": {
+    "name": "Jing Qiu",
+    "email": "ajing@autotrust.ai",
+    "github_account": "aajing",
+    "association": "contributor-confirmed",
+    "evidence_commit": "https://github.com/AutoTrustAI/autoresearch-sota-strategy/commit/e00c83e1017916f094a2b604c01d816ec6dfa9ca"
+  }
+}

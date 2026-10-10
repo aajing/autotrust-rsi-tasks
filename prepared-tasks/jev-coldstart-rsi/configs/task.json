@@ -1,0 +1,63 @@
+{
+  "task": "jev-coldstart-rsi",
+  "version": 3,
+  "status": "public_proposal_release_preparation",
+  "contributor": {
+    "name": "Jing Qiu",
+    "email": "ajing@autotrust.ai",
+    "github": "aajing"
+  },
+  "hardware": {
+    "gpu": "1 x H100 80 GB",
+    "cpu_cores": 16,
+    "host_ram_gb": 96,
+    "host_ram_available_confirmed": true,
+    "host_ram_confirmation_date": "2026-10-10",
+    "disk_gb": 200
+  },
+  "work": {
+    "seconds": 7200,
+    "model_calls": 20000,
+    "max_fitted_numeric_parameters": 100000
+  },
+  "judge": {
+    "seconds": 5400,
+    "queries": 96,
+    "model_calls": 1920,
+    "max_calls_per_candidate_item": 1,
+    "max_images_per_call": 8,
+    "max_image_side": 448,
+    "max_processor_tokens_per_call": 8192
+  },
+  "trajectory": {
+    "hours": 24,
+    "optional_hours": 48,
+    "attempted_judge_calls_including_invalid": 12
+  },
+  "metric": {
+    "name": "macro_NDCG@10",
+    "gain": "linear raw human rating from 1 to 10",
+    "tie_policy": "expected DCG under uniform within-tie permutation",
+    "full_score": "Every query achieves ideal DCG@10, with no tie across unequal ratings at a positive discount and all runtime/integrity gates pass."
+  },
+  "activation_blockers": [
+    "selected image payload import and content hashes",
+    "real local JEV serving/token broker and isolation integration",
+    "serving dependency lock and H100 envelope validation"
+  ],
+  "measurements": {
+    "model_score": null,
+    "h100_seconds": null,
+    "peak_vram_gb": null
+  },
+  "data_access": {
+    "all_inputs_answers_seeds_public": true,
+    "encrypted": false,
+    "evaluation_confidential": false,
+    "fit_split": "train",
+    "selection_split": "dev",
+    "evaluation_inspection_permitted": true,
+    "prohibited": "Embedding per-query answers or fitting on evaluation labels",
+    "claim": "Optimization on a disclosed fixed benchmark; no secret-test generalization claim"
+  }
+}

@@ -1,0 +1,46 @@
+{
+  "version": 2,
+  "models": [
+    {
+      "repository": "autotrust/GEV-26B-Decide",
+      "revision": "7c89590ead085bf77630b4bf68264ea30b6ddc78",
+      "url": "https://huggingface.co/autotrust/GEV-26B-Decide/tree/7c89590ead085bf77630b4bf68264ea30b6ddc78",
+      "acquisition": "hf download autotrust/GEV-26B-Decide --revision 7c89590ead085bf77630b4bf68264ea30b6ddc78 --local-dir model/GEV",
+      "downloaded": false,
+      "licenses": "Adapter/head Apache-2.0; inherited Gemma base-model terms must be preserved."
+    }
+  ],
+  "task_data": {
+    "origin": "Original deterministic procedural generators in task.py; no external labels or model-generated gold",
+    "license": "CC0-1.0",
+    "media_downloaded": false,
+    "visibility": "fully_public_unencrypted",
+    "public_assets": [
+      "train inputs and gold",
+      "development inputs and gold",
+      "evaluation inputs and gold",
+      "executable oracles",
+      "construction seeds",
+      "semantic group assignments"
+    ],
+    "evaluation_protocol": "Reserved from fitting/selection by declared protocol; publicly inspectable, included in Work; no secret-test generalization claim."
+  },
+  "runtime": {
+    "dependency_lock": null,
+    "container_digest": null,
+    "validated_on_h100": false
+  },
+  "task_publication": {
+    "repository": "https://github.com/aajing/autotrust-rsi-tasks",
+    "path": "prepared-tasks/gev-think-rsi",
+    "release_commit": null,
+    "status": "publication commit to be recorded by publisher"
+  },
+  "contributor": {
+    "name": "Jing Qiu",
+    "email": "ajing@autotrust.ai",
+    "github_account": "aajing",
+    "association": "contributor-confirmed",
+    "evidence_commit": "https://github.com/AutoTrustAI/autoresearch-sota-strategy/commit/e00c83e1017916f094a2b604c01d816ec6dfa9ca"
+  }
+}
