@@ -19,5 +19,6 @@
   "selected_project_familiarity": "Contributor explicitly confirmed familiarity with all five external codebases on October 11, 2026.",
   "gpu_experiments": 0,
   "release_tag": "compression-nas-2026-10-11",
-  "fresh_longbench_archive_verification": "not completed: network failure; local selected-record hashes and unit tests passed"
+  "fresh_longbench_archive_verification": "not completed: network failure; local selected-record hashes and unit tests passed",
+  "jev_project_participation": "Jing Qiu explicitly confirmed personal participation in JEV-9B on October 11, 2026."
 }

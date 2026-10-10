@@ -22,5 +22,13 @@
     ],
     "statement": "The contributor confirmed familiarity with the codebases of all five listed external projects.",
     "route": "domain expertise; no upstream coauthorship claimed"
+  },
+  "selected_organization_project_relationship": {
+    "project": "autotrust/JEV-9B",
+    "status": "personal participation explicitly confirmed by the contributor",
+    "date": "2026-10-11",
+    "statement": "JEV-9B is a project I participated in.",
+    "selection_route": "representative project the contributor helped build",
+    "attribution_limit": "No claim of sole authorship or specific module implementation."
   }
 }

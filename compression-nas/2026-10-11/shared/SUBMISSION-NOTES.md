@@ -33,3 +33,7 @@ Local format and CPU scoring checks establish only their specific contracts. The
 Use one original native session and dedicated official checkout for each proposal. Render the final scientific contract for contributor review, then follow the official proposal-agent lifecycle. Keep the new batch separate from the six already passing Discussions #210–#215. A later update to an existing Discussion must reuse its original session; do not post duplicate Discussions or a /task command merely to hurry the runner.
 
 Support-material publication does not create an official Discussion. These proposals remain unsubmitted until the contributor confirms each final proposal in its dedicated native session.
+
+## Confirmed JEV-9B project participation
+
+On October 11, 2026, Jing Qiu explicitly confirmed personal participation in JEV-9B. The selected source is a project the contributor helped build, in addition to the previously confirmed AutoTrust representation and organizational authorization. The existing public release-article credit provides supporting project evidence; no sole authorship or specific module contribution is asserted.

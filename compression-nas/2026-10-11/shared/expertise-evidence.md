@@ -61,3 +61,7 @@ Append the task-specific mechanism from the preceding table. Link the actual org
 ## Current contributor declaration for this batch
 
 On October 11, 2026, Jing Qiu confirmed representing AutoTrust, authorization to use its organizational achievements, and familiarity with the codebases of KIVI, LLM Compressor, SVD-LLM, NVIDIA Model Optimizer and HW-GPT-Bench. The five external-source proposals use the domain-expertise route; no external-project authorship is asserted.
+
+## Confirmed JEV-9B project participation
+
+On October 11, 2026, Jing Qiu explicitly confirmed personal participation in JEV-9B. The selected source is a project the contributor helped build, in addition to the previously confirmed AutoTrust representation and organizational authorization. The existing public release-article credit provides supporting project evidence; no sole authorship or specific module contribution is asserted.
